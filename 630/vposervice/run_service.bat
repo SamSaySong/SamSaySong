@@ -1,0 +1,1 @@
+conda activate base && python manage.py runserver

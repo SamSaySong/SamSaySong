@@ -1,0 +1,46 @@
+{
+    "forms": [
+        {
+            "title": "Phần dành cho bộ phận yêu cầu",
+            "editable": true,
+            "children": [
+                {
+                    "title": "sibling 5",
+                    "dataIndex": "sibling 5",
+                    "editable": true
+                },
+                {
+                    "title": "sibling 4",
+                    "dataIndex": "sibling 4",
+                    "editable": true
+                },
+                {
+                    "title": "sibling 3",
+                    "dataIndex": "sibling 3",
+                    "editable": true
+                }
+            ]
+        },
+        {
+            "title": "Phần dành cho bộ phận xử lý",
+            "editable": true,
+            "children": [
+                {
+                    "title": "sibling 0",
+                    "dataIndex": "sibling 0",
+                    "editable": true
+                },
+                {
+                    "title": "sibling 1",
+                    "dataIndex": "sibling 1",
+                    "editable": true
+                },
+                {
+                    "title": "sibling 2",
+                    "dataIndex": "sibling 2",
+                    "editable": true
+                }
+            ]
+        }
+    ]
+}

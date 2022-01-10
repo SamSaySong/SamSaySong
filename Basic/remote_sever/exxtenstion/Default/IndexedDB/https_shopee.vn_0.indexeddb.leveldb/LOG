@@ -1,0 +1,14 @@
+2021/12/17-13:38:23.044 d84 Reusing MANIFEST d:\HuyNP\Basic\remote_sever\exxtenstion\Default\IndexedDB\https_shopee.vn_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/17-13:38:23.044 d84 Recovering log #38
+2021/12/17-13:38:23.045 d84 Reusing old log d:\HuyNP\Basic\remote_sever\exxtenstion\Default\IndexedDB\https_shopee.vn_0.indexeddb.leveldb/000038.log 
+2021/12/17-13:38:23.045 d84 Delete type=2 #36
+2021/12/17-13:38:23.663 26f8 Level-0 table #43: started
+2021/12/17-13:38:23.886 26f8 Level-0 table #43: 59257 bytes OK
+2021/12/17-13:38:24.099 26f8 Delete type=0 #38
+2021/12/17-13:38:24.100 26f8 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 6640 : 1
+2021/12/17-13:38:24.100 26f8 Compacting 1@0 + 1@1 files
+2021/12/17-13:38:24.154 26f8 Generated table #44@0: 1058 keys, 25477 bytes
+2021/12/17-13:38:24.154 26f8 Compacted 1@0 + 1@1 files => 25477 bytes
+2021/12/17-13:38:24.253 26f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/12/17-13:38:24.253 26f8 Delete type=2 #43
+2021/12/17-13:38:24.253 d84 Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 6640 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

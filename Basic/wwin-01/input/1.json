@@ -1,0 +1,157 @@
+{
+    "forms": [
+        {
+            "title": "Phần dành cho Bộ phận yêu cầu",
+            "editable": true,
+            "children": [
+                {
+                    "title": "Mã Nhân viên *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Họ và tên *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Chức vụ *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Bộ phận *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Team",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Loại truy cập (Dài hạn/Ngắn hạn) *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Thời gian bắt đầu *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Thời gian kết thúc *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Phương án truy cập từ xa *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Mô tả chi tiết phương án truy cập từ xa *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Thiết bị sử dụng truy cập từ xa (Loại thiết bị, Mã Tài sản nếu có) *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Địa chỉ làm việc từ xa *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Số điện thoại liên lạc *",
+                    "required": true,
+                    "editable": true
+                },
+                {
+                    "title": "Ghi chú",
+                    "required": false,
+                    "editable": true
+                }
+            ]
+        },
+        {
+            "title": "Phần dành cho Bộ phận IT quản lý",
+            "editable": true,
+            "children": [
+                {
+                    "title": "IP VPN",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Tài khoản VPN",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Password",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Địa chỉ IP để Remote ",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "IP LAN VPN",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Mã tài sản CPU",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Mã tài sản Monitor",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Ngày cài đặt mới",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Ngày kiểm tra và thu hồi",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Ghi chú",
+                    "required": false,
+                    "editable": true
+                }
+            ]
+        },
+        {
+            "title": "Phần dành cho Bộ phận HR quản lý",
+            "editable": true,
+            "children": [
+                {
+                    "title": "Ngày ký Cam kết",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Lý do ký cam kết trễ",
+                    "required": false,
+                    "editable": true
+                },
+                {
+                    "title": "Ghi chú",
+                    "required": false,
+                    "editable": true
+                }
+            ]
+        }
+    ]
+}

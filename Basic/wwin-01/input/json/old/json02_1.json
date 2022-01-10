@@ -1,0 +1,46 @@
+{
+   "forms":[
+      {
+         "title":"Loại Tài sản *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Mã Tài sản *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Người sử dụng *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Vị trí Tài sản *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Nội dung yêu cầu nâng cấp *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Ghi chú",
+         "editable":true,
+         "children":[
+            
+         ]
+      }
+   ]
+}

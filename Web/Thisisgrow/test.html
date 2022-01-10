@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow - Work here</title>
+    
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <style>
+        .background {
+            height: 100%;
+            /* background-image: url("./photo-1633760737014-b71ea100de2e.jpg"); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(127, 160, 161, 0.514);
+        }
+ 
+        .overlay {
+            height: 0%;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #587258af;
+            transition: 1.0s;
+            overflow-y: hidden;
+        }
+  
+        .overlay-content {
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            position: relative;
+        }
+  
+        .overlay a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 40px;
+            color: white;
+            display: inline;
+            transition: 0.3s;
+        }
+  
+        .overlay a:hover,
+        .overlay a:focus {
+            color: black;
+        }
+  
+        .overlay .closebtn {
+            position: absolute;
+            top: 5px;
+            right: 25px;
+            font-size: 45px;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 6px;
+        }
+
+        td, th {
+            width: 33.3333%;
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #dddddd;
+               
+        }
+        /* .tesst{
+             height: 1000px;
+            
+        } */
+        td:hover, th:hover {
+            background-color: #58725863;
+        }
+        section.br-video {
+            position: relative;
+            z-index: 0;
+            height: 100%;
+            width: 100%;
+            margin-top: 50px;
+        }
+        
+        .br-video .video  {
+            position: absolute;
+        }
+        .content-video {
+            position: initial;
+            z-index: 1;
+            
+        }
+        .content-video a {
+            color: rgb(177, 177, 162);
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            transform: translate3d(0px, 387px, 0px);
+        }
+        .title-vd, .hyber-link {
+            line-height: 46px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+       
+        }
+
+        .title-vd {
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body >
+    <div class="background" >
+        <div class="all-menu" >
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" 
+                    class="closebtn" onclick="closeNav()">
+                    ×
+                </a>
+                <div class="overlay-content">
+                    <a href="./main.html">About</a>
+                    <a href="#">Practice</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        
+        </div>
+            <span style="font-size:45px;cursor:pointer"
+                onclick="openNav()">
+                ≡
+            </span>
+    
+        <h2>GeeksForGeeks</h2>
+    
+        <p>
+            Click on the nav bar icon 
+            to see full screen overlay:
+        </p>
+        <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+              <td>Ernst Handel</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+            </tr>
+            <tr>
+              <td>Island Trading</td>
+              <td>Helen Bennett</td>
+              <td>UK</td>
+            </tr>
+            <tr>
+              <td>Laughing Bacchus Winecellars</td>
+              <td>Yoshi Tannamuri</td>
+              <td>Canada</td>
+            </tr>
+            <tr>
+              <td>Magazzini Alimentari Riuniti</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr>
+          </table>
+
+        <section class="br-video">
+            <video class="video" style="width: 100%;" loop="auto" autoplay>
+                <source src="assets/vid/Comp_1.mp4" type="video/mp4">
+            </video>
+            <div class="content-video">
+                <div class="title-vd">
+                    <a href="#">Solving a live crime thriller</a>
+                </div>
+
+                <div class="hyber-link">
+                    <a href="#">View Oxygen The Pursuit</a>
+                </div>
+            </div>
+        </section>
+        <script>
+            // function openNav() {
+            //     document.getElementById("myNav").style.height = "20%";
+                    
+            // }
+    
+            // function closeNav() {
+            //     document.getElementById("myNav").style.height = "0%";
+                
+            // }
+
+
+            function openNav() {
+                document.getElementById("myNav").style.height = "20%";
+                  
+            } 
+            function closeNav() {
+                document.getElementById("myNav").style.height = "0%";
+                    
+            }      
+        </script>  
+    </div>
+       
+    
+</body>

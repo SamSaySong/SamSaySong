@@ -1,0 +1,1 @@
+ 18/11/2021 11:29:03 [INFO] >>> ------  Error on line '>' not supported between instances of 'int' and 'str'  <<<------------------

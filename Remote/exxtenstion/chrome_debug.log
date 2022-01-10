@@ -1,0 +1,18 @@
+[6704:7476:1213/095218.232:ERROR:chrome_browser_main_extra_parts_metrics.cc(226)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[6704:7476:1213/095219.744:ERROR:chrome_browser_main_extra_parts_metrics.cc(229)] crbug.com/1216328: Checking Bluetooth availability ended.
+[6704:7476:1213/095220.366:ERROR:chrome_browser_main_extra_parts_metrics.cc(232)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[6704:6424:1213/095228.315:INFO:CONSOLE(15)] "Background page activated", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/background.js (15)
+[6704:6424:1213/095228.317:INFO:CONSOLE(62)] "onInstalled", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/background.js (62)
+[6704:7476:1213/095227.881:ERROR:chrome_browser_main_extra_parts_metrics.cc(236)] crbug.com/1216328: Checking default browser status ended.
+[6704:6424:1213/095531.450:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: https://thuedientu.gdt.gov.vn/etaxnnt/Request?&dse_sessionId=WZkQsVec2A0wg0cI3rdtNF_&dse_applicationId=-1&dse_pageId=3&dse_operationName=corpIndexProc&dse_errorPage=error_page.jsp&dse_processorState=initial&dse_nextEventName=login (0)
+[6704:6424:1213/095545.161:INFO:CONSOLE(50)] "getVersion()", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/checkPlugin.js (50)
+[6704:6424:1213/095545.163:INFO:CONSOLE(0)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://thuedientu.gdt.gov.vn/etaxnnt/Request (0)
+[6704:6424:1213/095550.837:INFO:CONSOLE(51)] "TEST: {"CODE":"CHECK_VERSION","SUCCESS":"TRUE","IS_UPDATE":"N","RESULT":"SUCC"}", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/background.js (51)
+[6704:6424:1213/095550.839:INFO:CONSOLE(6)] "Page received: ", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/checkPlugin.js (6)
+[6704:6424:1213/095550.839:INFO:CONSOLE(7)] "[object Object]", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/checkPlugin.js (7)
+[6704:6424:1213/095550.869:INFO:CONSOLE(73)] "DONE 2", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/background.js (73)
+[6704:6424:1213/095550.869:INFO:CONSOLE(21)] "KILL 2", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/background.js (21)
+[6704:6424:1213/095551.129:INFO:CONSOLE(370)] "Uncaught TypeError: $(...).on is not a function", source: https://thuedientu.gdt.gov.vn/etaxnnt/Request?&dse_sessionId=WZkQsVec2A0wg0cI3rdtNF_&dse_applicationId=-1&dse_pageId=6&dse_operationName=corporateHomeProc&dse_errorPage=error_page.jsp&dse_processorState=initial&dse_nextEventName=start (370)
+[6704:6424:1213/095558.801:INFO:CONSOLE(0)] "Unchecked runtime.lastError: Native host has exited.", source: chrome-extension://ekaaenaocpheoabajfdnkhiibfmfmloo/_generated_background_page.html (0)
+[6704:6424:1213/095640.922:INFO:CONSOLE(16)] "Uncaught TypeError: Cannot read properties of undefined (reading 'length')", source: https://thuedientu.gdt.gov.vn/etaxnnt/static/script/jquery/jquery-1.6.1.min.js (16)
+[6704:6424:1213/100128.524:INFO:CONSOLE(295)] "Uncaught TypeError: Cannot read properties of null (reading 'length')", source: https://thuedientu.gdt.gov.vn/etaxnnt/Request?&dse_sessionId=WZkQsVec2A0wg0cI3rdtNF_&dse_applicationId=-1&dse_pageId=6&dse_operationName=corporateHomeProc&dse_errorPage=error_page.jsp&dse_processorState=initial&dse_nextEventName=start (295)

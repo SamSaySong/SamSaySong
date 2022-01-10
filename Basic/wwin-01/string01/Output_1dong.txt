@@ -1,0 +1,120 @@
+1-CONG TY TNHH THUONG MAI DICH VU DU LICH THUY HIEN|0401981952|Thon Quang Chau, Xa Hoa Chau, H. Hoa Vang, TP. Da Nang|2019|Da Nang|17 gio truoc| Dai ly du lich
+2-CONG TY TNHH KHAO SAT DIA CHAT THANH DANH PHAT|0401980211|Lo 324 duong Kha Vang Can, Thon Bau Cau, Xa Hoa Chau, H. Hoa Vang, TP. Da Nang|2019|Da Nang|Tuan truoc (31/05/2019)| Hoat dong kien truc va tu van ky thuat co lien quan
+3-DOANH NGHIEP TU NHAN NGUYEN THI LOC|0401978029|Thon An Ngai Dong, Xa Hoa Son, H. Hoa Vang, TP. Da Nang|2019|Da Nang|2 tuan truoc (23/05/2019)| San xuat do go xay dung
+4-CONG TY TNHH MOT THANH VIEN GOLDEN HARVEST|0401975370|Thua dat so 968, to ban do so 12, Thon La Bong, Xa Hoa Tien, H. Hoa Vang, TP. Da Nang|2019|Da Nang|Thang truoc (10/05/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+5-CONG TY TNHH VIET LAM GIANG|0401974218|Lo 40, to 8, thon Mieu Bong, Xa Hoa Phuoc, H. Hoa Vang, TP. Da Nang|2019|Da Nang|Thang truoc (08/05/2019)| Ban buon vai, hang may san, giay dep
+6-CONG TY TNHH MOT THANH VIEN BIOFOODVN|0401974063|Thua dat so 438, to ban do so 20, Thon Hoa Khe, Xa Hoa Son, H. Hoa Vang, TP. Da Nang|2019|Da Nang|Thang truoc (06/05/2019)| Ban buon tong hop
+7-CONG TY TNHH MOT THANH VIEN CANH QUAN TRUC LAM MOC|0401973503|Khu dan cu so 01 duong DT 605, Xa Hoa Chau, H. Hoa Vang, TP. Da Nang|2019|Da Nang|Thang truoc (02/05/2019)| Trong rau, dau cac loai va trong hoa, cay canh
+8-CONG TY TNHH TINBON|0401971834|Lo D8-18, duong Vu Mien, KDC Nam Cau Cam Le, Xa Hoa Phuoc, H. Hoa Vang, TP. Da Nang|2019|Da Nang|Thang truoc (20/04/2019)| Dai ly du lich
+9-CONG TY TNHH VAN TAI HUNG|0401968729|Lo 34-35, Phan khu B2-30, Khu tai dinh cu Hoa Lien 5, Xa Hoa Lien, H. Hoa Vang, TP. Da Nang|2019|Da Nang|2 thang truoc (09/04/2019)| Kinh doanh bat dong san, quyen su dung dat thuoc chu so huu, chu su dung hoac di thue
+10-CONG TY TNHH KHOA SON THINH|0401965157|Thon An Ngai Tay 1, Xa Hoa Son, H. Hoa Vang, TP. Da Nang|2019|Da Nang|3 thang truoc (28/03/2019)| Cho thue xe co dong co
+11-CONG TY CO PHAN XAY DUNG VA THUONG MAI TRUONG SON THANH|0401964611|To 06, Thon Thach Nham Dong, Xa Hoa Nhon, H. Hoa Vang, TP. Da Nang|2019|Da Nang|3 thang truoc (25/03/2019)| Gia cong co khi; xu ly va trang phu kim loai
+12-CONG TY TNHH M&E VIET THINH PHAT|0401964361|Lo 6 duong Tran Tu Binh, Xa Hoa Chau, H. Hoa Vang, TP. Da Nang|2019|Da Nang|3 thang truoc (23/03/2019)| Lap dat he thong dien
+13-CONG TY TNHH MOT THANH VIEN TIN PHAT WINDOWS|0401961586|319 Huynh Tinh Cua, Thon Mieu Bong, Xa Hoa Phuoc, H. Hoa Vang, TP. Da Nang|2019|Da Nang|3 thang truoc (14/03/2019)| Hoan thien cong trinh xay dung
+14-CONG TY CO PHAN NANG LUONG S&P|0401959869|135 Nguyen Bao, Xa Hoa Chau, H. Hoa Vang, TP. Da Nang|2019|Da Nang|3 thang truoc (07/03/2019)| Ban buon nhien lieu ran, long, khi va cac san pham lien quan
+15-CONG TY TNHH TU VAN THIET KE KIEN TRUC & XAY DUNG LAM MOC|0401959481|Lo 4, B2-10 duong Au Duong Lan, Thon Bau Cau, Xa Hoa Chau, H. Hoa Vang, TP. Da Nang|2019|Da Nang|3 thang truoc (06/03/2019)| Hoat dong kien truc va tu van ky thuat co lien quan
+16-CONG TY TNHH KY THUAT CO DIEN VIVA|0401981222|86 Thanh Luong 24, Phuong Hoa Xuan, Q. Cam Le, TP. Da Nang|2019|Da Nang|16 gio truoc| Ban buon do dung khac cho gia dinh
+17-CONG TY CO PHAN NANG LUONG E-SUN VIET NAM|0401980853|284 Le Thach, Phuong Hoa An, Q. Cam Le, TP. Da Nang|2019|Da Nang|6 ngay truoc| Lap dat may moc va thiet bi cong nghiep
+18-CONG TY TNHH XAY DUNG VA THUONG MAI NHL|0401979801|36 Tran Huan, Phuong Khue Trung, Q. Cam Le, TP. Da Nang|2019|Da Nang|Tuan truoc (03/06/2019)| Hoan thien cong trinh xay dung
+19-CONG TY TNHH DAU TU THUONG MAI VA XAY DUNG KY NGUYEN XANH|0401979456|121 Lam Nhi, Phuong Hoa An, Q. Cam Le, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+20-CONG TY TNHH XUAT NHAP KHAU TONG HOP NAM HUNG|0401979706|17 Cach Mang Thang Tam, Phuong Khue Trung, Q. Cam Le, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+21-CONG TY TNHH THUONG MAI & DICH VU ETACONS|0401979946|123 Nguyen Thien Thuat, Phuong Hoa An, Q. Cam Le, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Lap dat he thong dien
+22-CONG TY TNHH TU VAN THIET KE KIEN TRUC VA XAY DUNG NGOI SAO MOI|0401980116|391 Bui Thi Ngo, Phuong Hoa Xuan, Q. Cam Le, TP. Da Nang|2019|Da Nang|Tuan truoc (31/05/2019)|
+23-CONG TY TNHH DAU TU PHAT TRIEN VA THUONG MAI T & T|0401977314|82 Vu Dinh Lien, Phuong Hoa Xuan, Q. Cam Le, TP. Da Nang|2019|Da Nang|3 tuan truoc (21/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+24-CONG TY TNHH THUONG MAI VA DICH VU DAN SAN|0401976342|37 Nhon Hoa 5, Phuong Hoa An, Q. Cam Le, TP. Da Nang|2019|Da Nang|3 tuan truoc (17/05/2019)| Ban buon chuyen doanh khac chua duoc phan vao dau
+25-CONG TY CO PHAN DAU TU PHAT TRIEN BAT DONG SAN DONG PHONG|0401976582|Tang 3, 262 Xo Viet Nghe Tinh, Phuong Khue Trung, Q. Cam Le, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+26-CONG TY TNHH THIEN PHUC LOGISTICS|0401976293|Thua dat so 606, to ban do so 14, Duong Nguyen Xuan Huu, Phuong Hoa Tho Dong, Q. Cam Le, TP. Da Nang|2019|Da Nang|3 tuan truoc (15/05/2019)| Hoat dong dich vu ho tro khac lien quan den van tai
+27-CONG TY TNHH MTV NONG SAN THUC PHAM THIEN LONG|0401975973|K36/4 Truong Son, Phuong Hoa Tho Tay, Q. Cam Le, TP. Da Nang|2019|Da Nang|Thang truoc (14/05/2019)| Ban buon thuc pham
+28-CONG TY TNHH NHAT GIA KIEN|0401975483|05 Hoang Dao Thanh, Phuong Hoa Xuan, Q. Cam Le, TP. Da Nang|2019|Da Nang|Thang truoc (14/05/2019)|
+29-CONG TY TNHH TU VAN THIET KE VA XAY DUNG MY NHAT MINH|0401974874|90 Nguyen Thuong Hien, Phuong Khue Trung, Q. Cam Le, TP. Da Nang|2019|Da Nang|Thang truoc (10/05/2019)| Hoat dong kien truc va tu van ky thuat co lien quan
+30-CONG TY CO PHAN DICH VU BAT DONG SAN BROLAND|0401973172|Tang 5, toa nha Thai Duong, so 278-280 Xo Viet Nghe Tinh , Phuong Khue Trung, Q. Cam Le, TP. Da Nang|2019|Da Nang|Thang truoc (07/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+31-CONG TY CO PHAN TU VAN HOANG THU|0401981617|K356 H115/79 Hoang Dieu, Phuong Binh Thuan, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Hom qua| To chuc gioi thieu va xuc tien thuong mai
+32-CONG TY TNHH MOBICARE 24H|0401981303|T2 Sunrise Building 2, so 10 Ngo Gia Tu, Phuong Thach Thang, Q. Hai Chau, TP. Da Nang|2019|Da Nang|2 ngay truoc| Hoat dong cham soc suc khoe nguoi co cong, nguoi gia va nguoi tan tat khong co kha nang tu cham soc
+33-CONG TY TNHH TO CHUC SU KIEN FOX MEDIA|0401980282|72 Nguyen Thi , Phuong Hoa Cuong Nam, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (04/06/2019)|
+34-CONG TY TNHH DIEN TU - DIEN LANH LINH DAN|0401980123|12 Le Thi Hong Gam, Phuong Hoa Cuong Nam, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (04/06/2019)| Lap dat he thong dien
+35-CONG TY TNHH THUONG MAI VA DICH VU FATO|0401979907|K129/9 Hai Phong, Phuong Thach Thang, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Hoat dong tu van quan ly
+36-CONG TY TNHH THIET BI Y TE TAM VANG|0401979304|44 Ong Ich Kiem, Phuong Thanh Binh, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Ban buon may moc, thiet bi va phu tung may khac
+37-CONG TY TNHH LILA HOUSE|0401979826|Lo 42 duong 30/4, Phuong Hoa Cuong Bac, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Dich vu luu tru ngan ngay
+38-CONG TY TNHH PASSION LIFE|0401979960|45 Le Quy Don, Phuong Binh Thuan, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Hoat dong the thao khac
+39-CONG TY TNHH MOT THANH VIEN LYNA FOOD|0401979689|157 Huynh Tan Phat, Phuong Hoa Cuong Nam, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Ban buon do dung khac cho gia dinh
+40-CONG TY CO PHAN CAN NHA XINH|0401977480|So 75, duong 30 thang 4, Phuong Hoa Cuong Nam, Q. Hai Chau, TP. Da Nang|2019|Da Nang|3 tuan truoc (20/05/2019)| Hoat dong thiet ke chuyen dung
+41-CONG TY CO PHAN GIAO DUC OCEAN EDU UDA|0401976455|So 33 Xo Viet Nghe Tinh, Phuong Hoa Cuong Nam, Q. Hai Chau, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| Giao duc khac chua duoc phan vao dau
+42-CONG TY CO PHAN DAU TU VA PHAT TRIEN TAM MINH THANG|0401976631|42 Phan Thanh Tai, Phuong Binh Thuan, Q. Hai Chau, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+43-CONG TY CO PHAN THUONG MAI VA DICH VU PDT|0401976695|286A Le Thanh Nghi, Phuong Hoa Cuong Nam, Q. Hai Chau, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| San xuat son, vec ni va cac chat son, quet tuong tu; san xuat muc in va ma tit
+44-CONG TY TNHH MTV DANH TIEN VU|0401975959|127 Phan Chau Trinh, Phuong Phuoc Ninh, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Thang truoc (14/05/2019)| Ban buon chuyen doanh khac chua duoc phan vao dau
+45-CONG TY TNHH THUONG MAI DICH VU HOANG MINH NGOC|0401975437|K20/5 Ly Tu Trong, Phuong Thach Thang, Q. Hai Chau, TP. Da Nang|2019|Da Nang|Thang truoc (13/05/2019)| Ve sinh nha cua va cac cong trinh khac
+46-CONG TY TNHH TRUNG TAM CHUNG NHAN SAN PHAM NONG NGHIEP SACH GREENCERT|0401981896|24 Phu Xuan 2, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|17 gio truoc| Kiem tra va phan tich ky thuat
+47-CONG TY TNHH LE NGOC NHI|0401981744|Duong A13 Khu Do Thi Golden Hills, Phuong Hoa Hiep Nam, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|17 gio truoc| Van tai hanh khach duong bo khac
+48-CONG TY TNHH MTV UNG DUNG CONG NGHE MINH QUANG|0401980902|231 Nguyen Huy Tuong, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|6 ngay truoc| Ban le may vi tinh, thiet bi ngoai vi, phan mem va thiet bi vien thong trong cac cua hang chuyen doanh
+49-CONG TY TNHH CO DIEN VIET AN PHUC|0401979985|K119/H15/29 Pham Nhu Xuong, Phuong Hoa Khanh Nam, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Lap dat he thong dien
+50-CONG TY TNHH TU VAN THIET KE VA XAY DUNG TRENDHOUSE|0401977995|39 Dong Khoi, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|2 tuan truoc (23/05/2019)| Hoat dong kien truc va tu van ky thuat co lien quan
+51-CONG TY CO PHAN GIAT UI ABE SHINZO V & N|0401977748|Thua dat so B2.14-41 va B2.14-42, KDT Phuoc Ly, duong Phuoc Ly 4, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|3 tuan truoc (22/05/2019)| Giat la, lam sach cac san pham det va long thu
+52-CONG TY TNHH MTV PHAT NGAN LOC|0401977498|39 Chon Tam 1, Phuong Hoa Khanh Nam, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|3 tuan truoc (21/05/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+53-CONG TY TNHH TRU MOI VA XU LY CON TRUNG NAM VIET|0401977554|39 To Hieu, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|3 tuan truoc (21/05/2019)| Ve sinh nha cua va cac cong trinh khac
+54-CONG TY CO PHAN DIEN - DIEN LANH NHAT TAM|0401976783|151/19 Au Co, Phuong Hoa Khanh Bac, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|3 tuan truoc (20/05/2019)| Lap dat he thong dien
+55-CONG TY CO PHAN TAI CHINH THIEN KIM GROUP|0401977071|145/18 Nguyen Huy Tuong, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|3 tuan truoc (20/05/2019)| Hoat dong tu van quan ly
+56-CONG TY TNHH DUOC PHAM VA TRANG THIET BI Y TE HOANG PHUC|0401976448|Lo 23, B2-2, Khu TDC Foodinco, duong Dao Su Tich, To 117, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| Ban le thuoc, dung cu y te, my pham va vat pham ve sinh trong cac cua hang chuyen doanh
+57-CONG TY TNHH CENTER HOUSE|0401975035|02 Phu Xuan 3, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|Thang truoc (10/05/2019)| Hoat dong kien truc va tu van ky thuat co lien quan
+58-CONG TY TNHH BAT DONG SAN DONG TRANG|0401973895|25 Luong Truc Dam, Phuong Hoa Minh, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|Thang truoc (04/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+59-CONG TY TNHH MTV NAM GREENLIFE|0401973542|131 Nam Cao, Phuong Hoa Khanh Nam, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|Thang truoc (03/05/2019)| Ve sinh chung nha cua
+60-CONG TY TNHH THANG MAY TU DONG DAI VIET|0401970206|K44/55A Da Son, Phuong Hoa Khanh Nam, Q. Lien Chieu, TP. Da Nang|2019|Da Nang|Thang truoc (20/04/2019)| Ban buon may moc, thiet bi va phu tung may khac
+61-CONG TY TNHH THUONG MAI VA DICH VU DU LICH AN HUY GROUP|0401981215|145 Le Quang Dao, Phuong My An, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|16 gio truoc| Kinh doanh bat dong san, quyen su dung dat thuoc chu so huu, chu su dung hoac di thue
+62-CONG TY TNHH GRANITE DUC HA|0401979752|Lo 15-16 khu LK6 khu do thi Hoa Quy, Phuong Hoa Quy, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+63-CONG TY TNHH DU LICH BAT DONG SAN TOAN CAU|0401979897|Lo 18 - B2.23, TDC Tan Tra, Phuong Hoa Hai, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Dai ly du lich
+64-CONG TY TNHH THUONG MAI DAU TU XAY DUNG NHAT LONG GROUP|0401979449|80 Dang Xuan Thieu, Phuong Hoa Hai, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Ban buon may moc, thiet bi va phu tung may khac
+65-CONG TY TNHH MOT THANH VIEN IN AN QUANG CAO THANH DUC|0401979671|K173 Nguyen Duy Trinh, Phuong Hoa Hai, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Quang cao
+66-CONG TY TNHH MTV KY THUAT VA THUONG MAI ENTANPI|0401976092|Lo 15 B2.19 Khu Do thi Sinh Thai, Phuong Hoa Quy, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|3 tuan truoc (15/05/2019)| Lap dat he thong cap, thoat nuoc, lo suoi va dieu hoa khong khi
+67-CONG TY TNHH THUONG MAI DICH VU MINH NHAT LAND|0401975229|67 Nguyen Dinh Chieu, Phuong Khue My, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Thang truoc (13/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+68-CONG TY TNHH MTV THUONG MAI DICH VU TRUONG QUAN|0401975500|Lo so 3 B2.1 Khu dat tiep giap phia Bac The Marble Hotel & Resort, Phuong Hoa Hai, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Thang truoc (11/05/2019)| Dich vu luu tru ngan ngay
+69-CONG TY TNHH KIEN TRUC NOI THAT AQUA HOME|0401974881|57 Duong Tu Quan, Phuong My An, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Thang truoc (10/05/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+70-CONG TY TNHH MTV JANG GREEN|0401975028|14 An Thuong 16, Phuong My An, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|Thang truoc (09/05/2019)| Dich vu luu tru ngan ngay
+71-CONG TY TNHH LOGISTICS VO NGA|0401969521|43 Moc Son 2, Phuong Hoa Hai, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|2 thang truoc (11/04/2019)| Hoat dong dich vu ho tro khac lien quan den van tai
+72-CONG TY TNHH THUONG MAI DU LICH MINH DUNG|0401968905|410 Vo Nguyen Giap, Phuong My An, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|2 thang truoc (09/04/2019)| Dich vu luu tru ngan ngay
+73-CONG TY TNHH SAT THEP HIEP TRUONG PHAT|0401968856|Thua dat so 45,to ban do so 109 duong Mai Dang Chon, Phuong Hoa Hai, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|2 thang truoc (09/04/2019)| Ban buon kim loai va quang kim loai
+74-CONG TY TNHH NHU OANH|0401968221|46 Phan Liem, Phuong My An, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|2 thang truoc (06/04/2019)| Hoat dong tu van quan ly
+75-CONG TY TNHH MTV THUONG MAI DICH VU NHA VIET NAM|0401966827|117 An Duong Vuong, Phuong My An, Q. Ngu Hanh Son, TP. Da Nang|2019|Da Nang|2 thang truoc (03/04/2019)| Dich vu luu tru ngan ngay
+76-CONG TY TNHH DA THANH TIEN PHAT|0401981913|54 Vo Nghia, Phuong Phuoc My, Q. Son Tra, TP. Da Nang|2019|Da Nang|17 gio truoc| Hoat dong vui choi giai tri khac chua duoc phan vao dau
+77-CONG TY TNHH ONG BEO QUAN|0401981208|181 Duong Dinh Nghe, Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|2 ngay truoc| Nha hang va cac dich vu an uong phuc vu luu dong
+78-CONG TY TNHH THUONG MAI DICH VU ECOWASH|0401981173|162 Tran Nhan Tong, Phuong Man Thai, Q. Son Tra, TP. Da Nang|2019|Da Nang|3 ngay truoc| Giat la, lam sach cac san pham det va long thu
+79-CONG TY TNHH MTV TONG HOP THUONG MAI DICH VU PHUC HUONG|0401980772|25 Duong Lam, Phuong Nai Hien Dong, Q. Son Tra, TP. Da Nang|2019|Da Nang|6 ngay truoc| Ban buon may moc, thiet bi va phu tung may khac
+80-CONG TY TNHH CO KHI XAY DUNG PHAT TIEN|0401979992|913 Ngo Quyen, Phuong An Hai Dong, Q. Son Tra, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Gia cong co khi; xu ly va trang phu kim loai
+81-CONG TY CO PHAN DASOFTEC|0401980187|15 duong An Hai Bac 5, Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|Tuan truoc (01/06/2019)| Ban buon may vi tinh, thiet bi ngoai vi va phan mem
+82-CONG TY TNHH MTV THUONG MAI DICH VU DU LICH THAO NGUYEN TH|0401979978|K232/6 Nguyen Cong Tru, Phuong An Hai Dong, Q. Son Tra, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Dich vu luu tru ngan ngay
+83-CONG TY CO PHAN DAU TU VA PHAT TRIEN DIA OC MINH TRI|0401979865|231 The Lu, Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Kinh doanh bat dong san, quyen su dung dat thuoc chu so huu, chu su dung hoac di thue
+84-CONG TY TNHH NGOC VU NGUYEN|0401977360|Tang 2, Du thuyen DHC-Marina, Phuong An Hai Tay, Q. Son Tra, TP. Da Nang|2019|Da Nang|3 tuan truoc (20/05/2019)| Hoat dong vui choi giai tri khac chua duoc phan vao dau
+85-CONG TY TNHH THUONG MAI DAU TU VA PHAT TRIEN HUY HOANG|0401976705|281 Ho Nghinh, Phuong Phuoc My, Q. Son Tra, TP. Da Nang|2019|Da Nang|3 tuan truoc (20/05/2019)| Cho thue xe co dong co
+86-CONG TY TNHH MTV KIEN TRUC XAY DUNG VIET THUONG|0401977272|K231/10 Nguyen Cong Tru, Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|3 tuan truoc (20/05/2019)| Hoat dong kien truc va tu van ky thuat co lien quan
+87-CONG TY TNHH BE ANH HOTEL|0401976871|Lo A-17, Duong QH (3,0-5,5-3,0), Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|3 tuan truoc (17/05/2019)| Dich vu luu tru ngan ngay
+88-CONG TY TNHH TM&DV QUANG THINH PHAT|0401976180|82 Loseby, Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|3 tuan truoc (15/05/2019)| Ban buon may moc, thiet bi va phu tung may khac
+89-CONG TY TNHH PHU KHANH PHAN|0401975532|91 Vo Duy Ninh, Phuong Tho Quang, Q. Son Tra, TP. Da Nang|2019|Da Nang|Thang truoc (13/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+90-CONG TY TNHH CONG NGHE CLO|0401975236|67 Nguyen Thi Dinh, Phuong An Hai Bac, Q. Son Tra, TP. Da Nang|2019|Da Nang|Thang truoc (13/05/2019)| Hoat dong thiet ke chuyen dung
+91-CONG TY CO PHAN TU THIEN XA HOI DA NANG|0401981938|460/14/6 Tran Cao Van, Phuong Xuan Ha, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|16 gio truoc|
+92-CONG TY CO PHAN CAC GIAI PHAP ZPOWER|0401981857|637 - 639 Nguyen Tat Thanh, Phuong Xuan Ha, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|16 gio truoc| Tu van may vi tinh va quan tri he thong may vi tinh
+93-CONG TY TNHH TM & DV TONG HOP VIET CARE|0401979576|32 Ham Nghi, Phuong Vinh Trung, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Tuan truoc (30/05/2019)| Ban le may vi tinh, thiet bi ngoai vi, phan mem va thiet bi vien thong trong cac cua hang chuyen doanh
+94-CONG TY TNHH HAIM|0401978981|Khu thuong mai S4B, Toa nha HAGL Lake View Da Nang, so 72 Ham Nghi, Phuong Thac Gian, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|2 tuan truoc (28/05/2019)| Giao duc the thao va giai tri
+95-CONG TY TNHH NGOI XANH AZ|0401976737|282/31 Le Duan, Phuong Tan Chinh, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|3 tuan truoc (17/05/2019)| Hoan thien cong trinh xay dung
+96-CONG TY CO PHAN BAT DONG SAN BHOME|0401976624|237 Nguyen Van Linh, Phuong Vinh Trung, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| Tu van, moi gioi, dau gia bat dong san, dau gia quyen su dung dat
+97-CONG TY CO PHAN PHAT TRIEN PHAN MEM S.A.C.Y.L|0401976656|70 Nguyen Tri Phuong, Phuong Chinh Gian, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|3 tuan truoc (16/05/2019)| Lap trinh may vi tinh
+98-CONG TY TRACH NHIEM HUU HAN DUTEK|0401975317|249/33 Ha Huy Tap, Phuong Hoa Khe, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (13/05/2019)| Lap dat he thong dien
+99-CONG TY TNHH SOLARLAND|0401975490|K1A/5 Le Trong Tan, Phuong An Khe, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (13/05/2019)| Lap dat he thong dien
+100-CONG TY CO PHAN XAY DUNG VA KY THUAT LANH MIEN TRUNG|0401973736|So 150 Be Van Dan, Phuong Chinh Gian, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (09/05/2019)| Lap dat he thong cap, thoat nuoc, lo suoi va dieu hoa khong khi
+101-CONG TY TNHH INSIDE ORIGINALS|0401973782|186 Nguyen Van Linh, Phuong Vinh Trung, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (06/05/2019)| Dich vu phuc vu do uong
+102-CONG TY TNHH MTV LEKHANHTECH|0401972838|339/2 Tran Cao Van, Phuong Xuan Ha, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (24/04/2019)| Lap trinh may vi tinh
+103-CONG TY TNHH BOSSDOOR DIEU NHUNG|0401971802|214 Vu Quynh, Phuong Thanh Khe Tay, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (20/04/2019)| Ban buon chuyen doanh khac chua duoc phan vao dau
+104-CONG TY TNHH CO DIEN LANH TECHME|0401970164|K58/14 Ha Huy Tap, Phuong Thanh Khe Dong, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|Thang truoc (16/04/2019)| Lap dat may moc va thiet bi cong nghiep
+105-CONG TY TNHH FIX LIFE|0401968863|609 Tran Cao Van, Phuong Xuan Ha, Q. Thanh Khe, TP. Da Nang|2019|Da Nang|2 thang truoc (10/04/2019)| Ban buon vat lieu, thiet bi lap dat khac trong xay dung
+106-VAN PHONG DIEU HANH CONG TY ANDO CORPORATION TAI DA NANG|0400640004|- TP Da Nang - Da Nang|2011|Da Nang|4 nam truoc| Xay dung cong trinh ky thuat dan dung
+107-VAN PHONG DIEU HANH CONG TY ANDO CORPORATION TAI DA NANG|0400640004|- TP Da Nang - Da Nang|2010|Da Nang|4 nam truoc| Xay dung cong trinh ky thuat dan dung
+108-LUMINO DESIGN CONSULTANTS SDN BHD|0401302287|Phuong Khuye My - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+109-FORTIS BANQUE FRANCE S.A|0400657343|Tay cau Tuyen Son - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+110-MICROS - FIDELIO SINGAPORE PTE . LTD|0400663516|68 Ho Xuan Huong - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+111-CONG TY CO PHAN THUY DIEN MIEN TRUNG|0401097856|Lo 57B, duong so 6, KCN Da Nang - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc| Lap dat he thong dien, he thong cap thoat nuoc va lap dat xay dung khac
+112-AUM & LEE ARCHITECTS ASSOCIATES CO.,LTD|0400963238|01 Thanh Long - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+113-THE LOUIS BERGER GROUP, INC|0400785585|33 Pasteur - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+114-TRUNG TAM HOP TAC NGUON NHAN LUC VIET NAM- NHAT BAN|0400565815|Lo M, duong so 5, KCN Hoa Khanh - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+115-MITLITOYO ASIA PACIFIC PTE.LTD|0400565815|Lo M, duong so 5, KCN Hoa Khanh - TP Da Nang - Da Nang|2009|Da Nang|4 nam truoc|
+116-TEKPAK & CO.REPRESEN TATIVE OFFICE|0400658322|02 Tran Phu - TP Da Nang - Da Nang|2008|Da Nang|4 nam truoc|
+117-GRONTMIJ/ CARL BRO A/S|0400658315|54 Thai Phien - TP Da Nang - Da Nang|2008|Da Nang|4 nam truoc|
+118-CONG TY SWISS - BELHOTL INTERNATIONAL|0400655931|Bai Nam-Bai Con , Tho Quang - TP Da Nang - Da Nang|2008|Da Nang|4 nam truoc|
+119-CONG TY TNHH 56|0400650524|158 A Nguyen Chi Thanh - TP Da Nang - Da Nang|2008|Da Nang|4 nam truoc| Kinh doanh bat dong san, quyen su dung dat thuoc chu so huu, chu su dung hoac di thue
+120-WILBUR SMITH ASSOCIATES - (WSA)(CANG HK QTE DA NANG- CN TCT CANG HK VIET NAM)|0400545826|Cang hang khong quoc te Da Nang - TP Da Nang - Da Nang|2008|Da Nang|4 nam truoc|

@@ -1,0 +1,67 @@
+{
+   "forms":[
+      {
+         "title":"Loại Tài sản *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Mã Tài sản *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Mã nhân viên  Người sử dụng cũ *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Họ và tên  Người sử dụng cũ *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Vị trí tài sản cũ *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Mã nhân viên  Người sử dụng mới *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Họ và tên Người sử dụng mới *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Vị trí Tài sản mới *",
+         "editable":true,
+         "children":[
+            
+         ]
+      },
+      {
+         "title":"Ghi chú",
+         "editable":true,
+         "children":[
+            
+         ]
+      }
+   ]
+}

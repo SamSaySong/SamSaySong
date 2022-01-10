@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiêu đề của trang web -->
+    <title>The Band</title>
+    <link rel="icon" type="" href="./assets/band/51D02WcT0hL._AC_SL1000_.jpg">
+    <!-- Add links CSS -->
+    <link rel="stylesheet" href="./assets/main.css"> 
+    <!-- Add links icons  -->
+    <link rel="stylesheet" href=".\assets\font\themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-beta2-web/css/all.css">
+</head>
+<body>
+    <div id="main">
+        <!-- Chia page thành 4 phần, Tạo 4 id gồm: heder, slider, content, footer  -->
+        
+        <!-- Tao ID xử lí phần header-->
+        <div id="header">
+            <!-- Begin -->
+            <!-- Tạo 1 bảng gồm các thẻ ul,li chứa tên các mục header -->
+            <ul id="nav">
+                <!-- Trong mỗi thẻ li lồng thẻ "a" để chứa nội dung và links liên kết từ các mục header --> 
+                <li><a href="">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">
+                        More
+                        <!-- Tạo class: ti-angle-down(tên của icons) gán icons mũi tên hướng xuống từ file icons có sẵn -->
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a> 
+                     <!-- tạo 1 bảng con chứa các option từ thẻ li:More -->
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul> 
+      
+            <!-- End nav -->
+
+            <!-- Begin search button -->
+            <div class="btn-search">
+                <!-- tạo class: ti-search(tên của icons) gán icons tìm kiếm từ file icons có sẵn -->
+                <i class="search-icon ti-search"></i>
+            </div>
+          
+            <!-- End search button -->
+        </div>
+
+        <div id="slider">
+            <!-- ở phần slider tạo class text-content để chứa nội dung, phần hình ảnh thì gán URL ở file CSS  -->
+            <div class="text-content">
+                <h2 class="text-heading">Los Angeles</h2>
+                <div class="text-description">We had the best time playing at Venice Beach!</div>
+            </div>
+            <!-- <img src="https://www.w3schools.com/w3images/chicago.jpg" alt="The band" width="100%" height="500px"> -->
+        </div>
+
+        <div id="content">
+            <!-- About -->
+            
+            <!-- Chia nội dung thành 3 phần: content chứa thông tin mô tả về ban nhạc ; tour: chứa thông tin, hình ảnh tour; contact: chứa thông tin liên hệ... -->
+            <div class="content-section">
+                
+                <!-- tạo thẻ h2 chứa nội dung tiêu đề THE BAND -->
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                
+                <div class="member-list">
+                   
+                    <!-- tạo thẻ div chứa gồm 1 list thông tin, hình ảnh các thành viên band-->
+                    <div class="member-item">
+                       
+                        <!-- Mỗi class: "member-item"  chứa thẻ "p" tên và thẻ ,"img" chứa hình ảnh từng thành viên band-->
+                        <p class="member-name">Name</p>
+                        <img src="./assets/band/member_1.jpg" alt="Name" class="member-img">
+                    </div>
+                   
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/band/member_1.jpg" alt="Name" class="member-img">
+                    </div>
+                   
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/band/member_1.jpg" alt="Name" class="member-img">
+                    </div>
+                    
+                    <!-- tạo class clear để CSS thuộc tính clear: both, để nền background  class="content-section" ôm trọn phần content --> 
+                    <div class="clear"></div>
+                </div>
+            
+            </div>
+            
+            <!-- Tour -->
+            <div class="tour-section">
+                <div class="content-section">
+                   
+                    <!-- tạo thẻ h2 chứa nội dung tiêu đề TOUR DATES -->
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    
+                    <!-- tạo thẻ ul có class="tickets-list" chứa các thẻ li để tạo bảng đặt vé -->
+                    <ul class="tickets-list">
+                        <li>September 
+                            <span class="sold-out">Sold out</span>
+                        </li>
+                        <li>October
+                            <span class="sold-out">Sold out</span>
+                        </li>
+                        <li>November
+                            <span class="quanlity">3</span>
+                        </li>
+                    </ul>
+                   
+                    <!-- tạo thẻ div chứa  class="places-list" danh sách gồm hình ảnh, thông tin của các tour diễn -->
+                    <div class="places-list">
+                      
+                        <!-- mỗi class: places-items chứa phần nội dung, hình ảnh của từng tour-->
+                        <div class="places-items">
+                            <img src="./assets/img/newyork.jpg" alt="New York" class="places-img">
+                            
+                            <!--  class="places-body" gồm thẻ h3, p và a chứa header, nội dung tour diễn và links liên kết mua vé -->
+                            <div class="places-body">
+                                <h3 class="places-heading">New York</h3>
+                                <p class="places-time">Fri 27 Nov 2016</p>
+                                <p class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <!-- tạo thẻ a chưa liên kết đến trang mua vé -->
+                                <a href="#" class="place-buy-btn">Buy Tickets</a>
+                            </div>
+                        </div>
+                       
+                        <div class="places-items">
+                            <img src="./assets/img/paris.jpg" alt="New York" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">Paris</h3>
+                                <p class="places-time">Sat 28 Nov 2016</p>
+                                <p class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="place-buy-btn">Buy Tickets</a>
+                            </div>
+                        </div>
+                        
+                        <div class="places-items">
+                            <img src="./assets/img/sanfran.jpg" alt="New York" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">San Francisco</h3>
+                                <p class="places-time">Sun 29 Nov 2016</p>
+                                <p class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="place-buy-btn">Buy Tickets</a>
+                            </div>
+                        </div>
+                        
+                        <!-- tạo class clear để CSS thuộc tính clear: both, để nền background class="tour-section" ôm trọn phần tour -->
+                        <div class="clear"></div>
+                    
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Contact -->
+            <div class="content-section contact" >
+
+                <!-- Tạo class:contact-section chứa nội dung thông tin liên hệ -->
+                <!-- Thẻ h2 chứa nội dung tiêu đề CONTACT  -->
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+
+                <div class="contact-content">
+                    <div class="adress-content">
+                        <i class="contact-icon fas fa-globe-asia"><span> Chicago, US</span></i></br>
+                        <i class="contact-icon fas fa-phone"><span> Phone: +00 151515</span></i></br>
+                        <i class="contact-icon fas fa-inbox"><span> Email: mail@mail.com</span></i>
+                    </div>
+                    
+
+                    <div class="form-content">
+
+                        <form action="#" target="_blank" class="form-input" >
+                            <div class="demo1">
+                                <input type="text" class="name-input" placeholder="Name" required><br>
+                            </div>
+                            <input type="text" class="email-input" placeholder="Email" required><br>
+                            <input type="text" class="message-input" placeholder="Message" required>
+                            <button type="submit" class="submid-input">SEND</button>
+                        
+                        </form>
+                    </div>
+                    
+                </div>
+        
+            </div>
+        </div>
+
+        <!-- Map -->
+        <img src="./assets/map/map.jpg" alt="map" class="map">
+   
+        <div id="footer">
+            <a href="https://translate.google.com/?hl=vi" style="text-decoration: none;" target="_blank">
+                <i class="theme ti-facebook" title="Facebook"></i>
+            </a>
+
+            <i class="theme ti-instagram" title="Instagram"></i>
+
+            <i class="theme ti-youtube" title="Youtube"></i>
+
+            <i class="theme ti-reddit" title="Reddit"></i>
+
+            <i class="theme ti-twitter" title="Twitter"></i>
+
+            <i class="theme ti-linkedin" title="Linkedin"></i>
+            <p class="footer-adr">Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+            </p>   
+        </div>
+    </div>
+
+
+
+</body>
+</html>

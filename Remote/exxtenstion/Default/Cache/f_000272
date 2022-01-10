@@ -1,0 +1,4167 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	
+	
+<link rel="stylesheet" type="text/css" href="/etaxnnt/static/css/default/lianav3.css" />
+	
+
+<script src="/etaxnnt/static/script/jquery/jquery-1.6.1.min.js" type="text/javascript" language="javascript"></script>
+
+<link href="/etaxnnt/static/css/default/validation.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/default/style.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/ntdt.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/default/calendar.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/default/msb.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/ntdt.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/multiSelect/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/etaxnnt/static/css/default/validationEngine.jquery.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+
+<link href="/etaxnnt/static/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+
+<script src="/etaxnnt/static/script/default/menu.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/date2.js"  type="text/javascript"  language="javaScript" ></script>
+<script src="/etaxnnt/static/script/default/calendar.js"  type="text/javascript"  language="javaScript" ></script>
+<script src="/etaxnnt/static/script/default/GetNowTime.js"  type="text/javascript"  language="javaScript" ></script>
+<script src="/etaxnnt/static/script/default/public.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery-ui-1.8.2.custom.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.validate.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.metadata.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.price.format.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.maskedinput-1.2.2.min.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/msb.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.validationEngine.js" type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/json2.js" type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/dkyThue.js" type="text/javascript" language="javascript"></script>
+
+	<script src="/etaxnnt/static/script/default/common_vi_VN.js" type="text/javascript" language="javascript"></script>
+	<script src="/etaxnnt/static/script/default/validatevn.js" type="text/javascript"></script>
+	<script src="/etaxnnt/static/script/default/MoneyConvert_vn.js" type="text/javascript" language="javascript"></script>
+
+
+<script src="/etaxnnt/static/script/bttutils.js" type="text/javascript" language="javascript"></script>
+<!-- Chrome -->
+<script src="/etaxnnt/static/script/chrome/page.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/chrome/hex2base.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/common.js" type="text/javascript" language="javascript"></script>
+<!-- End Chrome -->
+<title>Kê khai trực tuyến_Khai Thuế_KH Doanh nghiệp_Thue dien tu</title>
+</head>
+
+<body>
+<script type="text/javascript">
+// anhvt disable backspace and backspace button
+	(function (global) { 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+
+        // making sure we have the fruit available for juice (^__^)
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) {
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+//ANHLD: disable F5 and back button
+// slight update to account for browsers not supporting e.which
+function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
+// To disable f5
+    /* jQuery < 1.7 */
+$(document).bind("keydown", disableF5);
+/* OR jQuery >= 1.7 */
+ /* $(document).on("keydown", disableF5); */
+
+// To re-enable f5
+    /* jQuery < 1.7 */
+$(document).unbind("keydown", disableF5);
+/* OR jQuery >= 1.7 */
+ /* $(document).off("keydown", disableF5); */
+
+
+</script>
+
+
+<link href="/etaxnnt/static/css/style_new.css" type="text/css" rel="stylesheet" />
+
+<!--TIÊU ĐỀ LỚN-->
+<div id="tieudelon" class="tieudelon" style="padding-top: 3px; padding-bottom: 4px;"> 
+   	<span class="icon_tt">
+       	<img height="22px" width="22px" src="/etaxnnt/static/images/epay/logo.png">
+    </span>
+    <i>
+ 	<span class="text_tt">
+    	Khai Thuế&nbsp;&gt;&nbsp;<span class="red_b">Kê khai trực tuyến</span>
+    </span>
+    </i>
+</div>
+<!--END TIÊU ĐỀ LỚN-->
+
+
+
+
+<script
+	src="/etaxnnt/static/script/enumeration/common.js"
+	type="text/javascript" language="javascript"></script>
+<script
+	src="/etaxnnt/static/script/enumeration/tableutils.js"
+	type="text/javascript" language="javascript"></script>
+<script
+	src="/etaxnnt/static/script/enumeration/LapTKhai.js"
+	type="text/javascript" language="javascript"></script>
+<link href="/etaxnnt/static/css/enumeration/default.css"
+	rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/reset.css"
+	rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/layout.css"
+	rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/superfish.css"
+	rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/superfish-navbar.css"
+	rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/ihtkk.css"
+	rel="stylesheet" type="text/css" />
+<style type="text/css">
+select {
+	border: 1px solid #ccc;
+	vertical-align: top;
+	height: 20px;
+}
+
+input, select {
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+</style>
+<script type="text/javascript">
+$(function(){
+	init05TNDN();
+	init01GTGT();
+	initTKhaiDauKhi();
+	init04GTGT();
+});
+function dmTKhai(maTKhai, kieuKy)
+{
+        this.maTKhai = maTKhai;
+        this.kieuKy = kieuKy;
+}
+function dmTKhaiBKe(maTKhai, bkeList)
+{
+
+        this.maTKhai = maTKhai;
+        this.bkeList = bkeList;
+}
+function dmBKe(maBKe, tenBKe)
+{
+        this.maBKe = maBKe;
+        this.tenBKe = tenBKe;
+}
+function dmNgheTMucHToan(id, ma_tkhai, ten_nganh_nghe){
+        this.id = id;
+        this.ma_tkhai = ma_tkhai;
+        this.ten_nganh_nghe = ten_nganh_nghe;
+}
+var arrTKhai = new Array();
+var arrTKhaiBKe = new Array();
+var arrBKe;
+var arrDMNgheTMucHToan  = new Array();
+arrTKhai['--'] = new dmTKhai ('--','null');
+
+arrTKhai['01'] = new dmTKhai ('01','Q');
+
+arrTKhai['--'] = new dmTKhai ('--','null');
+
+arrTKhai['03'] = new dmTKhai ('03','Y');
+
+arrTKhai['--'] = new dmTKhai ('--','null');
+
+arrTKhai['394'] = new dmTKhai ('394','Q');
+
+arrTKhai['395'] = new dmTKhai ('395','Y');
+
+arrTKhai['--'] = new dmTKhai ('--','null');
+
+arrTKhai['402'] = new dmTKhai ('402','Y');
+
+arrTKhai['--'] = new dmTKhai ('--','null');
+
+arrTKhai['464'] = new dmTKhai ('464','Y');
+
+arrTKhai['55'] = new dmTKhai ('55','Y');
+
+arrTKhai['--'] = new dmTKhai ('--','null');
+
+arrTKhai['106'] = new dmTKhai ('106','D');
+
+arrTKhai['129'] = new dmTKhai ('129','D');
+
+
+
+</script>
+<div class="box_common_content">
+	
+		
+	
+	<div class="frm_inputCtl">
+		<br /> <br />
+		<form name="LapTKhaiOnlineForm" method="post" action="/etaxnnt/Request" id='LapTKhaiOnlineForm'>
+<input type="hidden" name="dse_sessionId" value="orLlkS7BdCks_WtL3HuGDMy" />
+<input type="hidden" name="dse_applicationId" value="-1" />
+<input type="hidden" name="dse_operationName" value="taxOnlineEnumerationProc" />
+<input type="hidden" name="dse_pageId" value="11" />
+<input type="hidden" name="dse_processorState" value="preTaxOnlineEnumerationViewPage" />
+<input type="hidden" name="dse_processorId" value="DXFBBXIWGBAOGCAPECBVEXFHDEDDCSHYCEEJEFJT" />
+<input type="hidden" name="dse_errorPage" value="error_page.jsp" />
+<input type="hidden" name="dse_nextEventName" value="" />
+
+
+			<label style="color:blue;font-size:13px" id="canhbao"></label>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="kkhaiOnline">
+				
+						<table cellpadding="5" cellspacing="0">
+							<tr>
+								<th style="width: 140px"><label for="user">Tờ khai</label></th>
+								<td style=""><select id="maTKhai" name="maTKhai"
+									style="width: 580px" onchange="chonTKhai(this)">
+										
+											
+												<option value="--">
+													THUẾ GIÁ TRỊ GIA TĂNG
+												</option>
+											
+											
+										
+											
+											
+												<option value="01">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													01/GTGT - Tờ khai thuế giá trị gia tăng (GTGT)
+												</option>
+											
+										
+											
+												<option value="--">
+													THUẾ THU NHẬP DOANH NGHIỆP
+												</option>
+											
+											
+										
+											
+											
+												<option value="03">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													03/TNDN - Tờ khai quyết toán thuế TNDN
+												</option>
+											
+										
+											
+												<option value="--">
+													THUẾ THU NHẬP CÁ NHÂN
+												</option>
+											
+											
+										
+											
+											
+												<option value="394">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													05/KK-TNCN - Tờ khai khấu trừ thuế thu nhập cá nhân (TT92/2015)
+												</option>
+											
+										
+											
+											
+												<option value="395">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													05/QTT-TNCN - Tờ khai quyết toán thuế TNCN Dành cho tổ chức, cá nhân trả thu nhập chịu thuế từ tiền lương, tiền công cho cá nhân (TT92/1015)
+												</option>
+											
+										
+											
+												<option value="--">
+													BÁO CÁO TÀI CHÍNH
+												</option>
+											
+											
+										
+											
+											
+												<option value="402">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													TT200 - Bộ báo cáo tài chính
+												</option>
+											
+										
+											
+												<option value="--">
+													THUẾ MÔN BÀI
+												</option>
+											
+											
+										
+											
+											
+												<option value="464">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													01/MBAI - Tờ khai lệ phí môn bài (NĐ139/2016)
+												</option>
+											
+										
+											
+											
+												<option value="55">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													01/MBAI - Tờ khai thuế môn bài (TT156/2013)
+												</option>
+											
+										
+											
+												<option value="--">
+													THÔNG BÁO HÓA ĐƠN
+												</option>
+											
+											
+										
+											
+											
+												<option value="106">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													TB01/AC - Thông báo phát hành hóa đơn
+												</option>
+											
+										
+											
+											
+												<option value="129">
+													&nbsp;&nbsp;&nbsp;&nbsp;
+													TB04/AC - Thông báo điều chỉnh thông tin tại thông báo phát hành hóa đơn
+												</option>
+											
+										
+										<select>
+											<input type="hidden" id="tenTKhai" name="tenTKhai">
+											<input id="kieuKy" type="hidden" name="kieuKy"></td>
+							</tr>
+							<tr id='checkTr'>
+								<th><label for="user">Cơ quan thuế </label></th>
+								<td><select id="maCQTNoiNop" name="maCQTNoiNop"
+									style="width: 380px">
+											<option value="70100">
+												Cục Thuế Thành phố Hồ Chí Minh
+											</option>
+								</select></td>
+							</tr>
+							<tr>
+								<th><label for="user">Loại tờ khai</label></th>
+								<td><select id="loaiTKhai" name="loaiTKhai"
+									style="width: 380px" onchange="chonLoaiTKhaiChange(this.value)">
+										<option value="C">Tờ khai chính thức</html:option>
+										<option value="B">Tờ khai bổ sung</html:option>
+								</select></td>
+							</tr>
+
+							<tr>
+								<th><label for="user" id="kyKKhaiLabel"></label></th>
+								<td id="kyKKhai"></td>
+							</tr>
+								<tr id="TNDN05" style="display: none">
+									<th><label for="user">Hình thức chuyển nhượng</label></th>
+									<td><select name="trang_thai"
+										id="trang_thai" style="width: 250px">
+											<option value="" selected>--Lựa chọn--
+											</option>
+											<option value="TNDN051">Bên nhận chuyển nhượng vốn
+											</option>
+											<option value="TNDN052">Bên doanh nghiệp có vốn được chuyển nhượng
+											</option>
+									</select></td>
+								</tr>
+					<tr id="dmucNNgheTR" style="display: none">
+						<th><label for="user">Danh mục ngành nghề</label></th>
+						<td>
+							<select id="dmucNNgheSele" style="width: 250px" onchange="chonLoaiNNghe(this)" >
+									<option value="" selected>--Lựa chọn--
+									</option>
+									<option value="00">Hoạt động sản xuất kinh doanh thông thường
+									</option>
+									<option value="01">Xổ số kiến thiết, xổ số điện toán
+									</option>
+									<option value="06">Nhà máy sản xuất điện khác tỉnh với nơi có trụ sở chính
+									</option>
+									<option value="02">Chuyển nhượng DAĐT CS hạ tầng, nhà khác tỉnh với nơi có trụ sở chính
+									</option>
+									<option value="05">Hoạt động thăm dò, khai thác dầu khí
+									</option>
+									<option value="07">Ngành hàng sản xuất, kinh doanh thông thường
+									</option>
+									<option value="08">Hoạt động thăm dò, phát triển mỏ và khai thác dầu, khí thiên nhiên
+									</option>
+									<option value="09">Hoạt động xổ số kiến thiết của các công ty xổ số kiến thiết
+									</option>
+							</select>
+							<input type="hidden" id="ma_NganhNghe" name="ma_NganhNghe">
+							<input type="hidden" id="ten_NganhNghe" name="ten_NganhNghe">
+						</td>
+					</tr>
+					<tr id="dmucNNghe04GTGT" style="display: none">
+						<th><label for="user"></label></th>
+						<td>
+							<input type="checkbox" id="dmucNNgheSele04" onchange="checkBox04GTGT(this)"/> Hoạt động thu hộ CQNN có thẩm quyền giao 
+						</td>
+					</tr>
+<!-- 					<tr  id="dmucTinhTT80" style="display: none"> -->
+<!-- 						<th><label for="user">Tỉnh/Thành phố:</label></th> -->
+<!-- 						<td class="align-l"> -->
+<!-- 						<select name="tinhHDXD"  id="tinhHDXD" onchange="ChangeTinh(this,'ma_tinh','ten_tinh')"  style="width:200px"> -->
+<!-- 						        <option value="00">&nbsp;</option> -->
+<!-- 						        <option value="999">Khác</option> -->
+<!-- 							</select> -->
+<!-- 			 				<input type="hidden" name="ten_tinh" id="ten_tinh"  /> -->
+<!-- 			 				<input type="hidden" name="ma_tinh" id="ma_tinh"  /> -->
+<!-- 						</td> -->
+<!-- 					</tr> -->
+					
+							<tr>
+								<th><label for="user" id="ngayKeKhaiTKhai03Label"></label></th>
+								<td id="ngayKeKhaiTKhai03"></td>
+							</tr>
+							<tr id="tkhaiDauKhiY" style="display: none">
+								<th><label for="user">Loại sản phẩm</label></th>
+								<td><select id="dmucSPhamDK" style="width: 250px"
+									onchange="chonLoaiSPham(this)">
+										<option value="" selected>--Lựa chọn--</option>
+										<option value="01">Dầu thô</option>
+										<option value="02">Condensate</option>
+										<option value="03">Khí thiên nhiên</option>
+								</select></td>
+							</tr>
+							<tr id="tkhaiDauKhiM" style="display: none">
+								<th><label for="user">Loại sản phẩm</label></th>
+								<td><select id="dmucSPhamDK" style="width: 250px"
+									onchange="chonLoaiSPham(this)">
+										<option value="" selected>--Lựa chọn--</option>
+										<option value="03">Khí thiên nhiên</option>
+								</select></td>
+							</tr>
+							<tr id="tkhaiDauKhiD" style="display: none">
+								<th><label for="user">Loại sản phẩm</label></th>
+								<td><select id="dmucSPhamDK" style="width: 250px"
+									onchange="chonLoaiSPham(this)">
+										<option value="" selected>--Lựa chọn--</option>
+										<option value="01">Dầu thô</option>
+										<option value="02">Condensate</option>
+								</select></td>
+							</tr>
+							<tr>
+								<th><label for="user" id="ngayKhaiBSungLabel"></label></th>
+								<td id="ngayKhaiBSung"></td>
+							</tr>
+							<tr>
+								<th><label for="user" id="ngayNopTKhaiLabel"></label></th>
+								<td id="ngayNopTKhai"></td>
+							</tr>
+							<tr>
+								<th><label for="user" id="plucLabel"></label></th>
+								<td id="pluc"></td>
+							</tr>
+							 
+							<tr>
+								<th></th>
+								<td><input class="btn_type1" id="tieptucBT" type="button"
+									value="Tiếp tục >>" onclick="tieptuc();"></td>
+							</tr>
+							<input type="hidden" id="ngaythangnam" name="ngaythangnam" />
+							<input type="hidden" id="thangquy" name="thangquy" />
+							<input type="hidden" id="nam" name="nam" />
+							<input type="hidden" id="ngayKhaiBSung" name="ngayKhaiBSung" />
+							<input type="hidden" id="ngayNopTKhai" name="ngayNopTKhai" />
+							<input type="hidden" id="loaiSPham" />
+						</table>
+					</td>
+				</tr>
+			</table>
+			<div id="main-tndn-dialog" class="main-tndn-dialog" style="display: none">
+			<div class="tndn-dialog"  id="tndn-dialog">
+				<label class="dialog-title">
+					Phải nộp BCTC trước khi nộp tờ khai 03/TNDN. 
+				</label>
+				<div class="dialog-checkbox">
+					<input type="checkbox" id="dialog"/>
+					<label>Đã nộp BCTC bằng hồ sơ giấy đến cơ quan thuế.</label>
+				</div>
+				<div class="dialog-button">
+					<input type="button" value="Tiếp tục" id="tiep-tuc" onclick="tiepTucTNDN();">
+					<span id="thoat" onclick="exitDialog();">x</span>
+				</div>
+			</div>
+			</div>
+		</form>
+
+	</div>
+</div>
+<style>
+.main-tndn-dialog { 
+    width: 100%;
+    float: left;
+    height: 100%;
+    left: 0px;
+    background-color: rgba(72, 72, 72, 0.4);
+    position: absolute;
+    top: 0px; 
+}
+.tndn-dialog {
+    background-color: #e0e6ec;
+    max-width: 600px;
+    position: absolute;
+    top: 50px;
+    right: 30%;
+    border: solid 1px #b9d4f5;
+}
+
+label.dialog-title {
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 20px;
+    color: #0b4b9b;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    
+}
+span#thoat {
+    position: absolute;
+    top: -5px;
+    right: 2px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    color: red;
+    cursor: pointer;
+}
+.dialog-checkbox {
+    text-align: center;
+}
+
+input#dialog {
+    margin-right: 10px;
+}
+.dialog-checkbox label {
+    height: 16px;
+    font-size: 1.1em;
+    color: #333;
+}
+.dialog-button {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.dialog-button input {
+    padding: 7px 15px 7px 15px;
+    color: #0b4c9c;
+    font-weight: bold;
+    border-radius: 3px;
+}
+</style>
+<script type="text/javascript">
+
+var tieudelon = document.getElementById("tieudelon");
+    tieudelon.innerHTML =
+'<span class="icon_tt">'+
+'<img height="22px" width="22px" src="/etaxnnt/static/images/epay/logo.png">'+
+'</span>'+
+'<i>'+
+'<span class="text_tt">'+
+'Khai Thuế &gt;&nbsp'+
+'<span class="red_b">Kê khai trực tuyến</span>'+
+'</span>'+
+'</i>';
+
+var htmlTinh = genHTMLTinh();
+var tdKyKKhaiDHTML =
+'         <input type="text" id="ngaythangnam1" name="ngaythangnam1" size="10" maxlength="10" onblur="validDateFormat(this,\'dd\/mm\/yyyy\');changePLuc()" value="'+ '08/12/2021' +'" class="align-c" onkeypress="return ktraPressEnter(event);">' +
+'         <input type="hidden" id="thangquy1" name="thangquy1">' +
+'         <input type="hidden" id="nam1" name="nam1">';
+var tdKyKKhaiMHTML =
+'         <input type="hidden" id="ngaythangnam1" name="ngaythangnam1">' +
+'         <select id="thangquy1" name="thangquy1" style="width: 40px" onchange="changePLuc();">' +
+'          <option value="1">1<\/option>' +
+'          <option value="2">2<\/option>' +
+'          <option value="3">3<\/option>' +
+'          <option value="4">4<\/option>' +
+'          <option value="5">5<\/option>' +
+'          <option value="6">6<\/option>' +
+'          <option value="7">7<\/option>' +
+'          <option value="8">8<\/option>' +
+'          <option value="9">9<\/option>' +
+'          <option value="10">10<\/option>' +
+'          <option value="11">11<\/option>' +
+'          <option value="12">12<\/option>' +
+'         <\/select>' +
+'        <input type="text" id="nam1" name="nam1" size="4" maxlength="4" onblur="validDateFormat(this,\'yyyy\');" onchange="changePLuc();" value="2021" class="align-c" onkeypress="return ktraPressEnter(event);">';
+var tdKyKKhaiQHTML =
+'         <input type="hidden" id="ngaythangnam1" name="ngaythangnam1">' +
+'         <select id="thangquy1" name="thangquy1" style="width: 45px" onchange="changePLuc();">' +
+'          <option value="1">Q1<\/option>' +
+'          <option value="2">Q2<\/option>' +
+'          <option value="3">Q3<\/option>' +
+'          <option value="4">Q4<\/option>' +
+'         <\/select>' +
+'        <input type="text" id="nam1" name="nam1" size="4" maxlength="4" onblur="chonQuy();validDateFormat(this,\'yyyy\');"  value="2021" class="align-c" onkeypress="return ktraPressEnter(event);">';
+var tdKyKKhaiKHTML =
+'         <input type="hidden" id="ngaythangnam1" name="ngaythangnam1">' +
+'         <select id="thangquy1" name="thangquy1" style="width: 45px" onchange="changePLuc();">' +
+'          <option value="1">K1<\/option>' +
+'          <option value="2">K2<\/option>' +
+'         <\/select>' +
+'        <input type="text" id="nam1" name="nam1" size="4" maxlength="4" onblur="validDateFormat(this,\'yyyy\');" onchange="changePLuc();" value="2021" class="align-c" onkeypress="return ktraPressEnter(event);">';
+var tdKyKKhaiYHTML =
+'        <input type="hidden" id="ngaythangnam1" name="ngaythangnam1">' +
+'        <input type="hidden" id="thangquy1" name="thangquy1">' +
+'        <input type="text" id="nam1" name="nam1" size="4" maxlength="4" onkeypress="return ktraPressEnter(event);" onblur="checkNamKeKhai(this);changePLuc();" value="2020" class="align-c">';
+var tdNgayKhaiBSungLabelHTML =
+'         <input type="text" id="ngayKhaiBSungField" name="ngayKhaiBSung1" size="10" maxlength="10" onblur="validDateFormat(this,\'dd\/mm\/yyyy\')" value="'+ '08/12/2021' +'" class="align-c" onkeypress="return ktraPressEnter(event);">';
+var tdNgayNopTKhaiLabelHTML =
+'         <input type="text" id="ngayNopTKhaiField" name="ngayNopTKhai1" size="10" maxlength="10" onblur="validDateFormat(this,\'dd\/mm\/yyyy\')" value="'+ '08/12/2021' +'" class="align-c" onkeypress="return ktraPressEnter(event);">';
+var tdPLucHTML =
+'<b><font style="color:#0000FF; text-decoration: underline; cursor: hand" onclick="ktraChonPLuc();">Danh s&#225;ch ph&#7909; l&#7909;c<\/font><\/b>';
+var tdKyKKhai_03TNDN = '<input type="text" name="tuNgay" id="tuNgay" size="20" onblur="validDateFormat(this,\'dd\/mm\/yyyy\');checkThang(this);" maxlength="10" class="align-c">'+
+'&nbsp;&nbsp;&nbsp;&nbsp;  <label for="user">Đến ngày </label>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" size="20" name="denNgay" id="denNgay" maxlength="10" onblur="validDateFormat(this,\'dd\/mm\/yyyy\');" class="align-c">'+
+'<input type="hidden" id="tuNgay2" name="tuNgay2"/><input type="hidden" id="denNgay2" name="denNgay2">';
+
+var tdKyKKhai_QToan = '<input type="text" name="tuNgay" id="tuNgay" size="20" onblur="validDateFormat(this,\'mm\/yyyy\');checkThang(this);" maxlength="10" class="align-c">'+
+'&nbsp;&nbsp;&nbsp;&nbsp;  <label for="user">Đến tháng </label>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" size="20" name="denNgay" id="denNgay" maxlength="10" onblur="validDateFormat(this,\'mm\/yyyy\');checkThang(this);" class="align-c">'+
+'<input type="hidden" id="tuNgay2" name="tuNgay2"/><input type="hidden" id="denNgay2" name="denNgay2">';
+
+var maTKhaiObj = document.getElementById('maTKhai');
+var loaiTKhaiObj = document.getElementById('loaiTKhai');
+var tdKyKKhaiObj = document.getElementById('kyKKhai');
+var tdKyKKhaiLabelObj = document.getElementById('kyKKhaiLabel');
+var tdngayKhaiBSungLabelObj = document.getElementById('ngayKhaiBSungLabel');
+var tdngayKhaiBSungObj = document.getElementById('ngayKhaiBSung');
+var tdngayNopTKhaiLabelObj = document.getElementById('ngayNopTKhaiLabel');
+var tdngayNopTKhaiObj = document.getElementById('ngayNopTKhai');
+var plucObj = document.getElementById('pluc');
+var plucLabelObj = document.getElementById('plucLabel');
+var chonCQTObj = document.getElementById('maCQTNoiNop');
+var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+var userCQT = '';
+var userTenCQT = '';
+
+function chonLoaiTKhaiChange(loaiTKhai) {
+
+    if('C' == loaiTKhai) {
+//        document.forms["LapTKhaiOnlineForm"].removeChild(document.forms["LapTKhaiOnlineForm"].ngayKhaiBSung);
+        tdngayKhaiBSungLabelObj.innerHTML = '';
+        tdngayKhaiBSungObj.innerHTML = '';
+        tdngayNopTKhaiLabelObj.innerHTML = '';
+        tdngayNopTKhaiObj.innerHTML='';
+        plucLabelObj.innerHTML = '';
+        changePLuc();
+        document.getElementById("canhbao").innerHTML="";
+    } else if('B' == loaiTKhai) { 
+    	document.getElementById("canhbao").innerHTML="Lưu ý: Yêu cầu nộp tờ khai chính thức trước khi nộp tờ khai bổ sung";
+	    if(maTKhaiObj.value === '464'){
+	        tdngayNopTKhaiLabelObj.innerHTML = 'Ngày nộp tờ khai';
+	        tdngayNopTKhaiObj.innerHTML = tdNgayNopTKhaiLabelHTML;
+	        plucObj.innerHTML = '';
+	        plucLabelObj.innerHTML = '';
+	    }        
+        tdngayKhaiBSungLabelObj.innerHTML = 'Ngày khai bổ sung';
+        tdngayKhaiBSungObj.innerHTML = tdNgayKhaiBSungLabelHTML;
+        plucObj.innerHTML = '';
+        plucLabelObj.innerHTML = '';
+       
+    }  
+}
+
+function chonLoaiNNghe(selectObj) {
+	var ma_nnghe_sele = selectObj.value;
+	var ten_nnghe_sele = selectObj.options[selectObj.selectedIndex].text;
+	var ma_NganhNghe = document.getElementById('ma_NganhNghe');
+	var ten_NganhNghe = document.getElementById('ten_NganhNghe');
+	ma_NganhNghe.value = ma_nnghe_sele;
+	ten_NganhNghe.value = ten_nnghe_sele;
+}
+
+function chonLoaiSPham(selectObj) {
+	var ma_nnghe_sele = selectObj.value;
+	var ten_nnghe_sele = selectObj.options[selectObj.selectedIndex].text;
+	var ma_NganhNghe = document.getElementById('ma_NganhNghe');
+	var ten_NganhNghe = document.getElementById('ten_NganhNghe');
+	var loaiSPham = document.getElementById('loaiSPham');
+	ma_NganhNghe.value = ma_nnghe_sele;
+	ten_NganhNghe.value = ten_nnghe_sele;
+	loaiSPham.value = ma_nnghe_sele;
+}
+
+function checkBox04GTGT(obj){
+	var ma_NganhNghe = document.getElementById('ma_NganhNghe');
+	var ten_NganhNghe = document.getElementById('ten_NganhNghe');
+	if(obj.checked == true){
+		ma_NganhNghe.value = '01';
+		ten_NganhNghe.value = 'Hoạt động thu hộ CQNN có thẩm quyền giao';
+	} else {
+		ma_NganhNghe.value = '00';
+		ten_NganhNghe.value = 'Hoạt động kinh doanh thông thường';
+	}
+}
+
+function ktraKyKK(){
+    var msg = 'Kỳ tính thuế không được lớn hơn kỳ hiện tại';
+    var msgKyKK ='Kỳ báo cáo không được lớn hơn kỳ hiện tại';
+    var ngayHTai = toDate('08/12/2021', 'DD/MM/YYYY');
+    var ngayThangNamObj = document.getElementById('ngaythangnam1');
+    var ngayThangNamVal = ngayThangNamObj.value;
+    var ngayThangNam = toDate(ngayThangNamVal, 'DD/MM/YYYY');
+    var thangQuy = document.getElementById('thangquy1').value;
+    var thangQuyObj = document.getElementById('thangquy1');
+    var namObj = document.getElementById('nam1');
+    var nam = namObj.value;
+    var kieuKy = document.getElementById('kieuKy').value;
+var maTKhaiObj = document.getElementById('maTKhai');
+    if(maTKhaiObj.value=='55'){
+    	if('Y' == kieuKy){
+			if(toNumber(nam) < 2009 || toNumber(nam) > 2016){
+				alert('Tờ khai có hiệu lực đến năm 2016');
+				namObj.focus();
+				return false;
+			}
+    	} else if('D' == kieuKy){
+    		 var namD = ngayThangNamObj.value.split("/")[2];
+    		if(toNumber(namD) < 2009 || toNumber(namD) > 2016){
+    			alert('Tờ khai có hiệu lực đến năm 2016');
+    			ngayThangNamObj.focus();
+				return false;
+    		}
+    	}
+		
+	}
+    if(maTKhaiObj.value=='464'){
+    	
+		if(toNumber(nam) < 2017 && kieuKy == 'Y'){
+			alert('Tờ khai có hiệu lực từ 2017');
+			namObj.focus();
+			return false;
+		} else if(kieuKy == 'D' && (ngayThangNam.getFullYear()) < 2017){
+			alert('Tờ khai có hiệu lực từ 2017');
+			namObj.focus();
+			return false;
+		}
+		
+	}
+    
+    if('M' == kieuKy || 'Q' == kieuKy || 'Y' == kieuKy){
+        if(nam == ''){
+            alert('Chưa nhập năm kê khai');
+            namObj.focus();
+            return false;
+        }else{
+            if(toNumber(nam) < 2000){
+                alert('Năm kê khai phải lớn hơn 1999');
+                namObj.focus();
+                return false;
+            }else{
+                if(toNumber(nam) <= 2006){
+                    alert('Kỳ tính thuế không được nhỏ hơn ngày bắt đầu hiệu lực của tờ khai');
+                    namObj.focus();
+                    return false;
+                }
+            }
+        }
+    }
+    if('D' == kieuKy) {
+    	var maTKhaiObj = document.getElementById('maTKhai');
+        if('' == ngayThangNamVal){
+            alert('Chưa nhập kỳ kê khai');
+            ngayThangNamObj.focus();
+            return false;
+        } else if(maTKhaiObj.value=='468'){
+        	var ngaySDung = toDate(ngayThangNamVal, 'DD/MM/YYYY'); 
+		    var ngayTBPhatHanh = toDate('01/05/2016', 'DD/MM/YYYY'); 
+		    var temp = ngaySDung.getTime() - ngayTBPhatHanh.getTime() + 1;    
+		    var ngayChenhLech = Math.round(temp / 1000 / 60 / 60 / 24);  
+		   if(ngayChenhLech < 0){
+
+
+
+		     alert('Tờ khai có hiệu lực từ 05/2016');
+		     ngayThangNamObj.focus();
+		     return false;
+		   }
+        } else{
+            var namD = ngayThangNamVal.split("/")[2];
+            if(toNumber(namD) < 2000){
+                alert('Năm kê khai phải lớn hơn 1999');
+                ngayThangNamObj.focus();
+                return false;
+            }else{
+                if(toNumber(namD) < 2007){
+                    alert('Kỳ tính thuế không được nhỏ hơn ngày bắt đầu hiệu lực của tờ khai');
+                    ngayThangNamObj.focus();
+                    return false;
+                }
+            }
+           /*  if(ngayThangNam > ngayHTai){
+                var ktrakykk = confirm(msg);
+                if(ktrakykk == true){
+                	return true;
+                }
+                else{
+                	ngayThangNamObj.focus();
+                	return false;
+                }
+                
+            } */
+        }
+    }  else if('M'== kieuKy) {
+    	var maTKhaiObj = document.getElementById('maTKhai');
+    	var thangKkhai = toDate(thangQuy+'/'+nam,'MM/YYYY');
+    	var hlTkhai = toDate('07/2015','MM/YYYY');
+    }   else if('Q'== kieuKy) {
+    	var maTKhaiObj = document.getElementById('maTKhai');
+    	var hlTkhai = toDate('07/2015','MM/YYYY');
+        if('1' == thangQuy) {
+            ngayDauQuy = toDate('01/01/' + nam, 'DD/MM/YYYY');
+            thangDauQuy = toDate('01/' + nam, 'MM/YYYY');
+        } else if('2' == thangQuy) {
+            ngayDauQuy = toDate('01/04/' + nam, 'DD/MM/YYYY');
+            thangDauQuy = toDate('04/' + nam, 'MM/YYYY');
+        }else if('3' == thangQuy) {
+            ngayDauQuy = toDate('01/07/' + nam, 'DD/MM/YYYY');
+            thangDauQuy = toDate('07/' + nam, 'MM/YYYY');
+            
+        }else if('4' == thangQuy) {
+            ngayDauQuy = toDate('01/10/' + nam, 'DD/MM/YYYY');
+            thangDauQuy = toDate('10/' + nam, 'MM/YYYY');
+        }
+        
+    } else if('Y'== kieuKy) {
+        var maTKhaiObj = document.getElementById('maTKhai');
+        ngayDauNam = toDate('01/01/' + nam, 'DD/MM/YYYY');
+      /*   if((ngayDauNam > ngayHTai)&&(maTKhaiObj.value!='55')){
+            var ktrakykk = confirm('Kỳ tính thuế không được lớn hơn năm hiện tại');
+            if(ktrakykk == true){
+            	return true;
+            }
+            else{
+            	namObj.focus();
+            	return false;
+            }
+        } */
+       var loaiTKhai = document.getElementById('loaiTKhai').value;
+       if(maTKhaiObj.value == '42' || maTKhaiObj.value == '43' || maTKhaiObj.value == '103' || maTKhaiObj.value == '44'){
+        	var kyKKhaiTuThang = document.getElementById('tuNgay');
+        	kyKKhaiTuThang = toDate(kyKKhaiTuThang.value, 'MM/YYYY');
+        	ngayDau2015 = toDate('01/01/2015','DD/MM/YYYY');
+        	ngayDau2017 = toDate('01/01/2017','DD/MM/YYYY');
+        	ngayDau2010 = toDate('01/01/2010','DD/MM/YYYY');
+        	if(loaiTKhai == 'C' && (kyKKhaiTuThang >= ngayDau2015 || toNumber(nam)>2014) || (kyKKhaiTuThang < ngayDau2010|| toNumber(nam)<2010) ){
+
+        		alert('Tờ khai có hiệu lực đến năm 2014');
+        		document.getElementById("tuNgay").focus();
+        		return false;
+        	}
+        	if(loaiTKhai == 'B' && (kyKKhaiTuThang >= ngayDau2017 || toNumber(nam)>2016)){
+        		alert('Tờ khai có hiệu lực đến năm 2016');
+    			document.getElementById("tuNgay").focus();
+    			return false;
+        	}
+        	else{
+        		return true;
+        	}
+        }
+
+       if(maTKhaiObj.value == '395'){
+       	var kyKKhaiTuThang = document.getElementById('tuNgay');
+			var kyKKhaiDenThang = document.getElementById('denNgay');
+       	kyKKhaiTuThang = toDate(kyKKhaiTuThang.value, 'MM/YYYY');
+       	ngayDau2015 = toDate('01/01/2015','DD/MM/YYYY');
+       	
+       	if((kyKKhaiTuThang < ngayDau2015 || toNumber(nam)<2015)){
+       		alert('Tờ khai có hiệu lực từ năm 2015');
+       		document.getElementById("tuNgay").focus();
+       		return false;
+       	}
+			
+       	if(kyKKhaiTuThang && kyKKhaiDenThang){
+       			kyKKhaiDenThang = toDate(kyKKhaiDenThang.value, 'MM/YYYY');
+       		if(kyKKhaiTuThang > kyKKhaiDenThang){
+       			alert('Từ tháng phải nhỏ hơn đến tháng');
+                   return false;
+       		}          
+       	}
+       
+       	
+       	else{
+       		return true;
+       	}
+       }
+      /*  if(maTKhaiObj.value == '473'){
+       	var kyKKhaiTuThang = document.getElementById('tuNgay');
+			var kyKKhaiDenThang = document.getElementById('denNgay');
+       	kyKKhaiTuThang = toDate(kyKKhaiTuThang.value, 'MM/YYYY');
+       	ngayDau2015 = toDate('01/08/2021','DD/MM/YYYY');
+       	
+       	if((kyKKhaiTuThang < ngayDau2015 || toNumber(nam)<2021)){
+       		alert('Tờ khai có hiệu lực từ 01/08/2021');
+       		document.getElementById("tuNgay").focus();
+       		setTimeout(function() {
+            	obj.focus();
+			}, 3);
+       		return false;
+       	}
+			
+       	 if(kyKKhaiTuThang && kyKKhaiDenThang){
+       			kyKKhaiDenThang = toDate(kyKKhaiDenThang.value, 'MM/YYYY');
+       		if(kyKKhaiTuThang > kyKKhaiDenThang){
+       			alert('Từ tháng phải nhỏ hơn đến tháng');
+                   return false;
+       		}          
+       	}
+       
+       	
+       	else{
+       		return true;
+       	}
+       } */
+        /* if(maTKhaiObj.value == '44'){
+        	var kyKKhaiTuThang = document.getElementById('tuNgay');
+        	kyKKhaiTuThang = toDate(kyKKhaiTuThang.value, 'MM/YYYY');
+        	ngayDau2014 = toDate('01/01/2015','DD/MM/YYYY');
+        	if(kyKKhaiTuThang >= ngayDau2014 || toNumber(nam)>2014){
+        		alert('Tờ khai có hiệu lực đến năm 2014');
+        		document.getElementById("tuNgay").focus();
+        		return false;
+        	}
+        	else{
+        		return true;
+        	}
+        } */
+        
+        else if(maTKhaiObj.value == '445' || maTKhaiObj.value == '264' || maTKhaiObj.value == '265' || maTKhaiObj.value == '266' || maTKhaiObj.value == '270' || maTKhaiObj.value == '441'|| maTKhaiObj.value == '446'|| maTKhaiObj.value == '447'|| maTKhaiObj.value == '88'|| maTKhaiObj.value == '86' || maTKhaiObj.value == '469' ){
+        	var kyKKhaiTuThang = document.getElementById('tuNgay'),
+        		kyKKhaiDenThang = document.getElementById('denNgay');
+        	if(kyKKhaiTuThang && kyKKhaiDenThang){
+        			kyKKhaiTuThang = toDate(kyKKhaiTuThang.value, 'MM/YYYY');
+        			kyKKhaiDenThang = toDate(kyKKhaiDenThang.value, 'MM/YYYY');
+        		if(kyKKhaiTuThang > kyKKhaiDenThang){
+        			alert('Từ tháng phải nhỏ hơn đến tháng');
+                    return false;
+        		}
+        		if(kyKKhaiDenThang > ngayHTai){
+        			alert('Đến tháng không được lớn hơn kỳ hiện tại');
+                    return false;
+        		}
+        		var tempMonth = (kyKKhaiDenThang.getFullYear() - kyKKhaiTuThang.getFullYear()) * 12 + kyKKhaiDenThang.getMonth() - kyKKhaiTuThang.getMonth() + 1;
+        		if(maTKhaiObj.value == '445' || maTKhaiObj.value == '270' || maTKhaiObj.value == '441'){
+        			if(tempMonth > 12){
+	        			alert('Khoảng cách từ tháng đến tháng không vượt quá 12 tháng');
+	                    return false;
+	        		}
+        		}else{
+        			if(tempMonth > 15){
+	        			alert('Khoảng cách từ tháng đến tháng không vượt quá 15 tháng');
+	                    return false;
+	        		}
+        		}
+        		
+        	}
+        }
+//         else if(maTKhaiObj.value =='03'){
+//         	var kyKKhaiTuThang = document.getElementById('tuNgay'),
+//         		kyKKhaiDenThang = document.getElementById('denNgay');
+//         	if(kyKKhaiTuThang && kyKKhaiDenThang){
+//         			if(kyKKhaiTuThang.value.substring(6,10) != nam || kyKKhaiDenThang.value.substring(6,10) != nam){
+// 	        			alert('Từ tháng đến tháng phải thuộc kỳ kê khai');
+// 	                    return false;
+// 	        		}
+//         	}
+//         }
+        
+    } else if('K'== kieuKy) {
+        if('1' == thangQuy) {
+            ngayDauQuy = toDate('01/01/' + nam, 'DD/MM/YYYY');
+        } else if('2' == thangQuy) {
+            ngayDauQuy = toDate('01/07/' + nam, 'DD/MM/YYYY');
+        }
+      /*   if(ngayDauQuy > ngayHTai){
+//          alert('Tháng đầu tiên của kỳ tính thuế không được lớn hơn tháng hiện tại');
+            var ktrakykk = confirm(msgKyKK);
+            if(ktrakykk == true){
+            	return true;
+            }
+            else{
+            	thangQuyObj.focus();
+            	return false;
+            }
+        } */
+    }
+    return true;
+}
+
+function changePLuc() {
+//    var maTKhai = maTKhaiObj.value;
+//    if(('--'!=maTKhai)){
+////    var tdPLucObj = document.getElementById('pluc');Phụ lục
+//      //plucLabelObj.innerHTML = "Phụ lục";
+////    var maTKhai = maTKhaiObj.value;
+////    buildPLucHTML(maTKhai);
+//    ktraChonPLuc();
+//    }
+}
+
+function ktraNgayKhaiKHBS(){
+    var ngayKhaiBSungField = document.getElementById('ngayKhaiBSungField');
+    if(ngayKhaiBSungField == null || ngayKhaiBSungField.value == ''){
+        alert('Chưa chọn ngày lập KHBS');
+        ngayKhaiBSungField.focus();
+        return false;
+    }
+    var msg = "Ngày kê khai bổ sung không được nhỏ hơn kỳ tính thuế của tờ khai cần bổ sung và lớn hơn ngày hiện tại";
+    var ngayHTai = toDate('08/12/2021', 'DD/MM/YYYY');
+    var ngayThangNam = toDate(document.getElementById('ngaythangnam1').value, 'DD/MM/YYYY');
+    var thangQuy = document.getElementById('thangquy1').value;
+    var namObj = document.getElementById('nam1');
+    var nam = namObj.value;
+    var ngayDauThang;
+    var ngayDauQuy;
+    var ngayDauNam;
+    var ngayKhaiBSungObj = document.getElementById('ngayKhaiBSungField');
+    var ngayKhaiBSung = toDate(ngayKhaiBSungObj.value, 'DD/MM/YYYY');
+
+    var kieuKy = document.getElementById('kieuKy').value;
+
+    if('D' == kieuKy) {
+        if(ngayThangNam > ngayKhaiBSung){
+            alert(msg);
+            ngayKhaiBSungObj.focus();
+            return false;
+        }
+    } else if('M'== kieuKy) {
+        ngayDauThang = toDate('01/' + thangQuy + '/' + nam, 'DD/MM/YYYY');
+        if(ngayDauThang > ngayKhaiBSung){
+            alert(msg);
+            ngayKhaiBSungObj.focus();
+            return false;
+        }
+    }  else if('Q'== kieuKy) {
+        if('1' == thangQuy) {
+            ngayDauQuy = toDate('01/01/' + nam, 'DD/MM/YYYY');
+        } else if('2' == thangQuy) {
+            ngayDauQuy = toDate('01/04/' + nam, 'DD/MM/YYYY');
+        }else if('3' == thangQuy) {
+            ngayDauQuy = toDate('01/07/' + nam, 'DD/MM/YYYY');
+        }else if('4' == thangQuy) {
+            ngayDauQuy = toDate('01/10/' + nam, 'DD/MM/YYYY');
+        }
+        if(ngayDauQuy > ngayKhaiBSung){
+            alert(msg);
+            ngayKhaiBSungObj.focus();
+            return false;
+        }
+    } else if('Y'== kieuKy) {
+        ngayDauNam = toDate('01/01/' + nam, 'DD/MM/YYYY');
+        if(ngayDauNam > ngayKhaiBSung){
+            alert(msg);
+            ngayKhaiBSungObj.focus();
+            return false;
+        }
+    }
+    if(ngayKhaiBSung > ngayHTai) {
+        alert(msg);
+        ngayKhaiBSungObj.focus();
+        return false;
+    }
+    return true;
+}
+function getQuyFromNgay(ngayHTai){
+    var thang = ngayHTai.substring(3,5);
+    thang=toNumber(thang);
+    if(thang==1||thang==2||thang==3){
+        return 1;
+    }
+    if(thang==4||thang==5||thang==6){
+        return 2;
+    }
+    if(thang==7||thang==8||thang==9){
+        return 3;
+    }
+    if(thang==10||thang==11||thang==12){
+        return 4;
+    }
+}
+function chonCQT(maTKhai) {
+	userCQT = '70100';
+	userTenCQT = 'Cục Thuế Thành phố Hồ Chí Minh';
+    var regMaTKhaiVangLai = /^()$/g;
+    if( regMaTKhaiVangLai.test(maTKhai)){
+        chonCQTObj.disabled = false;
+        getDsCQT(maTKhai);
+    } else {
+    	setDefaultCQT();
+        chonCQTObj.disabled = true;
+    }
+    var kieuKy = document.getElementById('kieuKy').value;
+    if((maTKhai == '473') && (kieuKy == 'Y' || kieuKy == 'Q' || kieuKy == 'M')){
+    	chonCQTObj.disabled = true;
+    }
+    
+}
+//lay ra danh sach cac co quan thue dang ky ung vs tkhai vang lai
+function getDsCQT(maTKhai) {
+    if (!maTKhai) {
+    	return;
+    }
+    $.ajax({
+	    url : "/etaxnnt/Request?&dse_sessionId=orLlkS7BdCks_WtL3HuGDMy&dse_applicationId=-1&dse_pageId=11&dse_operationName=taxOnlineEnumerationProc&dse_processorState=initial&dse_nextEventName=getDsCQTVangLai",
+    	data: "maTKhai="+maTKhai,
+        dataType: 'json',
+        success: function (result) {
+            var html = "<option value=\""+ userCQT +"\">"+ userTenCQT +"</option>";
+            for (var index in result.list) {
+            	if (result.list[index].ma_cq_thue != userCQT)
+                	html += "<option value=\""+ result.list[index].ma_cq_thue +"\">"+ result.list[index].ten_cq_thue +"</option>";
+            }
+
+            $('#maCQTNoiNop').html(html);
+        },async:false
+    });
+}
+
+//khi khong phai tkhai vang lai set gia tri combo box ve mac dinh
+function setDefaultCQT() {
+	html = "<option value=\""+ userCQT +"\">"+ userTenCQT +"</option>";
+	$('#maCQTNoiNop').html(html);
+}
+
+function setDefaultNNghe() {
+	html = "<option value=\"06\">Sản xuất điện</option>";
+	$('#dmucNNgheSele').html(html);
+	var ma_NganhNghe = document.getElementById('ma_NganhNghe');
+	var ten_NganhNghe = document.getElementById('ten_NganhNghe');
+	ma_NganhNghe.value = '06';
+	ten_NganhNghe.value = 'Sản xuất điện';
+}
+function checkNamKeKhai(obj){
+    if(obj.value!=''){
+    	var kieuKy = document.getElementById('kieuKy').value;
+    	var maTKhai = $('#maTKhai').find('option:selected').val();
+    	if(maTKhai=='395'){
+    		var currentY = (new Date()).getFullYear();
+    		var nam1 = obj.value;
+    		if(parseInt(nam1) > currentY){
+    			alert('Kỳ kê khai không được lớn hơn năm hiện tại');
+        		setTimeout(function(){
+        			obj.focus();
+    			}, 100);
+        		return false;
+    		}
+
+    	}
+        if(validDateFormat(obj,'yyyy')){
+            var regMaTKhaiQuyetToan = /^(86|84|44|42|103|88|43|08|62|60|395|393|264|265|266|270|441|469|473)$/g;
+            if( regMaTKhaiQuyetToan.test(maTKhaiObj.value)){
+                ktraTKhaiQuyetToan();
+            } else if( (maTKhaiObj.value=='380' && 'Y' == kieuKy)
+					 || (maTKhaiObj.value=='381' && 'Y' == kieuKy)
+					 || (maTKhaiObj.value=='445' && 'Y' == kieuKy)
+					 || (maTKhaiObj.value=='446' && 'Y' == kieuKy)
+					 || (maTKhaiObj.value=='447' && 'Y' == kieuKy)
+					 || (maTKhaiObj.value=='473' && 'Y' == kieuKy)){
+            	ktraTKhaiQuyetToan();
+			} else if(maTKhaiObj.value=='03' || maTKhaiObj.value=='402' || maTKhaiObj.value=='465' ||maTKhaiObj.value=='466'|| maTKhaiObj.value=='467' || (maTKhaiObj.value=='386' && 'Y' == kieuKy)
+            								 || (maTKhaiObj.value=='74' && 'Y' == kieuKy)
+            								 || (maTKhaiObj.value=='72' && 'Y' == kieuKy) 
+            								 || (maTKhaiObj.value=='671' && 'Y' == kieuKy)
+            								 || (maTKhaiObj.value=='672' && 'Y' == kieuKy)
+            								 || (maTKhaiObj.value=='675' && 'Y' == kieuKy)
+            								 || (maTKhaiObj.value=='676' && 'Y' == kieuKy)
+            								 || maTKhaiObj.value=='683'
+            								 || maTKhaiObj.value=='684'
+            								 || maTKhaiObj.value=='685'
+            								 || maTKhaiObj.value=='686' || maTKhaiObj.value=='691'|| maTKhaiObj.value=='692' || maTKhaiObj.value=='690'|| maTKhaiObj.value=='701'|| maTKhaiObj.value=='698'|| maTKhaiObj.value=='699'|| maTKhaiObj.value=='700' || maTKhaiObj.value=='702'){               
+            								  ktraTKhaiQToanTNDN();
+            } else {
+                if((ngayKeKhaiTKhai03LabelObj!=null)&&(ngayKeKhaiTKhai03Obj!=null)){
+                    ngayKeKhaiTKhai03LabelObj.innerHTML = '';
+                    ngayKeKhaiTKhai03Obj.innerHTML = '';
+                }
+            }
+        }
+    }
+}
+
+function checkThang(obj){
+//function checkThang(obj,input){
+    var ngayTChinh = '01/01';
+    var namTChinh =document.getElementById('nam1').value;
+    var thangTChinh = ngayTChinh.substring(3,ngayTChinh.length);
+    //alert(thangTChinh);
+
+    var tuThang = toNumber(thangTChinh);
+    var tuNam = toNumber(namTChinh);
+    var thangTemp = toNumber((obj.value).substring(0,2));
+    var namTemp = toNumber((obj.value).substring(3,7));
+    var denThang = ((((tuThang -1).toString()).length)==1?('0'+((tuThang -1).toString())+'/'+(tuNam+1)):(((tuThang -1).toString())+'/'+(tuNam+1)));
+    if(tuThang != 1){
+        if((namTemp == tuNam && thangTemp>= tuThang) || (namTemp == (tuNam+1) && thangTemp < tuThang)){
+           //ok
+        }else{
+             alert('Giá trị nhập phải nằm trong khoảng từ tháng '+thangTChinh+'/'+namTChinh+' đến tháng '+denThang+'.' );
+            obj.focus();
+        }
+    }
+    var maTKhai = $('#maTKhai').find('option:selected').val();
+    if(maTKhai == '395' || maTKhai == '03'){
+    	if(maTKhai == '03'){
+    		var nam = obj.value.split('/')[2];
+    	} else {
+    		var nam = obj.value.split('/')[1];
+    	}
+    	var idElemt = obj.id;
+    	if(namTChinh != nam){
+    		if(idElemt == 'tuNgay'){
+    			alert('Từ tháng phải thuộc kỳ tính thuế');
+    		}
+    		else{ 
+    			alert('Đến tháng phải thuộc kỳ tính thuế');
+    		}
+    		setTimeout(function(){
+    			obj.focus();
+			}, 100);
+    		return false;
+    	}
+    	var d = new Date();
+    	d.setHours(0,0,0,0);
+    	var nowTime = d.getTime();
+    	var date = obj.value;
+    	var dateArray = date.split("/");
+    	var year1=dateArray[1];
+    	var month1=dateArray[0] -1;
+    	var day1='01';
+    	var compareDate = new Date(year1, month1, day1).getTime();
+    	if(nowTime < compareDate){	
+    		if(idElemt == 'tuNgay'){
+    			alert('Từ tháng không được lớn hơn tháng hiện tại');
+    		}
+    		else{ 
+    			alert('Đến tháng không được lớn hơn tháng hiện tại');
+    		}
+    		setTimeout(function(){
+    			obj.focus();
+    		}, 100);
+    		return false;
+    	}else{
+    		return true;
+    	}
+    }
+    if(maTKhai == '473'){
+    	var nam = obj.value.split('/')[1];
+    	var idElemt = obj.id;
+    	 if(namTChinh != nam){
+    		if(idElemt == 'tuNgay'){
+    			alert('Từ tháng phải thuộc kỳ tính thuế');
+    			setTimeout(function(){
+    			obj.focus();
+			},0,01);
+    		return false;
+    		}
+    		else{ 
+    			alert('Đến tháng phải thuộc kỳ tính thuế');
+    			setTimeout(function(){
+    			obj.focus();
+			},0,01);
+			return false;
+    		}
+    	}else{
+    		return true;
+    	}
+    	var tuThang =document.getElementById('tuNgay');
+    	var denThang =document.getElementById('denNgay');
+    	var checkTuThang = tuThang.value.substring(0,2);
+    	var checkDenThang = denThang.value.substring(0,2);
+    	var kyKKhaiDenThang = toDate(tuThang.value, 'MM/YYYY');
+    	var kyKKhaiTuThang = toDate(tuThang.value, 'MM/YYYY');
+       	var ngayDau2021 = toDate('01/08/2021','DD/MM/YYYY');
+       	/* if((kyKKhaiTuThang < ngayDau2021 || toNumber(nam)<2021)){
+       		alert('Tờ khai có hiệu lực từ 01/08/2021');
+       		setTimeout(function() {
+            	$("#tuNgay").focus();
+			}, 3); 
+			return false;
+       	} */if(tuThang.value != '' && denThang.value != ''){
+	       	if(toNumber(checkTuThang) > toNumber(checkDenThang)){
+	       			alert('Từ tháng phải nhỏ hơn đến tháng');
+	       			setTimeout(function() {
+		            	$("#denNgay").focus();
+					}, 3);
+	                return false;
+	       		}  
+       	}
+       	return true;
+       		        
+    }
+
+}
+function init05TNDN(){
+	if($('#maTKhai').val() == '687'){
+		$('#TNDN05').css('display', '');
+	}
+}
+function init01GTGT(){
+	if($('#maTKhai').val() == '01'){
+		$('#dmucNNgheTR').css('display', '');
+	}
+}
+function init04GTGT(){
+	if($('#maTKhai').val() == '07'){
+		$('#dmucNNghe04GTGT').css('display', '');
+	}
+}
+
+function initTKhaiDauKhi(){
+	var maTKhai = $('#maTKhai').val();
+	var kieuKy = $('#kieuKy').val();
+
+	if(maTKhai == '443' || maTKhai == '444' || maTKhai == '446' || maTKhai == '447' || maTKhai == '264' || maTKhai == '265' || maTKhai == '266' 
+			|| maTKhai == '440' || maTKhai == '374' || maTKhai == '375' || maTKhai == '380' || maTKhai == '381'){
+		
+		if((kieuKy == 'Y' || kieuKy == 'Q') && maTKhai != '266'){
+			$('#tkhaiDauKhiY').css('display', '');
+		} else {
+			$('#tkhaiDauKhiY').css('display', 'none');
+		}
+		if(kieuKy == 'M'){
+			$('#tkhaiDauKhiM').css('display', '');
+		} else {
+			$('#tkhaiDauKhiM').css('display', 'none');
+		}
+		if(kieuKy == 'D' || maTKhai == '266'){
+			$('#tkhaiDauKhiD').css('display', '');
+		} else {
+			$('#tkhaiDauKhiD').css('display', 'none');
+		}
+	} else {
+		$('#tkhaiDauKhiY').css('display', 'none');
+ 		$('#tkhaiDauKhiM').css('display', 'none');
+ 		$('#tkhaiDauKhiD').css('display', 'none');
+	}
+				
+}
+
+function chonTKhai(selectObj){
+    var kieuKy;
+    var tenTKhai;
+    var tenTKhaiObj = document.getElementById('tenTKhai');
+    var kieuKyObj = document.getElementById('kieuKy');
+    var loaiTKhai = document.getElementById('loaiTKhai').value;
+    var ngayHTai ='08/12/2021';
+    var maTKhai = selectObj.value;
+    
+    if(maTKhai == '') {
+        return true;
+    }
+    if(maTKhai == '687') {
+    	$('#TNDN05').css('display', '');
+    } else {
+    	$('#TNDN05').css('display', 'none');
+    }
+    if(maTKhai == '01') {
+    	$('#dmucNNgheTR').css('display', '');
+    } else {
+    	$('#dmucNNgheTR').css('display', 'none');
+    }
+    if(maTKhai == '07') {
+    	$('#dmucNNghe04GTGT').css('display', '');
+    	$('#ma_NganhNghe').val('00');
+		$('#ten_NganhNghe').val('Hoạt động kinh doanh thông thường');
+    } else {
+    	$('#dmucNNghe04GTGT').css('display', 'none');
+    }
+    
+//     if(maTKhai == '01') {
+//     	$('#dmucTinhTT80').css('display', '');
+    	
+//     	initTkhaiReload();
+//     } else {
+//     	$('#dmucTinhTT80').css('display', 'none');
+//     }
+    
+    if('--' == maTKhai){
+        tdKyKKhaiObj.innerHTML = '';
+        tdKyKKhaiLabelObj.innerHTML = '';
+        selectObj.selectedIndex = selectObj.selectedIndex + 1;
+        maTKhai = selectObj.value;
+    }
+        kieuKy = arrTKhai[maTKhai].kieuKy;
+        tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+        //Bỏ lựa chọn tờ khai bổ sung với những tờ không có bổ sung
+        var loaiTKhaiCB = document.getElementById('loaiTKhai');
+        
+         if(maTKhai=='123'){
+    		$('#checkTr').css('display', 'none');
+    		tdKyKKhaiLabelObj.innerHTML = 'Kỳ gửi';
+    		//xóa 2
+    		if(loaiTKhaiCB.length == 1){
+    			loaiTKhaiCB.options.remove(0);
+    			var mangId = ['L','D','T'];
+	    		var mangTen = ['Lần đầu','Định kỳ tháng','Tra soát'];
+	    	//thêm 3
+	    		for (var i = 0; i < mangId.length; i++) {
+    				var optn1 = document.createElement("option");
+					optn1.text = mangTen[i];
+	            	optn1.value = mangId[i];
+	            	loaiTKhaiCB.options.add(optn1);
+				}
+    		}
+    		if(loaiTKhaiCB.length == 2){
+    		//xóa 2
+    			loaiTKhaiCB.options.remove(1);
+    			loaiTKhaiCB.options.remove(0);
+    			var mangId = ['L','D','T'];
+	    		var mangTen = ['Lần đầu','Định kỳ tháng','Tra soát'];
+	    	//thêm 3
+	    		for (var i = 0; i < mangId.length; i++) {
+    				var optn1 = document.createElement("option");
+					optn1.text = mangTen[i];
+	            	optn1.value = mangId[i];
+	            	loaiTKhaiCB.options.add(optn1);
+				}
+    		}
+	    } else if( maTKhaiObj.value == "393" || maTKhaiObj.value == "14" || maTKhaiObj.value == "54" || maTKhaiObj.value == "68" || maTKhaiObj.value == "66" || maTKhaiObj.value == "67" || maTKhaiObj.value == "56"|| maTKhaiObj.value == "57"
+           ||((maTKhaiObj.value == "71")&&('M' == kieuKy)) || maTKhaiObj.value == "285"
+           || maTKhaiObj.value == "49" || maTKhaiObj.value == "50" || maTKhaiObj.value == "51" || maTKhaiObj.value == "52" /*|| ((maTKhaiObj.value == "41")&&('D' == kieuKy))*/
+           || maTKhaiObj.value == "98" || maTKhaiObj.value == "99" || maTKhaiObj.value == "101" || maTKhaiObj.value == "102" || maTKhaiObj.value == "104" || maTKhaiObj.value == "131" || maTKhaiObj.value == "300" || maTKhaiObj.value == "302"
+           || maTKhaiObj.value == "105" || maTKhaiObj.value == "106" || maTKhaiObj.value == "129" || maTKhaiObj.value == "107"|| maTKhaiObj.value == "114" || maTKhaiObj.value == "115" || maTKhaiObj.value == "116" || maTKhaiObj.value == "275"
+           || maTKhaiObj.value == "260" || maTKhaiObj.value == "261" || maTKhaiObj.value == "262" || maTKhaiObj.value == "263" || maTKhaiObj.value == "275" || maTKhaiObj.value == "372" || maTKhaiObj.value == "371"
+           || maTKhaiObj.value == "377" || maTKhaiObj.value == "378" || maTKhaiObj.value == "379" || maTKhaiObj.value == "382" || maTKhaiObj.value == "383" 
+           || maTKhaiObj.value == "402" || maTKhaiObj.value=='465' || maTKhaiObj.value == "384" || maTKhaiObj.value == "438" || maTKhaiObj.value == "437" || maTKhaiObj.value == "439" || maTKhaiObj.value == "466" || maTKhaiObj.value == "467" 
+           || maTKhaiObj.value=='671' || maTKhaiObj.value=='672' || maTKhaiObj.value=='675' || maTKhaiObj.value=='676' || maTKhaiObj.value=='680'
+           || maTKhaiObj.value=='683' || maTKhaiObj.value=='684' || maTKhaiObj.value=='685' || maTKhaiObj.value=='686' || maTKhaiObj.value=='689' 
+		   || maTKhaiObj.value=='410' || maTKhaiObj.value=='411' || maTKhaiObj.value=='412' || maTKhaiObj.value=='371' || maTKhaiObj.value=='688'|| maTKhaiObj.value=='690' || maTKhaiObj.value=='691' || maTKhaiObj.value=='692' || maTKhaiObj.value=='693' || maTKhaiObj.value=='701'
+		   || maTKhaiObj.value=='698'|| maTKhaiObj.value=='699'|| maTKhaiObj.value=='700' || maTKhaiObj.value=='702' || maTKhaiObj.value=='713' || maTKhaiObj.value=='714'|| maTKhaiObj.value=='3000'){
+		   	$('#checkTr').css('display', '');
+		   	tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+		   	if(loaiTKhaiCB.length == 3){
+		   		loaiTKhaiCB.options.remove(2);
+		   		loaiTKhaiCB.options.remove(1);
+		   		loaiTKhaiCB.options.remove(0);
+		   		var mangId2 = ['C','B'];
+    			var mangTen2 = ['Tờ khai chính thức','Tờ khai bổ sung'];
+	    		for (var e = 0; e < mangId2.length; e++) {
+	    			var optn2 = document.createElement("option");
+					optn2.text = mangTen2[e];
+	            	optn2.value = mangId2[e];
+	            	loaiTKhaiCB.options.add(optn2);
+				}
+		   	}else if(loaiTKhaiCB.length == 0){
+		   		var mangId3 = ['C','B'];
+    			var mangTen3 = ['Tờ khai chính thức','Tờ khai bổ sung'];
+	    		for (var f = 0; f < mangId3.length; f++) {
+	    			var optnf = document.createElement("option");
+					optnf.text = mangTen3[f];
+	            	optnf.value = mangId3[f];
+	            	loaiTKhaiCB.options.add(optnf);
+				}
+		   	}
+		   	
+		   	
+            if (loaiTKhaiCB.length == 2)
+            	loaiTKhaiCB.options.remove(1);
+        }else{
+        $('#checkTr').css('display', '');
+        tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+        	if(loaiTKhaiCB.length == 3){
+        		loaiTKhaiCB.options.remove(2);
+		   		loaiTKhaiCB.options.remove(1);
+		   		loaiTKhaiCB.options.remove(0);
+		   		var mangId4 = ['C','B'];
+    			var mangTen4 = ['Tờ khai chính thức','Tờ khai bổ sung'];
+	    		for (var b = 0; b < mangId4.length; b++) {
+	    			var optnB = document.createElement("option");
+					optnB.text = mangTen4[b];
+	            	optnB.value = mangId4[b];
+	            	loaiTKhaiCB.options.add(optnB);
+				}
+		   	}
+            if(loaiTKhaiCB.length == 1){
+                var optn = document.createElement("option");
+                optn.text = "Tờ khai bổ sung";
+                optn.value = "B";
+                loaiTKhaiCB.options.add(optn);
+            }
+        }
+         
+         // hiển thị loại sản phẩm các tờ dầu khí
+         if(maTKhai == '443' || maTKhai == '444' || maTKhai == '446' || maTKhai == '447' || maTKhai == '264' || maTKhai == '265' || maTKhai == '266' 
+     		|| maTKhai == '440' || maTKhai == '374' || maTKhai == '375' || maTKhai == '380' || maTKhai == '381'){
+         	
+         	if((kieuKy == 'Y' || kieuKy == 'Q') && maTKhai != '266'){
+     			$('#tkhaiDauKhiY').css('display', '');
+     		} else {
+     			$('#tkhaiDauKhiY').css('display', 'none');
+     		}
+     		if(kieuKy == 'M'){
+     			$('#tkhaiDauKhiM').css('display', '');
+     		} else {
+     			$('#tkhaiDauKhiM').css('display', 'none');
+     		}
+     		if(kieuKy == 'D' || maTKhai == '266'){
+     			$('#tkhaiDauKhiD').css('display', '');
+     		} else {
+     			$('#tkhaiDauKhiD').css('display', 'none');
+     		}
+     	} else {
+     		$('#tkhaiDauKhiY').css('display', 'none');
+     		$('#tkhaiDauKhiM').css('display', 'none');
+     		$('#tkhaiDauKhiD').css('display', 'none');
+     	}
+       
+        
+        
+        //huyph them 
+		ngayKeKhaiTKhai03Obj.innerHTML = '';
+		ngayKeKhaiTKhai03LabelObj.innerHTML = '';
+		if('D' == kieuKy){
+            tdKyKKhaiObj.innerHTML = tdKyKKhaiDHTML;
+            if(maTKhai == '470'){
+            	ktraTKhaiTTS_TT40();
+            	tdKyKKhaiLabelObj.innerHTML = '';
+            	document.getElementById('ngaythangnam1').setAttribute("type", "hidden");
+            }
+        }else if('M' == kieuKy){
+            tdKyKKhaiObj.innerHTML = tdKyKKhaiMHTML;
+            var thang=document.getElementById('thangquy1');
+            var m=ngayHTai.substring(3,5);
+            m=toNumber(m);
+            var month=m.toString();
+            for(var i=0;i< thang.options.length;i++){
+                if(thang.options[i].value==month){
+                    if(i==0){
+                        thang.selectedIndex=thang.options.length -1;
+                        var nam=document.getElementById('nam1');
+                        nam.value = nam.value -1;
+                    }else thang.selectedIndex=i-1;
+                }
+            }
+        }else if('Q' == kieuKy){  
+        	tdKyKKhaiObj.innerHTML = tdKyKKhaiQHTML;      	
+            var optionObj = document.getElementById('thangquy1');
+            var thangQuy = getQuyFromNgay(ngayHTai);
+            for(var i=0;i<optionObj.options.length;i++){
+                if(optionObj.options[i].value==thangQuy){
+                    if(i==0){
+                        optionObj.selectedIndex=optionObj.options.length -1;
+                        var namQ=document.getElementById('nam1');
+                        namQ.value = namQ.value -1;
+                    }else  optionObj.selectedIndex= i - 1;
+                }
+            }
+             // TTS
+            if(maTKhai =='388'){
+            	document.getElementById('thangquy1').onchange = chonQuy;
+            	ktraTKhaiTTS();
+            }
+            if(maTKhai == '470'){
+            	document.getElementById('thangquy1').onchange = chonQuy_TT40;
+            	tKhaiTTS_TT40_Quy();
+            }
+        }else if('Y' == kieuKy){
+            tdKyKKhaiObj.innerHTML = tdKyKKhaiYHTML;
+            if(maTKhai=='55'){
+                var namY=document.getElementById('nam1');
+                namY.value = "2021";
+            } else if(maTKhai!='--'){
+                if((ngayKeKhaiTKhai03LabelObj!=null)&&(ngayKeKhaiTKhai03Obj!=null)){
+                    ngayKeKhaiTKhai03LabelObj.innerHTML = '';
+                    ngayKeKhaiTKhai03Obj.innerHTML = '';
+                }
+            }
+            
+        }else if('K' == kieuKy){
+            tdKyKKhaiObj.innerHTML = tdKyKKhaiKHTML;
+            var optionObj = document.getElementById('thangquy1');
+            var thangQuy = getQuyFromNgay(ngayHTai);
+            for(var i=0;i<optionObj.options.length;i++){
+                if(optionObj.options[i].value==thangQuy){
+                    if(i==0){
+                        optionObj.selectedIndex=optionObj.options.length -1;
+                        var namQ=document.getElementById('nam1');
+                        namQ.value = namQ.value -1;
+                    }else  optionObj.selectedIndex= i - 1;
+                }
+            }
+        }
+		
+// 		if(maTKhai =='470'){
+//         	document.getElementById('thangquy1').onchange = chonQuy;
+//         	tkhaiTTSKyThanhToan();
+//         }
+		if(maTKhai=='3000'){
+    		$('#checkTr').css('display', 'none');
+        }
+        if(maTKhaiObj.value=='680'){
+			tdKyKKhaiObj.style.display="none";
+        	tdKyKKhaiLabelObj.style.display="none";
+		}
+        if(maTKhai=='688'||maTKhai=='689' || maTKhai=='372') {
+            document.getElementById('ngaythangnam1').readOnly = true;
+       } else {
+            document.getElementById('ngaythangnam1').readOnly = false;
+       }
+        kieuKyObj.value = kieuKy;
+        tenTKhai = selectObj.options[selectObj.selectedIndex].text;
+        tenTKhai = tenTKhai.substr(4);
+        tenTKhaiObj.value = tenTKhai;
+    
+    if(('C' == loaiTKhai)&&(maTKhai!='03')) {
+            changePLuc();
+    }
+    chonCQT(maTKhai);
+    if(maTKhai=='03' || (maTKhai=='386' && 'Y' == kieuKy) /* || (maTKhai=='473' && 'Y' == kieuKy)  */){
+      ktraTKhaiQToanTNDN();
+    }
+    var regMaTKhaiQuyetToan = /^(86|84|44|42|103|88|43|08|62|60|395|393|265|266|264|270|441|469)$/g;
+    if( regMaTKhaiQuyetToan.test(maTKhai)){
+      	ktraTKhaiQuyetToan();
+    } else if((maTKhai=='380' && 'Y' == kieuKy) || (maTKhai=='381' && 'Y' == kieuKy) || (maTKhaiObj.value=='445' && 'Y' == kieuKy) || (maTKhaiObj.value=='446' && 'Y' == kieuKy) || (maTKhaiObj.value=='447' && 'Y' == kieuKy) || (maTKhaiObj.value=='473' && ('Y' == kieuKy || 'Q' == kieuKy))){
+    	ktraTKhaiQuyetToan();
+	} else if(maTKhai=='72'||maTKhai=='74'|| maTKhai == '402' || maTKhai == '465' || maTKhai == '466' || maTKhai == '467' || maTKhai == '690' || maTKhai == '701' 
+	|| (maTKhai=='671' && 'Y' == kieuKy) || (maTKhai=='672' && 'Y' == kieuKy) || (maTKhai=='675' && 'Y' == kieuKy)
+            								 || (maTKhai=='676' && 'Y' == kieuKy) || maTKhai=='683'|| maTKhai=='684'|| maTKhai=='685'|| maTKhai=='686' || maTKhai=='691' || maTKhai=='692'|| maTKhaiObj.value=='698'|| maTKhaiObj.value=='699'|| maTKhaiObj.value=='700' || maTKhaiObj.value=='702'){
+        ktraTKhaiQToanTNDN();
+    } else if(maTKhai!='03' && maTKhai!='386' && maTKhai != '388' && maTKhai != '470'){
+      if((ngayKeKhaiTKhai03LabelObj!=null)&&(ngayKeKhaiTKhai03Obj!=null)){
+          ngayKeKhaiTKhai03LabelObj.innerHTML = '';
+          ngayKeKhaiTKhai03Obj.innerHTML = '';
+      }
+    }
+	 else if(maTKhai!='03' && maTKhai!='473' && maTKhai != '388' && maTKhai != '470' && maTKhai != '386'){
+      if((ngayKeKhaiTKhai03LabelObj!=null)&&(ngayKeKhaiTKhai03Obj!=null)){
+          ngayKeKhaiTKhai03LabelObj.innerHTML = '';
+          ngayKeKhaiTKhai03Obj.innerHTML = '';
+      }
+    }															 
+}
+function changeNam() {
+	var nam1 = document.getElementById('nam1').value;   
+	var tuNgay = document.getElementById('tuNgay').value;   
+	var denNgay = document.getElementById('denNgay').value;   
+	var tuNgay2den = document.getElementById('tuNgay2').value;   
+	var denNgay2den = document.getElementById('denNgay2').value;  
+	
+	
+}
+function chonQuy(){
+	
+	var thangQuy = document.getElementById('thangquy1').value;   
+    var ngayDauQuy ='';
+    var ngayCuoiQuy = '';
+    var nam = document.getElementById('nam1').value;
+    if('1' == thangQuy) {
+        ngayDauQuy = '01/01/' + nam;
+        ngayCuoiQuy = '31/03/'+ nam;
+    } else if('2' == thangQuy) {
+		ngayDauQuy = '01/04/' + nam;
+		ngayCuoiQuy = '30/06/' +nam;
+	}else if('3' == thangQuy) {
+        ngayDauQuy = '01/07/' + nam;
+        ngayCuoiQuy = '30/09/'+nam;
+	}else if('4' == thangQuy) {
+		ngayDauQuy = '01/10/' + nam;
+		ngayCuoiQuy = '31/12/'+nam;
+    }
+	    document.getElementById('tuNgay').value = ngayDauQuy;
+	    document.getElementById('tuNgay2').value =ngayDauQuy;    
+	    document.getElementById('denNgay').value =ngayCuoiQuy;
+	    document.getElementById('denNgay2').value =ngayCuoiQuy;
+}
+function chonQuy_TT40(){
+	
+	var thangQuy = document.getElementById('thangquy1').value;   
+    var thangDauQuy ='';
+    var thangCuoiQuy = '';
+    var nam = document.getElementById('nam1').value;
+    if('1' == thangQuy) {
+    	thangDauQuy = '01/' + nam;
+    	thangCuoiQuy = '03/'+ nam;
+    } else if('2' == thangQuy) {
+    	thangDauQuy = '04/' + nam;
+    	thangCuoiQuy = '06/' +nam;
+	}else if('3' == thangQuy) {
+		thangDauQuy = '07/' + nam;
+		thangCuoiQuy = '09/'+nam;
+	}else if('4' == thangQuy) {
+		thangDauQuy = '10/' + nam;
+		thangCuoiQuy = '12/'+nam;
+    }
+	    document.getElementById('tuNgay').value = thangDauQuy;
+	    document.getElementById('tuNgay2').value =thangDauQuy;    
+	    document.getElementById('denNgay').value =thangCuoiQuy;
+	    document.getElementById('denNgay2').value =thangCuoiQuy;
+}
+//Xu ly chon tat ca cac Phu luc
+function ktraChonPLuc(){
+
+}
+function ktraTKhaiTTS(){
+ 	var thangQuy = document.getElementById('thangquy1').value;   
+    var ngayDauQuy ='';
+    var ngayCuoiQuy = '';
+    var nam = document.getElementById('nam1').value;
+    if('1' == thangQuy) {
+        ngayDauQuy = '01/01/' + nam;
+        ngayCuoiQuy = '31/03/'+ nam;
+    } else if('2' == thangQuy) {
+		ngayDauQuy = '01/04/' + nam;
+		ngayCuoiQuy = '30/06/' +nam;
+	}else if('3' == thangQuy) {
+        ngayDauQuy = '01/07/' + nam;
+        ngayCuoiQuy = '30/09/'+nam;
+	}else if('4' == thangQuy) {
+		ngayDauQuy = '01/10/' + nam;
+		ngayCuoiQuy = '31/12/'+nam;
+    }
+	var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_03TNDN;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    document.getElementById('tuNgay').value = ngayDauQuy;
+    document.getElementById('tuNgay2').value =ngayDauQuy;    
+    document.getElementById('denNgay').value =ngayCuoiQuy;
+    document.getElementById('denNgay2').value =ngayCuoiQuy;
+    document.getElementById('tuNgay').onblur = checkTuNgayOfQuy;
+    document.getElementById('denNgay').onchange = checkDenNgayOfQuy;
+}
+
+function tKhaiTTS_TT40_Quy(){
+ 	var thangQuy = document.getElementById('thangquy1').value;   
+    var thangDauQuy ='';
+    var thangCuoiQuy = '';
+    var nam = document.getElementById('nam1').value;
+    if('1' == thangQuy) {
+    	thangDauQuy = '01/' + nam;
+    	thangCuoiQuy = '03/'+ nam;
+    } else if('2' == thangQuy) {
+    	thangDauQuy = '04/' + nam;
+    	thangCuoiQuy = '06/' +nam;
+	}else if('3' == thangQuy) {
+		thangDauQuy = '07/' + nam;
+		thangCuoiQuy = '09/'+nam;
+	}else if('4' == thangQuy) {
+		thangDauQuy = '10/' + nam;
+		thangCuoiQuy = '12/'+nam;
+    }
+	var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_QToan;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    document.getElementById('tuNgay').value = thangDauQuy;
+    document.getElementById('tuNgay2').value =thangDauQuy;    
+    document.getElementById('denNgay').value =thangCuoiQuy;
+    document.getElementById('denNgay2').value =thangCuoiQuy;
+    document.getElementById('tuNgay').onblur = checkTuNgayOfQuy;
+    document.getElementById('denNgay').onchange = checkDenNgayOfQuy;
+}
+
+function ktraTKhaiTTS_TT40(){
+ 	var ngaythangnam1 = document.getElementById('ngaythangnam1').value;   
+    var ngayDauQuy ='';
+    var ngayCuoiQuy = '';
+    var nam = document.getElementById('nam1').value;
+	var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_03TNDN;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    document.getElementById('tuNgay').value = ngaythangnam1;
+    document.getElementById('tuNgay2').value =ngaythangnam1;    
+    document.getElementById('denNgay').value =ngaythangnam1;
+    document.getElementById('denNgay2').value =ngaythangnam1;
+}
+
+function tkhaiTTSKyThanhToan(){
+ 	var thangQuy = document.getElementById('thangquy1').value;   
+    var nam = document.getElementById('nam1').value;
+	var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_03TNDN;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    document.getElementById('tuNgay').value = ngayKeKhaiTKhai03Obj;
+    document.getElementById('tuNgay2').value =ngayKeKhaiTKhai03Obj;    
+    document.getElementById('denNgay').value =ngayKeKhaiTKhai03Obj;
+    document.getElementById('denNgay2').value =ngayKeKhaiTKhai03Obj;
+    document.getElementById('tuNgay').onblur = checkTuNgayOfQuy;
+    document.getElementById('denNgay').onchange = checkDenNgayOfQuy;
+}
+
+function checkTuNgayOfQuy(){
+/* 		if (!validDateFormat(obj,'dd/mm/yyyy'))
+			return; */
+		var tungay = $('#tuNgay').val();
+		var denngay = $('#denNgay').val();
+		var quy = $('#thangquy1').val();
+		var nam = $('#nam1').val();
+		var ngaytuquy='';
+		var ngaydenquy='';
+		if (!tungay) {
+			alert('Từ ngày không được bỏ trống!');
+// 			setTimeout(function() { $('#tuNgay').focus(); }, 100);	
+			$('#tuNgay').focus();
+			return false;
+		}
+		if(quy == '1'){
+			ngaytuquy = '01/01/'+ nam;
+			ngaydenquy = '31/03/'+ nam;
+		}
+		if(quy =='2'){
+			ngaytuquy = '01/04/'+ nam;
+			ngaydenquy = '30/06/'+ nam;
+		}
+		if(quy =='3'){
+			ngaytuquy = '01/07/'+ nam;
+			ngaydenquy = '31/09/'+ nam;
+		}
+		if(quy =='4'){
+			ngaytuquy = '01/10/'+nam;
+			ngaydenquy = '31/12/'+ nam;
+		}
+		if(CompareDate2(tungay,ngaytuquy) == 1){
+			alert('Từ ngày không được nhỏ hơn ngày bắt đầu quý!');					
+	
+			$('#tuNgay').focus();
+			//setTimeout(function() { $('#tuNgay').focus(); }, 0);
+			return false;			
+		}
+		if(CompareDate2(tungay,ngaydenquy) == -1){
+			alert('Từ ngày phải nhỏ hơn ngày kết thúc quý!');
+			$('#tuNgay').val('');	
+			setTimeout(function() { $('#tuNgay').focus(); }, 0);
+			return false;	
+		}
+		if(CompareDate2(tungay,denngay) == -1){
+			alert('Từ ngày phải nhỏ hơn Đến ngày!');
+			$('#tuNgay').val('');	
+			setTimeout(function() { $('#tuNgay').focus(); }, 0);		
+			return false;					
+		}
+		return true;		
+	}
+	
+ 	function checkDenNgayOfQuy(obj){
+// 		if (!validDateFormat(obj,'dd/mm/yyyy')) 
+// 			return;
+		var denngay = $('#denNgay').val();
+		var tungay = $('#tuNgay').val();
+		var quy = $('#thangquy1').val();
+		var nam = $('#nam1').val();
+		var ngayquy ='';
+		if (!denngay) {
+			alert('Đến ngày không được bỏ trống!');
+// 			setTimeout(function() { $('#denNgay').focus(); }, 100);		
+			
+			return false;
+		}		
+		if(quy == '1'){
+			ngayquy = '01/01/'+ nam;
+		}
+		if(quy =='2'){
+			ngayquy = '01/04/'+nam;
+		}
+		if(quy =='3'){
+			ngayquy = '01/07/'+nam;
+		}
+		if(quy =='4'){
+			ngayquy = '01/10/'+nam;
+		}
+		if(CompareDate2(tungay,denngay) == -1 && tungay != '') {
+			alert('Đến ngày không được nhỏ hơn từ ngày!');
+ 			$('#denNgay').val('');
+			setTimeout(function() { $('#denNgay').focus(); }, 0);
+			return false;
+		}
+		if(CompareDate2(ngayquy,denngay) == -1){
+			alert('Đến ngày phải lớn hơn ngày bắt đầu quý!'); 			
+ 			$('#denNgay').val('');		
+ 			setTimeout(function() { $('#denNgay').focus(); }, 0);
+			return false;				
+		}	
+		return true;		
+	}
+function ktraTKhaiQToanTNDN(){
+    var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_03TNDN;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    var ngayTChinh = '01/01';
+    var namTChinh =document.getElementById('nam1').value;
+    document.getElementById('tuNgay').value =ngayTChinh +'/'+namTChinh;
+    document.getElementById('tuNgay2').value =ngayTChinh +'/'+namTChinh;
+    var denNgay= toDate(ngayTChinh +'/'+namTChinh, 'DD/MM/YYYY');
+    var d = new Date(denNgay.getFullYear(), denNgay.getMonth() + 12, denNgay.getDate()-1);
+    var dd=d.getDate() < 10 ? "0" + d.getDate() : d.getDate();
+
+    var mm=(d.getMonth()+1) < 10 ? "0" + (d.getMonth()+1) : (d.getMonth()+1);
+    denNgay2= dd+'/'+mm+'/'+d.getFullYear();
+    document.getElementById('denNgay').value =denNgay2;
+    document.getElementById('denNgay2').value =denNgay2;
+   
+}
+function ktraTKhaiNhaThau(){
+    var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    tdKyKKhaiObj.innerHTML = '<input type="hidden" id="ngaythangnam1" name="ngaythangnam1"><input type="hidden" id="thangquy1" name="thangquy1"><input type="hidden" id="nam1" value="2020" name="nam1">';
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_03TNDN;
+    tdKyKKhaiLabelObj.innerHTML = '';
+    var ngayTChinh = '01/01';
+    var namTChinh ="2020";
+    document.getElementById('tuNgay').value =ngayTChinh +'/'+namTChinh;
+    document.getElementById('tuNgay2').value =ngayTChinh +'/'+namTChinh;
+    var denNgay= toDate(ngayTChinh +'/'+namTChinh, 'DD/MM/YYYY');
+    var d = new Date(denNgay.getFullYear(), denNgay.getMonth() + 12, denNgay.getDate()-1);
+    var dd=d.getDate() < 10 ? "0" + d.getDate() : d.getDate();
+
+    var mm=(d.getMonth()+1) < 10 ? "0" + (d.getMonth()+1) : (d.getMonth()+1);
+    denNgay2= dd+'/'+mm+'/'+d.getFullYear();
+    document.getElementById('denNgay').value =denNgay2;
+    document.getElementById('denNgay2').value =denNgay2;
+}
+
+function ktraTKhaiQD200(){
+    var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ ngày  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_03TNDN;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    var ngayTChinh = '01/01';
+    //alert(ngayTChinh);
+    var namTChinh =document.getElementById('nam1').value;
+    document.getElementById('tuNgay').value =ngayTChinh +'/'+namTChinh;
+    document.getElementById('tuNgay2').value =ngayTChinh +'/'+namTChinh;
+    var denNgay= toDate(ngayTChinh +'/'+namTChinh, 'DD/MM/YYYY');
+    var d = new Date(denNgay.getFullYear(), denNgay.getMonth() + 12, denNgay.getDate()-1);
+    var dd=d.getDate() < 10 ? "0" + d.getDate() : d.getDate();
+
+    var mm=(d.getMonth()+1) < 10 ? "0" + (d.getMonth()+1) : (d.getMonth()+1);
+    denNgay2= dd+'/'+mm+'/'+d.getFullYear();
+    document.getElementById('denNgay').value =denNgay2;
+    document.getElementById('denNgay2').value =denNgay2;
+}
+
+
+function ktraTKhaiQuyetToan(){
+    var ngayKeKhaiTKhai03Obj = document.getElementById('ngayKeKhaiTKhai03');
+    var ngayKeKhaiTKhai03LabelObj = document.getElementById('ngayKeKhaiTKhai03Label');
+    ngayKeKhaiTKhai03LabelObj.innerHTML = 'Từ tháng  ';
+    ngayKeKhaiTKhai03Obj.innerHTML = tdKyKKhai_QToan;
+    tdKyKKhaiLabelObj.innerHTML = 'Kỳ kê khai';
+    var ngayTChinh = '01/01';
+
+    var namTChinh =document.getElementById('nam1').value;
+
+    var thangTChinh = ngayTChinh.substring(3,ngayTChinh.length);
+    //alert(thangTChinh);
+    document.getElementById('tuNgay').value =thangTChinh +'/'+namTChinh;
+    document.getElementById('tuNgay2').value =thangTChinh +'/'+namTChinh;
+
+    var denThang = '';
+    var thangTChinhTemp = toNumber(thangTChinh);
+    var namTChinhTemp = toNumber(namTChinh)+toNumber('1');
+    if(thangTChinhTemp == 1)
+        denThang = '12/'+namTChinh;
+    else
+        denThang = ((((thangTChinhTemp -1).toString()).length)==1?('0'+((thangTChinhTemp -1).toString())+'/'+namTChinhTemp):(((thangTChinhTemp -1).toString())+'/'+namTChinhTemp));
+    //alert(denThang);
+    document.getElementById('denNgay').value =denThang;
+    document.getElementById('denNgay2').value =denThang;
+}
+function checkKyKK05TNDN() {
+	var kyBDau = '';
+	var kyKKhai = document.getElementById('ngaythangnam1').value;
+	if  (toDate(kyKKhai,'DD/MM/YYYY') < toDate(kyBDau,'DD/MM/YYYY') ) {
+		alert('Kỳ kê khai phải lớn hơn hoặc trùng kỳ đăng ký');
+		$('#tieptucBT').removeAttr('disabled');
+		return false;
+	}
+	return true;
+}
+function tieptuc() {
+	loadText();
+    var f = document.forms["LapTKhaiOnlineForm"];
+    var kieuKyObj = document.getElementById('kieuKy');
+    var ma_NganhNghe = document.getElementById('ma_NganhNghe');
+    var maTKhaiObj = document.getElementById('maTKhai');
+    var maTKhai;
+    var namObj = document.getElementById('nam1');
+    var nam;
+    var loaiTKhaiObj = document.getElementById('loaiTKhai');
+    var tieptucBTObj = document.getElementById('tieptucBT');
+
+    var ngaythangnam1Obj = document.getElementById('ngaythangnam1');
+    var thangquy1Obj = document.getElementById('thangquy1');
+    var maTKhai = $('#maTKhai').find('option:selected').val();
+    //hungnt_Thongtu40
+    if(maTKhai == '471'){
+   		var nam01 =toNumber(namObj.value);
+    	var thang01 = toNumber(thangquy1Obj.value);
+    	var kieuKy01 = kieuKyObj.value;
+    	if(nam01 >= 2021){
+    		if(kieuKy01 == 'Q' && thang01 < 3 ){
+				alert('Tờ khai 01/XSBHĐC (TT40/2021) có hiệu lực từ 1/8/2021');
+				return false;
+	   		}if(kieuKy01 != 'Q' && thang01 < 8){
+	    	alert('Tờ khai 01/XSBHĐC (TT40/2021) có hiệu lực từ 1/8/2021');
+			return false;
+	    	}
+    	}else if(nam01 < 2021){
+    			alert('Tờ khai 01/XSBHĐC (TT40/2021) có hiệu lực từ 1/8/2021');
+    			return false;
+    		}
+    }
+// 	 if(maTKhai == '389'){
+//    		var nam01 =toNumber(namObj.value);
+//     	var thang01 = toNumber(thangquy1Obj.value);
+//     	var loaiTKhai = loaiTKhaiObj.value;
+//     	var kieuKy01 = kieuKyObj.value;
+//     	if(loaiTKhai == 'C'){
+// 	    	if(nam01 >= 2021){
+// 	    		if((kieuKy01 == 'Q' && thang01 > 2 ) || (kieuKy01 != 'Q' && thang01 > 7)){
+// 					alert('Tờ khai đã hết hiệu lực');
+// 					return false;
+// 		   		}
+// 	    	}
+//     	}
+//     }					 
+    
+    if(maTKhai=='123'){
+    	var nam01 =toNumber(namObj.value);
+    	var thang01 = toNumber(thangquy1Obj.value);
+    	var kieuKy01 = kieuKyObj.value;
+    	var loaiTKhai = loaiTKhaiObj.value;
+    	var d = new Date();
+    	var namhientai=d.getFullYear();
+    	var thanghientai=d.getMonth()+1;
+    	if(loaiTKhai =='D'){
+    		if(namhientai == nam01){
+    			if(thanghientai<thang01){
+    				alert('Định kỳ tháng không được lớn hơn tháng hiện tại');
+    				return false;
+    			}
+    		}else if(namhientai < nam01){
+    			alert('Năm định kỳ không được lớn hơn năm hiện tại');
+    			return false;
+    		}
+    	}
+    }
+    
+    
+    if(maTKhai=='01'){
+    	if(ma_NganhNghe.value ==  ''){
+    		alert('Bạn phải chọn ngành nghề.');
+    		return false;
+    	} else {
+    		var cqt_nnop = '70100';
+    		var maCQTNoiNop = document.getElementById('maCQTNoiNop').value;
+    		if(cqt_nnop != maCQTNoiNop && (ma_NganhNghe.value !='02' &&ma_NganhNghe.value !='06' ) ){
+    			alert('Bạn phải chọn ngành nghề "Nhà máy sản xuất điện khác  tỉnh với nơi có trụ sở chính" hoặc "Chuyển nhượng DAĐT CS hạ tầng, nhà khác tỉnh với nơi có trụ sở chính"');
+    			return false;
+    		}
+    	}
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+//     	if(kieuKy =='M'){
+//     		if(ma_NganhNghe.value == '07' || ma_NganhNghe.value == '08' || ma_NganhNghe.value == '09'){
+//     			if((toNumber(namObj.value) == 2020 && checkQuy >11) || toNumber(namObj.value) > 2020){
+//     				alert('Bạn phải chọn đúng ngành nghề.');
+//         			return false;
+//     			}
+//     		} else {
+//     			if((toNumber(namObj.value) == 2020 && checkQuy <= 11) || toNumber(namObj.value) < 2020){
+//     				alert('Bạn phải chọn đúng ngành nghề.');
+//         			return false;
+//     			}
+//     		}
+//     	}else{
+    		if(ma_NganhNghe.value == '07' || ma_NganhNghe.value == '08' || ma_NganhNghe.value == '09'){
+    			if(toNumber(namObj.value) >= 2021){
+    				if(ma_NganhNghe.value == '07' )alert('Ngành hàng sản xuất, kinh doanh thông thường có hiệu lực đến hết năm 2020');
+    				if(ma_NganhNghe.value == '08' )alert('Hoạt động thăm dò, phát triển mỏ và khai thác dầu, khí thiên nhiên có hiệu lực đến hết năm 2020');
+    				if(ma_NganhNghe.value == '09' )alert('Hoạt động xổ số kiến thiết của các công ty xổ số kiến thiết có hiệu lực đến hết năm 2020');
+        			return false;
+    			}
+    		} else {
+    			if(toNumber(namObj.value) < 2021){
+    				if(ma_NganhNghe.value == '00' )alert('Hoạt động sản xuất kinh doanh thông thường có hiệu lực từ năm 2021');
+    				if(ma_NganhNghe.value == '01' )alert('Xổ số kiến thiết, xổ số điện toán có hiệu lực từ năm 2021');
+    				if(ma_NganhNghe.value == '06' )alert('Nhà máy sản xuất điện khác tỉnh với nơi có trụ sở chính có hiệu lực từ năm 2021');
+    				if(ma_NganhNghe.value == '02' )alert('Chuyển nhượng DAĐT CS hạ tầng, nhà khác tỉnh với nơi có trụ sở chính có hiệu lực từ năm 2021');
+    				if(ma_NganhNghe.value == '05' )alert('Hoạt động thăm dò, khai thác dầu khí có hiệu lực từ năm 2021');
+        			return false;
+    			}
+    		}
+//     	}
+		
+    }
+    if(maTKhai=='07'){
+    	var dmucNNgheSele04 = document.getElementById('dmucNNgheSele04');
+    	var kieuKy = kieuKyObj.value;
+    	var ngayThangNam = ngaythangnam1Obj.value;
+    	var namTemp = parseInt(ngayThangNam.split('/')[2]);
+    	if(kieuKy == 'D'){
+    		if(namTemp < 2021 && dmucNNgheSele04.checked == true){
+	    		alert('Hoạt động thu hộ CQNN có thẩm quyền giao có hiệu lực từ năm 2021.');
+	    		return false;
+	    	}
+    	} else {
+	    	if(parseInt(namObj.value) < 2021 && dmucNNgheSele04.checked == true){
+	    		alert('Hoạt động thu hộ CQNN có thẩm quyền giao có hiệu lực từ năm 2021.');
+	    		return false;
+	    	}
+    	}
+    }
+    
+    if(maTKhai == '443' || maTKhai == '444' || maTKhai == '446' || maTKhai == '447' || maTKhai == '264' || maTKhai == '265' || maTKhai == '266' 
+		|| maTKhai == '440' || maTKhai == '374' || maTKhai == '375' || maTKhai == '380' || maTKhai == '381'){
+    	
+    	var dmucSPhamDK = $('#loaiSPham').val();
+    	if(dmucSPhamDK == '' || dmucSPhamDK == null){
+    		alert('Bạn phải chọn loại sản phẩm');
+    		return false;
+    	}
+    }
+    
+    if(maTKhai=='713'){
+    	var ngayHTai = toDate('08/12/2021', 'DD/MM/YYYY');
+    	if(toDate('30/07/2020','DD/MM/YYYY') < ngayHTai){
+    		alert('Tờ khai hết hiệu lực.');
+    		return false;
+    	}
+    }
+    if(maTKhai=='714'){
+    	var ngayHTai = toDate('08/12/2021', 'DD/MM/YYYY');
+    	if(toDate('30/09/2020','DD/MM/YYYY') < ngayHTai){
+    		alert('Đã hết thời hạn nộp Giấy đề nghị gia hạn.');
+    		return false;
+    	}
+    }
+    
+    if(maTKhai=='716'){
+    	var ngayThangNam = toDate(ngaythangnam1Obj.value, 'DD/MM/YYYY');
+    	if(toDate('19/04/2021','DD/MM/YYYY') > ngayThangNam){
+    		alert('Tờ khai có hiệu lực từ ngày 19/04/2021.');
+    		return false;
+    	}
+    }
+    
+	if(maTKhai=='395'){
+		var d = new Date();
+    	d.setHours(0,0,0,0);
+    	var nowTime = d.getTime();
+    	var date = $('#denNgay').val();
+    	var dateArray = date.split("/");
+    	var year1=dateArray[1];
+    	var month1=dateArray[0] -1;
+    	var day1='01';
+    	var compareDate = new Date(year1, month1, day1).getTime();
+    	if(nowTime < compareDate){	 
+    			alert('Đến tháng không được lớn hơn tháng hiện tại');
+    		setTimeout(function(){
+    			$('#denNgay').focus();
+    		}, 100);
+    		return false;
+    	}
+	}
+    if(maTKhaiObj.value == '687') {
+	    if(!checkKyKK05TNDN()){
+			return false;
+		}
+	}
+    if(maTKhaiObj.value != "05" && maTKhaiObj.value != "401"){
+    	if(!ktraKyKK()) {
+	        tieptucBTObj.disabled=false;
+	        return false;
+	    }else{
+	        tieptucBTObj.disabled=true;
+	    }
+    }
+   if(maTKhaiObj.value == "690" || maTKhaiObj.value == "691"|| maTKhaiObj.value == "692"|| maTKhaiObj.value == "701"|| maTKhaiObj.value=='698'|| maTKhaiObj.value=='699'|| maTKhaiObj.value=='700' || maTKhaiObj.value=='702'){
+   	if(!checkKeKhaiTheoNamChoTKhaiQDinh()){
+   		tieptucBTObj.disabled=false;
+            return;
+   	}
+   }
+   
+   if(maTKhaiObj.value == '690') {
+       if(parseInt(namObj.value)<2015){
+       alert('BCTC có hiệu lực từ ngày 01/01/2015');
+       $('#tieptucBT').removeAttr('disabled');
+           return false;
+       }
+   }
+     if(maTKhaiObj.value == '698'||maTKhaiObj.value == '699'||maTKhaiObj.value == '700') {
+       if(parseInt(namObj.value)<2018){
+       alert('Báo cáo tài chính theo Thông tư số 24/2017/TT-BTC có hiệu lực cho năm tài chính từ 2018');
+       $('#tieptucBT').removeAttr('disabled');
+           return false;
+       }
+   }
+     if(maTKhaiObj.value == '701' || maTKhaiObj.value == '702') {
+         if(parseInt(namObj.value)<2018){
+         alert('Báo cáo tài chính theo Thông tư số 107/2017/TT-BTC có hiệu lực cho năm tài chính từ 2018');
+         $('#tieptucBT').removeAttr('disabled');
+             return false;
+         }
+     }
+
+    if(maTKhaiObj.value == "03"){
+        if(!clickDate()){
+            tieptucBTObj.disabled=false;
+            return;
+        }
+    }
+    if(maTKhaiObj.value == "72"||maTKhaiObj.value == "74" ||maTKhaiObj.value == "89"){
+        if(!checkKeKhaiNhaThau(maTKhaiObj)){
+            tieptucBTObj.disabled=false;
+            return false;
+        }
+//         if (maTKhaiObj.value == "74" || maTKhaiObj.value == "72") {
+//         	if (!checkKeKhaiTheoNamChoTKhaiQDinh()) {
+//                 tieptucBTObj.disabled=false;
+//                 return;
+//         	}
+//         }
+    }
+    if('B' == loaiTKhaiObj.value) {
+        if(!ktraKKhaiBSung()) {
+            tieptucBTObj.disabled=false;
+            return false;
+        }
+    }else{
+        tieptucBTObj.disabled=true;
+    }
+    if('B' == loaiTKhaiObj.value) {
+        if(!ktraNgayKhaiKHBS()) {
+            tieptucBTObj.disabled=false;
+            return false;
+        }
+    }else{
+        tieptucBTObj.disabled=true;
+    }
+    maTKhai = maTKhaiObj.value;
+    nam = namObj.value;
+    if(maTKhai == '687') {
+   	if(document.getElementById('trang_thai').value == '') {
+   		alert('Bạn phải chọn  hình thức chuyển nhượng');
+   		$('#tieptucBT').removeAttr('disabled');
+   		return false;
+   	}
+   }
+   if(maTKhai == '683' || maTKhai == '684' ||maTKhai == '685' ||maTKhai == '686'){
+	   if(toNumber(nam) < 2017){
+			alert('Báo cáo tài chính theo Thông tư số 133/2016/TT-BTC có hiệu lực cho năm tài chính từ 2017');
+			$('#nam1').focus();
+			$('#tieptucBT').removeAttr('disabled');
+			return false;
+		   
+	   } else if(toNumber(nam) < 2018 && ('03' == '09' || '03' == '15')){
+	   		alert('Mẫu BCTC theo TT133 không áp dụng cho doanh nghiệp Nhà nước, doanh nghiệp do Nhà nước sở hữu trên 50% vốn điều lệ, công ty đại chúng theo quy định của pháp luật về chứng khoán, các hợp tác xã, liên hiệp hợp tác xã theo quy định tại Luật Hợp tác xã. Đề nghị doanh nghiệp lựa chọn mẫu Báo cáo tài chính theo Quyết định số 48/2006/QĐ-BTC ngày 14/9/2006 của Bộ Tài chính');
+			$('#nam1').focus();
+			$('#tieptucBT').removeAttr('disabled');
+			return false;
+	   }
+	}
+	if(maTKhai == '102'){
+	   if(toNumber(nam) < 2011){
+			alert('Hồ sơ Báo cáo tình hình sử dụng hóa đơn có hiệu lực từ 01/01/2011');
+			$('#nam1').focus();
+			$('#tieptucBT').removeAttr('disabled');
+			return false;
+		   
+	   }
+	}
+	if(maTKhai == '129'){
+	   var ngayThang = ngaythangnam1Obj.value;
+	   if(toDate(ngayThang,'DD/MM/YYYY') < toDate('01/07/2013', 'DD/MM/YYYY')){
+	   alert('Hồ sơ thông báo điều chỉnh thông tin tại thông báo phát hành hóa đơn có hiệu lực từ ngày 01/07/2013');
+	   	$('#ngaythangnam1').focus();
+		$('#tieptucBT').removeAttr('disabled');
+		return false;
+	   } 
+	}
+	
+	if(maTKhai == '139' || maTKhai == '46' || maTKhai == '47' || maTKhai == '48'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+    	var loaiTKhai = loaiTKhaiObj.value;
+
+    	if(loaiTKhai == 'C'){
+    		if('Q' == kieuKy) {
+            if  ((checkYear > 2015) || (checkYear == 2015 && checkQuy > '2')) {
+	        	alert('Tờ khai có hiệu lực kê khai đến Q2/2015.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    } else if('M'== kieuKy) {
+	        if  ((checkYear > 2015) || (checkYear == 2015 && checkQuy > '6')) {
+	        	alert('Tờ khai có hiệu lực kê khai đến 06/2015.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        }
+	    }
+    	} else {
+    		if('Q' == kieuKy) {
+            if  ((checkYear > 2016) || (checkYear == 2016 && checkQuy > '3')) {
+	        	alert('Tờ khai khấu trừ thuế thu nhập cá nhân (TT156/2013) có hiệu lực đến Q3/2016.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    } else if('M'== kieuKy) {
+	        if  ((checkYear > 2016) || (checkYear == 2016 && checkQuy > '9')) {
+	        	alert('Tờ khai khấu trừ thuế thu nhập cá nhân (TT156/2013) có hiệu lực đến 09/2016.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        }
+	    }
+    	}
+
+    }
+	
+	if(maTKhai == '285'){
+		if(toNumber(nam) >= 2016){
+			alert('Báo cáo tài chính theo Thông tư số 95/2008/TT-BTC đã hết hiệu lực từ năm tài chính 2016');
+			$('#nam1').focus();
+			$('#tieptucBT').removeAttr('disabled');
+			return false;
+		}
+	}
+	
+	if(maTKhai == '300'){
+		var checkYear = namObj.value;
+	   var checkQuy = thangquy1Obj.value;
+	   if((checkYear < 2014) || (checkYear == 2014 && checkQuy < 3)){
+		   	alert('Báo cáo tình hình sử dụng hóa đơn (số lượng) có hiệu lực từ ngày 01/06/2014');
+		   	$('#ngaythangnam1').focus();
+			$('#tieptucBT').removeAttr('disabled');
+			return false;
+	   }
+	}
+	if(maTKhai == '50' && '03' != '09' && '03' != '15'){
+		   if(toNumber(nam) >= 2017){
+				alert('Báo cáo tài chính theo Quyết định số 48/2006/QĐ-BTC đã hết hiệu lực cho năm tài chính 2017. Các doanh nghiệp nhỏ và vừa (bao gồm cả doanh nghiệp siêu nhỏ) thuộc mọi lĩnh vực, mọi thành phần kinh tế theo quy định của pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa gửi Báo cáo tài chính theo mẫu quy định tại Thông tư số 133/2016/TT-BTC ngày 26/8/2016 của Bộ Tài chính');
+				$('#nam1').focus();
+				$('#tieptucBT').removeAttr('disabled');
+				return false;
+			   
+		   }
+		}
+	   if(maTKhai == '50' && ('03' == '09' || '03' == '15')){
+		   if(toNumber(nam) >= 2018){
+				alert('Báo cáo tài chính theo Quyết định số 48/2006/QĐ-BTC đã hết hiệu lực cho năm tài chính >=2018');
+				$('#nam1').focus();
+				$('#tieptucBT').removeAttr('disabled');
+				return false;
+			   
+		   }
+		}
+	
+    if(maTKhai == '99') {
+      if(toNumber(nam) > 2010) {
+        alert('Mẫu tờ khai đã hết hiệu lực từ 01/01/2011. Bạn phải kê khai theo mẫu BC26/AC Ban hành kèm theo thông tư số 153/2010/TT-BTC ngày 28 tháng 9 năm 2010 của Bộ tài chính.');
+        tieptucBTObj.disabled=false;
+        return false;
+      }else {
+  		tieptucBTObj.disabled=true;
+  		}
+    }
+    if(maTKhai == '469') {
+        if(toNumber(nam) < 2016) {
+          alert('Mẫu tờ khai đã hết hiệu lực ');
+          tieptucBTObj.disabled=false;
+          return false;
+        }else {
+    		tieptucBTObj.disabled=true;
+    		}
+      }
+    if(maTKhai == '98'){
+      var nam_temp = ngaythangnam1Obj.value;
+      var namDObj = nam_temp.substring(nam_temp.length-4);
+      if(toNumber(namDObj) > 2010) {
+        alert('Mẫu tờ khai đã hết hiệu lực từ 01/01/2011. Bạn phải kê khai theo mẫu BC21/AC Ban hành kèm theo thông tư số 153/2010/TT-BTC ngày 28 tháng 9 năm 2010 của Bộ tài chính.');
+        tieptucBTObj.disabled=false;
+        return false;
+      }else {
+  		tieptucBTObj.disabled=true;
+  		}
+
+    }
+    if(maTKhai == '08' || maTKhai == '44'){
+    	if (!checkKeKhaiTheoNam()) {
+    		tieptucBTObj.disabled=false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled=true;
+    	}
+    }
+
+    if(maTKhai == '395'){
+    	if (!checkKeKhaiTheoNam12Thang()) {
+    		tieptucBTObj.disabled=false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled=true;
+    	}
+    }
+
+    if(maTKhai == '393'){
+    	var checkYear = namObj.value;
+    	if(checkYear < 2015){
+    		alert('Danh sách cá nhân nhận thu nhập (TT92/2015) có hiệu lực từ năm 2015');
+    		tieptucBTObj.disabled = false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled = true;
+    	}
+    }
+    
+	if(maTKhai == '473'){
+    	if (!checkStartTKhai2016()) {
+    		tieptucBTObj.disabled = false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled = true;
+    	}
+    }	
+
+    //tam thoi bo check hieu luc 386,385,383
+//     if(maTKhai == '387' || maTKhai == '395' || maTKhai == '389' || maTKhai == '386' || maTKhai == '393'){
+	if(maTKhai == '386'){
+    	if (!checkStartTKhai2016()) {
+    		tieptucBTObj.disabled = false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled = true;
+    	}
+    }
+
+    if(maTKhai == '387' || maTKhai == '389' || maTKhai == '469'){
+    	if (!checkStartTKhai2016()) {
+    		tieptucBTObj.disabled = false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled = true;
+    	}
+    }
+
+    if(maTKhai == '389') {
+    	if (!checkHieuluc01XSBHDC()) {
+    		tieptucBTObj.disabled = false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled = true;
+    	}
+    }
+	// tam thơi bo check 42,44,46,47,48
+
+// 	if (maTKhai == '43' || maTKhai == '103') {
+// 		if (!checkHieuLucKeKhaiNam2014()) {
+// 			tieptucBTObj.disabled=false;
+// 			return false;
+// 		} else {
+// 			tieptucBTObj.disabled=true;
+// 		}
+// 	}
+	
+ 	if(maTKhai == '442'){
+ 	if (!checkHieuLucKeKhaiTT36DauKhi2()) {
+ 			tieptucBTObj.disabled=false;
+			return false;
+		} else {
+ 			tieptucBTObj.disabled=true;
+		}
+ 	}
+ 	if(maTKhai == '446' || maTKhai == '445' ){
+ 		var checkYear = namObj.value;
+ 		var checkQuy = thangquy1Obj.value;
+ 		var kieuKy = kieuKyObj.value;
+ 		
+ 			if('Q' == kieuKy){
+ 				if  ((checkYear < 2016) || (checkYear == 2016 && checkQuy < '1')) {
+        			alert('Tờ khai có hiệu lực từ Q1/2016. Đề nghị xem lại.');
+        			document.getElementById('thangquy1').focus();
+        			tieptucBTObj.disabled=false;
+        			return false;
+        			} else {
+    		tieptucBTObj.disabled=true;
+    			}
+ 			} else {
+ 				if(checkYear < 2016){
+ 					alert('Tờ khai có hiệu lực từ năm 2016. Đề nghị xem lại.');
+        			document.getElementById('nam1').focus();
+        			tieptucBTObj.disabled=false;
+        			return false;
+ 				} else {
+ 				tieptucBTObj.disabled=true;
+ 				}
+ 			}
+ 		
+ 	}
+ 	
+ 	if(maTKhai == '447'){
+ 		var checkYear = namObj.value;
+ 		
+ 			if  (checkYear < 2016) {
+        	alert('Tờ khai có hiệu lực từ năm 2016. Đề nghị xem lại.');
+        	document.getElementById('nam1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+ 	}
+    if(maTKhai == '11' || maTKhai == '12' || maTKhai == '71'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+
+    	if  ((checkYear > 2014) || (checkYear == 2014 && checkQuy == '4')) {
+        	alert('Đã hết hiệu lực kê khai theo quý từ quý IV/2014. Đề nghị xem lại.');
+        	document.getElementById('thangquy1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+    }
+
+    //edit by tungnt
+    if(maTKhai == '396'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+
+    	if('Q' == kieuKy) {
+            if  ((checkYear < 2015) || (checkYear == 2015 && checkQuy < '3')) {
+	        	alert('Kỳ tính thuế không được nhỏ hơn ngày bắt đầu hiệu lực của mẫu hồ sơ.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    } else if('M'== kieuKy) {
+	        if  ((checkYear < 2015) || (checkYear == 2015 && checkQuy < '7')) {
+	        	alert('Kỳ tính thuế không được nhỏ hơn ngày bắt đầu hiệu lực của mẫu hồ sơ.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        }
+	    }
+
+
+    }
+
+    if(maTKhai == '05'){
+//     	alert('Mã hồ sơ hết hiệu lực.');
+//     	tieptucBTObj.disabled=false;
+// 		return false;
+    	var kieuKy = kieuKyObj.value;
+    	var checkYear = namObj.value;
+		    if('D' == kieuKy) {
+		            var namD = ngaythangnam1Obj.value.split("/")[2];
+		            if(toNumber(namD) > 2015){
+		                alert('Tờ khai có hiệu lực đến năm 2015.');
+			        	namObj.focus();
+			        	tieptucBTObj.disabled=false;
+			        	return false;
+		            }
+		    } else if('M'== kieuKy) {
+		        if  (checkYear > 2015) {
+		        	alert('Tờ khai có hiệu lực đến năm 2015.');
+		        	namObj.focus();
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+
+    }
+
+    if(maTKhai == '401'){
+    //tam thoi không check
+//     	var kieuKy = kieuKyObj.value;
+//     	var checkYear = namObj.value;
+//     		if('D' == kieuKy) {
+// 		            var namD = ngaythangnam1Obj.value.split("/")[2];
+// 		            if(toNumber(namD) < 2016){
+// 		                alert('Mã tờ khai chỉ có hiệu lực từ năm 2016.');
+// 			        	namObj.focus();
+// 			        	tieptucBTObj.disabled=false;
+// 			        	return false;
+// 		            }
+// 		    } else if('M'== kieuKy) {
+// 		        if  (checkYear < 2016) {
+// 		        	alert('Mã tờ khai chỉ có hiệu lực từ năm 2016.');
+// 		        	namObj.focus();
+// 		        	tieptucBTObj.disabled=false;
+// 		        	return false;
+// 		        }
+// 		    }
+    }
+
+    if(maTKhai == '49'){
+    	var checkYear = namObj.value;
+		            if(toNumber(checkYear) >= 2015){
+		                alert('Mã tờ khai chỉ có hiệu lực đến năm 2014.');
+			        	namObj.focus();
+			        	tieptucBTObj.disabled=false;
+			        	return false;
+		            }
+    }
+    if(maTKhai == '51'){
+    	var checkYear = namObj.value;
+        if(toNumber(checkYear) > 2015){
+            alert('Mã tờ khai chỉ có hiệu lực đến năm 2015.');
+        	namObj.focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        }
+       }
+
+//     if(maTKhai == '388'){
+//     	var kieuKy = kieuKyObj.value;
+//     	var checkYear = namObj.value;
+//     	var quyKKhai = thangquy1Obj.value;
+//     		if('Y' == kieuKy) {
+// 		            if(checkYear > 2020){
+// 		                alert('Mã tờ khai có hiệu lực đến hết năm 2020.');
+// 			        	namObj.focus();
+// 			        	tieptucBTObj.disabled=false;
+// 			        	return false;
+// 		            }
+// 		    } else if('Q'== kieuKy) {
+// 		    	if  ((checkYear == 2021 && quyKKhai > 2)) {
+// 		        	alert('Mã tờ khai có hiệu lực đến hết quý 2 năm 2021');
+// 		        	namObj.focus();
+// 		        	tieptucBTObj.disabled=false;
+// 		        	return false;
+// 		        }
+// 		    }
+//     }
+
+    if(maTKhai == '105'){
+    	var kieuKy = kieuKyObj.value;
+    	var checkYear = namObj.value;
+    	var checkQuater = thangquy1Obj.value;
+    		if('K' == kieuKy) {
+		            if(checkYear > 2015 || (checkYear == 2014 && checkQuater > 1)){
+		                alert('Bạn phải thực hiện kỳ kê khai theo quý với các kỳ kê khai từ Q3/2014');
+			        	tieptucBTObj.disabled=false;
+			        	return false;
+		            }
+		    } else if('Q'== kieuKy) {
+		        if  (checkYear < 2014 || (checkYear == 2014 && checkQuater < 3)) {
+		        	alert('Tờ khai BC01/AC chỉ được kê khai theo quý với các kỳ kê khai từ Q3/2014');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    }
+    
+    if(maTKhai == '261'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+    	if(kieuKy == 'Q'){
+    	if  ((checkYear > 2016) || (checkYear == 2016 && checkQuy > 4)) {
+        	alert('Đã hết hiệu lực kê khai theo quý từ quý I/2017. Đề nghị xem lại.');
+        	document.getElementById('thangquy1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+    	} else {
+    		if  ((checkYear < 2017) || (checkYear == 2017 && checkQuy < 1)) {
+        	alert('Có hiệu lực kê khai theo kỳ từ kỳ 1/2017. Đề nghị xem lại.');
+        	document.getElementById('thangquy1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+    	}
+
+    }
+    
+    if(maTKhai == '394'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+    	if(kieuKy == 'Q'){
+    	if  ((checkYear < 2015) || (checkYear == 2015 && checkQuy < 3)) {
+        	alert('Có hiệu lực kê khai từ Q3/2015. Đề nghị xem lại.');
+        	document.getElementById('thangquy1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+    	} else {
+    		if  ((checkYear < 2015) || (checkYear == 2015 && checkQuy < 7)) {
+        	alert('Có hiệu lực kê khai từ tháng 07/2015. Đề nghị xem lại.');
+        	document.getElementById('thangquy1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+    	}
+
+    }
+    
+    if(maTKhai == '443' || maTKhai == '444'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+    	var ngayThang = ngaythangnam1Obj.value;
+    	if(kieuKy == 'D'){
+    	if  (toDate(ngayThang,'DD/MM/YYYY') < toDate('01/01/2016','DD/MM/YYYY') ) {
+		        	alert('Tờ khai có hiệu lực kê khai từ tháng 1 năm 2016. Đề nghị xem lại.');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		} else {
+    		tieptucBTObj.disabled=true;
+    	}
+    	} else {
+    		if  ((checkYear < 2016) || (checkYear == 2016 && checkQuy < 1)) {
+        	alert('Tờ khai có hiệu lực kê khai từ tháng 1 năm 2016. Đề nghị xem lại.');
+        	document.getElementById('thangquy1').focus();
+        	tieptucBTObj.disabled=false;
+        	return false;
+        } else {
+    		tieptucBTObj.disabled=true;
+    	}
+    	}
+
+    }
+    
+    if(maTKhai == '265' || maTKhai == '439'){
+    	var kieuKy = kieuKyObj.value;
+    	var checkYear = namObj.value;
+    		if('Q'== kieuKy) {
+		        if  (checkYear < 2014 ) {
+		        	alert('Kỳ báo cáo có hiệu lực từ Q1/2014');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    }
+    
+    if(maTKhai == '673' || maTKhai == '674' || maTKhai == '677' || maTKhai == '678'){
+    	var kieuKy = kieuKyObj.value;
+    	var checkYear = namObj.value;
+    		if('Q'== kieuKy) {
+		        if  (checkYear < 2016 ) {
+		        	alert('Mẫu tờ khai chỉ có có hiệu lực từ Q1/2016');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    }
+    
+    if(maTKhai == '671' || maTKhai == '672' || maTKhai == '675' || maTKhai == '676'){
+    	var kieuKy = kieuKyObj.value;
+    	var checkYear = namObj.value;
+    		if('Q'== kieuKy) {
+		        if  (checkYear < 2015 ) {
+		        	alert('Mẫu tờ khai chỉ có hiệu lực từ Q1/2015');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    		if('Y'== kieuKy) {
+    	        if(toNumber(checkYear) < 2015){
+    	            alert('Mã tờ khai chỉ có hiệu lực từ năm 2015.');
+    	        	namObj.focus();
+    	        	tieptucBTObj.disabled=false;
+    	        	return false;
+		    }
+    }
+    }
+    //bắt hiệu lực cho tờ BCTC TT49, QD16
+   /*  if(maTKhai == '51'){
+    	var checkYear = namObj.value;
+        if  (checkYear > 2015 ) {
+        	alert('Mã tờ khai chỉ có hiệu lực đến năm 2015');
+        	tieptucBTObj.disabled=false;
+        	return false;
+        }
+    } 
+     */
+     if(maTKhai == '466' || maTKhai == '467'|| maTKhai == '692' || maTKhai == '691'|| maTKhai == '693'){
+    	var checkYear = namObj.value;
+        if  (checkYear < 2016 ) {
+        	alert('Mã tờ khai chỉ có hiệu lực từ năm 2016');
+        	tieptucBTObj.disabled=false;
+        	return false;
+        }
+    }
+     if(maTKhai == '402' || maTKhai == '465'){
+     	var checkYear = namObj.value;
+         if  (checkYear < 2015 ) {
+         	alert('Mã tờ khai chỉ có hiệu lực từ năm 2015');
+         	tieptucBTObj.disabled=false;
+         	return false;
+         }
+     } 
+   /*   if(maTKhai == '62'){
+      	var checkYear = namObj.value;
+          if  (checkYear > 2019 ) {
+          	alert('Mã tờ khai chỉ có hiệu lực đến năm 2019.');
+          	tieptucBTObj.disabled=false;
+          	return false;
+          }
+      }  */
+//     if(maTKhai == '464'){
+//     	var checkYear = namObj.value;
+//         if  (checkYear < 2017 ) {
+//         	alert('Mã tờ khai chỉ có hiệu lực từ năm 2017');
+//         	tieptucBTObj.disabled=false;
+//         	return false;
+//         }
+//     }   
+    // 
+    
+    if(maTKhai == '437' || maTKhai == '438'){
+    	var toDay = new Date();
+    	var kieuKy = kieuKyObj.value;
+    	var ngayThang = ngaythangnam1Obj.value;
+    		if('D'== kieuKy) {
+		        if  (toDate(ngayThang,'DD/MM/YYYY') < toDate('01/01/2014','DD/MM/YYYY') ) {
+		        	alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu hồ sơ');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    }
+    
+//  check kỳ kê khai <= ngày hiện tại
+     if(maTKhai == '260' || maTKhai == '301' || maTKhai == '106' || maTKhai == '104'|| maTKhai == '131'|| maTKhai == '107' || maTKhai == '439' 
+    	|| maTKhai == '300' || maTKhai == '437' || maTKhai == '438' || maTKhai == '129' || maTKhai == '688' || maTKhai == '689' || maTKhai == '41' || maTKhai == '73' || maTKhai == '714'){
+    	var toDay = new Date();
+    	var toMonth = new Date().getMonth();
+    	var toYear = new Date().getFullYear();
+    	var kieuKy = kieuKyObj.value;
+    	var ngayThang = ngaythangnam1Obj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var checkYear = namObj.value;
+    	var quy;
+    	
+    	
+    	
+    	if(toMonth >= 1 && toMonth <=3){
+    		quy = 1;
+    	} else if(toMonth >= 4 && toMonth <=6){
+    		quy =2;
+    	} else if(toMonth >= 7 && toMonth <=9){
+    		quy = 3;
+    	} else if(toMonth >= 10 && toMonth <=12){
+    		quy = 4;
+    	} 
+    	
+    	if('D' == kieuKy){
+    		if(toDate(ngayThang,'DD/MM/YYYY') > toDay){
+    		alert('Kỳ kê khai phải nhỏ hơn hoặc bằng ngày hiện tại');
+		    tieptucBTObj.disabled=false;
+		    return false;
+    		}
+    	} else if('M' == kieuKy){
+    		if((checkYear > toYear) || (checkYear == toYear && checkQuy > toMonth)){
+	    		alert('Kỳ kê khai phải nhỏ hơn hoặc bằng ngày hiện tại');
+			    tieptucBTObj.disabled=false;
+			    return false;
+    		}
+    	} else if('Q' == kieuKy){
+    		if((checkYear > toYear) || (checkYear == toYear && checkQuy > quy)){
+	    		alert('Kỳ kê khai phải nhỏ hơn hoặc bằng ngày hiện tại');
+			    tieptucBTObj.disabled=false;
+			    return false;
+    		}
+    	}
+    }
+    
+     if(maTKhaiObj.value == '470'){
+    	var checkYear = namObj.value;
+     	var checkQuy = thangquy1Obj.value;
+     	var kieuKy = kieuKyObj.value;
+     	var ngayThang = ngaythangnam1Obj.value;
+     	var tuNgay = document.getElementById('tuNgay');
+     	
+     	if(kieuKy == 'Y'){
+     		if(toNumber(checkYear) < 2021){
+     			 alert('Tờ khai có hiệu lực từ năm 2021');
+     			tieptucBTObj.disabled=false;
+                  return false;
+     		}
+     	}
+     	if(kieuKy == 'Q'){
+     		if(toNumber(checkYear) < 2021 || (toNumber(checkYear) == 2021 && toNumber(checkQuy) < 3)){
+     			 alert('Tờ khai có hiệu lực từ quý 3/2021');
+     			tieptucBTObj.disabled=false;
+                  return false;
+     		}
+     	}
+     	if(kieuKy == 'M'){
+     		if(toNumber(checkYear) < 2021 || (toNumber(checkYear) == 2021 && toNumber(checkQuy) < 8)){
+     			 alert('Tờ khai có hiệu lực từ tháng 8 năm 2021');
+     			tieptucBTObj.disabled=false;
+                  return false;
+     		}
+     	}
+     	if(kieuKy == 'D'){
+     		if(toDate(tuNgay.value,'DD/MM/YYYY') < toDate('01/08/2021','DD/MM/YYYY')){
+     			 alert('Tờ khai có hiệu lực từ ngày 01/08/2021');
+     			tieptucBTObj.disabled=false;
+                  return false;
+     		}
+     	}
+     }
+     
+
+    
+    if(maTKhai == '101'){
+    	alert('Mẫu hồ sơ đã hết hiệu lực.');
+    	tieptucBTObj.disabled=false;
+		return false;
+    }
+    
+  if(maTKhai == '135' || maTKhai == '149'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+    	var loaiTKhai = loaiTKhaiObj.value;
+    	var ngayThang = ngaythangnam1Obj.value;
+
+    	if(loaiTKhai == 'C'){
+    		if('M' == kieuKy) {
+            if  ((checkYear > 2015) || (checkYear == 2015 && checkQuy > 12)) {
+	        	alert('tờ khai có hiệu lực đến tháng 12 năm 2015. Đề nghị xem lại.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    } else if('D'== kieuKy) {
+	        if  (toDate(ngayThang,'DD/MM/YYYY') > toDate('31/12/2015','DD/MM/YYYY') ) {
+		        	alert('tờ khai có hiệu lực đến tháng 12 năm 2015. Đề nghị xem lại.');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		} else {
+    		tieptucBTObj.disabled=true;
+    	}
+	    }
+    	} else {
+    			if('M' == kieuKy) {
+            if  ((checkYear > 2016) || (checkYear == 2016 && checkQuy > '10')) {
+	        	alert('Tờ khai có hiệu lực kê khai đến tháng 10 năm 2016. Đề nghị xem lại.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    } else if('D'== kieuKy) {
+	        if  (toDate(ngayThang,'DD/MM/YYYY') > toDate('31/10/2016','DD/MM/YYYY') ) {
+		        	alert('Tờ khai có hiệu lực kê khai đến tháng 10 năm 2016. Đề nghị xem lại.');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		} else {
+    		tieptucBTObj.disabled=true;
+    	}
+	    }
+    	}
+
+
+    }
+    
+    if(maTKhai == '85'){
+    	var checkYear = namObj.value;
+    	var checkQuy = thangquy1Obj.value;
+    	var kieuKy = kieuKyObj.value;
+    	var loaiTKhai = loaiTKhaiObj.value;
+
+    	if(loaiTKhai == 'C'){
+    		if('Q' == kieuKy) {
+            if  ((checkYear > 2015) || (checkYear == 2015 && checkQuy > '4')) {
+	        	alert('tờ khai có hiệu lực đến Q4/2015. Đề nghị xem lại.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    }
+    	} else {
+    			if('Q' == kieuKy) {
+            if  ((checkYear > 2016) || (checkYear == 2016 && checkQuy > '3')) {
+	        	alert('Tờ khai có hiệu lực kê khai đến Q3/2016. Đề nghị xem lại.');
+	        	document.getElementById('thangquy1').focus();
+	        	tieptucBTObj.disabled=false;
+	        	return false;
+	        } else {
+	    		tieptucBTObj.disabled=true;
+	    	}
+	    } 
+    	}
+
+
+    }
+    if(maTKhai == '86' || maTKhai == '87' || maTKhai == '88'){
+    	var checkYear = namObj.value;
+    	var loaiTKhai = loaiTKhaiObj.value;
+    	if(loaiTKhai == 'C'){
+    		if(checkYear > 2015){
+    			alert('Tờ khai có hiệu lực kê khai đến năm 2015. Đề nghị xem lại.');
+		        tieptucBTObj.disabled=false;
+		        return false;
+    		} else {
+    			tieptucBTObj.disabled=true;
+    		}
+    	} else{
+    		if(checkYear > 2016){
+    			alert('Tờ khai có hiệu lực kê khai đến năm 2016. Đề nghị xem lại.');
+		        tieptucBTObj.disabled=false;
+		        return false;
+    		} else {
+    			tieptucBTObj.disabled=true;
+    		}
+    	}
+    }
+    
+    
+    if(maTKhai == '270'){
+    	var kieuKy = kieuKyObj.value;
+    	var checkYear = namObj.value;
+    		if('Q'== kieuKy) {
+		        if  (checkYear < 2015 ) {
+		        	alert('Kỳ báo cáo có hiệu lực từ Q1/2015');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    		if('M'== kieuKy) {
+		        if  (checkYear < 2015 ) {
+		        	alert('Kỳ báo cáo có hiệu lực từ 01/2015');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    		if('Y'== kieuKy) {
+		        if  (checkYear < 2015 ) {
+		        	alert('Kỳ báo cáo có hiệu lực từ 15CN');
+		        	tieptucBTObj.disabled=false;
+		        	return false;
+		        }
+		    }
+    }
+
+    if(maTKhai == '402' || maTKhai == '465' || maTKhai == '466' || maTKhai == '467'){
+    	var tuNgay2Obj = document.getElementById('tuNgay');
+    	var nam_temp = tuNgay2Obj.value;
+      	var namDObj = nam_temp.substring(nam_temp.length-4);
+		            if(namDObj < 2015){
+		                alert('Kỳ tính thuế không được nhỏ hơn ngày bắt đầu hiệu lực của tờ khai');
+			        	tieptucBTObj.disabled=false;
+			        	return false;
+		            }
+		            if (!checkKeKhaiTheoNamChoTKhaiQDinh()) {
+			    		tieptucBTObj.disabled=false;
+			    		return false;
+			    	}
+    }
+    
+
+    var regMaTKhaiQuyetToan = /^(62|60)$/g;
+
+    if( regMaTKhaiQuyetToan.test(maTKhai)){
+      	if (!checkKeKhaiTheoNamChoTKhaiQT()) {
+    		tieptucBTObj.disabled=false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled=true;
+    	}
+    }
+    if( (maTKhai=='380' && 'Y' == kieuKyObj.value) || (maTKhai=='381' && 'Y' == kieuKyObj.value)){
+    	if (!checkKeKhaiTheoNamChoTKhaiDKhi()) {
+    		tieptucBTObj.disabled=false;
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled=true;
+    	}
+    }
+    
+    if(maTKhai === '464'){
+    if('B' == loaiTKhaiObj.value) {
+        if(!checkNgayNopTKhai()) {
+            tieptucBTObj.disabled=false;
+            return false;
+        };
+    }else{
+        tieptucBTObj.disabled=true;
+     };      
+    }
+    if(maTKhai === '388' || maTKhai === '470'){
+    	var maCQTNoiNop = document.getElementById('maCQTNoiNop').value;
+    	if(/00$/.test(maCQTNoiNop)){
+    		tieptucBTObj.disabled=false;
+    		alert('Tờ thuê tài sản không được kê khai tại Cục thuế');
+    		return false;
+    	} else {
+    		tieptucBTObj.disabled=true;
+    	}
+    }
+    
+    if(maTKhaiObj.value == "03"){
+	    var maCQTNoiNop = document.getElementById('maCQTNoiNop').value;
+	    var tuNgay = document.getElementById('tuNgay').value;
+	    var denNgay = document.getElementById('denNgay').value;
+	    
+	    var checkBCTC = checkCTieuToKhai(maTKhai,loaiTKhaiObj.value,maCQTNoiNop,kieuKyObj.value,ngaythangnam1Obj.value,thangquy1Obj.value,namObj.value,tuNgay,denNgay);
+    	 if (checkBCTC == '0') {
+/* 				if (confirm("Phải nộp BCTC trước khi nộp tờ khai 03/TNDN.\n Bạn đã nộp BCTC bằng hồ sơ giấy đến cơ quan thuế.")) {
+					tieptucBTObj.disabled=true;
+				} else {
+					tieptucBTObj.disabled=false;
+            		return false;
+				}  */
+				$('#main-tndn-dialog').show();
+				return false;
+							
+		}else{
+			tieptucBTObj.disabled=true;
+		}
+    }
+    
+    if(maTKhaiObj.value == "371"){
+    	alert('Thủ tục về thông báo phát hành hóa đơn điện tử đã được cập nhật theo mẫu biểu của Thông tư số 26/2015/TT-BTC ngày 27/2/2015 của Bộ Tài chính');
+    	tieptucBTObj.disabled=false;
+    	return false;
+    }
+    
+     chonCQTObj.disabled = false;
+    document.LapTKhaiOnlineForm.dse_nextEventName.value = "submit";
+	$("#LapTKhaiOnlineForm").submit();
+}
+function exitDialog(){
+	$('#main-tndn-dialog').hide();
+	$('#tieptucBT').attr('disabled',false);
+}
+function tiepTucTNDN(){
+	if($('#dialog').is(":checked")){
+		document.LapTKhaiOnlineForm.dse_nextEventName.value = "submit";
+		$("#LapTKhaiOnlineForm").submit();
+	}
+	$('#main-tndn-dialog').hide();
+	$('#tieptucBT').attr('disabled',false);
+}
+function ktraKKhaiBSung(){
+    //Qua ngay 20 cua Ky KKhai moi dc khai bsung
+    var ngayHTai = toDate('08/12/2021', 'DD/MM/YYYY');
+    var thangQuyObj = document.getElementById('thangquy1');
+    var thangQuy = thangQuyObj.value;
+    var namObj = document.getElementById('nam1');
+    var nam = namObj.value;
+    var kieuKy = document.getElementById('kieuKy').value;
+
+//     if('M'== kieuKy) {
+//         ngay20KyKKhai = toDate('21/' + thangQuy + '/' + nam, 'DD/MM/YYYY');
+//         ngay20KyKKhai.setMonth(ngay20KyKKhai.getMonth() + 1);
+//         if(ngayHTai < ngay20KyKKhai){
+//             alert('Qua ngày 20 của kỳ kê khai mới được khai bổ sung');
+//             thangQuyObj.focus();
+//             return false;
+//         }
+//     }
+    return true;
+}
+
+//disable do bi loi DSEHtmlDoubleClickException
+function ktraPressEnter(e){
+    var evt = e ? e : window.event;
+
+    if (evt.keyCode == 13){
+//             tieptuc();
+		return false;
+    }
+}
+/* function buildPLucHTML(maTKhai) {
+    var bkeList;
+    var plucHTML = "";
+    if(arrTKhaiBKe[maTKhai]!=null){
+        bkeList = arrTKhaiBKe[maTKhai].bkeList;
+        if (null != bkeList) {
+            for(var i in bkeList){
+                plucHTML = plucHTML + '<input type="checkbox" value="' + bkeList[i].maBKe + '" name="pluc">' + bkeList[i].tenBKe + '<br>';
+            }
+        }
+        if ('' == plucHTML) {
+            plucLabelObj.innerHTML = '';
+        } else {
+            plucLabelObj.innerHTML = 'Ph&#7909; l&#7909;c';
+        }
+        plucObj.innerHTML = plucHTML;
+    }else{
+        plucLabelObj.innerHTML = '';
+        plucObj.innerHTML = '';
+    }
+} */
+function checkDate(obj){
+    var dateFomat = 'dd/mm/yyyy';
+    return validDateFormat(obj,dateFomat);
+}
+chonTKhai(maTKhaiObj);
+chonLoaiTKhaiChange(loaiTKhaiObj.value);
+chonCQT(maTKhaiObj.value);
+
+window.onload = function(){
+    chonTKhai(document.forms["LapTKhaiOnlineForm"].maTKhai);
+    chonLoaiTKhaiChange(document.forms["LapTKhaiOnlineForm"].loaiTKhai.value);
+    var regMaTKhaiVangLai = /^()$/g;
+    if( regMaTKhaiVangLai.test(maTKhaiObj.value)){
+        chonCQTObj.disabled = false;
+    }
+    try{
+        if(document.forms["LapTKhaiOnlineForm"].nam.value!=''){
+            document.getElementById("nam1").value = document.forms["LapTKhaiOnlineForm"].nam.value;
+        }
+    }catch(ex){
+    }
+    try{
+        if(document.forms["LapTKhaiOnlineForm"].thangquy.value!=''){
+            document.getElementById("thangquy1").value = document.forms["LapTKhaiOnlineForm"].thangquy.value;
+        }
+    }catch(ex){
+    }
+    try{
+        if(document.forms["LapTKhaiOnlineForm"].ngaythangnam.value!=''){
+            document.getElementById("ngaythangnam1").value = document.forms["LapTKhaiOnlineForm"].ngaythangnam.value;
+        }
+    }catch(ex){
+    }
+    try{
+        document.getElementById("ngayKhaiBSungField").value = document.forms["LapTKhaiOnlineForm"].ngayKhaiBSung.value;
+    }catch(ex){
+    }try{
+        document.getElementById("ngayNopTKhaiField").value = document.forms["LapTKhaiOnlineForm"].ngayNopTKhai.value;
+    }catch(ex){
+    }
+}
+
+function loadText(){
+    try{
+        document.forms["LapTKhaiOnlineForm"].thangquy.value = document.getElementById("thangquy1").value;
+    }catch(ex){
+    }
+    try{
+        document.forms["LapTKhaiOnlineForm"].nam.value = document.getElementById("nam1").value;
+    }catch(ex){
+    }
+    try{
+        document.forms["LapTKhaiOnlineForm"].ngaythangnam.value = document.getElementById("ngaythangnam1").value;
+    }catch(ex){
+    }
+    try{
+        document.forms["LapTKhaiOnlineForm"].ngayKhaiBSung.value = document.getElementById("ngayKhaiBSungField").value;
+    }catch(ex){
+    }
+    try{
+        document.forms["LapTKhaiOnlineForm"].ngayNopTKhai.value = document.getElementById("ngayNopTKhaiField").value;
+    }catch(ex){
+    }
+}
+function checkKeKhaiNhaThau(maTKhaiObj){
+        var ngayHTai = '08/12/2021';
+        var fromDateObj;
+        var toDateObj;
+        var fromDates = document.getElementById('tuNgay');
+        var toDates = document.getElementById('denNgay');
+        var kyKeKhai = document.getElementById('nam1');
+        var maTKhai = maTKhaiObj.value;
+
+        if(fromDates!=null&&toDates!=null){
+            fromDateObj = toDate(fromDates.value,'DD/MM/YYYY');
+            toDateObj = toDate(toDates.value,'DD/MM/YYYY');
+            var ngayHienTai = toDate(ngayHTai,'DD/MM/YYYY');
+            if(maTKhai == "89"){
+	            kyKeKhai.value = fromDates.value.split('/')[2];
+            } else if(maTKhai == "72" || maTKhai == "74"){
+            	kyKeKhai.value = toDates.value.split('/')[2];
+            }
+            if(ngayHienTai.getFullYear()<toDateObj.getFullYear()){
+              alert('Đến tháng phải nhỏ hơn hoặc bằng tháng hiện tại');
+              toDates.focus();
+              return false;
+            }else{
+              if(ngayHienTai.getTime()<toDateObj.getTime()){
+                alert('Đến tháng phải nhỏ hơn hoặc bằng tháng hiện tại');
+                toDates.focus();
+                return false;
+              }
+            }
+            if(fromDates.value==''){
+                alert('[Từ ngày] không được để trống.')
+                fromDates.focus();
+                return false;
+            }
+            if(toDates.value==''){
+                alert('[Đến ngày] không được để trống.');
+                toDates.focus();
+                return false;
+            }
+            if(toDateObj<fromDateObj){
+                alert('Ngày bắt đầu không được lớn hơn đến ngày.')
+                toDates.focus();
+                return false;
+            }
+            if(kyKeKhai.value != toDateObj.getFullYear()){
+            	alert('Năm của đến ngày phải bằng năm của kỳ kê khai.');
+                toDates.focus();
+                return false;
+            }
+        }
+    return true;
+  }
+
+function checkKeKhaiTheoNam(){
+    var fromDates = document.getElementById('tuNgay').value;
+    var toDates = document.getElementById('denNgay').value;
+    var year = document.getElementById('nam1').value;
+
+    if(fromDates!=null&&toDates!=null){
+		var startYear = fromDates.substring(3);
+		var endYear = toDates.substring(3);
+		var startMonth = fromDates.substring(0, 2);
+		var endMonth = toDates.substring(0, 2);
+		var newStartDate = startYear + startMonth;
+		var newEndDate = endYear + endMonth;
+
+          if(newEndDate - newStartDate + 1 > 103){
+            alert('Khoảng cách từ tháng đến tháng không được vượt quá 15 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+          }
+    }
+return true;
+}
+
+function checkKeKhaiTheoNam12Thang(){
+    var fromDates = document.getElementById('tuNgay').value;
+    var toDates = document.getElementById('denNgay').value;
+    var year = document.getElementById('nam1').value;
+
+    if(fromDates!=null&&toDates!=null){
+		var startYear = fromDates.substring(3);
+		var endYear = toDates.substring(3);
+		var startMonth = fromDates.substring(0, 2);
+		var endMonth = toDates.substring(0, 2);
+		var newStartDate = startYear + startMonth;
+		var newEndDate = endYear + endMonth;
+
+          if(newEndDate - newStartDate + 1 > 100){
+            alert('Khoảng cách từ tháng đến tháng không được vượt quá 12 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+          }
+    }
+return true;
+}
+
+function checkStartTKhai2016(){
+	var kieuKy = document.getElementById('kieuKy').value;
+    if (kieuKy == 'Y') {
+    	var nam = document.getElementById('nam1').value;
+    	/* if (maTKhaiObj.value != '386') {
+	    	if (toNumber(nam) < 2016) {
+	    		if (maTKhaiObj.value == '389')
+	    			alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu biểu');
+	    		else
+	          		alert('Mã tờ khai chỉ có hiệu lực từ năm 2016');
+	            return false;
+	    	}
+    	} else {
+	    	if (toNumber(nam) < 2015) {
+		          	alert('Mã tờ khai chỉ có hiệu lực từ năm 2015');
+		            return false;
+	    	}
+    	} */
+    	
+	    	if (toNumber(nam) < 2016) {
+	    		if (maTKhaiObj.value == '389'){
+	    			alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu biểu');
+	    		}
+	    			
+	    		else{
+	    			alert('Mã tờ khai chỉ có hiệu lực từ năm 2016');
+		            return false;
+	    		}
+	          		
+	    	}
+  
+	    	if (toNumber(nam) < 2015) {
+		          	alert('Mã tờ khai chỉ có hiệu lực từ năm 2015');
+		            return false;
+    	}
+    }
+
+	if (maTKhaiObj.value == '386') {
+	    if (kieuKy == 'M' || kieuKy == 'Q') {
+	    	var nam = document.getElementById('nam1').value;
+	    	if (toNumber(nam) < 2016) {
+	          	alert('Mã tờ khai chỉ có hiệu lực từ năm 2016');
+	            return false;
+	    	}
+	    } else if (kieuKy == 'D') {
+	    	var startYear = document.getElementById('ngaythangnam1').value.substring(6);
+	    	if (toNumber(startYear) < 2016) {
+	    		alert('Mã tờ khai chỉ có hiệu lực từ năm 2016');
+	            return false;
+	    	}
+	    }
+	}
+	if (maTKhaiObj.value == '473') {
+	    if (kieuKy == 'M') {
+	    	var nam = document.getElementById('nam1').value;
+	    	var thang = document.getElementById('thangquy1').value;
+	    	if (toNumber(nam) < 2021 || (toNumber(nam) >= 2021 && toNumber(thang) < 8)) {
+	          	alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	            return false;
+	    	}
+	    } else if (kieuKy == 'Q') {
+	    	var nam = document.getElementById('nam1').value;
+	    	var quy = document.getElementById('thangquy1').value;
+	    	var tuNgay = document.getElementById('tuNgay');
+	    	var denNgay = document.getElementById('denNgay');
+    		var checkTuThang = tuNgay.value.substring(0,2);
+    		var checkDenThang = denNgay.value.substring(0,2);
+	    	if (toNumber(nam) < 2021 || (toNumber(nam) == 2021 && toNumber(quy) < 3 )) {
+	          	alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	          	setTimeout(function() {
+			}, 3);
+	            return false;
+	    	}if(tuNgay.value == ''){
+	    		alert('Vui lòng chọn từ tháng');
+	    		setTimeout(function() {
+            	tuNgay.focus();
+			}, 3);
+	    		return false;
+	    	}if(denNgay.value == ''){
+	    		alert('Vui lòng chọn đến tháng');
+	    		setTimeout(function() {
+            	denNgay.focus();
+			}, 3);
+	    		return false;
+	    	}if(checkTuThang > checkDenThang){
+	    			alert('Từ tháng phải nhỏ hơn đến tháng');
+	    			setTimeout(function() {
+	    				denNgay.focus();
+					}, 3);
+			        return false;
+	    	}if(toNumber(quy) == 1 ) {
+	    		if(checkTuThang <1){
+	    			alert('Bạn phải chọn từ tháng 1 đến tháng 3');
+	    			setTimeout(function() {
+	    				tuNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    		if( checkDenThang >3){
+	    			alert('Bạn phải chọn từ tháng 1 đến tháng 3');
+	    			setTimeout(function() {
+	    				denNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    	}if(toNumber(quy) == 2 ) {
+	    		if(checkTuThang <4){
+	    			alert('Bạn phải chọn từ tháng 4 đến tháng 6');
+	    			setTimeout(function() {
+	    				tuNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    		if( checkDenThang >6){
+	    			alert('Bạn phải chọn từ tháng 4 đến tháng 6');
+	    			setTimeout(function() {
+	    				denNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    	}if(toNumber(quy) == 3 ) {
+	    		if(checkTuThang <7){
+	    			alert('Bạn phải chọn từ tháng 7 đến tháng 9');
+	    			setTimeout(function() {
+	    				tuNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    		if( checkDenThang >9){
+	    			alert('Bạn phải chọn từ tháng 7 đến tháng 9');
+	    			setTimeout(function() {
+	    				denNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    	}if(toNumber(quy) == 4 ) {
+	    		if(checkTuThang <10){
+	    			alert('Bạn phải chọn từ tháng 10 đến tháng 12');
+	    			setTimeout(function() {
+	    				tuNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    		if(checkDenThang >12){
+	    			alert('Bạn phải chọn từ tháng 10 đến tháng 12');
+	    			setTimeout(function() {
+	    				denNgay.focus();
+					}, 3);
+			        return false;
+	    		}
+	    	}
+	    }else if (kieuKy == 'D') {
+	    	//var startMonth = document.getElementById('ngaythangnam1').value.substring(3,5);
+	    	var startMonth = document.getElementById('ngaythangnam1').value.substring(3,5);
+	    	var checkM = toNumber(startMonth);
+	    	var startYear = document.getElementById('ngaythangnam1').value.substring(6);
+	    	if (toNumber(startYear) < 2021) {
+	    		alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	    		setTimeout(function() {
+				}, 1);
+	            return false;
+	    	}if (toNumber(startYear) >= 2021 && checkM < 8) {
+		    		alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+		    		setTimeout(function() {
+				}, 1);
+		            return false;    		
+	    	}
+	    }else if (kieuKy == 'Y') {
+	    	var startYear = document.getElementById('nam1').value;
+	    	var tuNgay = document.getElementById('tuNgay');
+	    	var denNgay = document.getElementById('denNgay');
+    		var checkTuThang = tuNgay.value.substring(0,2);
+    		var checkDenThang = denNgay.value.substring(0,2);
+	    	/* if($('#tuNgay').value != "" && $('#tuNgay').value != null)
+	    	var startMonth = document.getElementById('tuNgay').value.substring(3,5);
+	    	var checkM = toNumber(startMonth);
+	    	var startYear1 = document.getElementById('tuNgay').value.substring(6); */
+	    	
+	    	if (toNumber(startYear) < 2021){
+	    		alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	    		setTimeout(function() {
+				}, 1);
+	            return false;
+	    	}/* if (toNumber(startYear) == 2021 && toNumber(checkTuThang) < 8){
+	    		alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	    		setTimeout(function() {
+	    			tuNgay.focus();
+				}, 1);
+	            return false;
+	    	} *//* else if(toNumber(startYear1) <2021) {
+	    		alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	            return false;
+	    	}else(toNumber(startYear1) ==2021 && toNumber(checkM) < 8) {
+	    		alert('Tờ khai 01/CNKD (TT40/2021) có hiệu lực từ 1/8/2021');
+	            return false;
+	    	} */
+	    }
+	}
+	
+	//hungnt tam rao
+// 	if (maTKhaiObj.value == '386') {
+// 	    if (kieuKy == 'M') {
+// 	    	var nam = document.getElementById('nam1').value;
+// 	    	var thang = document.getElementById('thangquy1').value;
+// 	    	if (toNumber(nam) > 2021 || (toNumber(nam) == 2021 && toNumber(thang) >= 8)) {
+// 	          	alert('Tờ khai 01/CNKD (TT92/2015) hết hiệu lực từ 1/8/2021');
+// 	            return false;
+// 	    	}
+// 	    } else if (kieuKy == 'Q') {
+// 	    	var nam = document.getElementById('nam1').value;
+// 	    	var quy = document.getElementById('thangquy1').value;
+// 	    	if (toNumber(nam) > 2021 || (toNumber(nam) == 2021 && toNumber(quy) >= 3 )) {
+// 	          	alert('Tờ khai 01/CNKD (TT92/2015) hết hiệu lực từ 1/8/2021');
+// 	            return false;
+// 	    	}
+// 	    }else if (kieuKy == 'D') {
+// 	    	var startMonth = document.getElementById('ngaythangnam1').value.substring(3,5);
+// 	    	var checkM = toNumber(startMonth);
+// 	    	var startYear = document.getElementById('ngaythangnam1').value.substring(6);
+// 	    	if (toNumber(startYear) > 2021) {
+// 	    		alert('Tờ khai 01/CNKD (TT92/2015) hết hiệu lực từ 1/8/2021');
+// 	            return false;
+// 	    	}if (toNumber(startYear) == 2021 && checkM >= 8) {
+// 		    		alert('Tờ khai 01/CNKD (TT92/2015) hết hiệu lực từ 1/8/2021');
+// 		            return false;    		
+// 	    	}
+// 	    }else if (kieuKy == 'Y') {
+// 	    	var startYear = document.getElementById('nam1').value;
+// 	    		if (toNumber(startYear) >= 2021){
+// 	    		alert('Tờ khai 01/CNKD (TT92/2015) hết hiệu lực');
+// 	            return false;
+// 	    	}
+// 	    }
+// 	}	 
+
+	return true;
+
+}
+
+//check hieu luc to 01 XS BHDC Có hiệu lực từ t7/2015, quý 3/2015
+function checkHieuluc01XSBHDC() {
+	var kieuKy = document.getElementById('kieuKy').value;
+    if (kieuKy == 'M') {
+    	var nam = document.getElementById('nam1').value;
+    	var thangquy = document.getElementById('thangquy1').value;
+    	if (toNumber(nam) < 2015) {
+    		alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu biểu');
+            return false;
+    	}
+    	if (toNumber(nam) == 2015 && toNumber(thangquy) < 7) {
+    		alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu biểu');
+            return false;
+    	}
+    }
+
+    if (kieuKy == 'Q') {
+    	var nam = document.getElementById('nam1').value;
+    	var thangquy = document.getElementById('thangquy1').value;
+    	if (toNumber(nam) < 2015) {
+    		alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu biểu');
+            return false;
+    	}
+    	if (toNumber(nam) == 2015 && toNumber(thangquy) < 3) {
+    		alert('Kỳ kê khai không được nhỏ hơn hiệu lực của mẫu biểu');
+            return false;
+    	}
+    }
+
+    return true;
+}
+
+function checkKeKhaiTheoNamChoTKhaiQDinh(){
+    var fromDates = document.getElementById('tuNgay').value;
+    var toDates = document.getElementById('denNgay').value;
+    var year = document.getElementById('nam1').value;
+
+    if(fromDates!=null&&toDates!=null){
+		var startYear = fromDates.substring(6);
+		var endYear = toDates.substring(6);
+		var startMonth = fromDates.substring(3, 5);
+		var endMonth = toDates.substring(3, 5);
+		var newStartDate = startYear + startMonth;
+		var newEndDate = endYear + endMonth;
+
+        if(startYear > endYear){
+          		alert('Từ Tháng không được lớn hơn Đến Tháng');
+	            document.getElementById('tuNgay').focus();
+	            return false;
+
+        }else if(startYear == endYear && startMonth > endMonth){
+        	alert('Từ Tháng không được lớn hơn Đến Tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+        }else if(endYear - startYear == 2){
+        	if(newEndDate - newStartDate + 1 > 191){
+          	alert('Khoảng cách từ tháng đến tháng không được vượt quá 15 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+          }
+        }else{
+          if(newEndDate - newStartDate + 1 > 103){
+            alert('Khoảng cách từ tháng đến tháng không được vượt quá 15 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+          }
+        }
+    }
+return true;
+}
+
+function toDateDKhi(sDate, sFormatMark){
+	var values = sDate.split("/");
+    var yr_num;
+    var mo_num;
+    var day_num;
+    if ((sFormatMark.toUpperCase() == "DD/MM/YYYY") || (sFormatMark.toUpperCase() == "D")) {
+        yr_num = values[2];
+        mo_num = values[1] - 1;
+        day_num = values[0];
+    } else if ((sFormatMark.toUpperCase() == "MM/YYYY") || (sFormatMark.toUpperCase() == "M")) {
+        yr_num = values[1];
+        mo_num = values[0] - 1;
+        day_num = 1;
+    }
+    return new Date(yr_num, mo_num, day_num);
+}
+
+function diffMonthsDKhi(d1,d2){
+	var months;
+    months = (d2.getFullYear() - d1.getFullYear()) * 12;
+    months = months + d2.getMonth() - d1.getMonth() + 1;
+    return months;
+}
+
+function checkKeKhaiTheoNamChoTKhaiDKhi(){
+	var fromDates = document.getElementById('tuNgay').value;
+    var toDates = document.getElementById('denNgay').value;
+    var year = document.getElementById('nam1').value;
+    if(fromDates && toDates && year){
+    	var from = toDateDKhi(fromDates,'MM/YYYY'),
+    		to = toDateDKhi(toDates,'MM/YYYY');
+    	if(from > to){
+    		alert('Từ tháng không được lớn hơn đến tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+    	} else if (to > (new Date())){
+    		alert('Đến tháng không được lớn hơn kỳ hiện tại');
+            document.getElementById('tuNgay').focus();
+            return false;
+    	} else if(diffMonthsDKhi(from,to) > 12){
+    		alert('Khoảng cách từ tháng đến tháng không được vượt quá 12 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+    	}
+    }
+    return true;
+}
+
+function checkKeKhaiTheoNamChoTKhaiQT(){
+    var fromDates = document.getElementById('tuNgay').value;
+    var toDates = document.getElementById('denNgay').value;
+    var year = document.getElementById('nam1').value;
+
+    if(fromDates!=null&&toDates!=null){
+		var startYear = fromDates.substring(3);
+		var endYear = toDates.substring(3);
+		var startMonth = fromDates.substring(0, 2);
+		var endMonth = toDates.substring(0, 2);
+		var newStartDate = startYear + startMonth;
+		var newEndDate = endYear + endMonth;
+
+        if(startYear > endYear){
+          		alert('Từ Tháng không được lớn hơn Đến Tháng');
+	            document.getElementById('tuNgay').focus();
+	            return false;
+
+        }else if(startYear == endYear && startMonth > endMonth){
+        	alert('Từ Tháng không được lớn hơn Đến Tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+        }else if(endYear - startYear == 2){
+        	if(newEndDate - newStartDate + 1 > 191){
+          	alert('Khoảng cách từ tháng đến tháng không được vượt quá 15 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+          }
+        }else{
+          if(newEndDate - newStartDate + 1 > 103){
+            alert('Khoảng cách từ tháng đến tháng không được vượt quá 15 tháng');
+            document.getElementById('tuNgay').focus();
+            return false;
+          }
+        }
+    }
+return true;
+}
+function checkHieuLucKeKhaiTT36DauKhi() {
+    var kieuKy = document.getElementById('kieuKy').value;
+    var loaiTKhai = document.getElementById('loaiTKhai').value;
+    var nam = document.getElementById('nam1').value;
+    var thangquy = '';
+    if (loaiTKhai == 'C') {
+        if (kieuKy == 'Y') {
+            if (toNumber(nam) > 2015) {
+                alert('Mã hồ sơ đã hết hiệu lực');
+                return false;
+            }
+        } else if (kieuKy == 'Q') {
+            if (toNumber(nam) > 2015) {
+                alert('Mã hồ sơ đã hết hiệu lực');
+                return false;
+            }
+            if (toNumber(nam) == 2015) {
+                thangquy = document.getElementById('thangquy1').value;
+                if (toNumber(thangquy) > 2) {
+                    alert('Mã hồ sơ đã hết hiệu lực');
+                    return false;
+                }
+            }
+        } else if (kieuKy == 'M') {
+            if (toNumber(nam) > 2015) {
+                alert('Mã hồ sơ đã hết hiệu lực');
+                return false;
+            }
+            if (toNumber(nam) == 2015) {
+                thangquy = document.getElementById('thangquy1').value;
+                if (toNumber(thangquy) > 6) {
+                    alert('Mã hồ sơ đã hết hiệu lực');
+                    return false;
+                }
+            }
+        } else if (kieuKy == 'D') {
+            var ngaythangnam = document.getElementById('ngaythangnam1').value;
+            if (toDate(ngaythangnam, 'DD/MM/YYYY') > toDate('31/12/2015', 'DD/MM/YYYY')) {
+                alert('Mã hồ sơ đã hết hiệu lực');
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+function checkHieuLucKeKhaiTT36DauKhi2(){
+var kieuKy = document.getElementById('kieuKy').value;
+    var loaiTKhai = document.getElementById('loaiTKhai').value;
+    var nam = document.getElementById('nam1').value;
+    var thangquy = '';
+    if (loaiTKhai == 'C') {
+        if (kieuKy == 'Y') {
+            if (toNumber(nam) < 2016) {
+                alert('Tờ khai có hiệu lực từ năm 2016');
+                return false;
+            }
+        } else if (kieuKy == 'Q') {
+            if (toNumber(nam) < 2016) {
+                alert('Tờ khai có hiệu lực từ năm 2016');
+                return false;
+            }
+            
+        } else if (kieuKy == 'M') {
+            if (toNumber(nam) < 2016) {
+                alert('Tờ khai có hiệu lực từ năm 2016');
+                return false;
+            }
+            
+        } else if (kieuKy == 'D') {
+            var ngaythangnam = document.getElementById('ngaythangnam1').value;
+            if (toDate(ngaythangnam, 'DD/MM/YYYY') < toDate('01/01/2016', 'DD/MM/YYYY')) {
+                alert('Tờ khai có hiệu lực từ năm 2016');
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+//check hieu luc cac to het han ngay 11/01/2016 va 22/02/2016 TNCN
+function checkHieuLucKeKhaiTNCN(){
+    var kieuKy = document.getElementById('kieuKy').value;
+    if (kieuKy == 'Y') {
+    	var nam = document.getElementById('nam1').value;
+    	if (toNumber(nam) > 2015) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    }
+    if (kieuKy == 'Q') {
+    	var nam = document.getElementById('nam1').value;
+    	if (toNumber(nam) > 2015) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    	if (toNumber(nam) == 2015) {
+    		var thangquy = document.getElementById('thangquy1').value;
+    		if (toNumber(thangquy) > 2) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    		}
+    	}
+    }
+    if (kieuKy == 'M') {
+    	var nam = document.getElementById('nam1').value;
+    	if (toNumber(nam) > 2015) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    	if (toNumber(nam) == 2015) {
+    		var thangquy = document.getElementById('thangquy1').value;
+    		if (toNumber(thangquy) > 6) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    		}
+    	}
+    }
+    if (kieuKy == 'D') {
+    	var ngaythangnam = document.getElementById('ngaythangnam1').value;
+    	if (toDate(ngaythangnam, 'DD/MM/YYYY') > toDate('30/06/2015', 'DD/MM/YYYY')) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    }
+
+	return true;
+}
+
+//check hieu luc cac to het han ngay 11/01/2014 va 22/02/2014 TNCN
+function checkHieuLucKeKhaiNam2014(){
+    var kieuKy = document.getElementById('kieuKy').value;
+    if (kieuKy == 'Y') {
+    	var nam = document.getElementById('nam1').value;
+    	if (toNumber(nam) > 2014) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    }
+    if (kieuKy == 'Q') {
+    	var nam = document.getElementById('nam1').value;
+    	if (toNumber(nam) > 2014) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    	if (toNumber(nam) == 2014) {
+    		var thangquy = document.getElementById('thangquy1').value;
+    		if (toNumber(thangquy) > 2) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    		}
+    	}
+    }
+    if (kieuKy == 'M') {
+    	var nam = document.getElementById('nam1').value;
+    	if (toNumber(nam) > 2014) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    	if (toNumber(nam) == 2014) {
+    		var thangquy = document.getElementById('thangquy1').value;
+    		if (toNumber(thangquy) > 6) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    		}
+    	}
+    }
+    if (kieuKy == 'D') {
+    	var ngaythangnam = document.getElementById('ngaythangnam1').value;
+    	if (toDate(ngaythangnam, 'DD/MM/YYYY') > toDate('30/06/2014', 'DD/MM/YYYY')) {
+          	alert('Mã hồ sơ đã hết hiệu lực');
+            return false;
+    	}
+    }
+
+	return true;
+}
+
+function checkNgayNopTKhai(){
+
+var ngayNopTKhaiField = document.getElementById('ngayNopTKhaiField');
+    if(ngayNopTKhaiField == null || ngayNopTKhaiField.value == ''){
+        alert('Chưa chọn ngày nộp tờ khai');
+        ngayNopTKhaiField.focus();
+        return false;
+    }
+    var msg = "Ngày nộp tờ khai bổ sung không được lớn hơn ngày hiện tại";
+    var ngayHTai = toDate('08/12/2021', 'DD/MM/YYYY');    
+    var ngayNopTKhai = toDate(ngayNopTKhaiField.value, 'DD/MM/YYYY');
+    if(ngayNopTKhai > ngayHTai){
+      alert(msg);
+      ngayNopTKhaiField.focus();
+      return false;
+    }
+     return true;
+}
+
+function checkCTieuToKhai(maTKhai,loaiTKhai,maCQTNoiNop,kieuKy,ngaythangnam,thangquy,nam,tuNgay,denNgay){
+			var data = null;
+			$.ajax({
+				type: 'GET',
+				url : "/etaxnnt/Request?&dse_sessionId=orLlkS7BdCks_WtL3HuGDMy&dse_applicationId=-1&dse_pageId=11&dse_operationName=taxOnlineEnumerationProc&dse_processorState=initial&dse_nextEventName=checkToKhai",
+		       	data: "maTKhai="+maTKhai + "&loaiTKhai="+loaiTKhai+"&maCQTNoiNop="+maCQTNoiNop+"&kieuKy="+kieuKy+"&ngaythangnam="+ngaythangnam+"&thangquy="+thangquy+"&nam="+nam+"&tuNgay="+tuNgay+"&denNgay="+denNgay,
+		       	dataType:'json',
+		       	async: false,
+				success:function(result){
+					JSON.parse(result);
+        			data = result;
+				}
+		      }
+			);
+			return data
+}
+
+
+
+function initTkhaiReload() {
+	initAllSelectTinh('tinhHDXD',htmlTinh);
+}
+
+function initAllSelectTinh(name,  html) {
+	 var i = 0;
+	$("select[name=" + name + "]").each(function() {
+			$(this).html(html);
+		i++;
+	}); 
+
+}
+
+
+function genHTMLTinh() {
+	var htmlGen = '<option value="00">&nbsp;</option>';
+	var _DMucTinh = ''.split(';');
+	for (var i = 0, length = _DMucTinh.length; i < length; i++) {
+		var element = _DMucTinh[i];
+		if (!element)
+			continue;
+		element = element.split('+');
+		if (element[0] == '717' || element[0] == '411') {
+			htmlGen = htmlGen + '<option value="' + element[0] + '">'
+					+ element[1] + '-' + element[2] + '</option>';
+		} else {
+			htmlGen = htmlGen + '<option value="' + element[0] + '">'
+					+ element[1] + '</option>';
+		}
+
+	}
+	return htmlGen;
+}
+
+function setValueHiddenField(obj, name,val) {
+	var srcObjId = obj.id;
+	var idSuffix = srcObjId.substring(srcObjId.lastIndexOf('_'));
+	var parrent = $("#" + srcObjId + " option:selected");
+	var target_ten = $("#" + name);
+	target_ten.val(parrent.text());
+	if(val != ''){
+		var target_ma = $("#" + val);
+		target_ma.val(parrent.val());
+	}
+	
+}
+
+function ChangeTinh(obj,ma,ten) {
+    var srcObjId = obj.id;
+    var idSuffix = srcObjId.substring(srcObjId.lastIndexOf('_'));
+    var matinh = 00;
+    matinh = $("#" + srcObjId + " option:selected").val();
+    matinh = matinh.toString();
+    setValueHiddenField(obj,ten,ma);
+}
+
+// anhvt disable backspace and back button on browers
+(function (global) { 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) {
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+/* activeMenu('mn3');
+ */
+
+
+</script>
+
+
+
+
+
+ 
+ 
+<script type="text/javascript">
+if($("table[id='data_content']")!=null){
+	$("table[id='data_content']").find("td:empty").replaceWith("<td>&nbsp;</td>");
+}
+</script>
+</div>
+</body>
+</html>

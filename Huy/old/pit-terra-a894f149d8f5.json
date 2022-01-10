@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pit-terra",
+  "private_key_id": "a894f149d8f520ee3d489e2fa50ff4a590d00431",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQCbLxHgKaG6rphu\nOb1fGeTU9t/DNPqSop+tiN5X6+lMM1ep6eMFDXSwoM7uIF8Tyj/B9zlDcqEa7ERo\n1pZ1L68B334/C999QA/xR48TgSir9LoioIUcai8QGcJztUt+3ESltI2pFV6ybYxr\nFd+SHgBPRQRRUP7CbECd6seUgxc5IwoTQR7km1Kz/6Peq09CYewl2rWcfhdVlHAA\nkxbbC1AmKSGNgmDjjCM9aREycE1nM0Ou+WT/OV/vX2yNKC7/E78iH24T375F9QVY\n/doLg9Jczta/tqboWXWDR/LKbQQqYrIkGeVjOindCmy7c6xVqMI1TRlwpfBOLCOP\nqSu2BlitAgMBAAECgf8FZ7OiWyYxmmM0yPi6QeyhKPgiPyDQeq7qccSiIKq/kgo7\noNSHbds39mHpaWHmY+T/RzJ3ZvFgPq/N9wDGlCKZrhnM7bJFv+AjnJp0fiCB3MRJ\nmyMHxQBepIcMAK810UuSz0x1LIlf2EZLyeHqSkvjIZmaO3f5eEvH3vrp8VGdwSIf\npQYLWTH3TOX9HJ79FgU5jk0m2w7R1C7TUlgkEZJLlRHgiRNUWtlNdk9JIYQzXs7s\niYYLrGeBggn2gkMEk+eoAME1yWoNEF6LIzWBFe4NiHd/N5mWIYbSei60t3JXtquD\nr9PxqKTTB4oNHiqry/ym1+O2T2JRbK2k6iqvjQkCgYEAzKtioTTOYkHlmLkRL5e1\nzLfxmkjXm1HBzHy+WsnDKWMTRC04HD0pKqsNmzIq3SmOl70fQRHpWebY6KfgVD6q\n+8KDLfVQ7PxIlpWRJeDDFZu6gJ+Xwl3EmIM4Wlw0TDR63jvqVayo5iIyWnIzF2nm\nNSn6aH0t5QyALpz2ddXcP8kCgYEAwhqBvaUelhKHNRb0R9lc6QwFEJSGJaKWwJRy\njUrPNqH12cHA3N0FU8B08nmaEvuC60U9vRBT2pqYXnN2CdXDgNd9T4kHqHyK1PMU\nG8KXkBqqgFRCZDKbL7D+tw8G4VNmRP0LanZaG4rNoenTck7msAQ7+YbcKRKILGVC\n56B+q8UCgYBlpjUNBXH/IOVMDZY4geub6juHOehDTr6mtcnAw3Y3RuqZsK+ubr3U\nYDIYwzjAsNQODrLIGYJA0UMngcELdjhrY3bNS4pOuRnAGDaHjnK1d6uQGDNCKFns\nuTcywZqDwojHeRBwTplv+snxW8h+N21LODcS0CEMIkJDZFePvJBv6QKBgCrQnf2v\nBmgj/h7/yTJwB8aAGD3oBQ8YJhikpf/0mHB8mTZHPrt5JUusEB/MIug9AkvTIiMq\nDtURdLqgzVCuDknFPqbkmwPXNOh0FeNpsPTgbOuRqnNflkuWxxip/+KD+vMMvg/l\nu0qH+4PTiAiWztvUk0YfMUD+DXt9epyNEmPhAoGAT7Ex634OHRK5HhmXZSeGM5F6\nyvouZkbxgjEo3ZTgbaeNxsxkOLYAonlytBaglgNGLSreTZonInAQ1URk8FO4vZS4\n8HNrEYf1QcNaA2ZqfbEyhyImYG06lOr+hvPdQ2Q3XuItlQqBTNicVgcFBrLKhuSj\n5+TwON6HhKQ6xfUYBY0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pit-terra@pit-terra.iam.gserviceaccount.com",
+  "client_id": "117177811903907281877",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pit-terra%40pit-terra.iam.gserviceaccount.com"
+}

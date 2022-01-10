@@ -1,0 +1,451 @@
+/* reset css */
+/* https://www.w3schools.com/w3css/tryw3css_templates_band.htm */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+/* kich thuoc(hight, weight, 
+vi tri, 
+mau sac, 
+kieu dang */
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #main{
+
+} */
+
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color: #000;
+    z-index: 1;
+
+}
+
+/*  */
+#nav {
+    display: inline-block;
+}
+
+#nav, .subnav {
+    list-style-type: none;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav li:hover .subnav {
+    display: block;
+
+} 
+
+#nav .subnav {
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#nav .subnav a {
+    color: black;
+    padding: 0 12px;
+    line-height: 38px;
+}
+/* --------------- */
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+#header .btn-search {
+    float: right;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+#header .btn-search:hover {
+    background-color: #f44336;
+} 
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    
+}
+
+/* ----------------------- */
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url("./slider/sli_1.jpg");
+    position: relative;
+    
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+
+}
+
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+
+#content {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text{
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+    
+}
+
+#content .member-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+   
+}
+
+#content .member-img {
+    margin-top: 15px;
+    height: 154px;
+    border-radius: 5px;
+}
+
+/* Tour section */
+.tour-section{
+    background-color: #000;
+}
+
+.tickets-list {
+    margin-top: 40px;
+    list-style: none;
+    background-color: #fff;
+}
+
+.tickets-list li{
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+
+}
+
+.tickets-list .quanlity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+
+/* places */
+.places-list{
+    margin-top: 32px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 0;
+    padding-bottom: 48px;
+
+}
+
+.places-items{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+
+}
+
+.places-img{
+    width: 100%;
+    display: block;
+
+}
+.places-img:hover{
+    opacity: 0.6;
+}
+
+.places-body{
+    padding: 16px;
+    font-size: 15px;
+    background-color: #fff;
+
+}
+
+.places-heading{
+    
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.places-time{
+    margin-top: 15px;
+    color: #757575;
+
+}
+
+.places-desc{
+    line-height: 1.4;
+    margin-top: 15px;
+
+}
+
+.place-buy-btn{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+
+}
+.place-buy-btn:hover{
+    color: #000;
+    background-color: #ccc;
+  
+}
+
+/* Contact */
+
+.contact {
+
+    padding: 64px 0;
+    display: block;
+}
+
+.contact p {
+    margin-bottom: 15px;
+}
+
+.section-heading {
+    color: black;
+    margin: 10px 0;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #000000;
+  
+}
+
+
+.contact-content{
+    padding: 32px 10px;
+    position: relative;
+    width: 100%;
+    
+}
+#content .adress-content {
+    margin-bottom: 16px;
+    width: 100%;
+    
+}   
+
+.adress-content span {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* .adress-content .contact-icon {
+    
+} */
+
+.form-content {
+    line-height: 1.4px;
+ 
+   
+    top:0;
+    right: 0;
+}   
+
+.name-input{
+    width: 100%;
+    padding: 8px ;
+    border: 1px solid #ccc;
+    margin-bottom: 6px;
+  
+}
+
+.email-input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 6px;
+
+} 
+
+.message-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 6px;
+    
+}
+
+
+.submid-input {
+    float: right;
+    color: #fff;
+    background-color: #000;
+    margin: 16px 0; 
+    padding: 8px 16px;
+}
+
+.submid-input:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.map{
+    width: 100% ;
+    filter: grayscale(50%);
+    position: relative;
+    display: block;
+}
+
+
+/* Footer section */
+
+#footer{
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 64px 15px;
+    text-align: center;
+   
+
+}
+
+.theme {
+    font-size: 24px;
+    display: inline-block;
+    opacity: 0.6;
+    color: rgb(76 53 33 / 93%);
+}
+
+.theme:hover{
+    opacity: 0.8;
+  
+}
+
+#footer i {
+    text-align: center;
+}
+
+#footer p {
+    font-size: 15px; 
+    opacity: 0.6;
+    margin: 16px 0;
+    padding: 6px 0;
+}
+
+#footer p > a {
+    color: inherit;
+}
+    

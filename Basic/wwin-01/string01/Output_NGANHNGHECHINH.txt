@@ -1,0 +1,120 @@
+1- Đại lý du lịch.
+2- Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan.
+3- Sản xuất đồ gỗ xây dựng.
+4- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+5- Bán buôn vải, hàng may sẵn, giày dép.
+6- Bán buôn tổng hợp.
+7- Trồng rau, đậu các loại và trồng hoa, cây cảnh.
+8- Đại lý du lịch.
+9- Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê.
+10- Cho thuê xe có động cơ.
+11- Gia công cơ khí; xử lý và tráng phủ kim loại.
+12- Lắp đặt hệ thống điện.
+13- Hoàn thiện công trình xây dựng.
+14- Bán buôn nhiên liệu rắn, lỏng, khí và các sản phẩm liên quan.
+15- Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan.
+16- Bán buôn đồ dùng khác cho gia đình.
+17- Lắp đặt máy móc và thiết bị công nghiệp.
+18- Hoàn thiện công trình xây dựng.
+19- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+20- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+21- Lắp đặt hệ thống điện.
+22-.
+23- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+24- Bán buôn chuyên doanh khác chưa được phân vào đâu.
+25- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+26- Hoạt động dịch vụ hỗ trợ khác liên quan đến vận tải.
+27- Bán buôn thực phẩm.
+28-.
+29- Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan.
+30- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+31- Tổ chức giới thiệu và xúc tiến thương mại.
+32- Hoạt động chăm sóc sức khoẻ người có công, người già và người tàn tật không có khả năng tự chăm sóc.
+33-.
+34- Lắp đặt hệ thống điện.
+35- Hoạt động tư vấn quản lý.
+36- Bán buôn máy móc, thiết bị và phụ tùng máy khác.
+37- Dịch vụ lưu trú ngắn ngày.
+38- Hoạt động thể thao khác.
+39- Bán buôn đồ dùng khác cho gia đình.
+40- Hoạt động thiết kế chuyên dụng.
+41- Giáo dục khác chưa được phân vào đâu.
+42- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+43- Sản xuất sơn, véc ni và các chất sơn, quét tương tự; sản xuất mực in và ma tít.
+44- Bán buôn chuyên doanh khác chưa được phân vào đâu.
+45- Vệ sinh nhà cửa và các công trình khác.
+46- Kiểm tra và phân tích kỹ thuật.
+47- Vận tải hành khách đường bộ khác.
+48- Bán lẻ máy vi tính, thiết bị ngoại vi, phần mềm và thiết bị viễn thông trong các cửa hàng chuyên doanh.
+49- Lắp đặt hệ thống điện.
+50- Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan.
+51- Giặt là, làm sạch các sản phẩm dệt và lông thú.
+52- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+53- Vệ sinh nhà cửa và các công trình khác.
+54- Lắp đặt hệ thống điện.
+55- Hoạt động tư vấn quản lý.
+56- Bán lẻ thuốc, dụng cụ y tế, mỹ phẩm và vật phẩm vệ sinh trong các cửa hàng chuyên doanh.
+57- Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan.
+58- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+59- Vệ sinh chung nhà cửa.
+60- Bán buôn máy móc, thiết bị và phụ tùng máy khác.
+61- Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê.
+62- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+63- Đại lý du lịch.
+64- Bán buôn máy móc, thiết bị và phụ tùng máy khác.
+65- Quảng cáo.
+66- Lắp đặt hệ thống cấp, thoát nước, lò sưởi và điều hoà không khí.
+67- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+68- Dịch vụ lưu trú ngắn ngày.
+69- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+70- Dịch vụ lưu trú ngắn ngày.
+71- Hoạt động dịch vụ hỗ trợ khác liên quan đến vận tải.
+72- Dịch vụ lưu trú ngắn ngày.
+73- Bán buôn kim loại và quặng kim loại.
+74- Hoạt động tư vấn quản lý.
+75- Dịch vụ lưu trú ngắn ngày.
+76- Hoạt động vui chơi giải trí khác chưa được phân vào đâu.
+77- Nhà hàng và các dịch vụ ăn uống phục vụ lưu động.
+78- Giặt là, làm sạch các sản phẩm dệt và lông thú.
+79- Bán buôn máy móc, thiết bị và phụ tùng máy khác.
+80- Gia công cơ khí; xử lý và tráng phủ kim loại.
+81- Bán buôn máy vi tính, thiết bị ngoại vi và phần mềm.
+82- Dịch vụ lưu trú ngắn ngày.
+83- Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê.
+84- Hoạt động vui chơi giải trí khác chưa được phân vào đâu.
+85- Cho thuê xe có động cơ.
+86- Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan.
+87- Dịch vụ lưu trú ngắn ngày.
+88- Bán buôn máy móc, thiết bị và phụ tùng máy khác.
+89- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+90- Hoạt động thiết kế chuyên dụng.
+91-.
+92- Tư vấn máy vi tính và quản trị hệ thống máy vi tính.
+93- Bán lẻ máy vi tính, thiết bị ngoại vi, phần mềm và thiết bị viễn thông trong các cửa hàng chuyên doanh.
+94- Giáo dục thể thao và giải trí.
+95- Hoàn thiện công trình xây dựng.
+96- Tư vấn, môi giới, đấu giá bất động sản, đấu giá quyền sử dụng đất.
+97- Lập trình máy vi tính.
+98- Lắp đặt hệ thống điện.
+99- Lắp đặt hệ thống điện.
+100- Lắp đặt hệ thống cấp, thoát nước, lò sưởi và điều hoà không khí.
+101- Dịch vụ phục vụ đồ uống.
+102- Lập trình máy vi tính.
+103- Bán buôn chuyên doanh khác chưa được phân vào đâu.
+104- Lắp đặt máy móc và thiết bị công nghiệp.
+105- Bán buôn vật liệu, thiết bị lắp đặt khác trong xây dựng.
+106- Xây dựng công trình kỹ thuật dân dụng.
+107- Xây dựng công trình kỹ thuật dân dụng.
+108-.
+109-.
+110-.
+111- Lắp đặt hệ thống điện, hệ thống cấp thoát nước và lắp đặt xây dựng khác.
+112-.
+113-.
+114-.
+115-.
+116-.
+117-.
+118-.
+119- Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê.
+120-.

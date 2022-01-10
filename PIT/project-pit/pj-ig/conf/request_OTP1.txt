@@ -1,0 +1,87 @@
+total:85
+2021-11-11 13:08:32:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:63446824|E
+2021-11-12 09:44:07:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:65885016|E
+2021-11-12 10:54:50:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:93126601|E
+2021-11-12 10:57:14:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:68418525|E
+2021-11-12 11:08:11:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:97603114|E
+2021-11-12 11:21:36:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:98388726|E
+2021-11-12 11:23:29:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:88228935|E
+2021-11-12 11:28:41:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:80390719|E
+2021-11-12 11:41:47:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:71204190|E
+2021-11-12 11:45:24:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:65189601|E
+2021-11-12 11:52:49:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:31331786|E
+2021-11-12 12:01:24:1(-1) (+84935109193):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:51297126|E
+2021-11-12 12:01:39:1(-1) (+84935109193):TongcucThue:CQT tiep nhan ho so khai thue dien tu voi ma giao dich 11020210002697014. Ket qua xu ly ho so duoc gui toi nguoi nop thue trong vong 01 ngay lam viec.|E
+2021-11-12 13:43:57:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:43234928|E
+2021-11-12 13:50:48:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:19507873|E
+2021-11-12 14:14:17:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:16487308|E
+2021-11-12 14:27:28:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:58489786|E
+2021-11-12 15:19:50:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:16375628|E
+2021-11-12 18:22:55:1(-1) (-1):092:QUA TANG TRI AN! Chuc mung Quy khach da nhan duoc 100MB data toc do cao & 10 phut goi noi mang MIEN PHI (han su dung 2 ngay) tu Vietnamobile. Vui long bam *101# de kiem tra tai khoan. Tran trong!|E
+2021-11-15 13:21:02:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:53667271|E
+2021-11-15 14:32:43:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:15648776|E
+2021-11-15 14:44:39:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:45572601|E
+2021-11-15 14:53:04:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:49525164|E
+2021-11-16 07:58:34:1(-1) (-1):092:QUA TANG TRI AN! Chuc mung Quy khach da nhan duoc 2GB data toc do cao & 30 phut goi noi mang MIEN PHI (han su dung 2 ngay) tu Vietnamobile. Vui long bam *101# de kiem tra tai khoan. Tran trong!|E
+2021-11-16 11:54:52:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:63946604|E
+2021-11-16 15:09:12:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:01356056|E
+2021-11-16 16:02:15:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:41565659|E
+2021-11-16 16:40:03:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:35660566|E
+2021-11-17 09:36:33:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:53031000|E
+2021-11-17 10:22:00:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:25190900|E
+2021-11-17 16:00:11:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:59439994|E
+2021-11-17 16:19:32:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:11379184|E
+2021-11-17 16:31:16:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:13441916|E
+2021-11-17 17:35:21:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:45439303|E
+2021-11-17 17:41:43:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:98016912|E
+2021-11-18 08:26:10:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:21071233|E
+2021-11-18 09:03:56:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:11837055|E
+2021-11-18 09:11:23:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:91607832|E
+2021-11-18 09:15:09:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:73676050|E
+2021-11-18 09:49:36:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:05101504|E
+2021-11-18 10:15:22:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:25349847|E
+2021-11-18 11:18:58:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:52724304|E
+2021-11-18 14:15:04:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:10552931|E
+2021-11-19 08:39:32:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:24940295|E
+2021-11-19 08:48:52:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:53966294|E
+2021-11-19 10:26:57:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:85809462|E
+2021-11-19 13:08:04:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:89401415|E
+2021-11-19 14:58:16:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:04267919|E
+2021-11-19 15:16:52:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:55517157|E
+2021-11-19 16:34:44:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:01271122|E
+2021-11-19 17:49:43:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:02764250|E
+2021-11-20 08:01:56:1(-1) (-1):092:QUA TANG TRI AN! Chuc mung Quy khach da nhan duoc 4GB data toc do cao & 30 phut goi noi mang MIEN PHI (han su dung 2 ngay) tu Vietnamobile. Vui long bam *101# de kiem tra tai khoan. Tran trong!|E
+2021-11-20 20:16:47:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:06666054|E
+2021-11-20 20:36:29:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:28575046|E
+2021-11-20 20:56:00:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:45748751|E
+2021-11-22 10:25:09:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:61867371|E
+2021-11-22 16:34:00:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:96171756|E
+2021-11-23 08:17:57:1(-1) (-1):092:QUA TANG TRI AN KHACH HANG! Vietnamobile tang Quy khach 100 phut goi noi mang va 6GB data (su dung MIEN PHI trong 2 ngay). Vui long bam *101# de kiem tra tai khoan. Cam on Quy khach da tin tuong su dung dich vu cua VNM!|E
+2021-11-23 09:35:04:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:75778922|E
+2021-11-23 09:57:26:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:32839140|E
+2021-11-23 11:20:19:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:67984757|E
+2021-12-03 18:44:18:1(-1) (-1):195:Tong cuoc hop dong 617004360 cua account n038_gftth_tamtt131 tinh den het ngay 30/11 la 165.000d. Quy khach vui long thanh toan truoc ngay 20/12. DAC BIET: Giam ngay tu 3-10 khi Quy khach thanh toan qua ung dung ViettelPay. Chi tiet truy cap http://viettelpay.vn/1/ntsms10/, bam goi *998# hoac LH 18008119 (0d). Tran trong.|E
+2021-12-07 19:06:04:1(-1) (-1):VIETTELPLUS:Quy khach duoc cong them 502 diem Viettel++ boi giao dich Tieu dung vien thong thang 11/2021. Thoi han su dung diem den 31/12/2022. Hay truy cap https://myvt.page.link/vtplus tren My Viettel hoac *098# de doi diem sang Data, SMS, Phut goi cung nhieu uu dai gia tri khac. Chi tiet LH 198. Tran trong.|E
+2021-12-11 11:12:44:1(-1) (-1):VIETTELPLUS:[TB] Quy khach dang co 8421 diem Viettel++ chua su dung. Dung lang phi diem, hay truy cap https://myvt.page.link/11 hoac soan tin THOAI gui 9000 de doi ngay thanh 84 phut goi noi mang trong 30 ngay. Tran trong.|E
+2021-12-11 14:44:57:1(-1) (-1):VIETTEL_DV:[QC] Phim Thai Lan duoc yeu thich nhat: Huong Hoa Dat Phuoc, Tinh Yeu Hoan Kiep, Minh Chau Ruc Ro, Toi La Busaba phat song vao 19h va 21h hang ngay tren SCTV6-FIM360 (kenh so 1 tren ViettelTV). Moi Quy khan gia don xem. Chi tiet LH 198 (0d). Tu choi QC, soan TC4 gui 199.|E
+2021-12-15 11:57:11:1(-1) (-1):195:Viettel TB: De dam bao lien lac thong suot, Quy khach vui long thanh toan cuoc Di dong truoc 20/12/2021. Giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. L/H 198 (0d).Tran trong.|E
+2021-12-15 13:56:35:1(-1) (-1):DV_CODINH:[TB] VIETTEL TANG den 2 thang cuoc thue bao khi dong cuoc truoc tu 6-12 thang DV Internet cap quang va Truyen hinh so 2 chieu Viettel TV. Moi Quy khach thanh toan qua ung dung My Viettel (https://myvt.page.link/dongcuoctruoc ) hoac cua hang Viettel gan nhat. Chi tiet LH 18008168 (0d). Tu choi QC, soan TC3 gui 199.|E
+2021-12-15 16:17:10:1(-1) (-1):195:Quy khach da thanh toan 100,350d cuoc DV Di dong so 973086547. De tra cuu hoa don dien tu va lua chon KM goi, nhan tin, Internet danh rieng cho Quy khach, vui long truy cap ung dung My Viettel tai: https://myvt.page.link/tcts hoac bam goi *098#. LH 198 (0d).|E
+2021-12-16 09:11:49:1(-1) (-1):VIETTEL_DV:[QC] Cuoc chien tranh gianh quyen luc va nhung rac roi trong chuyen tinh cam hua hen nhieu kich tinh cao trao, tat ca se duoc he lo trong bo phim SONG DON TRANG LEN vao 17h30 thu hai den chu nhat hang tuan tren SCTV6-FIM360 (kenh so 1 tren ViettelTV). Chi tiet LH 198 (0d). Tu choi QC, soan TC4 gui 199.|E
+2021-12-17 09:18:16:1(-1) (-1):VTMONEY@:[QC] Mien phi dich vu khi dong TIEN NUOC NGHE AN tai cac CUA HANG VIETTEL (lam viec tat ca cac ngay) hoac qua VIETTEL MONEY tren dien thoai di dong (truy cap https://viettelpay.onelink.me/2dRm/nuocinappdn de cai dat). LH 18009000 (0d). Tu choi QC, soan TC3 gui 199.|E
+2021-12-17 14:08:53:1(-1) (-1):195:Viettel TB: Hop dong 617004360 cua Quy khach voi account dai dien la n038_gftth_tamtt131 con 165000 chua duoc thanh toan. Vui long thanh toan truoc ngay 20/12/2021. De tra cuu cuoc va giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3 hoac LH 18008119. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. Tran trong.|E
+2021-12-17 18:38:31:1(-1) (-1):195:Viettel TB: Hop dong 617004554 cua Quy khach voi account dai dien la n038_gmts2_tamtt35 con 50000 chua duoc thanh toan. Vui long thanh toan truoc ngay 20/12/2021. De tra cuu cuoc va giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3 hoac LH 18008119. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. Tran trong.|E
+2021-12-18 14:44:03:1(-1) (-1):VIETTELPLUS:[TB] Dung lang phi diem Viettel++, Quy khach co 5000 diem tieu dung Viettel++ se het han trong ngay 31/12/2021. Hay bam goi *098# de doi 100 diem = 10 MB Data, 100 diem = 10 SMS, 100 diem = 1 phut goi noi mang hoac nhieu uu dai gia tri khac. Chi tiet LH 198 (0d). Tran trong.|E
+2021-12-20 14:38:11:1(-1) (-1):195:Quy khach da thanh toan 160,000d cuoc DV Ftth account n038_gftth_tamtt131. Quy khach vui long thanh toan so tien con thieu la 5,000d truoc ngay 20/12/2021. De lua chon KM goi, nhan tin, Internet danh rieng cho Quy khach, vui long bam goi *098# hoac tai ung dung My Viettel tai http://viettel.vn/app. LH 198 (0d).|E
+2021-12-20 14:40:45:1(-1) (-1):195:Quy khach duoc thanh toan 5,000d cuoc DV Ftth account n038_gftth_tamtt131 tu thue bao 84868628852. De tra cuu hoa don dien tu va lua chon KM goi, nhan tin, Internet danh rieng cho Quy khach, vui long truy cap ung dung My Viettel tai https://myvt.page.link/tcts hoac bam goi *098#. LH 198 (0d).|E
+2021-12-20 16:38:32:1(-1) (-1):TongcucThue:Ban dang giao dich lay lai mat khau. Ma xac thuc giao dich dien tu cua ban la:21612591|E
+2021-12-20 16:38:54:1(-1) (-1):TongcucThue:Ban dang giao dich lay lai mat khau. Ma xac thuc giao dich dien tu cua ban la:96552910|E
+2021-12-20 16:40:13:1(-1) (-1):TongcucThue:Ban dang giao dich lay lai mat khau. Ma xac thuc giao dich dien tu cua ban la:25849536|E
+2021-12-20 16:43:13:1(-1) (-1):195:Quy khach da thanh toan 45,000d cuoc DV Truyen hinh so account n038_gmts2_tamtt35. De tra cuu hoa don dien tu va lua chon KM goi, nhan tin, Internet danh rieng cho Quy khach, vui long truy cap ung dung My Viettel tai: https://myvt.page.link/tcts hoac bam goi *098#. LH 198 (0d).|E
+2021-12-20 16:44:25:1(-1) (-1):195:Quy khach duoc thanh toan 5,000d cuoc DV Truyen hinh so account n038_gmts2_tamtt35 tu thue bao 84868628852. De tra cuu hoa don dien tu va lua chon KM goi, nhan tin, Internet danh rieng cho Quy khach, vui long truy cap ung dung My Viettel tai https://myvt.page.link/tcts hoac bam goi *098#. LH 198 (0d).|E
+2021-12-21 11:54:14:1(-1) (-1):TongcucThue:Ma xac thuc OTP: 07721546 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 235.497.532 VND|E
+2021-12-21 11:55:50:1(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-21 11:56:35:1(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:49112419|E
+2021-12-21 11:58:09:1(-1) (-1):TongcucThue:CQT tiep nhan ho so khai thue dien tu voi ma giao dich 11020210002805166. Ket qua xu ly ho so duoc gui toi nguoi nop thue trong vong 01 ngay lam viec.|E
+2021-12-21 12:22:35:1(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020210002805166. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E

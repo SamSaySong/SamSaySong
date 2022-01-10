@@ -1,0 +1,27 @@
+﻿{
+    "wfid": "pj-ig_pit-otp_1.1.2",
+    "thu_muc_input": "D:\\HuyNP\\PIT\\project-pit\\pj-ig\\input",
+    "thu_muc_move_input": "D:\\HuyNP\\PIT\\project-pit\\pj-ig\\move_input",
+    "thu_muc_output": "D:\\HuyNP\\PIT\\project-pit\\pj-ig\\output",
+    "thu_muc_import": "D:\\HuyNP\\PIT\\project-pit\\pj-ig\\file_import\\test_123.pdf",
+    "thu_muc_download": "Z:\\down_load",
+    "thu_muc_text_OTP": "Z:\\text_OTP",
+    
+    "ip_otp": "171.244.236.149:1555",
+    
+    "lien_tuc": true,
+    "che_do_ke_khai":{
+        "thoi_gian_co_dinh":"09:29"
+    },
+    "che_do_quet_ket_qua":{
+        "thoi_gian_co_dinh":"09:30"
+    },
+    
+    "thoi_gian_backup": "16:00",
+    "thu_muc_backup": "D:\\HuyNP\\PIT\\project-pit\\pj-ig\\file_backup",
+    "email_nhan":"bobo.pro.dn@gmail.com",
+
+    "id_email_gui":"home.mie.2021@gmail.com",
+    "pass_email_gui":"Huy@123456",
+    "chay_test": true
+}

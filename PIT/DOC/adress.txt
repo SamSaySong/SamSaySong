@@ -1,0 +1,9 @@
+email: act.hcm@i-glocal.com 
+adr: \\10.100.20.160\iglocal_data\HCM\ACT\RPA_PIT
+VBpo@202108
+
+
+user: I-GLOCAL\vporpa
+pass: Vp@#2021
+
+

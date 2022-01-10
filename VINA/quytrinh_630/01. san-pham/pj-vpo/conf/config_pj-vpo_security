@@ -1,0 +1,11 @@
+﻿{
+    "wfid": "PJ-VPO_MYSQL_1.0.0",
+    "host_mysql": "192.168.1.17",
+    "user_mysql": "root",
+    "passwd_mysql": "",
+    "database_mysql": "test_vpo",
+    "passwd_zipfile": "1234",
+    "username_terra": "leader_test",
+    "password_terra": "123456",
+    "code_terra": "000000"
+}

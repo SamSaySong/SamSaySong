@@ -4,6 +4,22 @@
 #     data_date = data_date.strftime(format_output)
 #     return data_date
 
+import shutil, os
+file_input = r"D:\HuyNP\Project_PIT_Terra\pj-vpo_terra\input\vs026_pit_report_1642734352.xlsx"
+
+path_Move_input = r"D:\\HuyNP\\Project_PIT_Terra\\pj-vpo_terra\\output"
+file_name = "1074ed35-eb23-4003-a5b1-1fd8d9e3e459"
+def move_file(file_input, path_Move_input, file_name):
+    "move output"
+    try:
+        if not os.path.exists(path_Move_input+"\\"):
+            os.makedirs(path_Move_input+"\\")
+
+        shutil.move(file_input, path_Move_input+"\\" + file_name+".xlsx")
+        return True
+    except Exception as e :
+        return False
+move_file(file_input, path_Move_input, file_name)
 
 # "Ban dang giao dich nop ho so khai thue. Ma xac thuc giao dich dien tu cua ban la:48575851"
 # # "".split(';')[-1].split('|')[0].replace(' ','')
@@ -90,7 +106,7 @@ str_test = [' 120\n 121\n 122\n ', '22/10/2021\n 15:00:04\n 22/10/2021\n 15:00:0
 
 
 list_Test = regex.findall(r'\s\d{1,3}\s',str_test[0])
-print(list_Test)
+# print(list_Test)
 
 
 def mlem_execl():
@@ -98,7 +114,7 @@ def mlem_execl():
     'https://www.py4u.net/discuss/190532'
     'https://stackoverflow.com/questions/50127959/win32-dispatch-vs-win32-gencache-in-python-what-are-the-pros-and-cons/50163150'
 
-    path ="D:\HuyNP\Huy\demo_pit_report_1640146582 (1).xlsx"
+    path =r"C:\Users\VBPO\Downloads\vs026_pit_report_1642734813.xlsx"
 
     try:
         import sys, os
@@ -131,5 +147,5 @@ def mlem_execl():
     xlwb.Close(True)
     del xlApp
 
-# mlem_execl()
+mlem_execl()
 

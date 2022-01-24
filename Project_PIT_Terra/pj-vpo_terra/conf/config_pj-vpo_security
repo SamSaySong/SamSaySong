@@ -1,6 +1,6 @@
 ﻿{
     "wfid": "PJ-VPO_MYSQL_1.0.0",
-    "host_mysql": "192.168.50.17",
+    "host_mysql": "127.0.0.1",
     "user_mysql": "root",
     "passwd_mysql": "",
     "database_mysql": "test_vpo",

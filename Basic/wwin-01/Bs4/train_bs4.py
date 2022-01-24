@@ -23,11 +23,11 @@ def open_driver():
     #     "profile.password_manager_enabled": False,
     #     "profile.managed_default_content_settings.images": 2}    # tắt image web 
     # chrome_options.add_experimental_option('prefs', prefs)
-    chrome_options.add_argument("--headless") #chạy ngầm browwser
+    # chrome_options.add_argument("--headless") #chạy ngầm browwser
     chrome_options.add_argument("--disable-dev-shm-usage") 
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option('useAutomationExtension', False)
-    driver = webdriver.Chrome(executable_path= r"D:\Win\Train Python\wwin-01\selenium03\chromedriver.exe",chrome_options=chrome_options)
+    driver = webdriver.Chrome(executable_path= r"D:\HuyNP\Basic\wwin-01\Bs4\chromedriver.exe",chrome_options=chrome_options)
     return driver
 
 def input():
@@ -68,7 +68,7 @@ def main_function():
         sleep(3)
        
         url_now = driver.current_url
-        for i in range(1,3):
+        for i in range(1,10):
             request = requests.get(url_now+"&p={}".format(i))
             soup = BeautifulSoup(request.content,"html.parser")
             
@@ -118,7 +118,7 @@ def main_function():
     df_output.insert(loc=0, column="STT", value=lst_STT)  
 
     
-    writer = pd.ExcelWriter(CurDir+"\\Output_bs4.xlsx", sheet_name ="Sheet1",engine='openpyxl')
+    writer = pd.ExcelWriter(CurDir+"\\Output_bs5.xlsx", sheet_name ="Sheet1",engine='openpyxl')
     df_output.to_excel(writer,"Sheet1",index=False,engine="openpyxl")
     writer.save()   
     driver.close()  

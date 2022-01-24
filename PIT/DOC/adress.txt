@@ -2,8 +2,12 @@ email: act.hcm@i-glocal.com
 adr: \\10.100.20.160\iglocal_data\HCM\ACT\RPA_PIT
 VBpo@202108
 
-
 user: I-GLOCAL\vporpa
 pass: Vp@#2021
 
 
+
+
+remote:
+45.117.163.84:43389
+vbpo/VBpo@202108

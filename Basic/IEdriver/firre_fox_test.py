@@ -13,7 +13,6 @@ path_FireFox = os.path.abspath(CurDir +"\\geckodriver.exe")
 
 
 options = webdriver.FirefoxOptions()
-
 options.add_argument("--start-maximized") 
 options.add_argument('--ignore-certificate-errors')
 options.add_argument('--disable-infobars')

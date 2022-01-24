@@ -1,4 +1,4 @@
-total:22
+total:67
 2021-11-11 12:52:26:2(-1) (-1):84902275712:Ywgwg|E
 2021-11-11 12:59:41:2(-1) (+84935109193):84902275712:Ygfh|E
 2021-11-23 12:01:01:2(-1) (-1):84902275712:Hdhdb|E
@@ -23,3 +23,102 @@ total:22
 2021-12-20 14:09:04:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 89901238 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
  So thue phai nop them: 91.386.365 VND|E
 2021-12-21 13:45:56:2(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:50080495|E
+2021-12-23 09:32:05:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 73834139 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 91.386.365 VND|E
+2021-12-23 09:34:36:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 04407661 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 91.386.365 VND|E
+2021-12-23 09:39:09:2(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-23 09:46:10:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 35319076 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 91.386.364 VND|E
+2021-12-23 09:47:22:2(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-23 10:19:42:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002813072
+ MST: 8603009543
+ Ky: 2021
+ So thue phai nop them: 91386365  .|E
+2021-12-23 10:19:44:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002813140
+ MST: 8667745323
+ Ky: 2021
+ So thue phai nop them: 91386364  .|E
+2021-12-24 08:21:38:2(-1) (-1):4DB280934A2110:[TB] Quy vi hay nhan tin TET gui 1409 de ung ho 20.000d den nguoi ngheo, nan nhan chat doc da cam va nguoi dan bi anh huong boi Covid-19. CT trien khai den het 12/02/2022. Phi tin nhan 300d/tin. Chi tiet LH 19001530, nhanh 6 (1.000d/p) hoac truy cap http://1400.vn . Tran trong.|E
+2021-12-24 10:20:28:2(-1) (-1):94725B8257619A11B251:[QC] Viettel MIEN PHI lap dat DV Internet wifi toc do cao, cuoc TB chi tu 265.000d/thang. TANG NGAY 1-2 thang cuoc TB khi dong cuoc truoc tu 6-12 thang. TANG THEM 3 thang su dung data 4G cho TB di dong Viettel len den 120GB/thang. CT danh cho Khach hang tai TP. HCM. Chi tiet LH 18008168 (0d) hoac truy cap https://viettel.vn/internet-truyenhinh/goi-cuoc/supernet1-2 . Tu choi QC, soan TC3 gui 199.|E
+2021-12-27 17:08:13:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 36649514 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 522.598.352 VND|E
+2021-12-27 17:11:05:2(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-27 18:19:11:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002827935
+ MST: 8681565072
+ Ky: 2021
+ So thue phai nop them: 522598352  .|E
+2021-12-27 18:19:14:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002827935
+ MST: 8681565072
+ Ky: 2021
+ So thue phai nop them: 522598352  .|E
+2021-12-28 02:20:36:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002827935
+ MST: 8681565072
+ Ky: 2021
+ So thue phai nop them: 522598352  .|E
+2021-12-28 02:20:37:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002827935
+ MST: 8681565072
+ Ky: 2021
+ So thue phai nop them: 522598352  .|E
+2021-12-28 09:29:33:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 60129689 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 131.999.998 VND|E
+2021-12-28 09:31:42:2(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-28 09:32:54:2(-1) (-1):TongcucThue:Ma xac thuc OTP: 35228417 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+   So thue chuyen ky sau:148.612.988 VND|E
+2021-12-28 09:34:50:2(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-28 10:21:05:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002829939
+ MST: 8668523764
+ Ky: 2021
+ So thue phai nop them: 131999998  .|E
+2021-12-28 10:21:14:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002829939
+ MST: 8668523764
+ Ky: 2021
+ So thue phai nop them: 131999998  .|E
+2021-12-28 10:21:18:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002829966
+ MST: 8686030514
+ Ky: 2021
+   So thue chuyen ky sau: 148612988.|E
+2021-12-28 10:21:18:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002829966
+ MST: 8686030514
+ Ky: 2021
+   So thue chuyen ky sau: 148612988.|E
+2021-12-29 10:23:41:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002829939
+ MST: 8668523764
+ Ky: 2021
+ So thue phai nop them: 131999998  .|E
+2021-12-29 10:23:54:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002829966
+ MST: 8686030514
+ Ky: 2021
+   So thue chuyen ky sau: 148612988.|E
+2021-12-29 16:24:40:2(-1) (-1):VIETTEL@:[TB] Quy khach duoc mien phi data truy cap ung dung TikTok, Zalo, Viber theo uu dai danh rieng cho thue bao cua Quy khach. Uu dai duoc su dung den het ngay 30/06/2022. Chi tiet LH 198 (0d). Tran trong.|E
+2022-01-01 08:44:48:2(-1) (-1):195:Viettel TB: Quy khach da duoc gia han thanh cong CTKM. Phi 100.000d/thang co 1000 phut goi noi mang, 50 phut goi ngoai mang. Soan KTLL gui 195 de kiem tra. Chi tiet LH 198 (0d). Tran trong.|E
+2022-01-03 18:39:35:2(-1) (-1):VIETTELPLUS:[TB] Quy khach co 3783 diem tieu dung Viettel++ tinh den het ngay 02/01/2022. Bam goi *098# hoac truy cap ung dung My Viettel tai https://myvt.page.link/vt10 de doi diem thanh luu luong data, phut goi, SMS hoac cac uu dai gia tri khac. LH 198 (0d).|E
+2022-01-08 09:23:59:2(-1) (-1):VIETTELPLUS:Quy khach duoc cong them 500 diem Viettel++ boi giao dich Tieu dung vien thong thang 12/2021. Thoi han su dung diem den 31/01/2023. Hay truy cap https://myvt.page.link/vtplus tren My Viettel hoac *098# de doi diem sang Data, SMS, Phut goi cung nhieu uu dai gia tri khac. Chi tiet LH 198. Tran trong.|E
+2022-01-10 16:01:12:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:54911097|E
+2022-01-10 16:01:30:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:21253985|E
+2022-01-10 16:03:16:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:97785475|E
+2022-01-11 11:16:23:2(-1) (-1):VIETTELPLUS:[TB] Quy khach dang co 4283 diem Viettel++ chua su dung. Dung lang phi diem, hay truy cap https://myvt.page.link/11 hoac soan tin THOAI gui 9000 de doi ngay thanh 42 phut goi noi mang trong 30 ngay. Tran trong.|E
+2022-01-12 11:37:18:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:48468148|E
+2022-01-12 11:39:54:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:77485624|E
+2022-01-12 13:45:11:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:26972830|E
+2022-01-12 13:50:42:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:50241143|E
+2022-01-12 13:52:04:2(-1) (-1):TongcucThue:CQT tiep nhan ho so khai thue dien tu voi ma giao dich 11020220002898235. Ket qua xu ly ho so duoc gui toi nguoi nop thue trong vong 01 ngay lam viec.|E
+2022-01-13 10:41:12:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002898235. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-14 18:09:14:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002898235. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-17 16:44:26:2(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:43483881|E
+2022-01-17 16:46:14:2(-1) (-1):TongcucThue:CQT tiep nhan ho so khai thue dien tu voi ma giao dich 11020220002921946. Ket qua xu ly ho so duoc gui toi nguoi nop thue trong vong 01 ngay lam viec.|E
+2022-01-17 17:59:58:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002921946. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-17 17:59:58:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002921946. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-18 06:46:46:2(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002921946. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E

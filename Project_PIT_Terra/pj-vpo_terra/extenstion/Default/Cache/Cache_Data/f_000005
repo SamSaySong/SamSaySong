@@ -1,0 +1,763 @@
+﻿@charset "utf-8";
+body{
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+	color:#000000;
+}
+h3 {
+    font-size: 1em;
+}
+.lkn_link li a:hover {
+	border-right: solid 1px #8CBAE2;
+	border-top: solid 1px #8CBAE2;
+	border-left: solid 1px #AEE9FF;
+	border-bottom: solid 1px #AEE9FF;
+	height: 24px;
+	padding: 0px 10px 0px 9px;
+	line-height: 24px;
+	color: #0076FF;
+    background:-webkit-linear-gradient(#8EE4FF, #BCEEFD);/* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(#8EE4FF, #BCEEFD);/* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(#8EE4FF, #BCEEFD);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8EE4FF, #BCEEFD);/* Standard syntax (must be last) */
+}
+.supmenu li a:hover {
+    color: #086de1;
+}
+.menu, .khung_noidung, .banner {
+	width: 930px;
+	margin:0 auto;
+}
+.banner {
+    height: 95px;
+    margin: 0 auto;
+}
+.menunhanh {
+    float: left;
+    width: 100%;
+	-moz-box-shadow: inset 0 4px 0px rgba(165, 221, 240, 0.72);
+    -webkit-box-shadow: inset 0 4px 0px rgba(165, 221, 240, 0.72);
+    box-shadow: inset 0 4px 0px rgba(165, 221, 240, 0.72);
+}
+
+.menunhanh .lkn_title {
+	-moz-box-shadow: inset 0 4px 0px rgba(236, 222, 15, 0.75);
+	-webkit-box-shadow: inset 0 4px 0px rgba(236, 222, 15, 0.75);
+	box-shadow: inset 0 4px 0px rgba(236, 222, 15, 0.75);
+    float: left;
+    border: solid 1px #b9deff;
+    background:-webkit-linear-gradient(#fcdf00, #fffabe);/* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(#fcdf00, #fffabe);/* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(#fcdf00, #fffabe);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fcdf00, #fffabe);/* Standard syntax (must be last) */
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px;
+    margin:-1px;
+	font-weight:bold;
+}
+.khung_noidung {
+	margin-top: 20px;
+}
+.noidung1 {
+    float: left;
+    padding-bottom:0px;
+    margin-bottom:10px;
+    background: rgba(250,244,228,1);
+}
+.noidung1 {
+    background: -moz-linear-gradient(top, rgba(250,244,228,1) 0%, rgba(255,255,255,0) 100%) no-repeat;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,244,228,1)), color-stop(100%, rgba(255,255,255,0))) no-repeat;
+    background: -webkit-linear-gradient(top, rgba(250,244,228,1) 0%, rgba(255,255,255,0) 100%) no-repeat;
+    background: -o-linear-gradient(top, rgba(250,244,228,1) 0%, rgba(255,255,255,0) 100%) no-repeat;
+    background: -ms-linear-gradient(top, rgba(250,244,228,1) 0%, rgba(255,255,255,0) 100%) no-repeat;
+    background: linear-gradient(to bottom, rgba(250,244,228,1) 0%, rgba(255,255,255,0) 100%) no-repeat;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf4e4', endColorstr='#ffffff', GradientType=0 ) no-repeat;
+    background-size: 100% 200px;
+}
+
+.menunhanh {
+    border: solid 1px #b9deff;
+    background:-webkit-linear-gradient(#a5dff1, #e1f8fc);/* For Safari 5.1 to 6.0 */
+    background:-o-linear-gradient(#a5dff1, #e1f8fc);/* For Opera 11.1 to 12.0 */
+    background:-moz-linear-gradient(#a5dff1, #e1f8fc);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a5dff1, #e1f8fc);/* Standard syntax (must be last) */
+}
+.lkn_link {
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+
+.lkn_link li {
+    list-style: none;
+    display: inline;
+    float: left;
+}
+ul.lkn_link li a {
+    padding: 0px 10px;
+    border-right: solid 1px #add8ff;
+    float: left;
+    line-height: 26px;
+    text-decoration: none;
+    color: #086de1;
+}
+
+.tieudelon {
+    height: 24px;
+    margin-top: -1px;
+    float: left;
+    width: 100%;
+    border-bottom: solid 1px #dedede;
+    border-top: solid 2px #fff;
+    background-color: #eeeeee;
+    -moz-box-shadow: inset 0 1px 0px #fff;
+    -webkit-box-shadow: inset 0 1px 0px #fff;
+    box-shadow: 0 1px 0px #fff;
+}
+
+span.icon_tt img {
+    padding: 1px;
+    padding-left: 10px;
+    float: left;
+}
+span.text_tt {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 24px;
+}
+.tieudemuctin {
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	text-indent: 15px;
+	color: #c41a1c;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px;
+	text-transform: uppercase;
+}
+.gachdo {
+    border-bottom: solid 1px #c41a1c;
+    padding: 0px 0px 5px 0px;
+    margin-left: -10px;
+}
+
+.tieudemuctin {
+    margin-top: 34px;
+}
+.noidungtrai {
+    float: left;
+    width: 610px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.muctin {
+    float: left;
+    width: 100%;
+}
+.anhtin img {
+    height: 120px;
+	border:none;
+}
+
+.anhtin {
+    float: left;
+    margin-right: 20px;
+}
+
+.xemtiep a {
+    color: #004693;
+}
+
+.xemtiep a:hover {
+    color: #ff0000;
+}
+
+.tieudetinhot a {
+    color: #000;
+    text-decoration: none;
+}
+.tieudetinhot a:hover {
+    color: #086de1;
+}
+
+.text {
+    text-align: justify;
+}
+.tinhot {
+    position: relative;
+    float: left;
+	margin-bottom:20px;
+	width: 610px;
+}
+.xemtiep {
+    text-align: right;
+    bottom: 0px;
+    right: 0px;
+}
+.list_tinlienquan {
+    padding: 10px 0px 0px 15px;
+    margin: 0;
+    background: #f5f5f5;
+    float: left;
+    display: table;
+    /* width: 100%; */
+}
+
+.tinlienquan span {
+    color: #c41a1c;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.list_tinlienquan li {
+	list-style: none;
+	padding: 8px 0px;
+	margin: -1px;
+	background-image: url(../images/images_new/icon_lits_tin.png);
+	background-repeat: no-repeat;
+	background-position: left 11px;
+	float: left;
+	width: 100%;
+}
+.list_tinlienquan li a {
+    color: #1258af;
+    text-decoration: none;
+    font-size: 13px;
+    white-space: pre-wrap;
+    width: 83%;
+    padding-left: 15px;
+    float: left;
+}
+.list_tinlienquan li a:hover {
+    text-decoration: underline;
+}
+.ngaydangtin {
+    float: right;
+    color: #777777;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.tinlienquan {
+	float: right;
+	margin-top:20px;
+	cursor:pointer;
+	width: 97%;
+	display: table-column;
+	text-align: right;
+	background: #f5f5f5;
+	padding: 5px 10px;
+}
+
+.tinlienquan:hover span {
+	background-position: left bottom;
+	color: #ff0000;
+}
+.tinlienquan:hover .texttrang {
+	color:#00467c;
+}
+span.iconmuiten {
+	float: right;
+	background-image: url(../images/images_new/muiten.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	height: 8px;
+	width: 5px;
+	margin-top: 6px;
+}
+.tinlienquan:hover .iconmuiten {
+	background-position: right bottom;
+}
+.texttrang {
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.doitac, .nhaplieu {
+    float: left;
+    margin-top: 20px;
+    width: 610px;
+}
+
+.doitac .tieudelon, .nhaplieu .tieudelon {
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 26px;
+	text-indent: 15px;
+	-moz-box-shadow: inset 0 -3px 0px 0px rgba(203, 227, 246, 0.5);
+	text-transform: uppercase;
+	background: #1258af;
+	color: #fff;
+}
+.anhlogo {
+    float: left;
+    padding: 6px;
+}
+.anhlogo img {
+    margin: 4px;
+    box-shadow: 1px 1px 7px 0px #ccc;
+}
+.text_be {
+	font-style: normal;
+    font-size: 11px;
+    color: #000000;
+    line-height: 14px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.lenhe_ft strong {
+	color:#000000;
+	font-size: 11px;
+}
+.footer928 {
+    padding-bottom: 20px;
+    width: 928px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.menu_ft, .menu_ft ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.menu_ft {
+	display:table;
+	margin-bottom: 15px;
+}
+.menu_ft ul {
+	display:table-row;
+}
+.menu_ft ul li {
+    list-style: none;
+	display:table-cell;
+	padding-right: 50px;
+}
+.menu_ft ul li a {
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    font-size: 14px;
+}
+/* menu phai*/
+.noidungphai {
+    float: right;
+    min-height: 500px;
+    border: solid 1px #dedede;
+    width: 270px;
+    margin: -1px;
+}
+.noidungphai .tieudelon {
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 28px;
+	text-indent: 10px;
+	color: #fff;
+	background: #1258af;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 33px;
+	border-top: solid 1px #fff;
+	box-shadow: 0 0px 0px #fff;
+}
+.iconhotro {
+    border-right: solid 1px #0e7aff;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+    box-shadow: 1px 0px 0px #072c5a;
+}
+
+.iconhotro img {
+    border: none;
+    width: 18px;
+    margin-top: 14%;
+    padding: 0 7px 0px 0px;
+}
+
+/* thue*/
+.box_common_content {
+    padding: 10px 10px 10px 10px;
+    /* float: left; */
+}
+.box_common_content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box_common_content ul li {
+    padding: 10px 0;
+    border-bottom: dotted 1px #1258af;
+    float: left;
+}
+.clearfix {
+    display: block;
+}
+.box_common_content ul li img {
+    float: left;
+    margin-right: 10px;
+}
+.box_common_content ul li a {
+    color: #00467c;
+    font-size: 11px;
+    font-weight: bold;
+}
+.box_common_content ul li a {
+    color: #1258af;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.support_title {
+    color: #c41a1c !important;
+}
+
+.support_list {
+	padding-top: 5px;
+}
+.support_list a {
+    display: block;
+    font: normal 11px Tahoma !important;
+    color: #0068b9;
+    padding: 0 0 5px 91px;
+}
+.box_common_content ul li a:hover {
+    color: #086de1;
+    text-decoration: underline;
+}
+.menu_ft ul li a:hover {
+    color: #086de1;
+}
+
+/*banner*/
+.logo {
+    float: left;
+    padding-top: 7px;
+    width: 365px;
+}
+
+.logo img {
+    float: left;
+    margin-right: 15px;
+}
+
+.top_contens, .dangnhap {
+    float: right;
+    width: 550px;
+}
+
+.phienban {
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.homthu, .thongtin_kh {
+    text-align: right;
+    font-size: 11px;
+    float:left;
+    width:100%;
+    padding-top: 4px;
+}
+.canphai {
+    float: right;
+}
+.text_do {
+    font-size: 12px;
+    color: red;
+	margin:0 3px;
+}
+.text_den {
+    font-size: 12px;
+    color: #000;
+	margin:0 3px;
+}
+.chitiet a {
+    font-size: 12px;
+    color: red;
+	text-decoration:none;
+}
+.chitiet a:hover {
+	text-decoration:underline;
+}
+
+.mail_icon, .mail_icon img {
+    height: 14px;
+    width: 20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.small_text, .text_do, .gach_tomenu, .text_den, .chitiet a {
+	height: 14px;
+	float: left;
+	line-height: 14px;
+}
+.gach_tomenu {
+    font-size: 14px;
+    margin: -2px 1px;
+}
+.button_thue, .button_vuong {
+	border-radius: 10px;
+	border: solid 1px #b9deff;
+	box-sizing:content-box;
+	background: -webkit-linear-gradient(#d5eafa, #f1faff);/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#d5eafa, #f1faff);/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#d5eafa, #f1faff);/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#d5eafa, #f1faff);/* Standard syntax (must be last) */
+	padding: 4px 10px;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #124977 !important;
+	cursor:pointer;
+}
+.button_vuong{
+	border-radius: 0px !important;
+	font-weight: bold;
+}
+.supmit {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.button_thue:hover, .button_vuong:hover{
+	color: #086de1;
+	background: -webkit-linear-gradient(#f1faff, #d5eaf);/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#f1faff, #d5eaf);/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#f1faff, #d5eaf);/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#f1faff, #d5eafa);/* Standard syntax (must be last) */
+}
+.xam {
+    color: #545353;
+}
+.dangnhap {
+    width: auto;
+    margin-top: 8px;
+}
+
+.nhaplieu {
+    display: block;
+    width: 100%;
+    margin: 0px;
+	margin-top:10px;
+}
+.nhaplieu .tieudelon{
+	text-transform: none;
+	font-size: 12px;
+	color: #000;
+}
+.khungform {
+    float: left;
+    padding: 6px;
+    width: 99%;
+	font-size:11px;
+}
+.khungform form {
+    float: left;
+    width: 100%;
+}
+
+.khungform label {
+    float: left;
+    font-size: 11px;
+    margin-left: 10px;
+}
+td.name_form {
+    width: 16%;
+}
+
+td.size_form {
+    min-width: 80%;
+}
+
+table.nhaplieu_table {
+    width: 100%;
+}
+td.size_form input{
+    width: 97%;
+    margin: 4px;
+    height: 12px;
+}
+td.size_form input, .size_form select {
+    border: solid 1px #a2aab4;
+    background: transparent;
+	border-color: #a2aab4;
+	border-radius: 0px !important;
+	font-size:11px;
+	color: #545353;
+	text-indent:6px;
+}
+.size_form select{
+    width: 99%;
+    margin: 4px 1px;
+    height: 18px;
+}
+.icon_help, .icon_help img {
+    cursor: pointer;
+    border: none;
+	width:10px;
+	height:10px;
+}
+table td table .name_form {
+    width: 33%;
+}
+table td table .size_form {
+margin-right: 15px;
+float: right;
+min-width: 95%;
+}
+.name_form .text_do, .check_box .text_do {
+	float:none;
+}
+.check_box table tr td input {
+    float: left;
+    margin: 0;
+    border-radius: 0px;
+    border: solid 1px #ccc;
+    background: transparent;
+    border-color: #545353;
+}
+.check_box table {
+    width: 95%;
+}
+.cach {
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+.check_box table tr td {
+    width: auto;
+    padding-top: 0px;
+}
+.motnua tr td{
+	width:50%;
+}
+.luu_y {
+    padding: 10px;
+}
+.luu_y p {
+    margin-left: 20px;
+}
+.to_dam {
+    margin-left: 11px;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.text_chu_y {
+	font-size:13px;
+}
+.luu_y_contens {
+	list-style-type: square;
+	font-size: 11px;
+}
+.luu_y_contens li {
+    margin-bottom: 5px;
+    line-height: 14px;
+}
+.cantrai{
+	float:left;
+	margin: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+/*truy van*/
+
+table.truyvan_table {
+    width: 100%;
+    border: solid 1px #b9deff;
+    border-collapse: collapse !important;
+    border-spacing: 0;
+}
+table.truyvan_table .trang {
+    height: 28px;
+    color: #fff;
+    text-align: center;
+}
+.truyvan_table tr {
+    text-align: center;
+}
+
+table.truyvan_table th {
+	color: #fff;
+	font-size: 12px;
+	height: 36px;
+}
+.themdong_link {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+.themdong_link a {
+    margin: 5px 0px;
+    float: right;
+}
+.tong {
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.tong span {
+	float: left;
+	margin: 5px 2px 5px 0px;
+	line-height: 22px;
+	width: 18%;
+}
+
+.tong .to_dam {
+    width: 75%;
+}
+
+.frm_login {width:357px; margin: 0 auto; padding:20px 0 50px 0}
+.frm_login h3 {background: url(../images/images_new/form_dang_nhap.gif) left top no-repeat ; height: 24px; line-height: 24px; font-size: 15px; color: #fff; padding-left: 15px;}
+.frm_login h2 {height: 24px; line-height: 24px; font-size: 15px; color: #fff; padding-left: 15px;}
+.frm_login_btn {border: 1px solid #82C2F9; background-color: #0c2f4d; color: #239AEF; font-size: 10px; font-weight: bold; padding: 2px 0 2px;cursor: pointer}
+.frm_login_content {background-color: #f7fcff; padding: 10px 0; border-left: 1px solid #18D5DE; border-right: 1px solid #18D5DE;}
+.frm_login_content th {width: 97px; font-size: 11px; text-align: left; padding: 3px 0 3px 25px; vertical-align: middle;}
+.frm_login_content td {padding: 3px 2px; vertical-align: middle; font-size: 11px;}
+.frm_login_content .input_text {border: 1px solid #7ec5ff; height: 16px; width: 123px; font-size: 11px; color: #197bd0; font-weight: bold; padding: 3px 0 0 10px;}
+.frm_login_links {padding: 10px 0 10px 20px;}
+.frm_login_links li a {font-size: 11px;}
+.frm_login_links li a:hover {text-decoration: underline;}
+.ke_thang {width: 700px;height: 10px; background-color: #31659c; color: #ffffff; margin-left: 350px;}
+
+.xoaboder {
+    border: none;
+    border-right: solid 1px #ccc;
+}
+
+.xoaboder td {
+    border: 0px !important;
+    background: transparent !important;
+}
+
+.xoaboder td:nth-child(odd) {
+    font-weight: bold;
+    color: #7b7b7b;
+}

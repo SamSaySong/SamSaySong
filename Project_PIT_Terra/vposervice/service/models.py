@@ -23,8 +23,8 @@ class Claim(models.Model):
         ('Chờ phê duyệt (nội bộ)', 'Chờ phê duyệt (nội bộ)'),
         ('Đã phê duyệt (nội bộ)', 'Đã phê duyệt (nội bộ)'),
         ('Đã kê khai và lưu tạm hồ sơ', 'Đã kê khai và lưu tạm hồ sơ'),
-        ('Đã ký nộp hồ sơ và nộp chứng từ cho cơ quan BHXH', 'Đã ký nộp hồ sơ và nộp chứng từ cho cơ quan BHXH'),
-        ('Đang xử lý (tại BHXH)', 'Đang xử lý (tại BHXH)'),
+        ('Đã ký nộp hồ sơ và nộp chứng từ cho cơ quan Thuế', 'Đã ký nộp hồ sơ và nộp chứng từ cho cơ quan Thuế'),
+        ('Đang xử lý (tại cơ quan Thuế)', 'Đang xử lý (tại cơ quan Thuế)'),
         ('Đã có kết quả', 'Đã có kết quả'),
     ]
     company_claim = models.CharField(max_length=128, null=True, blank=True)

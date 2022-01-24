@@ -430,6 +430,7 @@ def save_record():
     return flag
 
 def run(path, name_record):
+    "Run record"
     name_record = name_record.split(".xlsx")[0]
     try:
         th=threading.Thread(target=start_record,args=(path, name_record))
@@ -452,7 +453,7 @@ def thu_tuc():
                     continue
 
                 file_name = str(file_input).split("\\")[-1]
-                run(path=path_Backup+"/save_record/ke_khai",name_record=file_name)
+                # run(path=path_Backup+"/save_record/ke_khai",name_record=file_name)
              
                 LOG_INFO("BAT DAU KE KHAI FILE_NAME: "+ file_name)
 
@@ -608,18 +609,18 @@ def thu_tuc():
                             # driver.execute_script("arguments[0].value=arguments[1];", ele_Tuthang, str_Tuthang)     
                             # time.sleep(1)
                             # actions = ActionChains(driver)
-                            ele_tuthang = driver.find_element_by_xpath('//*[@id="tuThang"]')
+                            ele_tuthang = driver.find_element_by_xpath('//*[@id="tuNgay"]')
                             ele_tuthang.click()
                             ele_tuthang.send_keys(Keys.CONTROL+"a")
                             ele_tuthang.send_keys(Keys.BACKSPACE)
-                            ele_tuthang.send_keys(str_Tuthang)
+                            ele_tuthang.send_keys("01/"+str_Tuthang)
                             time.sleep(1)
 
-                            ele_Denthang = driver.find_element_by_xpath('//*[@id="denThang"]')
+                            ele_Denthang = driver.find_element_by_xpath('//*[@id="denNgay"]')
                             ele_Denthang.click()
                             ele_Denthang.send_keys(Keys.CONTROL+"a")
                             ele_Denthang.send_keys(Keys.BACKSPACE)
-                            ele_Denthang.send_keys(str_Denthang)
+                            ele_Denthang.send_keys("30/"+str_Denthang)
                     
                             # driver.execute_script("arguments[0].click();", ele_Denthang)
                             # time.sleep(1)
@@ -630,7 +631,6 @@ def thu_tuc():
                 
                         except Exception as e:
                             lst_except.append(idx)
-
                             LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(Exception).__name__, str(e))
                             continue
 
@@ -825,13 +825,13 @@ def thu_tuc():
                     time.sleep(1)
                     lst_except = []
                 LOG_INFO("HOAN THANH KE KHAI HO SO: "+ file_name)
-                save_record()
+                # save_record()
         else:
             LOG_INFO("KHONG CO HO SO KE KHAI")
             
     except Exception as e:     
         LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(Exception).__name__, str(e))
-        save_record()
+        # save_record()
 
 
 def check_df_input(file_name, lst_except):
@@ -1004,7 +1004,7 @@ def tracuu_Tokhai():
         for file_Move in list_Move_input:
 
             file_name = str(file_Move).split("\\")[-1]
-            run(path=path_Backup+"/save_record/tra_cuu",name_record=file_name)
+            # run(path=path_Backup+"/save_record/tra_cuu",name_record=file_name)
 
             LOG_INFO("BAT DAU TRA CUU HO SO: " + file_name)
     
@@ -1232,11 +1232,11 @@ def tracuu_Tokhai():
                 send_mail(header="Hoàn thành tra cứu "+ file_name, text= "File "+file_name+" đã hoàn thành update trạng thái hồ sơ. Vui lòng kiểm tra!", to_email= email_nhan)
                 time.sleep(1)
 
-                save_record()
+                # save_record()
     except Exception as e:      
         LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(Exception).__name__, str(e))
-        save_record()
-
+        # save_record()
+# 
 
 def get_link_request(str_MST):
     "Get link file request"

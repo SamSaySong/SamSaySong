@@ -31,4 +31,5 @@ handler400, handler403, handler404, handler500
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('service.urls')),
+    path('api-auth/', include('rest_framework.urls'))
 ]

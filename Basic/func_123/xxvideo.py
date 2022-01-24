@@ -7,7 +7,7 @@ import subprocess
 CurDir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 path_file = r'D:\HuyNP\Basic\func_123\recordf'
-name = 'video_test223'
+name = 'video_test2022'
 
 str_cmd = '"C:/Program Files/VideoLAN/VLC/vlc.exe" -I dummy screen:// --one-instance --extraintf rc --rc-quiet --rc-host 127.0.0.1:8082 --screen-fps=25 --quiet --sout "#transcode{vcodec=h264,vb072}:standard{access=file,mux=mp4,dst="D:/INFOR/vlc-output-terminal.mp4"}'
 str_1 = '"C:/Program Files/VideoLAN/VLC/vlc.exe" screen:// --qt-start-minimized :screen-fps=25 :quiet :sout=#transcode{vcodec=h264,vb072}:standard{access=file,mux=mp4,dst="D:/INFOR/vlc-output-terminal.mp4"}'
@@ -34,7 +34,7 @@ def star_123(path_record, name_record):
     date_time = datetime.datetime.now()
     str_date_time = date_time.strftime("%d%m%Y")
     time.sleep(1)
-    subprocess.Popen('"C:/Program Files/VideoLAN/VLC/vlc.exe" -I dummy screen:// --one-instance --extraintf rc --rc-quiet --rc-host 127.0.0.1:8082 --screen-fps=25 --quiet --sout "#transcode{vcodec=h264,vb072}:standard{access=file,mux=mp4,dst="D:\HuyNP\Basic/func_123/recordf/'+str_date_time+"_"+name_record+'.avi"}', encoding = "utf-8")
+    subprocess.Popen('"C:/Program Files (x86)/VideoLAN/VLC/vlc.exe" -I dummy screen:// --one-instance --extraintf rc --rc-quiet --rc-host 127.0.0.1:8082 --screen-fps=25 --quiet --sout "#transcode{vcodec=h264,vb072}:standard{access=file,mux=mp4,dst="D:\HuyNP\Basic/func_123/recordf/'+str_date_time+"_"+name_record+'.avi"}', encoding = "utf-8")
 
     time.sleep(25)
     

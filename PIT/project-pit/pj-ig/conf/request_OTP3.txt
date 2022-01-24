@@ -1,4 +1,4 @@
-total:7
+total:45
 2021-12-07 20:23:22:3(-1) (-1):VIETTELPLUS:Quy khach duoc cong them 500 diem Viettel++ boi giao dich Tieu dung vien thong thang 11/2021. Thoi han su dung diem den 31/12/2022. Hay truy cap https://myvt.page.link/vtplus tren My Viettel hoac *098# de doi diem sang Data, SMS, Phut goi cung nhieu uu dai gia tri khac. Chi tiet LH 198. Tran trong.|E
 2021-12-11 11:09:30:3(-1) (-1):VIETTELPLUS:[TB] Quy khach dang co 8322 diem Viettel++ chua su dung. Dung lang phi diem, hay truy cap https://myvt.page.link/11 hoac soan tin THOAI gui 9000 de doi ngay thanh 83 phut goi noi mang trong 30 ngay. Tran trong.|E
 2021-12-13 08:54:24:3(-1) (-1):94725B8257619A11B251:[QC] Viettel MIEN PHI lap dat DV Internet wifi toc do cao, cuoc TB chi tu 265.000d/thang. TANG NGAY 1-2 thang cuoc TB khi dong cuoc truoc tu 6-12 thang. TANG THEM 3 thang su dung data 4G cho TB di dong Viettel len den 120GB/thang. CT danh cho Khach hang tai TP. HCM. Chi tiet LH 18008168 (0d) hoac truy cap https://viettel.vn/internet-truyenhinh/goi-cuoc/supernet1-2 . Tu choi QC, soan TC3 gui 199.|E
@@ -6,3 +6,61 @@ total:7
 2021-12-15 22:38:58:3(-1) (-1):195:Viettel TB: De dam bao lien lac thong suot, Quy khach vui long thanh toan cuoc Di dong truoc 20/12/2021. Giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. L/H 198 (0d).Tran trong.|E
 2021-12-17 16:09:50:3(-1) (-1):195:Viettel TB: De dam bao lien lac thong suot, Quy khach vui long thanh toan cuoc Di dong truoc 20/12/2021. Giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. L/H 198 (0d).Tran trong.|E
 2021-12-18 14:42:19:3(-1) (-1):VIETTELPLUS:[TB] Dung lang phi diem Viettel++, Quy khach co 5000 diem tieu dung Viettel++ se het han trong ngay 31/12/2021. Hay bam goi *098# de doi 100 diem = 10 MB Data, 100 diem = 10 SMS, 100 diem = 1 phut goi noi mang hoac nhieu uu dai gia tri khac. Chi tiet LH 198 (0d). Tran trong.|E
+2021-12-21 13:55:39:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:16341684|E
+2021-12-23 11:13:33:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:88290117|E
+2021-12-23 11:15:22:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:56922568|E
+2021-12-23 11:25:21:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:63962682|E
+2021-12-23 11:27:17:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:83017836|E
+2021-12-23 11:30:11:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:28291227|E
+2021-12-23 11:33:16:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:98510030|E
+2021-12-23 11:36:57:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:07432793|E
+2021-12-23 11:39:52:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:06251235|E
+2021-12-23 14:26:41:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:24182947|E
+2021-12-23 14:29:32:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:49876156|E
+2021-12-23 14:32:32:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:05996752|E
+2021-12-23 14:35:11:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:75408263|E
+2021-12-23 14:37:16:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:66510853|E
+2021-12-23 14:39:35:3(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:36999045|E
+2021-12-24 08:41:32:3(-1) (-1):4DB280934A2110:[TB] Quy vi hay nhan tin TET gui 1409 de ung ho 20.000d den nguoi ngheo, nan nhan chat doc da cam va nguoi dan bi anh huong boi Covid-19. CT trien khai den het 12/02/2022. Phi tin nhan 300d/tin. Chi tiet LH 19001530, nhanh 6 (1.000d/p) hoac truy cap http://1400.vn . Tran trong.|E
+2021-12-24 09:15:19:3(-1) (-1):94725B8257619A11B251:[QC] Viettel MIEN PHI lap dat DV Internet wifi toc do cao, cuoc TB chi tu 265.000d/thang. TANG NGAY 1-2 thang cuoc TB khi dong cuoc truoc tu 6-12 thang. TANG THEM 3 thang su dung data 4G cho TB di dong Viettel len den 120GB/thang. CT danh cho Khach hang tai TP. HCM. Chi tiet LH 18008168 (0d) hoac truy cap https://viettel.vn/internet-truyenhinh/goi-cuoc/supernet1-2 . Tu choi QC, soan TC3 gui 199.|E
+2021-12-24 16:45:39:3(-1) (-1):TongcucThue:Ma xac thuc OTP: 88557149 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 414.884.140 VND|E
+2021-12-24 17:17:43:3(-1) (-1):TongcucThue:Ma xac thuc OTP: 28140273 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 414.884.140 VND|E
+2021-12-24 17:20:38:3(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-24 17:41:31:3(-1) (-1):TongcucThue:Ma xac thuc OTP: 28320430 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 386533544 VND|E
+2021-12-24 17:43:43:3(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2021-12-24 18:18:17:3(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020210002819069
+ MST: 8670521235
+ Ky: 2021
+ So thue phai nop them: 414884140  .|E
+2021-12-24 18:18:19:3(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11120210002819124
+ MST: 8438503876
+ Ky: 2021
+ So thue phai nop them: 386533544  .|E
+2021-12-29 15:48:41:3(-1) (-1):VIETTEL@:[TB] Quy khach duoc mien phi data truy cap ung dung TikTok, Zalo, Viber theo uu dai danh rieng cho thue bao cua Quy khach. Uu dai duoc su dung den het ngay 30/06/2022. Chi tiet LH 198 (0d). Tran trong.|E
+2022-01-01 08:33:51:3(-1) (-1):195:Viettel TB: Quy khach da duoc gia han thanh cong CTKM. Phi 100.000d/thang co 1000 phut goi noi mang, 50 phut goi ngoai mang. Soan KTLL gui 195 de kiem tra. Chi tiet LH 198 (0d). Tran trong.|E
+2022-01-03 13:54:54:3(-1) (-1):195:Tong cuoc DV Di dong so 973570115 tinh den het ngay 31/12 la 100.000d. Quy khach vui long thanh toan truoc ngay 20/01. DAC BIET: Giam ngay tu 3-10 khi Quy khach thanh toan qua ung dung ViettelPay. Chi tiet truy cap http://viettelpay.vn/1/ntsms10/, bam goi *998# hoac LH 198 (0d). Tran trong.|E
+2022-01-03 17:47:29:3(-1) (-1):VIETTELPLUS:[TB] Quy khach co 3322 diem tieu dung Viettel++ tinh den het ngay 02/01/2022. Bam goi *098# hoac truy cap ung dung My Viettel tai https://myvt.page.link/vt10 de doi diem thanh luu luong data, phut goi, SMS hoac cac uu dai gia tri khac. LH 198 (0d).|E
+2022-01-06 09:44:18:3(-1) (-1):TongcucThue:Ma xac thuc OTP: 85606993 co hieu luc trong 5 phut. Giao dich nop to khai 02/QTT-TNCN
+ So thue phai nop them: 80.537.654 VND|E
+2022-01-06 09:46:10:3(-1) (-1):TongcucThue:Ho so khai thue dien tu mau 02/QTT-TNCN da duoc gui thanh cong, CQT se tra Thong bao chap nhan hoac khong chap nhan sau 01 ngay lam viec de cho NNT biet|E
+2022-01-07 10:28:53:3(-1) (-1):94725B8257619A11B251:[QC] Viettel MIEN PHI lap dat DV Internet wifi toc do cao, cuoc TB chi tu 265.000d/thang. TANG NGAY 1-2 thang cuoc TB khi dong cuoc truoc tu 6-12 thang. TANG THEM 3 thang su dung data 4G cho TB di dong Viettel len den 120GB/thang. CT danh cho Khach hang tai TP. HCM. Chi tiet LH 18008168 (0d) hoac truy cap https://viettel.vn/internet-truyenhinh/goi-cuoc/supernet1-2 . Tu choi QC, soan TC3 gui 199.|E
+2022-01-07 15:13:42:3(-1) (-1):TV360:[TB] Bạn có hẹn cùng Jimmy Nguyễn, Gigi Hương Giang trong đêm nhạc “In the Moonlight” phát TRỰC TIẾP vào 21h ngày 07/01 - ĐỘC QUYỀN trên TV360. Truy cập http://s.viettel.vn/inthemoonlight để tham gia. Chi tiết LH 198 (0đ).|E
+2022-01-09 14:31:34:3(-1) (-1):VIETTELPLUS:Quy khach duoc cong them 500 diem Viettel++ boi giao dich Tieu dung vien thong thang 12/2021. Thoi han su dung diem den 31/01/2023. Hay truy cap https://myvt.page.link/vtplus tren My Viettel hoac *098# de doi diem sang Data, SMS, Phut goi cung nhieu uu dai gia tri khac. Chi tiet LH 198. Tran trong.|E
+2022-01-11 11:04:50:3(-1) (-1):VIETTELPLUS:[TB] Quy khach dang co 3822 diem Viettel++ chua su dung. Dung lang phi diem, hay truy cap https://myvt.page.link/11 hoac soan tin THOAI gui 9000 de doi ngay thanh 38 phut goi noi mang trong 30 ngay. Tran trong.|E
+2022-01-13 10:23:59:3(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020220002865416
+ MST: 8680599689
+ Ky: 2021
+ So thue phai nop them: 80537654  .|E
+2022-01-14 18:05:20:3(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu mau 02/QTT-TNCN
+ MGD: 11020220002865416
+ MST: 8680599689
+ Ky: 2021
+ So thue phai nop them: 80537654  .|E
+2022-01-15 13:35:04:3(-1) (-1):195:Viettel TB: De dam bao lien lac thong suot, Quy khach vui long thanh toan cuoc Di dong truoc 20/01/2022. Giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. L/H 198 (0d).Tran trong.|E
+2022-01-15 15:07:11:3(-1) (-1):94725B8257619A11B251:[QC] TANG NGAY 1 - 2 thang cuoc dich vu INTERNET CAP QUANG VIETTEL va 5 diem Viettel ++ khi dang ky moi va dong cuoc truoc tu 6 - 12 thang, mien phi modem wifi, thu tuc don gian, nhanh chong. Cuoc thue bao chi tu 165.000d/thang. Chi tiet LH 18008168 (0d) hoac truy cap https://viettel.vn/internet-truyenhinh/goi-cuoc/net1plus-1 . Tu choi QC, soan TC3 gui 199.|E

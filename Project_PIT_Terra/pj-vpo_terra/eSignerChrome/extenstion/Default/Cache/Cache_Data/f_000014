@@ -1,0 +1,637 @@
+var months = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var weeks = new Array("Sun","Mon","Tue", "Wed","Thu", "Fri","Sat");
+var titlePrevMonth="Prev.month";
+var titleNextMonth="Next month";
+var titlePrevYear="Prev.year";
+var titleNextYear="Next year";
+var titleSelectYear="Click here to select year";
+var titleSelectMonth="Click here to select month";
+var titleSelectToday="Click here to select today";
+
+var canMoving=true;
+var calStrFrame;
+calStrFrame='<!DOCTYPE html PUBLIC "-\/\/W3C\/\/DTD XHTML 1.0 Transitional\/\/EN" "http:\/\/www.w3.org\/TR\/xhtml1\/DTD\/xhtml1-transitional.dtd">';
+calStrFrame+='<html xmlns="http:\/\/www.w3.org\/1999\/xhtml">';
+calStrFrame+='<head><title>Calendar<\/title><meta http-equiv="Content-Type" content="text\/html; charset=utf-8" \/>';
+calStrFrame+='<style>INPUT.button{BORDER-RIGHT: #f0f0f0 1px solid;BORDER-TOP: #c8c8c8 1px solid;BORDER-LEFT: #c8c8c8 1px solid; cursor:pointer;';
+calStrFrame+='BORDER-BOTTOM: #c8c8c8 1px solid;BACKGROUND-COLOR: #f0f0f0;font-family:Arial;}';
+calStrFrame+='TD{FONT-SIZE: 9pt;font-family:Arial;} INPUT.rborder{BORDER-RIGHT: #c8c8c8 1px solid;}';
+calStrFrame+='.weekarea{border: 1px solid #BDB2BF;background:#d8d8d8;}';
+calStrFrame+='</style>';
+calStrFrame+='<script type="text\/javascript" language="JavaScript" >';
+calStrFrame+='var datelayerx,datelayery;	';
+calStrFrame+='var bDrag;	';
+calStrFrame+='document.onmousemove=function(e)';
+calStrFrame+='{if(!e) e=window.event;if(bDrag && (e.button==0||e.button==1))';
+calStrFrame+='	{var DateLayer=parent.document.getElementById("thanksDateLayer").style;';
+calStrFrame+='		DateLayer.posLeft += e.clientX-datelayerx;';
+calStrFrame+='		DateLayer.posTop += e.clientY-datelayery;}};';
+calStrFrame+='function DragStart(e)		';
+calStrFrame+='{if(!e) e=window.event;var DateLayer=parent.document.getElementById("thanksDateLayer").style;';
+calStrFrame+='	datelayerx=e.clientX;';
+calStrFrame+='	datelayery=e.clientY;';
+calStrFrame+='	bDrag=true;}';
+calStrFrame+='function DragEnd(e){';
+calStrFrame+='	bDrag=false;}';
+calStrFrame+='</script>';
+calStrFrame+='<\/head><body>';
+calStrFrame+='<div style="z-index:9998;position: absolute; left:0px; top:0px; border:1px solid #999999;padding:1px;background:#ffffff;" onselectstart="return false">';
+calStrFrame+='<span id="tmpSelectYearLayer"  style="z-index: 9999;position: absolute;top: 3px; left: 90px;display: "></span>';
+calStrFrame+='<span id="tmpSelectMonthLayer"  style="z-index: 9999;position: absolute;top: 3px; left: 20px;display: "></span>';
+calStrFrame+='<table cellspacing="0" cellpadding="0" width="175px" height="175px" bgcolor="#f0f0f0">';
+calStrFrame+='  <tr ><td width="175px" height="23px"  bgcolor="#FFFFFF"><table cellspacing="0" cellpadding="0" width="175px" height="23px">';
+calStrFrame+='      <tr align="center" ><td width="16px" align="center" bgcolor="#0099DB" style="font-size:12px;cursor: pointer;color: #ffffff" ';
+calStrFrame+='        onclick="parent.thanksPrevM()" title="'+titlePrevMonth+'" ><b >&lt;</b></td>';
+calStrFrame+='<td width="62px" align="right" style="font-size:12px;cursor:pointer;color:#ffffff;" onmouseover="this.style.backgroundColor=\'#0099DB\'" ';
+calStrFrame+=' onmouseout="this.style.backgroundColor=\'#0099DB\'" onclick="parent.tmpSelectMonthInnerHTML(document.getElementById(\'thanksMonthHead\').innerHTML)"';
+calStrFrame+='        title="'+titleSelectMonth+'" bgcolor="#0099DB"><span id="thanksMonthHead" ></span></td>';
+calStrFrame+='        <td width="4px" bgcolor="#0099DB" align="center" style="font-size:12px;cursor:pointer;color:#ffffff;">,</td>';
+calStrFrame+='        <td width="62px" bgcolor="#0099DB" align="left" style="font-size:12px;cursor:pointer;color:#ffffff;"';
+calStrFrame+='onmouseover="style.backgroundColor=\'#0099DB\'" onmouseout="style.backgroundColor=\'#0099DB\'" ';
+calStrFrame+='onclick="parent.tmpSelectYearInnerHTML(document.getElementById(\'thanksYearHead\').innerHTML.substring(0,4))" title="'+titleSelectYear+'"><span id="thanksYearHead"></span></td>';
+calStrFrame+='        <td width="16px" bgcolor="#0099DB" align="center" style="font-size:12px;cursor: pointer;color: #ffffff" ';
+calStrFrame+='         onclick="parent.thanksNextM()" title="'+titleNextMonth+'" ><b >&gt;</b></td>';
+calStrFrame+='    </tr></table></td></tr>';
+calStrFrame+='  <tr ><td width="175px" height="18px" >';
+calStrFrame+='<table cellspacing="0px" cellpadding="0px"' + (canMoving? 'onmousedown="DragStart(event)" onmouseup="DragEnd(event)"':'');
+calStrFrame+=' width="175px" height="20px" class="weekarea" style="cursor:' + (canMoving ? 'move':'pointer') + '">';
+calStrFrame+='<tr align="center" valign="bottom"><td width="25px" style="font-size:12px;" >'+weeks[0]+'</td>';
+calStrFrame+='<td width="25px" style="font-size:12px;" >'+weeks[1]+'</td><td width="25px" style="font-size:12px;" >'+weeks[2]+'</td>';
+calStrFrame+='<td width="25px" style="font-size:12px;" >'+weeks[3]+'</td><td width="25px" style="font-size:12px;" >'+weeks[4]+'</td>';
+calStrFrame+='<td width="25px" style="font-size:12px;" >'+weeks[5]+'</td><td width="25px" style="font-size:12px;" >'+weeks[6]+'</td></tr>';
+calStrFrame+='</table></td></tr>';
+calStrFrame+='  <tr ><td width="175px" height="120px" >';
+calStrFrame+='    <table border="0px" cellspacing="2px" cellpadding="0px" bgcolor="#F0F0F1" width="175px" height="120px" >';
+var n=0; for (j=0;j<5;j++){ calStrFrame+= ' <tr align=center >'; for (i=0;i<7;i++){
+calStrFrame+='<td width="25px" height="20px" id="thanksDay'+n+'" style="font-size:10px" ></td>';n++;}
+calStrFrame+='</tr>';}
+calStrFrame+='      <tr align="center">';
+for (i=35;i<39;i++)calStrFrame+='<td width="20px" height="20px" id="thanksDay'+i+'" style="font-size:10px;"  ></td>';
+calStrFrame+='        <td colspan="3px" align="right" ><span style="font-size:12px;cursor: pointer"></span>&nbsp;</td></tr>';
+calStrFrame+='    </table></td></tr><tr ><td >';
+calStrFrame+='        <table border="0px" cellspacing="1px" cellpadding="0px" width="100%" class="weekarea">';
+calStrFrame+='          <tr ><td  align="left"><input type="button" class="button" value="<< " title="'+titlePrevYear+'" onclick="parent.thanksPrevY()" ';
+calStrFrame+='             onfocus="this.blur()" style="width: 25px;font-size: 12px; height: 20px"><input  class="button rborder" title="'+titlePrevMonth+'" type="button"';
+calStrFrame+='             value="< " onclick="parent.thanksPrevM()" onfocus="this.blur()" style="width: 25px;font-size: 12px; height: 20px"></td><td ';
+calStrFrame+='              align="center"><input type="button" class="button rborder" value="Today" onclick="parent.thanksToday()" ';
+calStrFrame+='             onfocus="this.blur()" title="'+titleSelectToday+'" style="width: 50px;font-size: 12px; height: 20px; cursor:pointer"></td><td ';
+calStrFrame+='              align="right"><input type="button" class="button" value=" >" onclick="parent.thanksNextM()" ';
+calStrFrame+='             onfocus="this.blur()" title="'+titleNextMonth+'" class="button" style="width: 25px;font-size: 12px; height: 20px"><input ';
+calStrFrame+='              type="button" class="button rborder" value=">> " title="'+titleNextYear+'" onclick="parent.thanksNextY()"';
+calStrFrame+='             onfocus="this.blur()" style="width: 25px;font-size: 12px; height: 20px"></td>';
+calStrFrame+='</tr></table></td></tr></table></div>';
+calStrFrame+='<\/body><\/html>';
+
+var dateFmt1 = /^(\d{4})(01|02|03|04|05|06|07|08|09|10|11|12)(\d{2})$/;
+var dateFmt2 = /^(\d{4})-(01|02|03|04|05|06|07|08|09|10|11|12)-(\d{2})$/;
+var dateFmt3 = /^(\d{2})\/(01|02|03|04|05|06|07|08|09|10|11|12)\/(\d{4})$/;
+var dateReg = dateFmt3;
+
+var outObject;
+var outButton;
+var outDate="";
+var startDate;
+var endDate;
+var calDoc;
+
+var thanksTheYear=new Date().getFullYear();
+var thanksTheMonth=new Date().getMonth()+1; 
+var thanksWDay=new Array(39);
+
+var MonHead = new Array(12);
+MonHead[0] = 31; MonHead[1] = 28; MonHead[2] = 31; MonHead[3] = 30; MonHead[4]  = 31; MonHead[5]  = 30;
+MonHead[6] = 31; MonHead[7] = 31; MonHead[8] = 30; MonHead[9] = 31; MonHead[10] = 30; MonHead[11] = 31;
+
+var isCalInit=false;
+var calDiv=null;
+var calFrm=null;
+function initCalendar()
+{
+	calDiv = document.createElement("div");
+	calDiv.id="calendarCtn"
+	calDiv.style.position="absolute";
+	calDiv.style.visibility = "hidden";
+	calFrm = document.createElement("iframe");
+	calFrm.id="thanksDateLayer"
+	calFrm.name="thanksDateLayer"
+	calFrm.src = "about:blank";
+	calFrm.frameborder = "0px";
+	calFrm.scrolling = "no";
+	calFrm.width = "183px";
+	calFrm.height = "219px";
+	calFrm.style.position="absolute";
+	calFrm.style.border="0px";
+	calFrm.style.width = "183px";
+	calFrm.style.height = "219px";
+	calFrm.style.zIndex = "9998";
+	calDiv.appendChild(calFrm);
+	document.body.appendChild(calDiv);
+	
+	window.frames.thanksDateLayer.document.writeln(calStrFrame);
+	window.frames.thanksDateLayer.document.close();
+	
+	calDoc=window.frames.thanksDateLayer.document;
+
+	isCalInit=true;
+}
+
+function setday(tt,obj,startday,endday,offsetA,offsetV)
+{
+	if(!isCalInit)
+		initCalendar();
+	
+	if (arguments.length >  6){return;}
+	if (arguments.length == 0){return;}
+	
+	var th = tt;
+  
+	outObject = (arguments.length == 1) ? th : obj;
+	outButton = (arguments.length == 1) ? null : th;
+	
+	startDate = (arguments.length >= 4&&startday) ? startday : "";
+	endDate = (arguments.length >= 4&&endday) ? endday : "";
+	
+	var offset_a=0;
+	var offset_v=0;
+	try{
+		if(arguments.length >= 5) offset_a=parseInt(offsetA);
+		if(arguments.length >= 6) offset_v=parseInt(offsetV);
+	}catch(e){offset_a=0;offset_v=0;}
+	var xPos = getXY(th);
+	var xWidth = th.offsetWidth;
+	calDiv.style.left = (xPos.x+xWidth+offset_a+5)+"px";
+  calDiv.style.top = (xPos.y+offset_v)+"px";
+  
+	var reg = dateReg; 
+	if(reg==dateFmt1||reg==dateFmt2){
+		var r = outObject.value.match(reg); 
+		if(r!=null){
+			r[2]=r[2]-1; 
+			var d= new Date(r[1], r[2],r[3]); 
+			if(d.getFullYear()==r[1] && d.getMonth()==r[2] && d.getDate()==r[3]){
+				outDate=d;
+			}
+			else outDate="";
+				thanksSetDay(r[1],r[2]+1);
+		}
+		else{
+			outDate="";
+			thanksSetDay(new Date().getFullYear(), new Date().getMonth() + 1);
+		}
+	}else if(reg==dateFmt3){
+		var r = outObject.value.match(reg); 
+		if(r!=null){
+			r[2]=r[2]-1; 
+			var d= new Date(r[3], r[2],r[1]); 
+			if(d.getFullYear()==r[3] && d.getMonth()==r[2] && d.getDate()==r[1]){
+				outDate=d;
+			}
+			else outDate="";
+				thanksSetDay(r[3],r[2]+1);
+		}
+		else{
+			outDate="";
+			thanksSetDay(new Date().getFullYear(), new Date().getMonth() + 1);
+		}
+	}
+	
+	obj.focus();
+	calDiv.style.visibility = "";
+}
+function openCalendar(startDate,endImgId,endDateId){
+ var alt=startDate.alt;
+	if(alt=="www") {
+		setday(document.getElementById(endImgId),document.getElementById(endDateId));
+		startDate.alt="";
+	}
+}
+function getFocus(beginDateObj, endDateObj) {
+  var beginDate = beginDateObj.value;
+	if(beginDate.length>=8 && isDateCal(beginDate)) {
+		endDateObj.focus();
+	}
+}
+function finalFocus(obj) {
+	var r =obj.createTextRange();
+	r.moveStart('character',obj.value.length);
+	r.collapse(true);
+	r.select();
+}
+
+function thanksWriteHead(yy,mm)
+{
+	calDoc.getElementById("thanksYearHead").innerHTML  = yy + "";
+  calDoc.getElementById("thanksMonthHead").innerHTML = months[mm-1] + "";
+}
+function tmpSelectYearInnerHTML(strYear)
+{
+  if (strYear.match(/\D/)!=null){alert("Please input number!");return;}
+  var m = (strYear) ? strYear : new Date().getFullYear();
+  if (m < 1000 || m > 9999) {alert("Over value(1000-9999)");return;}
+  var n = m - 10;
+  if (n < 1000) n = 1000;
+  if (n + 26 > 9999) n = 9974;
+  var s = '<select id="tmpSelectYear" name="tmpSelectYear" style="font-size: 12px" ';
+     s += 'onblur="document.getElementById(\'tmpSelectYearLayer\').style.display=\'none\'" ';
+     s += 'onchange="document.getElementById(\'tmpSelectYearLayer\').style.display=\'none\'; ';
+     s += 'parent.thanksTheYear = this.value; parent.thanksSetDay(parent.thanksTheYear,parent.thanksTheMonth)">\r\n';
+  var selectInnerHTML = s;
+  for (var i = n; i < n + 26; i++)
+  {
+    if (i == m)
+       {selectInnerHTML += "<option  value='" + i + "' selected>" + i +"</option>\r\n";}
+    else {selectInnerHTML += "<option  value='" + i + "'>" + i + "</option>\r\n";}
+  }
+  selectInnerHTML += "</select>";
+  calDoc.getElementById("tmpSelectYearLayer").style.display="";
+  calDoc.getElementById("tmpSelectYearLayer").innerHTML = selectInnerHTML;
+  calDoc.getElementById("tmpSelectYear").focus();
+}
+function tmpSelectMonthInnerHTML(strMonth)
+{
+	
+  var m = (strMonth) ? strMonth : new Date().getMonth() + 1;
+  var s = '<select id="tmpSelectMonth" name="tmpSelectMonth" style="font-size: 12px" ';
+     s += 'onblur="document.getElementById(\'tmpSelectMonthLayer\').style.display=\'none\'" ';
+     s += 'onchange="document.getElementById(\'tmpSelectMonthLayer\').style.display=\'none\'; ';
+     s += 'parent.thanksTheMonth = this.value; parent.thanksSetDay(parent.thanksTheYear,parent.thanksTheMonth)">\r\n';
+  var selectInnerHTML = s;
+  for (var i = 1; i < 13; i++)
+  {
+    if (months[i-1] == m)
+       {selectInnerHTML += "<option  value='"+i+"' selected>"+months[i-1]+"</option>\r\n";}
+    else {selectInnerHTML += "<option  value='"+i+"'>"+months[i-1]+"</option>\r\n";}
+  }
+  selectInnerHTML += "</select>";
+  calDoc.getElementById("tmpSelectMonthLayer").style.display="";
+  calDoc.getElementById("tmpSelectMonthLayer").innerHTML = selectInnerHTML;
+  calDoc.getElementById("tmpSelectMonth").focus();
+}
+function closeLayer()
+{
+  if(calDiv!=null)
+  	calDiv.style.visibility = "hidden";
+}
+function thanksPrevY()
+{
+  if(thanksTheYear > 999 && thanksTheYear <10000){thanksTheYear--;}
+  else{alert("Over value(1000-9999)");}
+  thanksSetDay(thanksTheYear,thanksTheMonth);
+}
+function thanksNextY()
+{
+  if(thanksTheYear > 999 && thanksTheYear <10000){thanksTheYear++;}
+  else{alert("Over value(1000-9999)");}
+  thanksSetDay(thanksTheYear,thanksTheMonth);
+}
+function thanksToday()
+{
+	var today;
+  thanksTheYear = new Date().getFullYear();
+  thanksTheMonth = new Date().getMonth()+1;
+  if(thanksTheMonth<10){
+    thanksTheMonth = "0"+thanksTheMonth;
+  }
+  today=new Date().getDate();
+  if(today<10){
+    today = "0"+today;
+  }
+  if(outObject){
+  	var reg = dateReg; 
+		if(reg==dateFmt1){
+			outObject.value=thanksTheYear + "" + thanksTheMonth + "" + today;
+		}else if(reg==dateFmt2){
+			outObject.value=thanksTheYear + "-" + thanksTheMonth + "-" + today;
+		}else if(reg==dateFmt3){
+			outObject.value= today + "/" + thanksTheMonth + "/" + thanksTheYear;
+		}
+  }
+  closeLayer();
+}
+function thanksPrevM()
+{
+  if(thanksTheMonth>1){thanksTheMonth--}else{thanksTheYear--;thanksTheMonth=12;}
+  thanksSetDay(thanksTheYear,thanksTheMonth);
+}
+function thanksNextM()
+{
+  if(thanksTheMonth==12){thanksTheYear++;thanksTheMonth=1}else{thanksTheMonth++}
+  thanksSetDay(thanksTheYear,thanksTheMonth);
+}
+function thanksSetDay(yy,mm)
+{
+  thanksWriteHead(yy,mm);
+  thanksTheYear=yy;
+  thanksTheMonth=mm;
+  
+  for (var i = 0; i < 39; i++){thanksWDay[i]="";}
+  var day1 = 1,day2=1;
+  var firstday = new Date(yy,mm-1,1).getDay();
+  for (i=0;i<firstday;i++){thanksWDay[i]=GetMonthCountCal(mm==1?yy-1:yy,mm==1?12:mm-1)-firstday+i+1;}
+  for (i = firstday; day1 < GetMonthCountCal(yy,mm)+1; i++){thanksWDay[i]=day1;day1++;}
+  for (i=firstday+GetMonthCountCal(yy,mm);i<39;i++){thanksWDay[i]=day2;day2++}
+  for (i = 0; i < 39; i++)
+  {
+  	var da = eval("calDoc.getElementById('thanksDay"+i+"')")
+	//da.style.background = "url(../images/default/button_common_bg.gif) repeat-x;";
+	da.style.border = "1px solid #cccccc"
+
+    if (thanksWDay[i]!="")
+      { 
+    	
+		da.borderColorLight="#CCB27D";
+		da.borderColorDark="#FFFFFF";
+		if(i<firstday)
+		{
+			da.style.color="#b8b8b8";
+			da.innerHTML='<b>' + thanksWDay[i] + '</b>';
+			da.title="";
+			da.onclick=Function('thanksDayClick("'+thanksWDay[i]+'",-1)');
+			if(!outDate){
+				da.style.backgroundColor = ((mm==1?yy-1:yy) == new Date().getFullYear() && 
+					(mm==1?12:mm-1) == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate()) ?
+					 "#f0f0f4":"#e0e0e0";
+				da.style.background = ((mm==1?yy-1:yy) == new Date().getFullYear() && 
+					(mm==1?12:mm-1) == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate()) ?
+				"":"url(../images/default/button_common_bg.gif) repeat-x";
+			}
+			else
+			{
+				da.style.backgroundColor =((mm==1?yy-1:yy)==outDate.getFullYear() && (mm==1?12:mm-1)== outDate.getMonth() + 1 && 
+				thanksWDay[i]==outDate.getDate())? "#Ffccff" :
+				(((mm==1?yy-1:yy) == new Date().getFullYear() && (mm==1?12:mm-1) == new Date().getMonth()+1 && 
+				thanksWDay[i] == new Date().getDate()) ? "#f0f0f4":"#e0e0e0");
+				
+				da.style.background = ((mm==1?yy-1:yy)==outDate.getFullYear() && (mm==1?12:mm-1)== outDate.getMonth() + 1 && 
+				thanksWDay[i]==outDate.getDate())? "#Ffccff" :
+				(((mm==1?yy-1:yy) == new Date().getFullYear() && (mm==1?12:mm-1) == new Date().getMonth()+1 && 
+				thanksWDay[i] == new Date().getDate()) ?
+				"":"url(../images/default/button_common_bg.gif) repeat-x");
+
+				if((mm==1?yy-1:yy)==outDate.getFullYear() && (mm==1?12:mm-1)== outDate.getMonth() + 1 && 
+				thanksWDay[i]==outDate.getDate())
+				{
+					da.borderColorLight="#FFFFFF";
+					da.borderColorDark="#CCB27D";
+				}
+			}
+			if(isValidDayCal(thanksWDay[i],-1)) {
+				da.style.cursor="pointer";
+				if (startDate != "" && endDate != "")
+					da.style.color="#993300";
+	    	} else {
+	    		da.style.cursor="not-allowed";
+	    		da.onclick="";
+	    	}
+		}
+		else if (i>=firstday+GetMonthCountCal(yy,mm))
+		{
+			da.style.color="#808080";
+			da.innerHTML='<b>' + thanksWDay[i] + '</b>';
+			da.title='';
+			da.onclick=Function('thanksDayClick("'+thanksWDay[i]+'",1)');
+			if(!outDate){
+				da.style.backgroundColor = ((mm==12?yy+1:yy) == new Date().getFullYear() && 
+					(mm==12?1:mm+1) == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate()) ?
+					 "#f0f0f4":"#e0e0e0";
+				da.style.background = ((mm==12?yy+1:yy) == new Date().getFullYear() && 
+					(mm==12?1:mm+1) == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate()) ?
+				"":"url(../images/default/button_common_bg.gif) repeat-x";
+			}
+			else
+			{
+				da.style.backgroundColor =((mm==12?yy+1:yy)==outDate.getFullYear() && (mm==12?1:mm+1)== outDate.getMonth() + 1 && 
+				thanksWDay[i]==outDate.getDate())? "#Ffccff" :
+				(((mm==12?yy+1:yy) == new Date().getFullYear() && (mm==12?1:mm+1) == new Date().getMonth()+1 && 
+				thanksWDay[i] == new Date().getDate()) ? "#f0f0f4":"#e0e0e0");
+				
+				da.style.background =((mm==12?yy+1:yy)==outDate.getFullYear() && (mm==12?1:mm+1)== outDate.getMonth() + 1 && 
+				thanksWDay[i]==outDate.getDate())? "#Ffccff" :
+				(((mm==12?yy+1:yy) == new Date().getFullYear() && (mm==12?1:mm+1) == new Date().getMonth()+1 && 
+				thanksWDay[i] == new Date().getDate()) ? "":"url(../images/default/button_common_bg.gif) repeat-x");
+				
+				
+				if((mm==12?yy+1:yy)==outDate.getFullYear() && (mm==12?1:mm+1)== outDate.getMonth() + 1 && 
+				thanksWDay[i]==outDate.getDate())
+				{
+					da.borderColorLight="#FFFFFF";
+					da.borderColorDark="#CCB27D";
+				}
+			}
+			if(isValidDayCal(thanksWDay[i],1)) {
+				da.style.cursor="pointer";
+				if (startDate != "" && endDate != "")
+					da.style.color="#9900FF";
+	    	} else {
+	    		da.style.cursor="not-allowed";
+	    		da.onclick="";
+	    	}
+		}
+		else
+		{
+			da.style.color="#000000";
+			da.innerHTML='<b>' + thanksWDay[i] + '</b>';
+			da.title='';
+			da.onclick=Function('thanksDayClick("'+thanksWDay[i]+'",0)');
+			if(!outDate){
+				da.style.backgroundColor = (yy == new Date().getFullYear() && mm == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate())?
+					"#f0f0f4":"#e0e0e0";
+					
+				da.style.background = (yy == new Date().getFullYear() && mm == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate())?
+					"":"url(../images/default/button_common_bg.gif) repeat-x";;
+					
+			}
+			else
+			{
+				da.style.backgroundColor =(yy==outDate.getFullYear() && mm== outDate.getMonth() + 1 && thanksWDay[i]==outDate.getDate())?
+					"#Ffccff":((yy == new Date().getFullYear() && mm == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate())?
+					"#f0f0f4":"#e0e0e0");
+					
+				da.style.background =(yy==outDate.getFullYear() && mm== outDate.getMonth() + 1 && thanksWDay[i]==outDate.getDate())?
+					"#Ffccff":((yy == new Date().getFullYear() && mm == new Date().getMonth()+1 && thanksWDay[i] == new Date().getDate())?
+					"":"url(../images/default/button_common_bg.gif) repeat-x");
+					
+				if(yy==outDate.getFullYear() && mm== outDate.getMonth() + 1 && thanksWDay[i]==outDate.getDate())
+				{
+					da.borderColorLight="#FFFFFF";
+					da.borderColorDark="#CCB27D";
+				}
+			}
+			
+			if(isValidDayCal(thanksWDay[i],0)) {
+				da.style.cursor="pointer";
+				if (startDate != "" && endDate != "")
+					da.style.color="#9900FF";
+	    	} else {
+	    		da.style.cursor="not-allowed";
+	    		da.onclick="";
+	    	}
+		}
+      }
+    else{da.innerHTML="";da.style.backgroundColor="";da.style.cursor="default";}
+  }
+}
+function thanksDayClick(n,ex)
+{
+	
+  var yy=thanksTheYear;
+  var mm = parseInt(thanksTheMonth)+ex;
+	if(mm<1){
+		yy--;
+		mm=12+mm;
+	}
+	else if(mm>12){
+		yy++;
+		mm=mm-12;
+	}
+	
+  if (mm < 10){mm = "0" + mm;}
+  if (outObject)
+  {
+    if (!n) {
+      return;}
+    if ( n < 10){n = "0" + n;}
+    var reg = dateReg; 
+		if(reg==dateFmt1){
+			outObject.value= yy + mm + n ; 
+		}else if(reg==dateFmt2){
+			outObject.value= yy + "-" + mm + "-" + n ; 
+		}else if(reg==dateFmt3){
+			outObject.value= n + "/" + mm + "/" + yy ; 
+		}
+		outObject.alt="www";
+ 		outObject.focus();
+    closeLayer(); 
+  }
+  else {closeLayer(); }
+}
+
+document.onclick=function(e)
+{ 
+	if(!e) e=window.event;
+	var es = e.srcElement?e.srcElement:e.target;
+  if (es != outObject && es != outButton)
+    closeLayer();
+}
+document.onkeyup=function(e)
+{
+	if(!e) e=window.event;
+  if (e.keyCode==27){
+		if(outObject)outObject.blur();
+		closeLayer();
+	}
+	else if(document.activeElement)
+	if(document.activeElement.getAttribute("Author")==null && document.activeElement != outObject && document.activeElement != outButton)
+	{
+		closeLayer();
+	}
+}
+
+function isDateCal(param) {
+	if ( !param||param.length < 8 ) {
+		return false;
+	} 
+	if(dateFmt1.test(param)){
+		return true;
+	}else if(dateFmt2.test(param)){
+		return true;
+	}else if(dateFmt3.test(param)){
+		return true;
+	}
+	return false;
+}
+function isValidDayCal(n,ex)
+{
+  if (startDate == "" || endDate == "")
+  		return true;
+  	
+	var yy = thanksTheYear;
+	var mm = parseInt(thanksTheMonth)+ex;
+	
+	if (mm < 1) {
+		yy--;
+		mm = 12 + mm;
+	}else if (mm > 12) {
+		yy++;
+		mm = mm - 12;
+	}
+
+	if (mm < 10) {mm = "0" + mm;}
+	if (n < 10) {n = "0" + n;}
+	
+	var date = yy+mm+n;
+	
+	if(date >= startDate && date <= endDate)
+		return true;
+		
+	return false;
+}
+function IsPinYearCal(year)
+{
+  if (((0==year%4)&&(year%100!=0))||(year%400==0)) return true;else return false;
+}
+function GetMonthCountCal(year,month)
+{
+  var c=MonHead[month-1];if((month==2)&&IsPinYearCal(year)) c++;return c;
+}
+function getDOWCal(day,month,year)
+{
+  var dt=new Date(year,month-1,day).getDay()/7; return dt;
+}
+function getXY(targetObject)
+{
+	var ua = navigator.userAgent.toLowerCase();
+	var isOpera = (ua.indexOf('opera') != -1);
+	var isIE = (ua.indexOf('msie') != -1 && !isOpera); 
+	var el = targetObject;
+	if(el.parentNode === null || el.style.display == 'none')
+	{
+		return false;
+	}
+	var parent = null;
+	var pos = []; 
+	var box;
+	if(el.getBoundingClientRect)    //IE 
+	{
+		box = el.getBoundingClientRect();
+		var scrollTop = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+		var scrollLeft = Math.max(document.documentElement.scrollLeft, document.body.scrollLeft);
+		if(isIE)
+			return {x:box.left + scrollLeft-2, y:box.top + scrollTop-2};
+		else
+			return {x:box.left + scrollLeft, y:box.top + scrollTop};
+	}
+	else if(document.getBoxObjectFor)    // gecko
+	{
+		box = document.getBoxObjectFor(el);
+		var borderLeft = (el.style.borderLeftWidth)?parseInt(el.style.borderLeftWidth):0;
+		var borderTop = (el.style.borderTopWidth)?parseInt(el.style.borderTopWidth):0;
+		pos = [box.x - borderLeft, box.y - borderTop];
+	}
+	else    // safari & opera 
+	{
+		pos = [el.offsetLeft, el.offsetTop];
+		parent = el.offsetParent; 
+		if (parent != el) {
+			while (parent) {
+				pos[0] += parent.offsetLeft;
+				pos[1] += parent.offsetTop;
+				parent = parent.offsetParent;
+			}
+		}
+		if (ua.indexOf('opera') != -1 || ( ua.indexOf('safari') != -1 && el.style.position == 'absolute' )){
+			pos[0] -= document.body.offsetLeft;
+			pos[1] -= document.body.offsetTop;
+		}
+	}
+	if (el.parentNode) { parent = el.parentNode; }
+	else { parent = null; }
+	while (parent && parent.tagName != 'BODY' && parent.tagName != 'HTML')
+	{ 
+		pos[0] -= parent.scrollLeft;
+		pos[1] -= parent.scrollTop;
+		if (parent.parentNode) { parent = parent.parentNode; }
+		else { parent = null; }
+	}
+	return {x:pos[0], y:pos[1]}; 
+}

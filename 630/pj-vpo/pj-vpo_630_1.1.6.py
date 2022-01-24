@@ -1174,8 +1174,8 @@ def job_kekhai():
                                     input_data_claim = data_claim.copy()
                                     del input_data_claim['id']
                                     del input_data_claim['thong_tin_nhan_vien']
-                                    del input_data_claim['created_at']
                                     del input_data_claim['__typename']
+                                    del input_data_claim['created_at']
                                     del input_data_claim['updated_at']
                                     del input_data_claim['clientEmployee']
                                     

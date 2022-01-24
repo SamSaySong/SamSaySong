@@ -1,4 +1,4 @@
-total:29
+total:42
 2021-12-04 08:24:49:4(-1) (-1):84368069835:Chị ơi, em là thảo ạ, hôm qua chị có liên lạc với em để phỏng vấn|E
 2021-12-04 08:25:17:4(-1) (-1):84368069835:Chị ơi em có thể ứng tuyển vào vị trí đó không ạ|E
 2021-12-05 10:01:30:4(-1) (-1):VTMONEY@:[QC] Nhan ngay uu dai giam 10 gia tri giao dich va KHONG GIOI HAN so lan khi thanh toan tien dien thoai Viettel cho chinh minh qua tai khoan ViettelPay. Uu dai ap dung trong 06 thang (tinh tu thoi diem TB tham gia chuong trinh thanh cong) va danh cho TB nhan duoc tin nhan. Tai ngay ung dung tai https://viettelpay.onelink.me/2dRm/kmts10apps1 hoac bam goi *998# de su dung. Chi tiet LH 18009000 (0d). Tu choi QC, soan TC3 gui 199.|E
@@ -54,3 +54,16 @@ total:29
 2022-01-04 11:21:18:4(-1) (-1):195:Tong cuoc DV Di dong so 963964164 tinh den het ngay 31/12 la 100.000d. Quy khach vui long thanh toan truoc ngay 20/01. DAC BIET: Giam ngay tu 3-10 khi Quy khach thanh toan qua ung dung ViettelPay. Chi tiet truy cap http://viettelpay.vn/1/ntsms10/, bam goi *998# hoac LH 198 (0d). Tran trong.|E
 2022-01-06 18:34:24:4(-1) (-1):VIETTELPLUS:Quy khach duoc cong them 500 diem Viettel++ boi giao dich Tieu dung vien thong thang 12/2021. Thoi han su dung diem den 31/01/2023. Hay truy cap https://myvt.page.link/vtplus tren My Viettel hoac *098# de doi diem sang Data, SMS, Phut goi cung nhieu uu dai gia tri khac. Chi tiet LH 198. Tran trong.|E
 2022-01-07 10:33:04:4(-1) (-1):94725B8257619A11B251:[QC] Viettel MIEN PHI lap dat DV Internet wifi toc do cao, cuoc TB chi tu 265.000d/thang. TANG NGAY 1-2 thang cuoc TB khi dong cuoc truoc tu 6-12 thang. TANG THEM 3 thang su dung data 4G cho TB di dong Viettel len den 120GB/thang. CT danh cho Khach hang tai TP. HCM. Chi tiet LH 18008168 (0d) hoac truy cap https://viettel.vn/internet-truyenhinh/goi-cuoc/supernet1-2 . Tu choi QC, soan TC3 gui 199.|E
+2022-01-11 11:05:09:4(-1) (-1):VIETTELPLUS:[TB] Quy khach dang co 4935 diem Viettel++ chua su dung. Dung lang phi diem, hay truy cap https://myvt.page.link/11 hoac soan tin THOAI gui 9000 de doi ngay thanh 49 phut goi noi mang trong 30 ngay. Tran trong.|E
+2022-01-13 08:51:50:4(-1) (-1):TongcucThue:Ban dang giao dich nop ho so khai thue.Ma xac thuc giao dich dien tu cua ban la:54966882|E
+2022-01-13 08:58:16:4(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:04896203|E
+2022-01-13 09:05:12:4(-1) (-1):TongcucThue:-1Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:89600797|E
+2022-01-13 09:13:17:4(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:57538773|E
+2022-01-13 09:20:15:4(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:77182716|E
+2022-01-14 15:57:47:4(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:25349119|E
+2022-01-14 15:58:29:4(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:10044450|E
+2022-01-14 16:04:31:4(-1) (-1):TongcucThue:Ban dang giao dich thay doi thong tin tai khoan, ma giao dich dien tu cua ban la:67798603|E
+2022-01-14 22:08:23:4(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002910617. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-16 04:27:29:4(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002910617. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-16 04:27:26:4(-1) (-1):TongcucThue:CQT chap nhan ho so khai thue dien tu cua nguoi nop thue voi ma giao dich 11020220002910617. De nghi nguoi nop thue vao he thong kiem tra ket qua xu ly ho so khai thue.|E
+2022-01-16 10:12:46:4(-1) (-1):195:Viettel TB: De dam bao lien lac thong suot, Quy khach vui long thanh toan cuoc Di dong truoc 20/01/2022. Giam ngay 3 chiet khau khi Quy khach thanh toan cuoc qua ung dung My Viettel tai https://myvt.page.link/ttts3. Neu Quy khach da thanh toan, vui long bo qua tin nhan nay. L/H 198 (0d).Tran trong.|E

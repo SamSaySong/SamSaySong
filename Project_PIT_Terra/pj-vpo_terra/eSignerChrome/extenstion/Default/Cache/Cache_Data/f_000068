@@ -1,0 +1,1517 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	
+	
+<link rel="stylesheet" type="text/css" href="/etaxnnt/static/css/default/lianav3.css" />
+	
+
+<script src="/etaxnnt/static/script/jquery/jquery-1.6.1.min.js" type="text/javascript" language="javascript"></script>
+
+<link href="/etaxnnt/static/css/default/validation.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/default/style.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/ntdt.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/default/calendar.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/default/msb.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/ntdt.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/multiSelect/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/etaxnnt/static/css/default/validationEngine.jquery.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+
+<link href="/etaxnnt/static/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+
+<script src="/etaxnnt/static/script/default/menu.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/date2.js"  type="text/javascript"  language="javaScript" ></script>
+<script src="/etaxnnt/static/script/default/calendar.js"  type="text/javascript"  language="javaScript" ></script>
+<script src="/etaxnnt/static/script/default/GetNowTime.js"  type="text/javascript"  language="javaScript" ></script>
+<script src="/etaxnnt/static/script/default/public.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery-ui-1.8.2.custom.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.validate.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.metadata.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.price.format.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.maskedinput-1.2.2.min.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/msb.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.validationEngine.js" type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/json2.js" type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/dkyThue.js" type="text/javascript" language="javascript"></script>
+
+	<script src="/etaxnnt/static/script/default/common_vi_VN.js" type="text/javascript" language="javascript"></script>
+	<script src="/etaxnnt/static/script/default/validatevn.js" type="text/javascript"></script>
+	<script src="/etaxnnt/static/script/default/MoneyConvert_vn.js" type="text/javascript" language="javascript"></script>
+
+
+<script src="/etaxnnt/static/script/bttutils.js" type="text/javascript" language="javascript"></script>
+<!-- Chrome -->
+<script src="/etaxnnt/static/script/chrome/page.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/chrome/hex2base.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/common.js" type="text/javascript" language="javascript"></script>
+<!-- End Chrome -->
+<title>Kê khai trực tuyến_Khai Thuế_KH Doanh nghiệp_Thue dien tu</title>
+</head>
+
+<body>
+<script type="text/javascript">
+// anhvt disable backspace and backspace button
+	(function (global) { 
+
+    if(typeof (global) === "undefined") {
+        throw new Error("window is undefined");
+    }
+
+    var _hash = "!";
+    var noBackPlease = function () {
+        global.location.href += "#";
+
+        // making sure we have the fruit available for juice (^__^)
+        global.setTimeout(function () {
+            global.location.href += "!";
+        }, 50);
+    };
+
+    global.onhashchange = function () {
+        if (global.location.hash !== _hash) {
+            global.location.hash = _hash;
+        }
+    };
+
+    global.onload = function () {            
+        noBackPlease();
+
+        // disables backspace on page except on input fields and textarea..
+        document.body.onkeydown = function (e) {
+            var elm = e.target.nodeName.toLowerCase();
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+                e.preventDefault();
+            }
+            // stopping event bubbling up the DOM tree..
+            e.stopPropagation();
+        };          
+    }
+
+})(window);
+
+//ANHLD: disable F5 and back button
+// slight update to account for browsers not supporting e.which
+function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
+// To disable f5
+    /* jQuery < 1.7 */
+$(document).bind("keydown", disableF5);
+/* OR jQuery >= 1.7 */
+ /* $(document).on("keydown", disableF5); */
+
+// To re-enable f5
+    /* jQuery < 1.7 */
+$(document).unbind("keydown", disableF5);
+/* OR jQuery >= 1.7 */
+ /* $(document).off("keydown", disableF5); */
+
+
+</script>
+
+
+<link href="/etaxnnt/static/css/style_new.css" type="text/css" rel="stylesheet" />
+
+<!--TIÊU ĐỀ LỚN-->
+<div id="tieudelon" class="tieudelon" style="padding-top: 3px; padding-bottom: 4px;"> 
+   	<span class="icon_tt">
+       	<img height="22px" width="22px" src="/etaxnnt/static/images/epay/logo.png">
+    </span>
+    <i>
+ 	<span class="text_tt">
+    	Khai Thuế&nbsp;&gt;&nbsp;<span class="red_b">Kê khai trực tuyến</span>
+    </span>
+    </i>
+</div>
+<!--END TIÊU ĐỀ LỚN-->
+
+
+
+
+<script type="text/javascript" src="/etaxnnt/static/script/enumeration/common.js"></script>
+<script type="text/javascript" src="/etaxnnt/static/script/enumeration/bigFloat.js"></script>
+<link href="/etaxnnt/static/css/enumeration/default.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/reset.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/layout.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/superfish.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/superfish-navbar.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/enumeration/ihtkk.css" rel="stylesheet" type="text/css" />
+
+<div class="marT20">
+   <!--  <div class="box_common_head">
+        <h3><span>
+            Nhập dữ liệu tờ khai
+        </span></h3>
+    </div> -->
+    <div class="box_common_content">
+        <div class="app_error">
+	        
+				    
+		    
+        </div>    
+    </div>
+<script type="text/javascript">
+
+var tieudelon = document.getElementById("tieudelon");
+    tieudelon.innerHTML =
+'<span class="icon_tt">'+
+'<img height="22px" width="22px" src="/etaxnnt/static/images/epay/logo.png">'+
+'</span>'+
+'<i>'+
+'<span class="text_tt">'+
+'Khai thuế &gt;&nbsp'+
+'<span class="red_b">Kê khai trực tuyến</span>'+
+'</span>'+
+'</i>'; 
+</script>
+<script type="text/javascript" src="/etaxnnt/static/script/enumeration/tableutils.js"></script>
+<form name="tkhaiForm" method="post" action="/etaxnnt/Request" id='tkhaiForm'>
+<input type="hidden" name="dse_sessionId" value="n2t8GpKYUWaOg-w-AvA7PIH" />
+<input type="hidden" name="dse_applicationId" value="-1" />
+<input type="hidden" name="dse_operationName" value="tkhaitncn05kkkhautrutt92Proc" />
+<input type="hidden" name="dse_pageId" value="11" />
+<input type="hidden" name="dse_processorState" value="lapTKhaiTNCN_05_KK_KHAUTRU_TT92ViewPage" />
+<input type="hidden" name="dse_processorId" value="BGBSCZAGBOENAUGEHZDQJNJAJHIGGKCJCLGEGGDR" />
+<input type="hidden" name="dse_errorPage" value="error_page.jsp" />
+<input type="hidden" name="dse_nextEventName" value="" />
+
+
+<div class="box_common_content">
+ <!--To khai chinh-->
+ 
+<div id="div_tkhai"> 
+    ﻿
+
+
+
+
+
+
+
+
+<style  type="text/css">
+.tb-center, #tbl-02tndndk, #ct_center {margin: 0 auto;}
+</style>
+
+
+    <div class="align-c">
+      <h3>
+      	<span>
+      		
+	      
+	      	Tờ khai khấu trừ thuế thu nhập cá nhân (TT92/2015)
+	      
+            
+             
+               
+                - 05/KK-TNCN
+                
+             
+        </span>
+      </h3>
+      
+      
+      
+      
+    </div>
+     
+          
+        <div class="align-c" ><i>(Áp dụng cho tổ chức, cá nhân trả các khoản thu nhập từ tiền lương, tiền công)</i>
+         </div>
+     
+     
+     
+       
+	     
+      
+      
+    
+
+      
+
+     
+    
+
+    
+
+
+
+     
+  <table cellpadding="2" cellspacing="0">
+    <tr>
+    
+     <td colspan="6" class="align-c" >
+
+     
+     [01] K&#7923; t&#237;nh thu&#7871;: Tháng 06 năm 2021
+     
+     </td>
+     
+    </tr>
+	
+
+     
+    <tr>
+    
+    <td colspan="6" class="align-c">
+        
+          
+          
+          [02] Lần đầu: [X]
+          
+          
+          <input type="hidden" name="soLan" id="soLan" value=""/>
+          <input type="hidden" name="kieuKy" id="kieuKy" value="M"/><!--Them cho dai ly thue -->
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[03] Bổ sung lần thứ: []
+          
+    </td></tr>
+         
+       
+        
+    
+
+
+     
+     
+
+    
+    <tr>
+     
+       <td width="180"><b><span id = "chitieu" name = "chitieu" value ="Tên người nộp thuế:" /></b></td>
+       <td colspan="5" align="align-l"><b>VăN PHòNG ĐạI DIệN CôNG TY Cổ PHầN AIDEM TạI THàNH PHố Hà NộI</b></td>
+    
+    </tr>
+    <tr>
+
+    
+      <td><span id = "chitieu" name = "chitieu" value ="Mã số thuế:" /> </td>
+      <td colspan="5" align="align-l"><b>0109411417</b></td>
+    
+    </tr>
+    <tr>
+    
+    
+    
+     
+      <td width="180"><span id = "chitieu" name = "chitieu" value ="Địa chỉ:" /></td>
+      <td colspan="5" align="align-l"><b>Phòng 107, Tầng 17, Tòa nhà VIT, 519 Kim Mã</b></td>
+      
+    </tr>
+    
+    <tr>
+      <td width="180"><span id = "chitieu" name = "chitieu" value ="Quận/huyện:" /> </td>
+      <td colspan="2" align="align-l"><b>Quận Ba Đình</b></td>
+       <td width="180"><span id = "chitieu" name = "chitieu" value ="Tỉnh/Thành phố:" />  </td>
+      <td colspan="2" align="align-l"><b>Hà Nội</b></td>
+    </tr>
+    
+    
+    <tr>
+      <td><span id = "chitieu" name = "chitieu" value ="Điện thoại:" /></td>
+      <td colspan="1" align="align-l"><b>0374375915</b></td>
+      <td class="align-r"><span id = "chitieu" name = "chitieu" value ="Fax:" /></td>
+      <td colspan="1" align="align-l"><b></b></td>
+      <td class="align-r"><span id = "chitieu" name = "chitieu" value ="E-mail:" />  </td>
+      <td colspan="1" align="align-l"><b>bhxh.han@vina-payroll.com</b></td>
+    </tr>
+    
+    
+    
+
+    
+
+     
+        
+      
+     
+    
+    
+    <tr><td colspan="6"></td></tr>
+
+    
+    		
+    
+      
+      
+      <tr>
+      <td  width="180"><b>
+      <span id = "chitieu" name = "chitieu" value ="Tên đại lý thuế (nếu có): "/>
+      </b></td>
+      <td colspan="5" align="align-l"><b><input type="text" name="tenDLyThue" size="80" id="tenDLyThue" value=""  maxlength="100"/></b></td>
+      </tr>
+      
+      
+      
+        
+            
+     
+    <tr>
+      <td width="180"><span id = "chitieu" name = "chitieu" value ="Mã số thuế:" /></td>
+      <td colspan="5" align="align-l"><input type="text" name="mstDLyThue"  id="mstDLyThue" value=""  maxlength="20" onblur = "ktraCTrucTIN(this)"/></td>
+    </tr>
+    <tr>
+      <td width="180"><span id = "chitieu" name = "chitieu" value ="Địa chỉ: " /></td>
+      <td colspan="5" align="align-l"><input type="text" name="addrDLyThue" size="80" id="addrDLyThue" value=""  maxlength="20"/></td>
+    </tr>
+    <tr>
+      <td width="180"><span id = "chitieu" name = "chitieu" value ="Quận/huyện: " />  </td>
+      <td colspan="2" align="align-l"><input type="text" name="distDLyThue" size="30" style="width: 95%;"  id="distDLyThue" value=""  maxlength="20"/></td>
+       <td width="180"><span id = "chitieu" name = "chitieu" value ="Tỉnh/Thành phố: " /> </td>
+      <td colspan="2" align="align-l"><input type="text" name="provDLyThue" size="38" style="width: 95%;" id="provDLyThue" value="" maxlength="20"/></td>
+    </tr>
+    <tr>
+      <td><span id = "chitieu" name = "chitieu" value ="Điện thoại: " />  </td>
+      <td align="align-l"><input type="text" name="telDLyThue" id="telDLyThue" value="" maxlength="20"/></td>
+      <td class="align-r"><span id = "chitieu" name = "chitieu" value ="Fax:" />  </td>
+      <td align="align-l"><input type="text" name="faxDLyThue" id="faxDLyThue" value="" maxlength="20"/></td>
+      <td class="align-r"><span id = "chitieu" name = "chitieu" value ="E-mail:" />  </td>
+      <td align="align-l"><input type="text" name="emailDLyThue" id="emailDLyThue" style="width: 92%;" size="20" value="" maxlength="20"/></td>
+    </tr>
+   
+    <tr>
+    
+        <td width="180"> <span id = "chitieu" name = "chitieu" value ="Hợp đồng đại lý thuế: Số" /> </td>
+    
+      <td colspan="2" align="align-l"><input type="text" name="soHDongDLyThue" style="width: 95%;" size="34" id="soHDongDLyThue" value=""  maxlength="20"/></td>
+    
+    	<td class="align-r">Ngày </td>
+    
+      <td colspan="2" align="align-l">
+          <input type="text" name="ngayKyHDDLyThue" size="38" id="ngayKyHDDLyThue" style="width: 95%;" value="" maxlength="20" onblur="validDateFormat(this,'dd/mm/yyyy')"/>
+          <input type="hidden" name="kyKKhaiTuNgay" id="kyKKhaiTuNgay" value="01/06/2021"/>
+          <input type="hidden" name="kyKKhaiDenNgay" id="kyKKhaiDenNgay" value="30/06/2021"/>
+          
+          <input type="hidden" name="kyKKhaiTuThang" id="kyKKhaiTuThang" value=""/>
+          <input type="hidden" name="kyKKhaiDenThang" id="kyKKhaiDenThang" value=""/>
+
+          
+
+      </td>
+    </tr>
+    
+   </table>
+   <!--TODO: Them BCTC vs Y kiem kiem toan cho BCTC 200 -->
+
+   <!--
+      Them phan chon Nganh nghe kinh doanh cho cac to 01/GTGT, 01/TTĐB, 03/TNDN, 01A/TNDN, 01B/TNDN
+   -->
+   
+    <script type="text/javascript">
+    $( document ).ready(function() {
+    	var soHDongDLyThue = document.getElementById("soHDongDLyThue");
+    	var tenDLyThue = document.getElementById("tenDLyThue");
+    	var mstDLyThue = document.getElementById("mstDLyThue");
+    	var addrDLyThue = document.getElementById("addrDLyThue");
+    	var distDLyThue = document.getElementById("distDLyThue");
+    	var provDLyThue = document.getElementById("provDLyThue");
+    	var telDLyThue = document.getElementById("telDLyThue");
+    	var faxDLyThue = document.getElementById("faxDLyThue");
+    	var emailDLyThue = document.getElementById("emailDLyThue");
+    	var ngayKyHDDLyThue = document.getElementById("ngayKyHDDLyThue");
+    	
+    	if(soHDongDLyThue != null){
+    		soHDongDLyThue.readOnly=true;
+    	}
+    	if(tenDLyThue != null){
+    		tenDLyThue.readOnly=true;
+    	}
+    	if(mstDLyThue != null){
+    		mstDLyThue.readOnly=true;
+    	}
+    	if(addrDLyThue != null){
+    		addrDLyThue.readOnly=true;
+    	}
+    	if(distDLyThue != null){
+    		distDLyThue.readOnly=true;
+    	}
+    	if(provDLyThue != null){
+    		provDLyThue.readOnly=true;
+    	}
+    	if(telDLyThue != null){
+    		telDLyThue.readOnly=true;
+    	}
+    	if(faxDLyThue != null){
+    		faxDLyThue.readOnly=true;
+    	}
+    	if(emailDLyThue != null){
+    		emailDLyThue.readOnly=true;
+    	}
+    	if(ngayKyHDDLyThue != null){
+    		ngayKyHDDLyThue.readOnly=true;
+    	}
+    	
+    	
+    	var  matkhai= '394';
+    	if ('' == '' && matkhai =='838') {
+	    	$("#contractTINlist").val($("#contractTINlist option:first").val());
+	    	changeConTractTin(document.getElementById('contractTINlist'));    		
+    	}
+    	
+   	});
+    getChiTieuJS();
+    function getChiTieuJS(){
+      var  matkhai= '394';
+      var vct = 3;
+      if(matkhai =='443' || matkhai =='444' || matkhai =='149' || matkhai =='374'|| matkhai =='375'|| matkhai =='135')
+      vct = 10;
+      if(matkhai =='856')
+          vct = 9;
+      if(matkhai =='88' || matkhai =='270' || matkhai =='86'||matkhai =='380'||matkhai =='381'||matkhai =='446'||matkhai =='447')
+       vct = 6;
+       if(matkhai =='03')
+       vct = 5;
+      if(matkhai =='271' || matkhai =='274' || matkhai =='272')
+       vct = 4;
+      if(matkhai =='267' || matkhai =='268' || matkhai =='269')
+       vct = 7;
+	if(matkhai =='266' || matkhai == '402' || matkhai =='465' || matkhai =='690'|| matkhai =='701'|| matkhai =='702')
+       vct = 0;
+    if(matkhai =='274' || matkhai =='273' )
+       vct = 1;    
+     var ct = document.getElementsByName("chitieu");
+      for(var i =0; i<ct.length;i++){
+        vct = vct+1;
+        vTemp = ct[i].getAttribute('value');
+        if(vct<10){
+          ct[i].innerHTML = '[0'+vct+'] '+vTemp;
+        }else{
+          ct[i].innerHTML = '['+vct+'] '+vTemp;
+        }
+
+      }
+    }
+    
+    
+    
+function loadTTinNopThay(obj1, obj2){
+	debugger;
+	if($('#'+obj1).prop('checked')){
+		$('#_spTenNNT').attr('style', 'display: ');
+		$('#_spTIN').attr('style', 'display: ');
+		$('#_spDchiNNT').attr('style', 'display: ');
+		$('#_spTenHuyenNNT').attr('style', 'display: ');
+		$('#_spTenTinhNNT').attr('style', 'display: ');
+		$('#_spDthoaiNNT').attr('style', 'display: ');
+		$('#_spFaxNNT').attr('style', 'display: ');
+		$('#_spEmailNNT').attr('style', 'display: ');
+		$('#spTenNNT').attr('style', 'display: none');
+		$('#spTIN').attr('style', 'display: none');
+		$('#spDchiNNT').attr('style', 'display: none');
+		$('#spTenHuyenNNT').attr('style', 'display: none');
+		$('#spTenTinhNNT').attr('style', 'display: none');
+		$('#spDthoaiNNT').attr('style', 'display: none');
+		$('#spFaxNNT').attr('style', 'display: none');
+		$('#spEmailNNT').attr('style', 'display: none');
+		loadThongTinNNT(obj2);
+		
+
+	}else{
+		$('#_spTenNNT').attr('style', 'display: none');
+		$('#_spTIN').attr('style', 'display: none');
+		$('#_spDchiNNT').attr('style', 'display: none');
+		$('#_spTenHuyenNNT').attr('style', 'display: none');
+		$('#_spTenTinhNNT').attr('style', 'display: none');
+		$('#_spDthoaiNNT').attr('style', 'display: none');
+		$('#_spFaxNNT').attr('style', 'display: none');
+		$('#_spEmailNNT').attr('style', 'display: none');
+		$('#spTenNNT').attr('style', 'display: ');
+		$('#spTIN').attr('style', 'display: ');
+		$('#spDchiNNT').attr('style', 'display: ');
+		$('#spTenHuyenNNT').attr('style', 'display: ');
+		$('#spTenTinhNNT').attr('style', 'display: ');
+		$('#spDthoaiNNT').attr('style', 'display: ');
+		$('#spFaxNNT').attr('style', 'display: ');
+		$('#spEmailNNT').attr('style', 'display: ');
+		$('#error-tin').text('');
+		unLoadThongTinNNT(obj2);
+
+	}
+
+		$('#tin').val('');
+		$('#tenNNT').val('');
+	    $('#dchiNNT').val('');
+	   	$('#tenHuyenNNT').val('');
+	    $('#tenTinhNNT').val('');
+	    $('#dthoaiNNT').val('');
+	    $('#faxNNT').val('');
+	    $('#emailNNT').val('');
+	    $('#error-tin').text('');
+
+}
+
+function loadThongTinNNT(tenDLyThue){
+	$('#hasEmail').text('');
+	$('#hasMobile').text('');
+	$('#error-tin').text('');
+	$('#mstDLyThue').val('0109411417');
+	$('#'+tenDLyThue).val('VăN PHòNG ĐạI DIệN CôNG TY Cổ PHầN AIDEM TạI THàNH PHố Hà NộI');
+	$('#addrDLyThue').val('Phòng 107, Tầng 17, Tòa nhà VIT, 519 Kim Mã');
+	$('#distDLyThue').val('Quận Ba Đình');
+	$('#provDLyThue').val('Hà Nội');
+	$('#telDLyThue').val('0374375915');
+	$('#faxDLyThue').val('');
+	$('#emailDLyThue').val('bhxh.han@vina-payroll.com');
+	
+	$('#mstDLyThue').attr('readonly', true);
+	$('#'+tenDLyThue).attr('readonly', true);
+	$('#addrDLyThue').attr('readonly', true);
+	$('#distDLyThue').attr('readonly', true);
+	$('#provDLyThue').attr('readonly', true);
+	$('#telDLyThue').attr('readonly', true);
+	$('#faxDLyThue').attr('readonly', true);
+	$('#emailDLyThue').attr('readonly', true);
+}
+
+function unLoadThongTinNNT(tenDLyThue){
+	$('#mstDLyThue').val('');
+	$('#'+tenDLyThue).val('');
+	$('#addrDLyThue').val('');
+	$('#distDLyThue').val('');
+	$('#provDLyThue').val('');
+	$('#telDLyThue').val('');
+	$('#faxDLyThue').val('');
+	$('#emailDLyThue').val('');
+	var  matkhai= '394';
+	if (matkhai == '856') {
+		$('#mstDLyThue').attr('readonly', true);
+		$('#'+tenDLyThue).attr('readonly', true);
+		$('#addrDLyThue').attr('readonly', true);
+		$('#distDLyThue').attr('readonly', true);
+		$('#provDLyThue').attr('readonly', true);
+		$('#telDLyThue').attr('readonly', true);
+		$('#faxDLyThue').attr('readonly', true);
+		$('#emailDLyThue').attr('readonly', true);
+	} else {
+		$('#mstDLyThue').attr('readonly', false);
+		$('#'+tenDLyThue).attr('readonly', false);
+		$('#addrDLyThue').attr('readonly', false);
+		$('#distDLyThue').attr('readonly', false);
+		$('#provDLyThue').attr('readonly', false);
+		$('#telDLyThue').attr('readonly', false);
+		$('#faxDLyThue').attr('readonly', false);
+		$('#emailDLyThue').attr('readonly', false);
+		
+	}
+	$('#hasEmail').text('');
+	$('#hasMobile').text('');
+	$('#error-tin').text('');
+}
+
+var getThongTinNNT = function(tin){
+	$('#hasEmail').text('');
+	$('#hasMobile').text('');
+	var mstAjax = $(tin).val();
+	if(mstAjax == '0109411417'){
+		alert("Mã số thuế không được trùng với Mã số thuế đơn vị được ủy quyền");
+		document.getElementById('tin').focus();
+		$('#tin').val('');
+		$('#tenNNT').val('');
+        $('#dchiNNT').val('');
+       	$('#tenHuyenNNT').val('');
+        $('#tenTinhNNT').val('');
+        $('#dthoaiNNT').val('');
+        $('#faxNNT').val('');
+        $('#emailNNT').val('');
+		return false;
+	}
+	if(mstAjax != '' && mstAjax != null){
+		$.ajax({
+			url : '/etaxnnt/Request?&dse_sessionId=n2t8GpKYUWaOg-w-AvA7PIH&dse_applicationId=-1&dse_pageId=11&dse_operationName=tkhai01TAINDKProc&dse_processorState=initial&dse_nextEventName=getUserInfo',
+			data: "mstAjax="+mstAjax,
+	        dataType: 'json',
+	        success: function (data) {
+	        	if(data == 'notExist'){
+	        		$(tin).addClass('empty-error');
+	        		$('#error-tin').text('Không tìm thấy thông tin mã số thuế');
+	        		$('#tenNNT').val('');
+		        	$('#dchiNNT').val('');
+		        	$('#tenHuyenNNT').val('');
+		        	$('#tenTinhNNT').val('');
+		        	$('#dthoaiNNT').val('');
+		        	$('#faxNNT').val('');
+		        	$('#emailNNT').val('');
+		        	$('#tin').val('');
+		        	$(e).focus();
+	        		return false;
+	        	} else if(data.tin_status != '00' && data.tin_status != '04'){
+	        		$(tin).addClass('empty-error');
+	        		$('#error-tin').text('MST không được phép kê khai');
+	                $('#tenNNT').val('');
+		        	$('#dchiNNT').val('');
+		        	$('#tenHuyenNNT').val('');
+		        	$('#tenTinhNNT').val('');
+		        	$('#dthoaiNNT').val('');
+		        	$('#faxNNT').val('');
+		        	$('#emailNNT').val('');
+		        	$('#tin').val('');
+		        	$(e).focus();
+	        		return false;
+	        	}
+	        	$('#tenNNT').val(data.fullName);
+	        	$('#dchiNNT').val(data.addr);
+	        	$('#tenTinhNNT').val(data.prov);
+	        	$('#tenHuyenNNT').val(data.dist);
+	        	$('#dthoaiNNT').val(data.tel);
+				$('#faxNNT').val(data.fax);
+				$('#emailNNT').val(data.email);
+				
+				$('#error-tin').text('');
+	        },
+			error : function(errorMsg) {
+			},async :false
+	    });
+		}
+	else{
+           $('#tenNNT').val('');
+        $('#dchiNNT').val('');
+       	$('#tenHuyenNNT').val('');
+        $('#tenTinhNNT').val('');
+        $('#dthoaiNNT').val('');
+        $('#faxNNT').val('');
+        $('#emailNNT').val('');
+        $('#tin').val('');
+        $('#error-tin').text('');
+	}
+	$('#_mst').val($('#tin').val());
+}
+
+var getThongTinNNT2 = function(tin){
+	var mstAjax = $.trim($(tin).val());
+	if(mstAjax == '0109411417'){
+		alert("Mã số thuế không được trùng với Mã số thuế đơn vị được ủy quyền");
+		document.getElementById('tin').focus();
+		$('#tin').val('');
+		$('#tenNNT').val('');
+        $('#dchiNNT').val('');
+       	$('#tenHuyenNNT').val('');
+        $('#tenTinhNNT').val('');
+        $('#dthoaiNNT').val('');
+        $('#faxNNT').val('');
+        $('#emailNNT').val('');
+		return false;
+	}
+	if(mstAjax != '' && mstAjax != null){
+		$.ajax({
+			url : '/etaxnnt/Request?&dse_sessionId=n2t8GpKYUWaOg-w-AvA7PIH&dse_applicationId=-1&dse_pageId=11&dse_operationName=tkhai01TAINDKProc&dse_processorState=initial&dse_nextEventName=getUserInfo',
+			data: "mstAjax="+mstAjax,
+	        dataType: 'json',
+	        success: function (data) {
+	        	if(data == 'notExist'){
+	        		$(tin).addClass('empty-error');
+	        		$('#error-tin').text('Không tìm thấy thông tin mã số thuế');
+	        		$('#tenNNT').val('');
+		        	$('#dchiNNT').val('');
+		        	$('#tenHuyenNNT').val('');
+		        	$('#tenTinhNNT').val('');
+		        	$('#dthoaiNNT').val('');
+		        	$('#faxNNT').val('');
+		        	$('#emailNNT').val('');
+		        	$('#tin').val('');
+		        	$(e).focus();
+	        		return false;
+	        	}
+	        	else if(data.tin_status != '00' && data.tin_status != '04'){
+	        		$(tin).addClass('empty-error');
+	        		$('#error-tin').text('MST không được phép kê khai');
+	                $('#tenNNT').val('');
+		        	$('#dchiNNT').val('');
+		        	$('#tenHuyenNNT').val('');
+		        	$('#tenTinhNNT').val('');
+		        	$('#dthoaiNNT').val('');
+		        	$('#faxNNT').val('');
+		        	$('#emailNNT').val('');
+		        	$('#tin').val('');
+		        	$(e).focus();
+	        		return false;
+	        	}
+	        	$('#tenNNT').val(data.fullName);
+	        	$('#dchiNNT').val(data.addr);
+	        	$('#tenTinhNNT').val(data.prov);
+	        	$('#tenHuyenNNT').val(data.dist);
+				$('#error-tin').text('');
+	        },
+			error : function(errorMsg) {
+			},async :false
+	    });
+		}
+	else{
+           $('#tenNNT').val('');
+        $('#dchiNNT').val('');
+       	$('#tenHuyenNNT').val('');
+        $('#tenTinhNNT').val('');
+        $('#dthoaiNNT').val('');
+        $('#faxNNT').val('');
+        $('#emailNNT').val('');
+        $('#tin').val('');
+        $('#error-tin').text('');
+	}
+	$('#_mst').val($('#tin').val());
+}
+	
+	function _checkMobile(){	
+		var mobile = $.trim(document.getElementById('dthoaiNNT').value);
+		if(mobile == null || mobile == ""){
+			$('#hasMobile').text('Điện thoại không được để trống!');
+		} else {
+			$('#hasMobile').text('');
+		}
+	}
+	
+	function _checkEmail(){	
+		var email = $.trim(document.getElementById('emailNNT').value);
+		if(email == null || email == ""){
+			$('#hasEmail').text('Email không được để trống!');
+		} else if(!_validateEmail(email)) {
+			$('#hasEmail').text('Email không đúng định dạng!');
+		}  else {
+			$('#emailNNT').val(replaceAll(email,';',','));
+			$('#hasEmail').text('');
+		}
+	}
+	
+	function _validateEmail(email) {
+		email = replaceAll(email,';',',');
+		email = email.split(",");
+		var re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+   		for (var i=0; i<email.length; i++) {
+   			if (!re.test($.trim(email[i]))) {
+   				return false;
+   			}
+   		}
+    	return true;
+	}
+	
+	function replaceAll(str, find, replace) {
+		var tt = str.split(find);
+		for (var i = 1; i < tt.length; i++) {
+			str = str.replace(find, replace);
+		}
+		return str;
+	}
+	
+	function checkInputMobile(myfield, e, dec) {
+		var key;
+		var keychar;
+		if (window.event)
+			key = window.event.keyCode;
+		else if (e)
+			key = e.which;
+		else
+			return true;
+		keychar = String.fromCharCode(key);
+		if ((key == null) || (key == 0) || (key == 8) || (key == 9)
+				|| (key == 13) || (key == 27))
+			return true;
+		else if ((("0123456789.-()").indexOf(keychar) > -1))
+			return true;
+		else if (dec && (keychar == ".")) {
+			myfield.form.elements[dec].focus();
+			return false;
+		} else
+			return false;
+	}
+	
+	function _validateTTinNNT(){
+		var email = document.getElementById('emailNNT').value;
+		var mobile = document.getElementById('dthoaiNNT').value;
+		var fax = document.getElementById('faxNNT').value;
+		var tin = document.getElementById('tin').value;
+		if(tin == null || tin == ""){
+			alert('Mã số thuế không được để trống!');
+			$('#tin').focus();
+			return false;
+		}else if(mobile == null || mobile == ""){
+			alert('Điện thoại không được để trống!');
+			$('#dthoaiNNT').focus();
+			return false;
+		}else if(fax == null || fax == ""){
+			alert('Fax không được để trống!');
+			$('#faxNNT').focus();
+			return false;
+		}else if(email == null || email == ""){
+			alert('Email không được để trống!');
+			$('#emailNNT').focus();
+			return false;
+		}else if(!_validateEmail(email)){
+			alert('Email không đúng định dạng!');
+			$('#emailNNT').focus();
+			return false;
+		}
+		return true;
+	}
+	
+	function changeConTractTin(obj){
+		debugger;
+		var objId = obj.id;
+		var objValue = $('#'+objId).val();
+		$(obj).next('input[type="hidden"]').val(objValue);
+	}
+	
+	function checkTTNguoiNop(){
+		 var donViUQuyen = document.getElementById('donViUQuyen');
+		  var dthoaiNNT = document.getElementById('dthoaiNNT');
+		   var faxNNT = document.getElementById('faxNNT');
+		    var emailNNT = document.getElementById('emailNNT');
+		    var tin = document.getElementById('tin');
+		    
+		       var mstDLyThue = document.getElementById('mstDLyThue').value;
+		  if(donViUQuyen.checked){
+		   if(tin.value==null || tin.value==""){
+		     alert('Mã số thuế người nộp thuế không được để trống.');
+		      $(tin).focus();
+		      return false;
+		     }
+		   
+			if(tin.value!='' && tin.value == mstDLyThue){
+			alert('Mã số thuế người nộp không được trùng với Mã số thuế nộp thay.');
+			 $(tin).focus();
+		      return false;
+			}
+		  }
+		 
+		return true;
+		}
+	
+	function checkEmailT80(obj) {
+		if(!_validateEmail(obj.value)){
+			alert('Email không đúng định dạng!');
+			obj.value = "";
+			obj.focus();
+			return false;
+		}
+	}
+	
+	function setSeleted(name, name2) {
+    	var maTinh = document.getElementById(name2).value;
+    	$('#'+name).find('option[value=' + maTinh + ']').attr('selected',
+    	'selected');
+    }
+    
+   	function initAllSelectTinh(name,  html) {
+   		 var i = 0;
+   		$("select[name=" + name + "]").each(function() {
+   				$(this).html(html);
+   			i++;
+   		});
+   		
+   	}
+
+   	function initAllSelectQuanHuyen(id, name2) {
+   		var i = 0;
+   		$("select[id=" + id + "]").each(function() {
+   			initQuanHuyen(getValueField(name2), this)
+   			i++;
+   		});
+
+   	}
+   	
+   	function getValueField(objId) {
+   		return maTinh = document.getElementById(objId).value;
+   	}
+   	
+   	function initQuanHuyen(maTinh, target) {
+   		debugger;
+   		if ( maTinh != "00" && maTinh != "999" && maTinh != "" ) {
+   					 $.ajax({
+   						url : "/etaxnnt/Request?&dse_sessionId=n2t8GpKYUWaOg-w-AvA7PIH&dse_applicationId=-1&dse_pageId=11&dse_operationName=tkhai01LNCNVSPTT80Proc&dse_processorState=initial&dse_nextEventName=getHuyen",
+   						data: "maTinh=" + maTinh,
+   						dataType : 'json',
+   						success : function(result) {
+   							var html = '<option value="00">&nbsp;</option>';
+
+   							for (var index in result.list) {
+
+   								html += '<option value=' + result.list[index].maHuyen + '>'  + result.list[index].tenHuyen + '</option>';
+   							}
+   							
+   							$(target).html(html);
+   						},
+   						async : false
+   					});
+   		}
+   	}
+   	
+   	function ChangeTinh2(obj,quan,ma,ten) {
+   		debugger;
+   		var text = $(obj).children('option:selected').text().trim();
+   		var val = $(obj).children('option:selected').val().trim();
+   	    var srcObjId = obj.id;
+   	    var matinh = 00;
+   	    matinh = $("#" + srcObjId + " option:selected").val();
+   	    matinh = matinh.toString();
+   	 	$('#'+ma).val(val);
+   	 	$('#'+ten).val(text);
+   	 	if(obj.value=='00'){
+   	 		var html = '<option value="00">&nbsp;</option><option  value="999">Khác</option>';
+   	 		$('#'+quan).html(html); 
+   	 		$('#quanHuyenTen').val(''); 
+   	 		$('#quanHuyenMa').val('00'); 
+   	 		$('#phuongKeKhai').html(html); 
+   	 		$('#phuongXaTen').val(''); 
+   	 		$('#phuongXaMa').val('00'); 
+   	 	}
+   	    if(quan != ''){
+   	    	var html = '<option value="00">&nbsp;</option><option  value="999">Khác</option>';
+   	        if (matinh == "00" || matinh == "999") {
+   	            $('#'+quan).html(html);
+   	            return false;
+   	        }
+   	        $.ajax({
+   	        	url : '/etaxnnt/Request?&dse_sessionId=n2t8GpKYUWaOg-w-AvA7PIH&dse_applicationId=-1&dse_pageId=11&dse_operationName=tkhai01LNCNVSPTT80Proc&dse_processorState=initial&dse_nextEventName=getHuyen',
+   	        	data: "maTinh="+matinh,
+   	            dataType: 'json',
+   	            success: function (result) {
+   	            	
+   	                html = '<option value="00">&nbsp;</option>';
+   	                for (index in result.list) {
+   	                    html += '<option value=' + result.list[index].maHuyen + '>' + result.list[index].tenHuyen + '</option>';
+   	                }
+   	                $('#'+quan).html(html);  
+   	            }
+   	        });
+   	    }
+   	}
+   	
+   	function ChangeHQuan2(obj,phuong,tinh,ma,ten) {
+   		var text = $(obj).children('option:selected').text().trim();
+   		var val = $(obj).children('option:selected').val().trim();
+   	    var srcObjId = obj.id;
+   		var maHuyen = 00;
+   		maHuyen = $("#" + srcObjId + " option:selected").val();
+   		var maTinh = $("#" + tinh + " option:selected").val();
+   		$('#'+ma).val(val);
+   	 	$('#'+ten).val(text);
+   	 	if(obj.value=='00'){
+   	 		var html = '<option value="00">&nbsp;</option><option  value="999">Khác</option>';
+   	 		$('#phuongKeKhai').html(html); 
+   	 		$('#phuongXaTen').val(''); 
+   	 		$('#phuongXaMa').val('00'); 
+   	 	}
+   		var html = '<option value="00">&nbsp;</option><option  value="999">Khác</option>';
+   		if (maHuyen == "00" || maHuyen == "999") {
+   		        $('#'+phuong).html(html);
+   		        return false;
+   		    }
+   		    
+   	}
+	
+    </script>
+
+    
+<style>
+input[class='number']{
+	width: 95%;
+}
+input[class='numberflat']{
+	width: 96%;
+}
+</style>
+<table cellpadding="2" cellspacing="0">
+ <tr>
+  <td class="align-c">
+    <table width="100%" cellspacing="2" cellpadding="0">
+       <tr>
+        <td class="align-r" colspan="2"><i>Đơn vị tiền: Đồng Việt Nam</i></td>
+      </tr>
+    </table>
+ <div class="tbl_member">
+    <table border="1" cellspacing="0" cellpadding="3">
+        <tr class="header">
+                    <th class="align-c" >STT</th>
+                    <th class="align-c" style="width:65%">Chỉ tiêu</th>
+                    <th class="align-c" >Mã chỉ tiêu</th>
+                    <th class="align-c" >Đơn vị tính</th>
+                    <th class="align-c" style="width:15%">Số người/Số tiền</th>
+                </tr>
+                <tr>
+                    <td  class="align-c" rowspan="2" ><b>1</b></td>
+                    <td class="align-l" ><b>Tổng số người lao động:</b></td>
+                    <td class="align-c" >[21]</td>
+                    <td class="align-l" >Người</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct21" name="ct21"  size="20" maxlength="16"
+                    onkeypress="return AllowIntKey(this,event);" onkeyup="return return13()" class="number" onblur="return formatSoNguyenDuong(this)" /></td>
+                </tr>
+                <tr>
+
+                    <td class="align-l" >Trong đó: Cá nhân cư trú có hợp đồng lao động </td>
+                    <td class="align-c" >[22]</td>
+                    <td class="align-l" >Người</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct22" name="ct22"  size="20" maxlength="13"
+                    onkeypress="return AllowIntKey(this,event);" onblur="checkCt21(); formatSoNguyenDuong(this)" class="number" /></td>
+                </tr>
+                 <tr>
+                    <td class="align-c" ><b>2</b></td>
+                    <td class="align-l" ><b>Tổng số cá nhân đã khấu trừ thuế [23]=[24]+[25]</b></td>
+                    <td class="align-c" >[23]</td>
+                    <td class="align-l" >Người</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct23" name="ct23"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="numberflat" onblur="calCt23();" readonly="readonly"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                 <tr>
+                    <td class="align-c" >2.1</td>
+                    <td class="align-l" >Cá nhân cư trú</td>
+                    <td class="align-c" >[24]</td>
+                    <td class="align-l" >Người</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct24" name="ct24"  size="20" maxlength="13"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt23();checkCt(); formatSoNguyenDuong(this)" /></td>
+                </tr>
+                <tr>
+                    <td class="align-c" >2.2</td>
+                    <td class="align-l" >Cá nhân không cư trú</td>
+                    <td class="align-c" >[25]</td>
+                    <td class="align-l" >Người</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct25" name="ct25"  size="20" maxlength="13"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt23();checkCt(); formatSoNguyenDuong(this)"  /></td>
+                </tr>
+                 <tr>
+                    <td class="align-c" ><b>3</b></td>
+                    <td class="align-l" ><b>Tổng thu nhập chịu thuế (TNCT) trả cho cá nhân [26]=[27]+[28]</b></td>
+                    <td class="align-c" >[26]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct26" name="ct26"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="numberflat" onblur="calCt26();" readonly="readonly"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" >3.1</td>
+                    <td class="align-l" >Cá nhân cư trú</td>
+                    <td class="align-c" >[27]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct27" name="ct27"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt26();"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                 <tr>
+                    <td class="align-c" >3.2</td>
+                    <td class="align-l" >Cá nhân không cư trú</td>
+                    <td class="align-c" >[28]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct28" name="ct28"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt26();"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" ><b>4</b></td>
+                    <td class="align-l" ><b>Tổng TNCT trả cho cá nhân thuộc diện phải khấu trừ thuế [29]=[30]+[31]</b></td>
+                    <td class="align-c" >[29]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct29" name="ct29"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="numberflat" onblur="calCt29();" readonly="readonly"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" >4.1</td>
+                    <td class="align-l" >Cá nhân cư trú</td>
+                    <td class="align-c" >[30]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct30" name="ct30"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt29();checkCt();"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c"  >4.2</td>
+                    <td class="align-l" >Cá nhân không cư trú</td>
+                    <td class="align-c" >[31]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct31" name="ct31"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt29();checkCt();"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" ><b>5</b></td>
+                    <td class="align-l" ><b>Tổng số thuế thu nhập cá nhân đã khấu trừ [32]=[33]+[34]</b></td>
+                    <td class="align-c" >[32]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct32" name="ct32"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="numberflat" onblur="calCt32();" readonly="readonly"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" >5.1</td>
+                    <td class="align-l" >Cá nhân cư trú</td>
+                    <td class="align-c" >[33]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct33" name="ct33"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt32();checkCt();"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" >5.2</td>
+                    <td class="align-l" >Cá nhân không cư trú</td>
+                    <td class="align-c" >[34]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct34" name="ct34"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number" onblur="calCt32();checkCt();"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" ><b>6</b></td>
+                    <td class="align-l" >Tổng TNCT từ tiền phí mua bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác của doanh nghiệp bảo hiểm không thành lập tại Việt Nam cho người lao động</td>
+                    <td class="align-c" >[35]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct35" name="ct35"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+                <tr>
+                    <td class="align-c" ><b>7</b></td>
+                    <td class="align-l" >Tổng số thuế TNCN đã khấu trừ trên tiền phí mua bảo hiểm nhân thọ, bảo hiểm không bắt buộc khác của doanh nghiệp bảo hiểm không thành lập tại Việt Nam cho người lao động</td>
+                    <td class="align-c" >[36]</td>
+                    <td class="align-l" >VNĐ</td>
+                    <td class="align-c" ><input type="text" value="0" id="ct36" name="ct36"  size="20"
+                    onkeypress="return AllowIntKey(this,event);" class="number"  onkeyup="return formatSoNguyenDuong(this)"/></td>
+                </tr>
+
+</table>
+</div>
+  </td>
+ </tr>
+</table>
+<script>
+
+function calCt23(){
+	calColD('ct24','ct25','ct23');
+}
+function calCt26(){
+	calColD('ct27','ct28','ct26');
+}
+function calCt29(){
+	calColD('ct30','ct31','ct29');
+}
+function calCt32(){
+	calColD('ct33','ct34','ct32');
+}
+
+function checkCt21(){
+// 	var ct21 = document.getElementById('ct21');
+//     var ct22 = document.getElementById('ct22');
+//     if (toNumber(ct21.value) < toNumber(ct22.value)) {
+//     	ct22.value = '0';
+//     	setTimeout(function() { ct22.focus(); }, 1);
+//         alert('Chỉ tiêu [22] phải nhỏ hơn hoặc bằng chỉ tiêu [21]');
+//     }
+}
+
+function calper(stS,stD){
+    var objS =  document.getElementById(stS);
+    var objD =  document.getElementById(stD);
+    objD.value = (Math.round(toNumberFloat(objS.value)*5/100)).toString().replace('.',',');
+    formatSoAm(objD);
+}
+
+function calColD(st1,st2,stResult) {
+    var obj1 =  document.getElementById(st1);
+    var obj2 =  document.getElementById(st2);
+    var objResult = document.getElementById(stResult);
+
+    objResult.value = (toNumberFloat(obj1.value) + toNumberFloat(obj2.value)).toString().replace('.',',');
+    formatSoAm(objResult);
+}
+
+function checkCt(){
+	var ct21Obj = toNumberFloat(document.getElementById('ct21').value);
+    var ct24Obj = toNumberFloat(document.getElementById('ct24').value);
+    var ct25Obj = toNumberFloat(document.getElementById('ct25').value);
+    var ct30Obj = toNumberFloat(document.getElementById('ct30').value);
+    var ct31Obj = toNumberFloat(document.getElementById('ct31').value);
+    var ct28Obj = toNumberFloat(document.getElementById('ct28').value);
+    var ct27Obj = toNumberFloat(document.getElementById('ct27').value);
+    var ct33Obj = toNumberFloat(document.getElementById('ct33').value);
+    var ct34Obj = toNumberFloat(document.getElementById('ct34').value);
+
+
+
+	if(ct24Obj>ct21Obj){
+        alert("chỉ tiêu  [24] phải nhỏ hơn hoặc bằng chỉ tiêu [21]");
+        document.getElementById('ct24').focus();
+        return false;
+      }
+	if(ct25Obj>ct21Obj){
+        alert("chỉ tiêu  [25] phải nhỏ hơn hoặc bằng chỉ tiêu [21]");
+        document.getElementById('ct25').focus();
+        return false;
+      }
+	if(ct30Obj>ct27Obj){
+        alert("chỉ tiêu  [30] phải nhỏ hơn hoặc bằng chỉ tiêu [27]");
+        document.getElementById('ct30').focus();
+        return false;
+      }
+	if(ct31Obj>ct28Obj){
+        alert("chỉ tiêu  [31] phải nhỏ hơn hoặc bằng chỉ tiêu [28]");
+        document.getElementById('ct31').focus();
+        return false;
+      }
+	if(ct33Obj>ct30Obj){
+        alert("chỉ tiêu  [33] phải nhỏ hơn hoặc bằng chỉ tiêu [30]");
+        document.getElementById('ct33').focus();
+        return false;
+      }
+	if(ct34Obj>ct31Obj){
+        alert("chỉ tiêu  [34] phải nhỏ hơn hoặc bằng chỉ tiêu [31]");
+        document.getElementById('ct34').focus();
+        return false;
+      }
+}
+
+function checkTKhaiChinh(){
+
+	  return true;
+	}
+
+function return13(){
+var ct21 = $('#ct21').val();
+if(ct21.indexOf('.') == -1){
+        if(ct21.length > 13){
+        $('#ct21').val(ct21.substring(0,13))
+    }
+}
+else{
+   var ct21New = ct21.replace(/\./g, '');
+   if(ct21New.length > 13)
+   $('#ct21').val(ct21New.substring(0,12))
+}
+
+}
+
+</script>
+
+
+    
+<script src="/etaxnnt/static/script/jquery/jquery-ui.min.1.11.2.js" type="text/javascript" language="javascript"></script>
+  <br/><br/>
+  <table cellpadding="2" cellspacing="0" width="100%">    
+    <tr><td colspan="4"><b>NHÂN VIÊN ĐẠI LÝ THUẾ</b></td></tr>
+    <tr>      
+	      <td>Họ và tên: </td>
+	      <td colspan="1"><input type="text" name="htenNVienDLyThue" size="40" id="htenNVienDLyThue" value="" maxlength="20"/></td> 
+	      <td>
+	      
+	      Người ký: 
+	     <!--  </logic:notMatch> -->
+	      </td>
+	      <td colspan="1">
+	      
+	      <input type="text" name="nguoiKy" size="40" id="nguoiKy" value="" maxlength="50"/>
+	      <!-- </logic:notMatch> -->
+	      </td>
+	    </tr>   
+	    <tr>      
+	      <td>Chứng chỉ hành nghề số: </td>
+	      <td colspan="1"><input type="text" name="chungChiHNghe" size="40" id="chungChiHNghe" value="" maxlength="20"/></td>  
+	      <td width="100">
+	       
+	        Ngày ký: 
+	       <!--  </logic:notMatch> -->
+	      </td>
+	      <td colspan="1">
+	      
+	      <input type="text" name="ngayKy" size="40" id="ngayKy" value="20/01/2022" maxlength="20" onblur="validDateFormat(this,'dd/mm/yyyy')"/>
+	     <!--  </logic:notMatch> -->
+	      </td>
+	    </tr> 
+    
+   </table>
+  
+<script type="text/javascript">
+$(document).ready(function() {
+		var date = new Date();
+		var month = date.getMonth() + 1;
+		var day = date.getDate();
+		var endStr = (('' + day).length < 2 ? '0' : '') + day + '/'
+				+ (('' + month).length < 2 ? '0' : '') + month + '/'
+				+ date.getFullYear();
+
+		dateOffset = (24 * 60 * 60 * 1000) * 30;
+		date.setTime(date.getTime() - dateOffset);
+
+		var newMonth = date.getMonth() + 1;
+		var newDay = date.getDate();
+		var startStr = (('' + newDay).length < 2 ? '0' : '') + newDay
+				+ '/' + (('' + newMonth).length < 2 ? '0' : '')
+				+ newMonth + '/' + date.getFullYear();
+
+		if ('' == null
+				|| '' == '') {
+			jQuery("#ngayKy").val(endStr);
+		}
+		
+// 		showDatetime();
+	});
+
+	function showDatetime() {
+		if ($('.dateMSB') != null && $('.dateMSB').length) {
+			jQuery(".dateMSB").mask("99/99/9999");
+			$(".dateMSB").datepicker({
+				buttonImage : 'static/images/default/button_date.gif',
+				buttonImageOnly : true,
+				changeYear : true,
+				changeMonth : true,
+				dateFormat : "dd/mm/yy",
+				showOn : 'button',
+				constrainInput : false
+			});
+			$(".dateMSB").attr("placeholder", "dd/MM/yyyy");
+
+		}
+		if ($('.time') != null && $('.time').length) {
+			jQuery(".time").mask("99:99:99");
+			$(".time").attr("placeholder", "HH:mm:ss");
+		}
+
+	}
+function compareToDay(ngayKy)
+    {
+      var x=new Date();
+      var dtStr2 = ngayKy.value;
+      var intDay1 = parseInt(dtStr2.substr(0, 2),'10');
+      var intMonth1 = parseInt(dtStr2.substr(3, 2),'10')-1;    
+      var intYear1 = parseInt(dtStr2.substr(6,4),'10');
+      x.setFullYear(intYear1,intMonth1,intDay1);
+      var today = new Date();
+      if (x>today)
+        {
+          alert("Ngày ký phải nhỏ hơn hoặc bằng ngày hiện tại");
+          ngayKy.focus();
+          return false;
+        }
+      else
+       return true;
+    }
+function checkRequementCertificate(){
+       var nameNV = document.getElementById('htenNVienDLyThue');
+       var certificateNumber =document.getElementById('chungChiHNghe');
+       var ngayKy =document.getElementById('ngayKy');
+       if(nameNV!=null && nameNV.value!=null && nameNV.value!='' && (certificateNumber.value ==null || certificateNumber.value =='')){
+        var activateTempPagev = 'null';
+          if(activateTempPagev !='null'){
+            activeTabPLuc('div_tkhai','div_label_tkhai', '00');
+          }          
+          alert("Bạn phải nhập chứng chỉ hành nghề.");
+          certificateNumber.focus();
+          return false;
+       }
+       if(ngayKy!=null && ngayKy.value!=null && ngayKy.value!=''){
+         if(!compareToDay(ngayKy)){
+           return false;
+         }
+       }
+       
+      return true; 
+}
+
+</script>
+
+</div> 
+ 
+
+<style>
+.box_common_content_pluc {border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; padding: 10px 10px 10px 10px;background-color: #ffffff !important;}
+</style>
+    <div class="box_common_content_pluc">
+        <input class="btn_type1" type="button" value="Lưu bản nháp" onclick="luuBNhap()">
+        &nbsp;&nbsp;<input class="btn_type1" id="nhaplaiBT" type="button" value="Nhập lại" onclick="nhapLai()">
+        &nbsp;&nbsp;<input class="btn_type1" type="button" value="Hoàn thành kê khai >>" onclick="checkBeforeContinue()">
+    </div>
+    <div class="box_common_foot_l">
+        <div class="box_common_foot_r">
+            <div class="box_common_foot"></div>
+        </div>
+    </div>      
+</div>
+<script type="text/javascript">
+function checkBeforeContinue(){
+      var nameNV = document.getElementById('nguoiKy');
+       if(nameNV!=null){
+         if(checkRequementCertificate()){
+           tieptuc();
+         } 
+       }else{
+         tieptuc();
+       }
+}
+function setTabIndex(){
+    var inputObj = document.getElementsByTagName('input');        
+    for( var i = 0, j =  inputObj.length; i < j; i++ ) {
+        if((inputObj[i].readOnly)&&(inputObj[i].className=='numberflat')){                
+            inputObj[i].setAttribute('tabIndex','-1');    
+        }else if(!inputObj[i].readOnly && (inputObj[i].className=='numberflat' || inputObj[i].className=='number')){
+          inputObj[i].onfocus = function() {
+            jsOnFocus(this.id);
+       		};
+        }
+    }       
+}
+function jsOnFocus(id){  
+  var obj = document.getElementById(id);
+  var objVal = obj.value.toString();  
+  objVal = toNumberStr(objVal);
+  obj.value = objVal;
+  obj.select();
+}
+$('input,select').keydown( function(e) {
+    var key = e.charCode ? e.charCode : e.keyCode ? e.keyCode : 0;
+    if(key == 13) {
+        e.preventDefault();
+        var inputs = $(this).closest('form').find(':input:visible');
+        inputs.eq( inputs.index(this)+ 1 ).focus();
+    }
+});
+setTabIndex();
+</script>
+<script type="text/javascript">
+if($("table[id='data_content']")!=null){
+	$("table[id='data_content']").find("td:empty").replaceWith("<td>&nbsp;</td>");
+}
+</script>
+</div>
+</body>
+</html>
+
+
+
+<script type="text/javascript">
+function luuBNhap(){
+	document.tkhaiForm.dse_nextEventName.value = "ghiTKhaiTNCN_05_KK_KHAUTRU_TT92"; 
+    if(confirm("Có lưu bản nháp không?")) {             
+    	$("#tkhaiForm").submit();
+    }
+    return true; 
+}
+function tieptuc(){
+	document.tkhaiForm.dse_nextEventName.value = "lapTKhaiTNCN_05_KK_KHAUTRU_TT92";  
+    $("#tkhaiForm").submit();  
+
+    return true;
+}
+
+function nhapLai() {
+	document.tkhaiForm.dse_nextEventName.value = "nhapLaiTKhaiTNCN_05_KK_KHAUTRU_TT92";
+     if(confirm("Bạn có muốn xóa hết dữ liệu không?")) {        
+    	 $("#tkhaiForm").submit();
+    }  
+}
+
+function cnhanThemPLuc() {
+	document.tkhaiForm.dse_nextEventName.value = "addPLuc_01a_tns";
+    $("#tkhaiForm").submit();
+}
+function deletePLuc() {
+    var maPLucXoaObj = document.getElementById('maPLucXoa');
+    if('00' != maPLucXoaObj.value) {
+    	document.tkhaiForm.dse_nextEventName.value = "deletePLuc_01a_tns";
+        if(confirm("Có muốn xóa phụ lục này không?")) {
+        	$("#tkhaiForm").submit();
+        }
+    } 
+}
+
+</script>
+</form>

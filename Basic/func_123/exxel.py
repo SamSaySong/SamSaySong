@@ -107,7 +107,7 @@ def demo_data():
 
 import pandas as pd
 import re
-path = r"D:\HuyNP\Huy\demo_pit_report_1641285136.xlsx"
+path = r"C:\Users\VBPO\Downloads\vs026_pit_report_1642734782.xlsx"
 def data_input():
 
     df_input = pd.read_excel(path,sheet_name="Declaration (EN)", engine='openpyxl',dtype=object)
@@ -127,10 +127,10 @@ def data_input():
         if str(row).find('[02]') != -1:
             
             if str(row).find("Lần đầu (First time):     [ X ]") != -1:
-                print(row)
+               
                 print("To khai chinh thuc")      
             else :
-                print(row)
+               
                 print("To khai bo sung")
         if str(row).find('[05]') != -1:
             str_MST = str(df_input.iloc[idx,3])+ str(df_input.iloc[idx,4])+str(df_input.iloc[idx,5])+str(df_input.iloc[idx,6])+str(df_input.iloc[idx,7])+str(df_input.iloc[idx,8])+str(df_input.iloc[idx,9])+str(df_input.iloc[idx,10])+str(df_input.iloc[idx,11])+str(df_input.iloc[idx,12])+str(df_input.iloc[idx,13]).strip()+str(df_input.iloc[idx,14])+str(df_input.iloc[idx,15])+str(df_input.iloc[idx,16])
@@ -152,12 +152,14 @@ def data_input():
             str_CT25 = mlem_execl(path, row= idx, column=19)
 
         if str(row).find('[26]') != -1:
-            # str_26 = str(df_input.iloc[idx,19])
+            # str_26 = float(df_input.iloc[idx,19])
             str_CT26 = mlem_execl(path, row= idx, column=19)
             # print(str_26)
 
         if str(row).find('[27]') != -1:
             str_CT27 = mlem_execl(path, row= idx, column=19)
+            # str_CT27 = float(df_input.iloc[idx,19])
+
         if str(row).find('[28]') != -1:
             str_CT28 = mlem_execl(path, row= idx, column=19)
 
@@ -179,9 +181,15 @@ def data_input():
 
         if str(row).find('[34]') != -1:
             str_CT34 = mlem_execl(path, row= idx, column=19)  
-            print(str_CT34)
+           
 
-
+# def mlem_execl(path,row , column):
+#     import openpyxl
+#     wb = openpyxl.load_workbook(path, data_only= True)
+#     ws = wb["Declaration (EN)"]
+#     int_value = float(ws.cell(row+2,column+1).value)
+#     return round(int_value)
+   
 
 
 def mlem_execl(path,row , column):
@@ -202,7 +210,7 @@ def mlem_execl(path,row , column):
 
         xlwb = xlApp.Workbooks.Open(path, True, False, None)
         xlSheet = xlwb.Worksheets('Declaration (EN)')
-        value =  int(xlSheet.cells(row+2,column+1).value)
+        value =  xlSheet.cells(row+2,column+1).value
     except:   
         MODULE_LIST = [m.__name__ for m in sys.modules.values()]
         for module in MODULE_LIST:
@@ -216,12 +224,12 @@ def mlem_execl(path,row , column):
 
         xlwb = xlApp.Workbooks.Open(path, True, False, None)
         xlSheet = xlwb.Worksheets('Declaration (EN)')
-        value =  int(xlSheet.cells(row+2,column+1).value)
+        value =  xlSheet.cells(row+2,column+1).value
 
     
     xlwb.Close(True)
     del xlApp
-    return str(value)
+    return round(value)
 
 data_input()
 

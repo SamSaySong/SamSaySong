@@ -1,15 +1,15 @@
 ﻿{
     "wfid": "PJ-VPO_ROBOT_PIT-TERRA_1.0.0",
-    "lien_tuc": false,
+    "lien_tuc": true,
     "che_do_ke_khai":{
-        "thoi_gian_co_dinh":"14:28"
+        "thoi_gian_co_dinh":"10:04"
     },
     "che_do_quet_ket_qua":{
-        "thoi_gian_co_dinh":"16:25"
+        "thoi_gian_co_dinh":"10:50"
     },
-    "thoi_gian_backup": "",
+    "thoi_gian_backup": "10:58",
     "thu_muc_backup": "D:\\HuyNP\\Project_PIT_Terra\\pj-vpo_terra\\output",
     "url_terra": "https://uat-api.vina-payroll.com/graphql",
-    "url_service": "http://127.0.0.1:8000",
-    "path_service": "D:\\HuyNP\\Project_PIT_Terra\\vposervice"
+    "url_service": "http://127.0.0.1:8000",  
+    "path_service":"D:\\HuyNP\\630\\vposervice"
 }

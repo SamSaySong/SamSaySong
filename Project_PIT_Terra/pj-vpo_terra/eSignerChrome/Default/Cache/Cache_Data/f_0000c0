@@ -1,0 +1,839 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	
+	
+<link rel="stylesheet" type="text/css" href="/etaxnnt/static/css/default/lianav3.css" />
+	
+
+<link href="/etaxnnt/static/css/default/validation.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/dkyThue.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/default/msb.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/font-awesome/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<script src="/etaxnnt/static/script/default/jquery-1.4.3.min.js" type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.validate.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.metadata.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/menu.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/default/msb.js" type="text/javascript" language="javascript"></script>
+<title>Thue dien tu</title>
+<link rel="chrome-webstore-item"
+    href="https://chrome.google.com/webstore/detail/ekaaenaocpheoabajfdnkhiibfmfmloo">
+</head>
+<body id="bodyP">
+<div class="khungtong">
+
+
+
+
+
+
+<link href="/etaxnnt/static/css/default/jtasker.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/cssmoi.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/css/default/msb.css" type="text/css" rel="stylesheet" />
+<link href="/etaxnnt/static/script/jquery/ddtabmenu/ddtabmenu.css" rel="stylesheet" type="text/css" />
+<link href="/etaxnnt/static/css/style_new.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="/etaxnnt/static/images/epay/logo.png" />
+<link href="/etaxnnt/static/script/jquery/plugins/select2.css"
+	rel="stylesheet" type="text/css" />
+<script src="/etaxnnt/static/script/default/common.js" type="text/javascript" ></script>
+<script src="/etaxnnt/static/script/default/lianav3.js" type="text/javascript" ></script>
+<script src="/etaxnnt/static/script/default/jquery.ui.js"  type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/jquery.tasker.js"  type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/msb.js"  type="text/javascript"></script>
+<script src="/etaxnnt/static/script/default/json2.js" type="text/javascript"></script>
+<script src="/etaxnnt/static/script/jquery/plugins/iframe/jquery.iframe-auto-height.plugin.1.7.1.js" type="text/javascript"></script>
+
+<script src="/etaxnnt/static/script/jquery/ddtabmenu/ddtabmenu.js"  type="text/javascript"></script>
+<!-- Chrome -->
+<script src="/etaxnnt/static/script/chrome/page.js" type="text/javascript" language="javascript"></script>
+<script src="/etaxnnt/static/script/chrome/hex2base.js" type="text/javascript" language="javascript"></script>
+<script
+	src="/etaxnnt/static/script/jquery/plugins/select2.js"
+	type="text/javascript" language="javascript"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	    $('#tin_dlt').select2();
+	    
+	    var vnconnect = '';
+	    var _vnconnect = '';
+	    var service = '';
+	    
+	    //console.log("_vnconnect = "+_vnconnect);
+	    //console.log("service = "+service);
+	    
+	    if(vnconnect == '1' || vnconnect == '2' || vnconnect == '4'){
+	    	setTimeout(function(){
+				$('#sc1').hide();
+				if(service == '0'){
+					if(vnconnect == '1'){
+						$('#sc4').show();
+						$("#tabmenu li a").removeClass('current');
+						$("#tabmenu li.li-4 a").addClass('current');
+					}else if(vnconnect == '2'){
+						$('#sc3').show();
+						$("#tabmenu li a").removeClass('current');
+						$("#tabmenu li.li-3 a").addClass('current');
+					}else if(vnconnect == '4'){
+						$('#sc2').show();
+						$("#tabmenu li a").removeClass('current');
+						$("#tabmenu li.li-2 a").addClass('current');
+					}
+				}else if(service == '2'){
+					if(vnconnect == '1'){
+						$('#sc2').show();
+						$("#tabmenu li a").removeClass('current');
+						$("#tabmenu li.li-2 a").addClass('current');
+					}else{
+						$('#sc1').show();
+					}
+				}else if(service == '3'){
+					if(vnconnect == '2'){
+						$('#sc3').show();
+						$("#tabmenu li a").removeClass('current');
+						$("#tabmenu li.li-3 a").addClass('current');
+					}else if(vnconnect == '4'){
+						$('#sc2').show();
+						$("#tabmenu li a").removeClass('current');
+						$("#tabmenu li.li-2 a").addClass('current');
+					}else{
+						$('#sc1').show();
+					}
+				}else{
+					$('#sc1').show();
+				}
+			}, 1000);
+			
+			if(vnconnect == '2' && (service == '0' || service == '3')){
+				$('.submenuEpay li:nth-child(2)').addClass('li-active');
+			}else{
+				$('.submenuEpay li:first-child').addClass('li-active');
+			}
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+	   	}else if(_vnconnect == 'hd'){
+	   		setTimeout(function(){
+	   			$('#sc1').hide();
+	   			if(service == ''){
+					$('#sc6').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-6 a").addClass('current');
+				}else if(service == '2' || service == '3' || service == 'ht'){
+					$('#sc7').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-7 a").addClass('current');
+				}else if(service == '0' || service == 'ht2' || service == 'ht3'){
+					$('#sc8').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-8 a").addClass('current');
+				}else if(service == 'ht0'){
+					$('#sc9').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-9 a").addClass('current');
+				}
+			}, 2000);
+			
+			$('.submenuEpay li:first-child').addClass('li-active');
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+		}else if(_vnconnect == 'tc'){
+	   		setTimeout(function(){
+	   			$('#sc1').hide();
+	   			if(service == ''){
+					$('#sc5').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-5 a").addClass('current');
+				}else if(service == '2' || service == '3' || service == 'ht'){
+					$('#sc6').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-6 a").addClass('current');
+				}else if(service == '0' || service == 'ht2' || service == 'ht3'){
+					$('#sc7').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-7 a").addClass('current');
+				}else if(service == 'ht0'){
+					$('#sc8').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-8 a").addClass('current');
+				}
+			}, 2000);
+			
+			$('.submenuEpay li:first-child').addClass('li-active');
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+		}else if(_vnconnect == 'ht' && service.includes('ht')){
+	   		setTimeout(function(){
+	   			$('#sc1').hide();
+				$('#sc5').show();
+				$("#tabmenu li a").removeClass('current');
+				$("#tabmenu li.li-5 a").addClass('current');
+			}, 2000);
+			
+			$('.submenuEpay li:first-child').addClass('li-active');
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+		}else if(_vnconnect == 'dk'){
+	   		setTimeout(function(){
+	   			$('#sc1').hide();
+				$('#sc2').show();
+				$("#tabmenu li a").removeClass('current');
+				$("#tabmenu li.li-2 a").addClass('current');
+			}, 2000);
+			
+			$('.submenuEpay li:first-child').addClass('li-active');
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+		}else if(_vnconnect == 'kt' && (service == '0' || service == '3' || service == 'ht3' || service == 'ht0')){
+	   		setTimeout(function(){
+	   			$('#sc1').hide();
+	   			if(service.includes('ht')){
+					$('#sc6').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-6 a").addClass('current');
+				}else{
+					$('#sc5').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-5 a").addClass('current');
+				}
+			}, 2000);
+			
+			$('.submenuEpay li:first-child').addClass('li-active');
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+		}else if(_vnconnect == 'nt' && (service == '0' || service == '2' || service == 'ht2' || service == 'ht0')){
+	   		setTimeout(function(){
+	   			$('#sc1').hide();
+	   			if(service == 'ht0'){
+	   				$('#sc7').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-7 a").addClass('current');
+				}else if(service == '0' || service == 'ht2'){
+					$('#sc6').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-6 a").addClass('current');
+				}else{
+					$('#sc5').show();
+					$("#tabmenu li a").removeClass('current');
+					$("#tabmenu li.li-5 a").addClass('current');
+				}
+			}, 2000);
+			
+			$('.submenuEpay li:first-child').addClass('li-active');
+			$('#tranFrame').iframeAutoHeight({minHeight: 500});
+	   	}
+	});
+	
+	var emailAjax;
+
+	function resizeTranFrame(data) {
+		var frameHeightPx = data.bodyHeight;
+		$("#tranFrame").height(($("#tranFrame").height() + frameHeightPx) + "px");
+	}
+
+	function resizeIframe() {
+		var $iframes = $("iframe.autoHeight");
+		$iframes.each(function() {
+			var iframe = this;
+			$(iframe).load(function() {
+				setHeight(iframe);
+			});
+		});
+	}
+
+	function forceExit() {
+		window.location.replace('/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpUserLogoutProc&dse_errorPage=error_page.jsp&dse_processorState=initial&dse_nextEventName=start');
+	}
+
+	function lout() {
+		var confirmLogout = window.confirm('Quý khách có muốn đăng xuất khỏi dịch vụ?');
+		if(confirmLogout){
+			window.returnMessage=null;
+		}
+		return confirmLogout;
+	}
+
+	$(document).ready(function() {
+
+		//Tu dong load
+		emailAjax = setInterval(function() {
+			getEmail();
+		}, 1200000);
+		$('.submenuEpay li').first().addClass('li-active');
+		$('#tranFrame').iframeAutoHeight({minHeight: 560});
+	});
+	
+	function myFunction() {
+		jQuery.ajax({
+			url : "/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpUserLogoutProc&dse_processorState=initial&dse_nextEventName=logout",
+			type : "post",
+			data : "",
+			cache : false,
+			success : function(html) {
+			},
+			error : function() {
+			}
+		});
+ 		//console.log("function called");
+  		return "Write something clever here...";
+	}  
+    
+    window.onbeforeunload = function(e) {
+        if(window.returnMessage.length > 0) {
+        	myFunction();
+       	}
+    	//return window.returnMessage;
+    }   
+      
+	document.onkeydown = KeyCheck;
+	window.returnMessage="You are now logged out.";
+	function KeyCheck(e) {
+    	var key = (window.event) ? event.keyCode : e.keyCode;
+    	//alert(key);
+    	if(key==116) {
+    		window.returnMessage=null;
+    	}
+    }
+
+	function getEmail() {
+		jQuery.ajax({
+			url : "/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpInternalMessageProc&dse_processorState=initial&dse_nextEventName=count",
+			type : "post",
+			data : "",
+			cache : false,
+			success : function(html) {
+				var messageCount = $.trim(html);
+				var countHtml = "(" + messageCount + ")";
+
+				if (messageCount > 0) {
+					$('#emailNew').css('display', '');
+					$('#email').css('display', 'none');
+					$('#msgCount').html(countHtml);
+				} else {
+					$('#emailNew').css('display', 'none');
+					$('#email').css('display', '');
+				}
+
+			},
+			error : function() {
+				clearInterval(emailAjax);
+			}
+		});
+	}
+
+	function changeTinDLT() {
+		window.returnMessage=null;
+		var tin_dlt = document.getElementById("tin_dlt").value;
+		var url = '/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corporateHomeProc&dse_processorState=initial&dse_nextEventName=reLoad'+"&tin_dlt="+tin_dlt;
+		document.location.href=url;
+	}
+	function active(e){
+		$('.tabcontent ul.submenuEpay li').removeClass('li-active');
+		$('.sub-menu-lvl3 li').removeClass('li-active-lvl3');
+		$(e).addClass('li-active');
+	}
+	function activeChild(e){
+		var className ="."+$(e).attr('class');
+		$('.tabcontent ul.submenuEpay li').removeClass('li-active');
+		$('.sub-menu-lvl3 li').removeClass('li-active-lvl3');
+		$(className+"lvl2 > li").first().addClass('li-active');
+
+	}
+	function activeLiLvl3(e){
+		$('.tabcontent ul.submenuEpay li').removeClass('li-active');
+		$('.sub-menu-lvl3 li').removeClass('li-active-lvl3');
+		setTimeout(function(){
+			$(e).addClass('li-active-lvl3');
+		}, 500);
+		$(e).parent().parent().addClass('li-active');
+	}
+	//ANHLD: disable F5 and back button
+	// slight update to account for browsers not supporting e.which
+	function disableF5(e) { if ((e.which || e.keyCode) == 116) e.preventDefault(); };
+	// To disable f5
+	    /* jQuery < 1.7 */
+	$(document).bind("keydown", disableF5);
+	/* OR jQuery >= 1.7 */
+	$(document).on("keydown", disableF5);
+
+	// To re-enable f5
+	    /* jQuery < 1.7 */
+	$(document).unbind("keydown", disableF5);
+	/* OR jQuery >= 1.7 */
+	$(document).off("keydown", disableF5);
+</script>
+
+<style type="text/css">
+.submenuEpay li:hover   {
+    background-color:  #ccc;
+}
+.submenuEpay .li-active {
+    border-bottom: solid 2px #084896 !important;
+}
+.submenuEpay li a:hover {
+    color: black;
+}
+ul.sub-menu-lvl3 {
+    position:  absolute;
+    min-width:  150px;
+	left: 0;
+    top: 100%;
+    margin-top: 0px;
+    background: #eee;
+    display:  none;
+}
+.submenuEpay li:hover ul.sub-menu-lvl3 {
+    display:  block;
+}
+ul.sub-menu-lvl3 li {
+    display:  block;
+    clear:  both;
+    width:  100%;
+    padding:  0;
+    border-bottom: solid 1px #ddd;
+}
+
+.submenuEpay .li-active {
+    position:  relative;
+}
+
+ul.sub-menu-lvl3 li a {
+    display:  block;
+        line-height: 30px !important;
+}
+
+.submenuEpay > li {}
+ul.sub-menu-lvl3 li:hover {
+    background-color: #3a7ac1;
+    color:  white;
+}
+
+ul.sub-menu-lvl3 li:hover a {
+    color:  white !important;
+}
+ul.sub-menu-lvl3 {
+    border: solid 1px #ccc;
+    border-top: solid 2px #084896;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+li.li-active-lvl3 {
+    background-color: #064490;
+    /* color: white; */
+}
+
+li.li-active-lvl3 a {
+    color:  white;
+    font-weight:  bold;
+}
+.submenuEpay li a {
+    display: block;
+    height: 100% !important;
+    padding: 0px 10px 0px 10px;
+}
+.submenuEpay li{
+padding: 0px;
+border-bottom: solid 2px #f0efef;
+}
+</style>
+
+<!--TOP BANNER-->
+<div class="banner">
+	<div class="logo">
+		<img src="/etaxnnt/static/images/img_new/thuedientu.png">
+	</div>
+    <div class="top_contens">
+    	<span class="phienban">Hệ thống Thuế điện tử eTax v2.0.0</span>
+		<div class="homthu">
+			<div class="canphai">
+
+				
+				
+				
+
+             <!--    <span class="mail_icon">
+                   	<img src="/etaxnnt/static/images/epay/mail.png" />
+                </span>
+				<span class="small_text">Quý khách có</span>
+				<strong class="text_do">0</strong>
+                <span class="small_text">tin nhắn mới</span>
+                -->
+			</div>
+		</div>
+		<div class="thongtin_kh">
+			<div class="canphai">
+                <span class="small_text">Mã số thuế:</span>
+                <strong class="text_den">0109411417</strong>
+                <span class="gach_tomenu">|</span>
+                <span class="chitiet">
+                	<a target="mainframe" href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpQueryOperationLogProc&dse_processorState=initial&dse_nextEventName=start"
+                		 style="text-decoration: none; color: #0099DB">Hoạt động
+                	</a>
+                	
+                </span>
+			</div>
+		</div>
+    </div>
+    <div class="dangnhap">
+    	<!-- <span class="dangnhap_xinchao">
+        	<strong class="xam">Xin chào:</strong><span class="xam">&nbsp;0109411417</span>
+        </span> -->
+        <span class="button_thue11">
+        	<strong class="text_xanh11">
+        		<a href="Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpUserLogoutProc&dse_errorPage=error_page.jsp&dse_processorState=initial&dse_nextEventName=start" onclick='return lout();' class='xam' style='text-decoration:none;' >
+
+					
+					<img alt="" src="/etaxnnt/static/images/logon_public/btn_logout.gif">
+				</a>
+			</strong>
+		</span>
+    </div>
+    
+</div>
+<!--END TOP BANNER-->
+
+<!--MENU CHÍNH-->
+
+
+
+
+<!--MENU CẤP 1-->
+
+<div id="ddtabs1" class="menu basictab">
+    <ul id="tabmenu">
+	
+		        <li><a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpHomePageProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe" rel="sc1">
+		        	<span style="height: 29px"><img height="20px" style="padding-top: 5px;" src="/etaxnnt/static/images/img_new/home_1.png" /></span></a></li>
+		    
+		        <li class="li-2" onclick="activeChild(this)"><a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=taxRegisterWTinProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe" rel="sc2"><span>Đăng ký thuế</span></a></li>
+		    
+		        <li class="li-3" onclick="activeChild(this)"><a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuNVKKhaiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe" rel="sc3"><span>Khai Thuế</span></a></li>
+		    
+		        <li class="li-4" onclick="activeChild(this)"><a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpQueryTmsPayProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe" rel="sc4"><span>Tra cứu</span></a></li>
+		    
+		        <li class="li-5" onclick="activeChild(this)"><a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpMessageBoardProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe" rel="sc5"><span>HỎI - ĐÁP</span></a></li>
+		    
+		        <li class="li-6" onclick="activeChild(this)"><a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpUserInfoManageProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe" rel="sc6"><span>Quản lý Tài khoản</span></a></li>
+		    
+    </ul>
+</div>
+<!--END MENU CẤP 1-->
+<!--MENU CẤP 2-->
+<div class="submenuEpay">
+    <div class="tabcontainer">
+   	
+        <div id="sc1" class="tabcontent">
+            <ul class="submenuEpay li-1lvl2">
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpHomePageProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tin tức</a>
+						
+                </li>
+            
+            </ul>
+        </div>
+    
+        <div id="sc2" class="tabcontent">
+            <ul class="submenuEpay li-2lvl2">
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=taxRegisterWTinProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đăng ký mới/ thay đổi thông tin của cá nhân qua CQCT</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=denyTinPermissionProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Chấm dứt hiệu lực MST</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=ternendOrRestoreServiceTT105Proc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tạm ngừng/ khôi phục tạm ngừng trước thời hạn</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=tkhaiDKyThue041TT105Proc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đăng ký cấp MST nộp thay</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=restoreTinPermissionTT105Proc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Khôi phục MST</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=taxRegisterSearchWTProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu hồ sơ</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=capLaiMSTTT105Proc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Cấp lại GCN ĐKT</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=uploadDKThueOnlineProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Nộp tờ khai 05TH từ HTKK</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=dky04TT105Proc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đăng ký cấp MST UNT</a>
+						
+                </li>
+            
+            </ul>
+        </div>
+    
+        <div id="sc3" class="tabcontent">
+            <ul class="submenuEpay li-3lvl2">
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuNVKKhaiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu nghĩa vụ kê khai</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuNVKKhaiTheoThangProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu nghĩa vụ kê khai theo tháng</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpDKyTKhaiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đăng ký tờ khai</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=taxOnlineEnumerationProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Kê khai trực tuyến</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=uploadTaxOnlineProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Nộp tờ khai XML</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=tkhaiGDNGTTD2020Proc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tải file phi cấu trúc</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=trinhKyProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Trình ký</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuToKhaiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu tờ khai</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuTbaoTkhaiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu thông báo</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpDKyDBanVLaiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đăng ký địa bàn vãng lai</a>
+						
+                </li>
+            
+            </ul>
+        </div>
+    
+        <div id="sc4" class="tabcontent">
+            <ul class="submenuEpay li-4lvl2">
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpQueryTmsPayProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Số thuế còn phải nộp</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpQueryTmsPayHistoryProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Thông tin nghĩa vụ thuế</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=tracuuTBThueKhacProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Thông báo của cơ quan thuế</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuNPTProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu NPT</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=traCuuTNCNDKTProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu ĐKT</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpTCuuTBaoGTBSProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						TB giải trình bổ sung TTKT</a>
+						
+                </li>
+            
+            </ul>
+        </div>
+    
+        <div id="sc5" class="tabcontent">
+            <ul class="submenuEpay li-5lvl2">
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpMessageBoardProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tạo mới</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpTraCuuCauHoiProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Tra cứu</a>
+						
+                </li>
+            
+            </ul>
+        </div>
+    
+        <div id="sc6" class="tabcontent">
+            <ul class="submenuEpay li-6lvl2">
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpUserInfoManageProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Thông tin tài khoản</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpChangePasswordProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đổi mật khẩu đăng nhập</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpChangeTaxServiceRegisterProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Thay đổi thông tin dịch vụ</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpOnlineTaxServiceFreezedProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Đăng ký ngừng DV</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpQueryOperationLogProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Lịch sử hoạt động</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpGroupUserManagementProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Quản lý nhóm NSD của DN</a>
+						
+                </li>
+            
+                <li onclick="active(this)">
+                    <a href="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpUserManagementProc&dse_processorState=initial&dse_nextEventName=start" target="mainframe">
+						Quản lý NSD của DN</a>
+						
+                </li>
+            
+            </ul>
+        </div>
+    
+    </div>
+</div>
+<!--END MENU CẤP 2-->
+<!--END MENU CHÍNH-->
+
+
+<!-- BEGIN KHUNG NỘI DUNG-->
+<div class="khung_noidung">
+<!--MENU NHANH-->
+          	
+
+    <!--END MENU NHANH-->
+
+    <!-- DIV NỘI DUNG-->
+    <div class="noidung">
+		<div class="khungnhaplieu">
+			
+				
+				
+					
+					<iframe id="tranFrame" name="mainframe" src="/etaxnnt/Request?&dse_sessionId=WB6x5u1NrVsByuwC6TpC8hN&dse_applicationId=-1&dse_pageId=7&dse_operationName=corpHomePageProc&dse_processorState=initial&dse_nextEventName=start" frameborder="0" scrolling="no"
+						width="100%" style="margin-bottom: 35px;">
+					</iframe>
+					<script>
+						$('#tranFrame').iframeAutoHeight({minHeight: 560});
+					</script>
+				
+			
+		</div>
+	</div>
+<!-- END NỘI DUNG-->
+</div>
+
+<div class="footer">
+	<div class="footer928">
+    	<div class="menu_ft">
+        <div class="lenhe_ft" style="text-align:center; font-family: Tahoma;font-size: 8pt;">
+        <strong>Thuế Việt Nam - Trang thông tin điện tử của Tổng cục Thuế<br>
+          Cơ quan chủ quản: Bộ Tài Chính - Số giấy phép: 207/GP-BC ngày 14/05/2004 do Cục Báo chí - Bộ VHTT cấp <br>
+          Địa chỉ: 123 Lò Đúc - Quận Hai Bà Trưng - Hà Nội <br>
+          Điện thoại: (024) 37689679 | Fax: (024) 39712286 <br>
+		  Hỗ trợ sử dụng dịch vụ Thuế điện tử: (024) 37689679 - số máy lẻ 2180. Email nhomhttdt@gdt.gov.vn <br>
+         Ghi rõ nguồn <a class="link_common" href="https://thuedientu.gdt.gov.vn ">http://thuedientu.gdt.gov.vn</a> khi phát hành thông tin từ website này </strong>
+      </div>
+    </div>
+</div></div>
+
+<script type="text/javascript">
+if($("table[id='data_content']")!=null){
+	$("table[id='data_content']").find("td:empty").replaceWith("<td>&nbsp;</td>");
+}
+</script>
+</div>
+</body>
+</html>
+

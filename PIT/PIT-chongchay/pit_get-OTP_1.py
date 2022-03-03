@@ -6,7 +6,7 @@ CurDir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())
 
 
 def get_file(file_name = "",mode_file="", encoding_file=""):
-    " mlem mlem"
+    " return str file"
     with open(file_name,mode= mode_file, encoding= encoding_file) as file:
         if str(mode_file).find('r'):
             str_file = file.read()

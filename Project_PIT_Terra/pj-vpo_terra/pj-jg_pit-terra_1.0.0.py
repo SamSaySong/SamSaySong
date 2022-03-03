@@ -180,7 +180,7 @@ def open_driver():
     options = Options()
     options.add_experimental_option('useAutomationExtension', False)
     options.add_experimental_option("excludeSwitches", ["enable-automation",'enable-logging']) # tắt popup của face
-    options.add_argument("user-data-dir="+CurDir+"\\extenstion")
+    options.add_argument("user-data-dir="+CurDir+"\\eSignerChrome")
     options.add_extension(CurDir+ "\\eSignerChrome\\eSignerChrome_1.0.8_0.crx")
     options.add_argument("--start-maximized") 
     options.add_argument("--no-sandbox") 
@@ -509,11 +509,11 @@ def job_kekhai():
                                         if job_kekhai == True:
                                            
                                             post_ReportPitInputUpdate(data_claim['id'], access_token_terra, status_Update="da_ke_khai_va_luu_tam")
-                                            LOG_INFO("HỒ SƠ LƯU TẠM "+str(str_STT)+" CẬP NHẬT TERRA")
+                                            LOG_INFO("HỒ SƠ LƯU TẠM "+str(i_Claim_Company['data_claim']['id'])+" "+str(str_STT)+" CẬP NHẬT TERRA")
 
                                             new_Dataclaim = get_New_dataclaim(id_client,access_token_terra, i_Claim_Company['data_claim']['id'])
-                                            print(patch_service(i_Claim_Company['id'],{'data_claim':new_Dataclaim,"status_claim":"Running", "note_claim":str(str_STT), "status_process_claim": "Đã kê khai và lưu tạm hồ sơ"}))
-                                            LOG_INFO("HỒ SƠ LƯU TẠM "+str(str_STT)+" CẬP NHẬT LƯU TRỮ")
+                                            (patch_service(i_Claim_Company['id'],{'data_claim':new_Dataclaim,"status_claim":"Running", "note_claim":str(str_STT), "status_process_claim": "Đã kê khai và lưu tạm hồ sơ"}))
+                                            LOG_INFO("HỒ SƠ LƯU TẠM "+str(i_Claim_Company['data_claim']['id'])+" "+str(str_STT)+" CẬP NHẬT LƯU TRỮ")
 
                                             #  MOVE DATA INPUT -> OUTPUT
                                             move_file(file, data_config['thu_muc_backup'],data_claim['id'])
@@ -531,9 +531,7 @@ def job_kekhai():
                                     patch_service(i_Claim_Company['id'],{"status_claim":"Error","note_claim":str(str_STT)})
                                     move_file(file, data_config['thu_muc_backup'],data_claim['id'])
 
-
         except Exception as e:                        
-          
             LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(e).__name__, str(e))
 
 def job_tracuu():
@@ -618,12 +616,12 @@ def job_tracuu():
                                             continue
 
                                         else:
-                                            print(post_ReportPitInputUpdate(i_Claim_Company['data_claim']['id'], access_token_terra, status_Update="chap_nhan_khong_chap_nhan_ho_so_thue_dien_tu"))
-                                            LOG_INFO("HỒ SƠ LƯU TẠM "+str(str_Noteclaim)+" CẬP NHẬT TERRA")
+                                            (post_ReportPitInputUpdate(i_Claim_Company['data_claim']['id'], access_token_terra, status_Update="chap_nhan_khong_chap_nhan_ho_so_thue_dien_tu"))
+                                            LOG_INFO("HỒ SƠ ĐANG XỬ LÍ "+str(i_Claim_Company['data_claim']['id'])+" "+str(str_Noteclaim)+" CẬP NHẬT TERRA")
                                         
                                             new_Dataclaim = get_New_dataclaim(id_client,access_token_terra, i_Claim_Company['data_claim']['id'])
-                                            print(patch_service(i_Claim_Company['id'],{'data_claim':new_Dataclaim,"status_claim":"Complete", "note_claim":str(str_Noteclaim), "status_process_claim": "Đã có kết quả"}))
-                                            LOG_INFO("HỒ SƠ LƯU TẠM "+str(str_Noteclaim)+" CẬP NHẬT LƯU TRỮ")
+                                            (patch_service(i_Claim_Company['id'],{'data_claim':new_Dataclaim,"status_claim":"Complete", "note_claim":str(str_Noteclaim), "status_process_claim": "Đã có kết quả"}))
+                                            LOG_INFO("HỒ SƠ ĐANG XỬ LÍ "+str(i_Claim_Company['data_claim']['id'])+" "+str(str_Noteclaim)+" CẬP NHẬT LƯU TRỮ")
 
                                     else:
                                         patch_service(i_Claim_Company['id'],{"status_claim":"Error","note_claim":str(str_Noteclaim)})
@@ -633,11 +631,11 @@ def job_tracuu():
                                     driver.quit()
         
                                 except Exception as e:
-                                    
                                     LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(e).__name__, str(e))
                                     patch_service(i_Claim_Company['id'],{"status_claim":"Error","note_claim":str(str_Noteclaim)})
             except Exception as e:                        
                 LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(e).__name__, str(e))
+                driver.quit()
 
     except Exception as e:                        
             LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(e).__name__, str(e))
@@ -671,9 +669,9 @@ def tracuu_tokhai(driver,data_input):
 
         # ----- Ngày nộp từ ngày -------
         daytime_update = str(data_input['created_at']).split(" ")[0]                    
-        # day_Time_Noptungay = convert_datetime_string(daytime_update)
+        day_Time_Noptungay = convert_datetime_string(daytime_update)
 
-        day_Time_Noptungay = '15/09/2021'                                            # INPUT TEST
+        # day_Time_Noptungay = '15/09/2021'        # INPUT TEST
         ele_Ngaynoptungay = '//*[@class="indent"]/table/tbody/tr[3]/td[2]/input'
         sendkeys_Input(driver, ele_Ngaynoptungay, input_option=day_Time_Noptungay)            
         time.sleep(1)
@@ -748,8 +746,9 @@ def thu_tuc(driver, to_khai="", quy_kekhai="", thang_kekhai="", nam_kekhai = "")
 
         elif len(driver.find_elements_by_xpath(xpath_option_Kykekhai)) == 12:
             # Check screen ke khai theo thang
-            thang_kekhai = "6"
-            select_xpath_options(driver, xpath_select_Kykekhai, xpath_option_Kykekhai, input_option=thang_kekhai)       # INPUT TEST
+
+            # thang_kekhai = "6"         # INPUT TEST
+            select_xpath_options(driver, xpath_select_Kykekhai, xpath_option_Kykekhai, input_option=thang_kekhai)     
         time.sleep(1)
 
         input_Namkekhai = driver.find_element_by_xpath('//*[@id="LapTKhaiOnlineForm"]/table/tbody/tr/td/table/tbody/tr[4]/td/input[2]')
@@ -808,42 +807,53 @@ def ke_khai(driver, file):
             if str(row).find('[34]') != -1:
                 str_CT34 = get_Input_data(file, row= idx, column=19)  
 
+
+        # str_CT21 =0
         ele_CT21 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[2]/td[5]/input'
         sendkeys_Input(driver, ele_CT21, str_CT21)
         # time.sleep(1)
 
+        # str_CT22 =0
         ele_CT22 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[3]/td[4]/input'
         sendkeys_Input(driver, ele_CT22, str_CT22)
         time.sleep(1)
 
+        # str_CT24 =0
         ele_CT24 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[5]/td[5]/input'
         sendkeys_Input(driver, ele_CT24, str_CT24)
         # time.sleep(1)
 
+        # str_CT25 =0
         ele_CT25 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[6]/td[5]/input'
         sendkeys_Input(driver, ele_CT25, str_CT25)
         time.sleep(1)
 
+        # str_CT27 =0
         ele_CT27 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[8]/td[5]/input'
         sendkeys_Input(driver, ele_CT27, str_CT27)
         # time.sleep(1)
 
+        # str_CT28 =0
         ele_CT28 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[9]/td[5]/input'
         sendkeys_Input(driver, ele_CT28, str_CT28)
         time.sleep(1)
 
+        # str_CT30 =0
         ele_CT30 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[11]/td[5]/input'
         sendkeys_Input(driver, ele_CT30, str_CT30)  
-        # time.sleep(1)
+        time.sleep(1)
 
+        # str_CT31 =0
         ele_CT31 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[12]/td[5]/input'
         sendkeys_Input(driver, ele_CT31, str_CT31)  
         time.sleep(1)
 
+        # str_CT33 =0
         ele_CT33 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[14]/td[5]/input'
         sendkeys_Input(driver, ele_CT33, str_CT33)   
-        # time.sleep(1)
+        time.sleep(1)
 
+        # str_CT34 =0
         ele_CT34 = '//*[@id="div_tkhai"]/table[2]/tbody/tr/td/div/table/tbody/tr[15]/td[5]/input'
         sendkeys_Input(driver, ele_CT34, str_CT34)   
         time.sleep(1)
@@ -874,7 +884,7 @@ def ke_khai(driver, file):
         btn_Dangxuat.click()
         
         if str(alert.text).strip() == 'Quý khách có muốn đăng xuất khỏi dịch vụ?':
-            print(alert.text)
+            
             alert.accept()
         time.sleep(1)
 
@@ -960,14 +970,131 @@ def path_input():
     return path_folder_input
 
 
+def job_backup():
+    LOG_INFO("CHẠY QUY TRÌNH BACKUP")
+    from datetime import datetime
+    from pathlib import Path
+    import zipfile
+
+
+    OBJECT_TO_BACKUP_1 = data_config['path_service']+"//db.sqlite3"  # The file or directory to backup
+    OBJECT_TO_BACKUP_2 = CurDir+"//logs_pj-vpo_robot.txt"  # The file or directory to backup
+    BACKUP_DIRECTORY = data_config['thu_muc_backup']  # The location to store the backups in
+    MAX_BACKUP_AMOUNT = 90  # The maximum amount of backups to have in BACKUP_DIRECTORY
+
+
+    object_to_backup_path = Path(OBJECT_TO_BACKUP_1)
+    object_to_backup_path_2 = Path(OBJECT_TO_BACKUP_2)
+    backup_directory_path = Path(BACKUP_DIRECTORY)
+    assert object_to_backup_path.exists()   # Validate the object we are about to backup exists before we continue
+
+    # Validate the backup directory exists and create if required
+    backup_directory_path.mkdir(parents=True, exist_ok=True)
+
+    # Get the amount of past backup zips in the backup directory already
+    existing_backups = [
+        x for x in backup_directory_path.iterdir()
+        if x.is_file() and x.suffix == '.zip' and x.name.startswith('backup-')
+    ]
+
+    # Enforce max backups and delete oldest if there will be too many after the new backup
+    oldest_to_newest_backup_by_name = list(sorted(existing_backups, key=lambda f: f.name))
+    while len(oldest_to_newest_backup_by_name) >= MAX_BACKUP_AMOUNT:  # >= because we will have another soon
+        backup_to_delete = oldest_to_newest_backup_by_name.pop(0)
+        backup_to_delete.unlink()
+
+    # Create zip file (for both file and folder options)
+    backup_file_name = f'backup-{datetime.now().strftime("%Y%m%d%H%M%S")}.zip'
+    LOG_INFO(backup_file_name)
+    zip_file = zipfile.ZipFile(str(backup_directory_path / backup_file_name), mode='w')
+
+    if object_to_backup_path.is_file():
+        # If the object to write is a file, write the file
+        zip_file.write(
+            object_to_backup_path.absolute(),
+            arcname=object_to_backup_path.name,
+            compress_type=zipfile.ZIP_DEFLATED
+        )
+
+    elif object_to_backup_path.is_dir():
+        # If the object to write is a directory, write all the files
+        for file in object_to_backup_path.glob('**/*'):
+            if file.is_file():
+                zip_file.write(
+                    file.absolute(),
+                    arcname=str(file.relative_to(object_to_backup_path)),
+                    compress_type=zipfile.ZIP_DEFLATED
+                )
+
+    if object_to_backup_path_2.is_file():
+        # If the object to write is a file, write the file
+        zip_file.write(
+            object_to_backup_path_2.absolute(),
+            arcname=object_to_backup_path_2.name,
+            compress_type=zipfile.ZIP_DEFLATED
+        )
+
+    elif object_to_backup_path_2.is_dir():
+        # If the object to write is a directory, write all the files
+        for file in object_to_backup_path_2.glob('**/*'):
+            if file.is_file():
+                zip_file.write(
+                    file.absolute(),
+                    arcname=str(file.relative_to(object_to_backup_path_2)),
+                    compress_type=zipfile.ZIP_DEFLATED
+                )
+    
+    # Close the created zip file
+    zip_file.close()
+
+def process_backup():
+    LOG_INFO("BACKUP")
+    schedule.every().day.at(data_config['thoi_gian_backup']).do(job_backup)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+class thread_with_trace(threading.Thread): 
+    def __init__(self, *args, **keywords): 
+        threading.Thread.__init__(self, *args, **keywords) 
+        self.killed = False
+    
+    def start(self): 
+        self.__run_backup = self.run 
+        self.run = self.__run       
+        threading.Thread.start(self) 
+    
+    def __run(self): 
+        sys.settrace(self.globaltrace) 
+        self.__run_backup() 
+        self.run = self.__run_backup 
+    
+    def globaltrace(self, frame, event, arg): 
+        if event == 'call': 
+            return self.localtrace 
+        else: 
+            return None
+    
+    def localtrace(self, frame, event, arg): 
+        if self.killed: 
+            if event == 'line': 
+                raise SystemExit() 
+        return self.localtrace 
+    
+    def kill(self): 
+        self.killed = True
+
 if __name__ == "__main__":
+
     import datetime
     import schedule
     import time
     import shutil
 
     LOG_INFO("BẮT ĐẦU CHẠY")
-
+    thread_device = thread_with_trace(target=process_backup)
+    thread_device.start()
     if data_config['lien_tuc'] == True:
         while True:
             job_kekhai()

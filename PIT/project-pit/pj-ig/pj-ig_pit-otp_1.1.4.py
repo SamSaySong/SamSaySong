@@ -362,81 +362,6 @@ def login(driver, inputMST, str_password ,k):
         LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(Exception).__name__, str(e))
         return False
 
-#---
-flag = False
-
-def start_record(path_record, name_record):
-    import pyautogui
-    import cv2
-    import numpy as np
-    
-    # Specify resolution
-    resolution = (1920, 1080)
-    
-    # Specify video codec
-    codec = cv2.VideoWriter_fourcc(*"XVID")
-    
-    # Specify name of Output file
-    day_time = datetime.datetime.now()
-    day_time = day_time.strftime('%Y%m%d')
-    filename = path_record+"/"+day_time+'_'+name_record+".avi"
-    
-    # Specify frames rate. We can choose any 
-    # value and experiment with it
-    fps = 25.0
-    
-    # Creating a VideoWriter object
-    out = cv2.VideoWriter(filename, codec, fps, resolution)
-    
-    # Create an Empty window
-    # cv2.namedWindow("Live", cv2.WINDOW_NORMAL)
-    
-    # Resize this window
-    # cv2.resizeWindow("Live", 480, 270)
-    
-    while True:
-        # Take screenshot using PyAutoGUI
-        img = pyautogui.screenshot()
-    
-        # Convert the screenshot to a numpy array
-        frame = np.array(img)
-    
-        # Convert it from BGR(Blue, Green, Red) to
-        # RGB(Red, Green, Blue)
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    
-        # Write it to the output file
-        out.write(frame)
-        
-        # Optional: Display the recording screen
-        # cv2.imshow('Live', frame)
-        
-        # Stop recording when we press 'q'
-        
-        # if cv2.waitKey(1) == ord('q'):
-        if flag ==True:
-            break
-    
-    # Release the Video writer
-    out.release()
-    
-    # Destroy all windows
-    cv2.destroyAllWindows()
-
-def save_record():
-    global flag
-    flag=True
-    print("stop record")
-    return flag
-
-def run(path, name_record):
-    "Run record"
-    name_record = name_record.split(".xlsx")[0]
-    try:
-        th=threading.Thread(target=start_record,args=(path, name_record))
-        th.start()
-    except:
-        print('loi 437')
 
 def thu_tuc():
 
@@ -600,39 +525,39 @@ def thu_tuc():
                             driver.quit()
                             continue
                    
-                        try:
-                            # ele_Tuthang =  WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="tuThang"]')))
-                            # driver.execute_script("arguments[0].click();", ele_Tuthang)
-                            # time.sleep(1)
-                            # driver.execute_script("document.getElementById('tuThang').value = ''")
-                            # time.sleep(1)
-                            # driver.execute_script("arguments[0].value=arguments[1];", ele_Tuthang, str_Tuthang)     
-                            # time.sleep(1)
-                            # actions = ActionChains(driver)
-                            ele_tuthang = driver.find_element_by_xpath('//*[@id="tuNgay"]')
-                            ele_tuthang.click()
-                            ele_tuthang.send_keys(Keys.CONTROL+"a")
-                            ele_tuthang.send_keys(Keys.BACKSPACE)
-                            ele_tuthang.send_keys("01/"+str_Tuthang)
-                            time.sleep(1)
+                        # try:
+                        #     # ele_Tuthang =  WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="tuThang"]')))
+                        #     # driver.execute_script("arguments[0].click();", ele_Tuthang)
+                        #     # time.sleep(1)
+                        #     # driver.execute_script("document.getElementById('tuThang').value = ''")
+                        #     # time.sleep(1)
+                        #     # driver.execute_script("arguments[0].value=arguments[1];", ele_Tuthang, str_Tuthang)     
+                        #     # time.sleep(1)
+                        #     # actions = ActionChains(driver)
+                        #     ele_tuthang = driver.find_element_by_xpath('//*[@id="tuNgay"]')
+                        #     ele_tuthang.click()
+                        #     ele_tuthang.send_keys(Keys.CONTROL+"a")
+                        #     ele_tuthang.send_keys(Keys.BACKSPACE)
+                        #     ele_tuthang.send_keys("01/"+str_Tuthang)
+                        #     time.sleep(1)
 
-                            ele_Denthang = driver.find_element_by_xpath('//*[@id="denNgay"]')
-                            ele_Denthang.click()
-                            ele_Denthang.send_keys(Keys.CONTROL+"a")
-                            ele_Denthang.send_keys(Keys.BACKSPACE)
-                            ele_Denthang.send_keys("30/"+str_Denthang)
+                        #     ele_Denthang = driver.find_element_by_xpath('//*[@id="denNgay"]')
+                        #     ele_Denthang.click()
+                        #     ele_Denthang.send_keys(Keys.CONTROL+"a")
+                        #     ele_Denthang.send_keys(Keys.BACKSPACE)
+                        #     ele_Denthang.send_keys("30/"+str_Denthang)
                     
-                            # driver.execute_script("arguments[0].click();", ele_Denthang)
-                            # time.sleep(1)
-                            # driver.execute_script("document.getElementById('denThang').value = ''")
-                            # time.sleep(1)
-                            # driver.execute_script("arguments[0].value=arguments[1];", ele_Denthang, str_Denthang)    
-                            #  
+                        #     # driver.execute_script("arguments[0].click();", ele_Denthang)
+                        #     # time.sleep(1)
+                        #     # driver.execute_script("document.getElementById('denThang').value = ''")
+                        #     # time.sleep(1)
+                        #     # driver.execute_script("arguments[0].value=arguments[1];", ele_Denthang, str_Denthang)    
+                        #     #  
                 
-                        except Exception as e:
-                            lst_except.append(idx)
-                            LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(Exception).__name__, str(e))
-                            continue
+                        # except Exception as e:
+                        #     lst_except.append(idx)
+                        #     LOG_ERROR('Error on line {}'.format(sys.exc_info()[-1].tb_lineno), type(Exception).__name__, str(e))
+                        #     continue
 
                         time.sleep(1)
                         btn_next_chonthongtintokhai = driver.find_element_by_xpath('//*[@id="submitBtn" and @class="inputBtn awesome"]')

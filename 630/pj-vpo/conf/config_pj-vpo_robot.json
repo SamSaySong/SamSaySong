@@ -1,6 +1,7 @@
 ﻿{
     "wfid": "PJ-VPO_ROBOT_1.0.0",
     "lien_tuc": true,
+    "che_do_chay": false,
     "che_do_ke_khai":{
         "thoi_gian_co_dinh":"08:00"
     },
